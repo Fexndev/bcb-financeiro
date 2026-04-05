@@ -10,39 +10,36 @@ SGS_BASE = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.{serie}/dados"
 OLINDA_BASE = "https://olinda.bcb.gov.br/olinda/servico/{servico}/versao/{versao}/odata/{recurso}"
 
 # ── Instituições de referência ─────────────────────────────────────────────
-# Segmentos: S1 (grandes), S2 (médios), digital, cooperativa, publico
+# Segmentos simplificados: grande, outro_banco, cooperativa
 
 INSTITUICOES = {
-    "ITAU":        {"cnpj": "60701190", "nome": "Itaú Unibanco",       "segmento": "S1"},
-    "BRADESCO":    {"cnpj": "60746948", "nome": "Bradesco",            "segmento": "S1"},
-    "BB":          {"cnpj": "00000000", "nome": "Banco do Brasil",     "segmento": "S1_publico"},
-    "CAIXA":       {"cnpj": "00360305", "nome": "Caixa Econômica",     "segmento": "S1_publico"},
-    "SANTANDER":   {"cnpj": "90400888", "nome": "Santander",           "segmento": "S1"},
-    "BTG":         {"cnpj": "30306294", "nome": "BTG Pactual",         "segmento": "S2"},
-    "SAFRA":       {"cnpj": "58160789", "nome": "Safra",               "segmento": "S2"},
-    "VOTORANTIM":  {"cnpj": "59588111", "nome": "Banco Votorantim",    "segmento": "S2"},
-    "BMG":         {"cnpj": "61186680", "nome": "BMG",                 "segmento": "S2"},
-    "PAN":         {"cnpj": "59285411", "nome": "Banco Pan",           "segmento": "S2"},
-    "NUBANK":      {"cnpj": "18236120", "nome": "Nu Pagamentos",      "segmento": "digital"},
-    "INTER":       {"cnpj": "00416968", "nome": "Banco Inter",         "segmento": "digital"},
-    "C6":          {"cnpj": "31872495", "nome": "C6 Bank",             "segmento": "digital"},
-    "ORIGINAL":    {"cnpj": "92894922", "nome": "Banco Original",      "segmento": "digital"},
+    "ITAU":        {"cnpj": "60701190", "nome": "Itaú Unibanco",       "segmento": "grande"},
+    "BRADESCO":    {"cnpj": "60746948", "nome": "Bradesco",            "segmento": "grande"},
+    "BB":          {"cnpj": "00000000", "nome": "Banco do Brasil",     "segmento": "grande"},
+    "CAIXA":       {"cnpj": "00360305", "nome": "Caixa Econômica",     "segmento": "grande"},
+    "SANTANDER":   {"cnpj": "90400888", "nome": "Santander",           "segmento": "grande"},
+    "NUBANK":      {"cnpj": "18236120", "nome": "Nubank",             "segmento": "grande"},
+    "BTG":         {"cnpj": "30306294", "nome": "BTG Pactual",         "segmento": "outro_banco"},
+    "SAFRA":       {"cnpj": "58160789", "nome": "Safra",               "segmento": "outro_banco"},
+    "VOTORANTIM":  {"cnpj": "59588111", "nome": "Banco Votorantim",    "segmento": "outro_banco"},
+    "BMG":         {"cnpj": "61186680", "nome": "BMG",                 "segmento": "outro_banco"},
+    "PAN":         {"cnpj": "59285411", "nome": "Banco Pan",           "segmento": "outro_banco"},
+    "INTER":       {"cnpj": "00416968", "nome": "Banco Inter",         "segmento": "outro_banco"},
+    "C6":          {"cnpj": "31872495", "nome": "C6 Bank",             "segmento": "outro_banco"},
+    "ORIGINAL":    {"cnpj": "92894922", "nome": "Banco Original",      "segmento": "outro_banco"},
+    "BNDES":       {"cnpj": "33657248", "nome": "BNDES",               "segmento": "outro_banco"},
+    "BNB":         {"cnpj": "07237373", "nome": "Banco do Nordeste",   "segmento": "outro_banco"},
+    "BASA":        {"cnpj": "04902979", "nome": "Banco da Amazônia",   "segmento": "outro_banco"},
     "SICOOB":      {"cnpj": "02038232", "nome": "Sicoob",              "segmento": "cooperativa"},
     "SICREDI":     {"cnpj": "01181521", "nome": "Sicredi",             "segmento": "cooperativa"},
     "UNICRED":     {"cnpj": "00315557", "nome": "Unicred",             "segmento": "cooperativa"},
     "CRESOL":      {"cnpj": "01330387", "nome": "Cresol",              "segmento": "cooperativa"},
-    "BNDES":       {"cnpj": "33657248", "nome": "BNDES",               "segmento": "publico"},
-    "BNB":         {"cnpj": "07237373", "nome": "Banco do Nordeste",   "segmento": "publico"},
-    "BASA":        {"cnpj": "04902979", "nome": "Banco da Amazônia",   "segmento": "publico"},
 }
 
 SEGMENTO_LABELS = {
-    "S1":          "Grandes Bancos",
-    "S1_publico":  "Grandes Bancos Públicos",
-    "S2":          "Bancos Médios",
-    "digital":     "Bancos Digitais",
-    "cooperativa": "Cooperativas",
-    "publico":     "Bancos Públicos",
+    "grande":       "Grandes Bancos",
+    "outro_banco":  "Outros Bancos",
+    "cooperativa":  "Cooperativas",
 }
 
 # ── Séries SGS ──────────────────────────────────────────────────────────────
@@ -99,9 +96,7 @@ def parse_date(d):
 
 
 def calc_variacao_yoy(series):
-    """Calcula variação % ano-a-ano para séries mensais.
-    Input: [{'data': 'YYYY-MM', 'valor': float}]
-    """
+    """Calcula variação % ano-a-ano para séries mensais."""
     by_month = {m["data"]: m["valor"] for m in series}
     result = []
     for m in sorted(series, key=lambda x: x["data"]):
@@ -114,14 +109,61 @@ def calc_variacao_yoy(series):
 
 
 def classificar_instituicao(nome):
-    """Tenta classificar uma instituição pelo nome (busca parcial)."""
+    """Classifica uma instituição pelo nome (busca parcial)."""
     nome_upper = nome.upper().strip()
     for key, info in INSTITUICOES.items():
         if key in nome_upper or info["nome"].upper() in nome_upper:
             return info["segmento"]
-    if any(x in nome_upper for x in ["COOP", "CREDI", "SICRED", "SICOO", "UNICR", "CRESO"]):
+    # Cooperativas genéricas
+    if any(x in nome_upper for x in ["COOP", "CREDI", "SICRED", "SICREDI", "SICOO", "SICOOB",
+                                       "UNICR", "UNICRED", "CRESO", "CRESOL", "CENTRAL DE"]):
         return "cooperativa"
-    return "outro"
+    return "outro_banco"
+
+
+def limpar_nome_instituicao(nome):
+    """Limpa e encurta nome de instituição para exibição."""
+    nome = nome.strip()
+    # Cooperativas — extrair nome curto
+    upper = nome.upper()
+    if "SICOOB" in upper:
+        return "Sicoob"
+    if "SICREDI" in upper or "SICRED" in upper:
+        return "Sicredi"
+    if "UNICRED" in upper:
+        return "Unicred"
+    if "CRESOL" in upper:
+        return "Cresol"
+    if "BANCOOB" in upper:
+        return "Sicoob"
+    # Bancos conhecidos
+    replacements = {
+        "ITAU UNIBANCO": "Itaú Unibanco",
+        "ITAÚ UNIBANCO": "Itaú Unibanco",
+        "ITAU": "Itaú",
+        "BRADESCO": "Bradesco",
+        "SANTANDER": "Santander",
+        "CAIXA ECONÔMICA FEDERAL": "Caixa",
+        "CAIXA ECONOMICA FEDERAL": "Caixa",
+        "BANCO DO BRASIL": "Banco do Brasil",
+        "NU PAGAMENTOS": "Nubank",
+        "NUBANK": "Nubank",
+        "BTG PACTUAL": "BTG Pactual",
+        "C6 BANK": "C6 Bank",
+        "BANCO INTER": "Inter",
+        "BANCO PAN": "Pan",
+        "BANCO SAFRA": "Safra",
+        "BANCO VOTORANTIM": "Votorantim",
+    }
+    for key, val in replacements.items():
+        if key in upper:
+            return val
+    # Remover prefixos longos
+    for prefix in ["COOPERATIVA DE CRÉDITO", "COOPERATIVA DE CREDITO", "COOPERATIVA DE ECONOMIA",
+                    "BANCO ", "BCO ", "COOP "]:
+        if upper.startswith(prefix):
+            return nome[len(prefix):].strip()[:25]
+    return nome[:30]
 
 
 # ── Persistência ────────────────────────────────────────────────────────────

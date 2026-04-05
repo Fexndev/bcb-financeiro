@@ -2,7 +2,7 @@
 
 import requests
 import json
-from utils import save_json, now_iso, classificar_instituicao, INSTITUICOES
+from utils import save_json, now_iso, classificar_instituicao, limpar_nome_instituicao, INSTITUICOES
 
 BASE = "https://www3.bcb.gov.br/ifdata/rest/arquivos"
 
@@ -102,7 +102,7 @@ def extrair_dados_trimestre(dt, layout="antigo"):
         roa = round((lucro / ativo) * 100, 4) if ativo and ativo != 0 else None
 
         resultados.append({
-            "nome": nome,
+            "nome": limpar_nome_instituicao(nome),
             "c0": v["e"],
             "segmento_bcb": segmento_bcb,
             "segmento": classificar_instituicao(nome),

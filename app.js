@@ -7,27 +7,22 @@ const APP = {
     charts: {},
     activeSection: 'resumo',
     segFilter: 'todos',
+    triFilter: null,  // null = último disponível
 };
 
-const SEG_COLORS = {
-    S1:          'var(--accent-blue)',
-    S1_publico:  'var(--accent-green)',
-    S2:          'var(--accent-yellow)',
-    digital:     'var(--accent-purple)',
-    cooperativa: 'var(--accent-teal)',
-    publico:     'var(--accent-green)',
-    outro:       'var(--text-muted)',
+const SEG_COLORS_HEX = {
+    grande:       '#58a6ff',
+    outro_banco:  '#d29922',
+    cooperativa:  '#5eead4',
 };
 
 const SEG_LABELS = {
-    S1:          'Grandes Bancos',
-    S1_publico:  'Bancos Públicos (S1)',
-    S2:          'Bancos Médios',
-    digital:     'Digitais',
-    cooperativa: 'Cooperativas',
-    publico:     'Públicos',
-    outro:       'Outros',
+    grande:       'Grandes Bancos',
+    outro_banco:  'Outros Bancos',
+    cooperativa:  'Cooperativas',
 };
+
+const PALETTE = ['#58a6ff','#5eead4','#d29922','#bc8cff','#3fb950','#f85149','#f0a050','#60a5fa','#a78bfa','#4ade80','#fb923c','#38bdf8','#e879f9','#facc15','#34d399'];
 
 const SECTIONS = [
     { id: 'resumo',        label: 'Resumo' },
@@ -54,6 +49,20 @@ const FMT = {
     },
 };
 
+function segColor(seg) { return SEG_COLORS_HEX[seg] || '#6e7681'; }
+
+function getActiveTri() {
+    const ind = APP.data.indicadores?.trimestres;
+    if (!ind) return null;
+    const tris = Object.keys(ind).sort();
+    return APP.triFilter && tris.includes(APP.triFilter) ? APP.triFilter : tris[tris.length - 1];
+}
+
+function getAllTris() {
+    const ind = APP.data.indicadores?.trimestres;
+    return ind ? Object.keys(ind).sort() : [];
+}
+
 /* ─── Init ─────────────────────────────── */
 
 async function init() {
@@ -79,19 +88,13 @@ async function init() {
         if (loaded === 0) {
             document.getElementById('app').innerHTML = `
                 <div class="loading" style="color:var(--accent-red)">
-                    <p>Erro ao carregar dados. Verifique o console.</p>
-                    <p style="font-size:.8rem;color:var(--text-muted)">
-                        Certifique-se de acessar via servidor HTTP, não file://
-                    </p>
+                    <p>Erro ao carregar dados.</p>
+                    <p style="font-size:.8rem;color:var(--text-muted)">Acesse via servidor HTTP, não file://</p>
                 </div>`;
             return;
         }
     } catch (e) {
-        console.error('Erro fatal no init:', e);
-        document.getElementById('app').innerHTML = `
-            <div class="loading" style="color:var(--accent-red)">
-                <p>Erro fatal: ${e.message}</p>
-            </div>`;
+        console.error('Erro fatal:', e);
         return;
     }
     render();
@@ -102,15 +105,12 @@ async function init() {
 function render() {
     try {
         const el = document.getElementById('app');
-        el.innerHTML = renderHeader() + renderNav() + renderKPIs() + renderSections() + renderFooter();
+        el.innerHTML = renderHeader() + renderNav() + renderGlobalFilters() + renderKPIs() + renderSections() + renderFooter();
         bindEvents();
         showSection(APP.activeSection);
     } catch (e) {
         console.error('Erro no render:', e);
-        document.getElementById('app').innerHTML = `
-            <div class="loading" style="color:var(--accent-red)">
-                <p>Erro ao renderizar: ${e.message}</p>
-            </div>`;
+        document.getElementById('app').innerHTML = `<div class="loading" style="color:var(--accent-red)"><p>Erro: ${e.message}</p></div>`;
     }
 }
 
@@ -135,15 +135,37 @@ function renderNav() {
     ).join('')}</nav>`;
 }
 
+function renderGlobalFilters() {
+    const tris = getAllTris();
+    const activeTri = getActiveTri();
+    return `<div class="global-filters">
+        <div class="filter-group">
+            <span class="filter-label">Período:</span>
+            <div class="filter-bar">
+                ${tris.map(t => `<button class="filter-chip tri-filter${t === activeTri ? ' active' : ''}" data-tri="${t}">${FMT.tri(t)}</button>`).join('')}
+            </div>
+        </div>
+        <div class="filter-group">
+            <span class="filter-label">Segmento:</span>
+            <div class="filter-bar">
+                <button class="filter-chip seg-filter${APP.segFilter === 'todos' ? ' active' : ''}" data-seg="todos">Todos</button>
+                ${Object.entries(SEG_LABELS).map(([k,v]) =>
+                    `<button class="filter-chip seg-filter${APP.segFilter === k ? ' active' : ''}" data-seg="${k}">${v}</button>`
+                ).join('')}
+            </div>
+        </div>
+    </div>`;
+}
+
 function renderKPIs() {
     const cred = APP.data.credito?.series;
     const conc = APP.data.concentracao?.trimestres;
-    const lastTri = conc ? Object.keys(conc).sort().pop() : null;
+    const activeTri = getActiveTri();
 
     const creditoTotal = cred?.credito_total?.ultimo?.valor;
     const inadimplencia = cred?.inadimplencia?.ultimo?.valor;
     const spread = cred?.spread_total?.ultimo?.valor;
-    const top5 = lastTri ? conc[lastTri].top5_share_ativo : null;
+    const top5 = activeTri && conc?.[activeTri] ? conc[activeTri].top5_share_ativo : null;
 
     return `<div class="kpi-grid">
         <div class="kpi-card">
@@ -164,7 +186,7 @@ function renderKPIs() {
         <div class="kpi-card">
             <div class="kpi-label">Top 5 — Market Share</div>
             <div class="kpi-value">${top5 ? FMT.pct(top5, 1) : '—'}</div>
-            <div class="kpi-detail">Concentração por ativo total</div>
+            <div class="kpi-detail">Concentração por ativo (${activeTri ? FMT.tri(activeTri) : ''})</div>
         </div>
     </div>`;
 }
@@ -194,23 +216,27 @@ function renderSection(id) {
     }
 }
 
+/* ─── Filtered data helpers ────────────── */
+
+function getFilteredInsts(tri) {
+    const ind = APP.data.indicadores?.trimestres?.[tri];
+    if (!ind) return [];
+    let data = ind.filter(i => i.ativo_total > 0);
+    if (APP.segFilter !== 'todos') data = data.filter(i => i.segmento === APP.segFilter);
+    return data;
+}
+
 /* ─── RESUMO ───────────────────────────── */
 
 function renderResumo() {
-    const ind = APP.data.indicadores?.trimestres;
-    const lastTri = ind ? Object.keys(ind).sort().pop() : null;
-    if (!lastTri) return '<p>Dados indisponíveis</p>';
-
-    const top10 = ind[lastTri]
-        .filter(i => i.roe !== null && i.ativo_total > 0)
-        .sort((a,b) => b.roe - a.roe)
-        .slice(0, 10);
+    const tri = getActiveTri();
+    if (!tri) return '<p>Dados indisponíveis</p>';
 
     return `
-    <div class="section-title">Visão Geral do Sistema Financeiro Nacional</div>
+    <div class="section-title">Visão Geral — ${FMT.tri(tri)}</div>
     <div class="grid-2">
         <div class="card">
-            <div class="card-title">Top 10 Rentabilidade (ROE) — ${FMT.tri(lastTri)}</div>
+            <div class="card-title">Top 10 Rentabilidade (ROE)</div>
             <div class="chart-container-sm"><canvas id="chart-resumo-roe"></canvas></div>
         </div>
         <div class="card">
@@ -219,17 +245,13 @@ function renderResumo() {
         </div>
     </div>
     <div class="card">
-        <div class="card-title">Principais Instituições — ${FMT.tri(lastTri)}</div>
-        <div class="table-wrap">${renderTabelaResumo(lastTri)}</div>
+        <div class="card-title">Principais Instituições</div>
+        <div class="table-wrap">${renderTabelaResumo(tri)}</div>
     </div>`;
 }
 
 function renderTabelaResumo(tri) {
-    const ind = APP.data.indicadores.trimestres[tri]
-        .filter(i => i.ativo_total > 0)
-        .sort((a,b) => b.ativo_total - a.ativo_total)
-        .slice(0, 20);
-
+    const data = getFilteredInsts(tri).sort((a,b) => b.ativo_total - a.ativo_total).slice(0, 20);
     return `<table>
         <thead><tr>
             <th>#</th><th>Instituição</th><th>Segmento</th>
@@ -237,7 +259,7 @@ function renderTabelaResumo(tri) {
             <th class="td-right">ROE</th><th class="td-right">ROA</th>
             <th class="td-right">Basileia</th>
         </tr></thead>
-        <tbody>${ind.map((i, idx) => `<tr>
+        <tbody>${data.map((i, idx) => `<tr>
             <td class="td-mono">${idx+1}</td>
             <td class="td-name">${i.nome}</td>
             <td><span class="td-seg seg-${i.segmento}">${SEG_LABELS[i.segmento] || i.segmento}</span></td>
@@ -252,17 +274,13 @@ function renderTabelaResumo(tri) {
 /* ─── RENTABILIDADE ────────────────────── */
 
 function renderRentabilidade() {
-    const ind = APP.data.indicadores?.trimestres;
-    if (!ind) return '<p>Dados indisponíveis</p>';
-    const tris = Object.keys(ind).sort();
-    const lastTri = tris[tris.length - 1];
-
+    const tri = getActiveTri();
+    if (!tri) return '<p>Dados indisponíveis</p>';
     return `
-    <div class="section-title">Rentabilidade das Instituições</div>
-    ${renderSegFilter()}
+    <div class="section-title">Rentabilidade — ${FMT.tri(tri)}</div>
     <div class="grid-2">
         <div class="card">
-            <div class="card-title">ROE por Instituição — ${FMT.tri(lastTri)}</div>
+            <div class="card-title">ROE por Instituição</div>
             <div class="chart-container"><canvas id="chart-roe"></canvas></div>
         </div>
         <div class="card">
@@ -275,9 +293,6 @@ function renderRentabilidade() {
 /* ─── CRÉDITO ──────────────────────────── */
 
 function renderCredito() {
-    const cred = APP.data.credito?.series;
-    if (!cred) return '<p>Dados indisponíveis</p>';
-
     return `
     <div class="section-title">Crédito e Inadimplência</div>
     <div class="grid-2">
@@ -301,9 +316,7 @@ function renderCredito() {
 function renderTaxas() {
     const taxas = APP.data.taxas?.modalidades;
     if (!taxas) return '<p>Dados indisponíveis</p>';
-
     const mods = Object.entries(taxas).filter(([,v]) => !v.erro);
-
     return `
     <div class="section-title">Taxas de Juros por Modalidade</div>
     <div class="card">
@@ -313,8 +326,8 @@ function renderTaxas() {
     <div class="card">
         <div class="card-title">Comparativo por Segmento — Taxas Médias (% a.a.)</div>
         <div class="table-wrap"><table>
-            <thead><tr><th>Modalidade</th>${Object.keys(SEG_LABELS).map(s =>
-                `<th class="td-right">${SEG_LABELS[s]}</th>`).join('')}
+            <thead><tr><th>Modalidade</th>${Object.entries(SEG_LABELS).map(([k,v]) =>
+                `<th class="td-right">${v}</th>`).join('')}
             </tr></thead>
             <tbody>${mods.map(([key, mod]) => `<tr>
                 <td class="td-name">${mod.descricao}</td>
@@ -333,8 +346,7 @@ function renderTaxas() {
 
 function renderTabelaTaxas(modalidade) {
     const mod = APP.data.taxas?.modalidades?.[modalidade];
-    if (!mod || !mod.ranking) return '';
-
+    if (!mod?.ranking) return '';
     return `<table>
         <thead><tr><th>#</th><th>Instituição</th><th>Segmento</th>
             <th class="td-right">Taxa a.m.</th><th class="td-right">Taxa a.a.</th>
@@ -352,18 +364,13 @@ function renderTabelaTaxas(modalidade) {
 /* ─── CONCENTRAÇÃO ─────────────────────── */
 
 function renderConcentracao() {
-    const conc = APP.data.concentracao?.trimestres;
-    if (!conc) return '<p>Dados indisponíveis</p>';
-
-    const tris = Object.keys(conc).sort();
-    const lastTri = tris[tris.length - 1];
-    const c = conc[lastTri];
-
+    const tri = getActiveTri();
+    if (!tri) return '<p>Dados indisponíveis</p>';
     return `
-    <div class="section-title">Concentração Bancária</div>
+    <div class="section-title">Concentração Bancária — ${FMT.tri(tri)}</div>
     <div class="grid-2">
         <div class="card">
-            <div class="card-title">Market Share — Ativo Total (${FMT.tri(lastTri)})</div>
+            <div class="card-title">Market Share — Ativo Total</div>
             <div class="chart-container"><canvas id="chart-share-ativo"></canvas></div>
         </div>
         <div class="card">
@@ -380,15 +387,11 @@ function renderConcentracao() {
 /* ─── COMPARATIVO ──────────────────────── */
 
 function renderComparativo() {
-    const ind = APP.data.indicadores?.trimestres;
-    const taxas = APP.data.taxas?.modalidades;
-    if (!ind) return '<p>Dados indisponíveis</p>';
-
     return `
-    <div class="section-title">Bancos vs Cooperativas</div>
+    <div class="section-title">Grandes Bancos vs Cooperativas</div>
     <div class="grid-2">
         <div class="card">
-            <div class="card-title">ROE Médio — Bancos vs Cooperativas</div>
+            <div class="card-title">ROE Médio por Segmento</div>
             <div class="chart-container"><canvas id="chart-comp-roe"></canvas></div>
         </div>
         <div class="card">
@@ -402,11 +405,9 @@ function renderComparativo() {
 
 function renderGeografico() {
     const estban = APP.data.estban;
-    if (!estban || !estban.por_uf) return '<p>Dados indisponíveis</p>';
-
-    const ufs = estban.por_uf.sort((a,b) => b.credito_per_capita - a.credito_per_capita);
+    if (!estban?.por_uf) return '<p>Dados indisponíveis</p>';
+    const ufs = [...estban.por_uf].sort((a,b) => b.credito_per_capita - a.credito_per_capita);
     const maxVal = ufs[0]?.credito_per_capita || 1;
-
     return `
     <div class="section-title">Distribuição Geográfica do Crédito</div>
     <div class="card">
@@ -418,10 +419,8 @@ function renderGeografico() {
         <div class="map-legend">${ufs.map(u => `
             <div class="legend-item">
                 <span class="legend-uf">${u.uf}</span>
-                <span class="legend-value">R$ ${u.credito_per_capita.toLocaleString('pt-BR', {minimumFractionDigits: 0})} mil</span>
-                <div style="flex:1; margin-left: 12px;">
-                    <div class="legend-bar" style="width: ${(u.credito_per_capita / maxVal * 100).toFixed(0)}%"></div>
-                </div>
+                <span class="legend-value">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span>
+                <div style="flex:1;margin-left:12px"><div class="legend-bar" style="width:${(u.credito_per_capita/maxVal*100).toFixed(0)}%"></div></div>
             </div>`).join('')}
         </div>
     </div>`;
@@ -430,14 +429,12 @@ function renderGeografico() {
 /* ─── RECLAMAÇÕES ──────────────────────── */
 
 function renderReclamacoes() {
-    const rec = APP.data.reclamacoes;
-    if (!rec) return '<p>Dados indisponíveis</p>';
-
+    if (!APP.data.reclamacoes) return '<p>Dados indisponíveis</p>';
     return `
     <div class="section-title">Ranking de Reclamações</div>
     <div class="grid-2">
         <div class="card">
-            <div class="card-title">Índice de Reclamações por Instituição</div>
+            <div class="card-title">Índice por Instituição</div>
             <div class="chart-container"><canvas id="chart-reclamacoes"></canvas></div>
         </div>
         <div class="card">
@@ -447,50 +444,46 @@ function renderReclamacoes() {
     </div>`;
 }
 
-/* ─── FILTER ───────────────────────────── */
-
-function renderSegFilter() {
-    const segs = ['todos', ...Object.keys(SEG_LABELS)];
-    return `<div class="filter-bar">${segs.map(s =>
-        `<button class="filter-chip${s === APP.segFilter ? ' active' : ''}" data-seg="${s}">${s === 'todos' ? 'Todos' : SEG_LABELS[s]}</button>`
-    ).join('')}</div>`;
-}
-
 /* ═══════════════════════════════════════
-   CHART MOUNTING
+   CHART DEFAULTS
    ═══════════════════════════════════════ */
 
-function getColor(cssVar) {
-    const style = getComputedStyle(document.documentElement);
-    return style.getPropertyValue(cssVar).trim();
-}
+function getCSSColor(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
 
-const CHART_COLORS = () => ({
-    blue: getColor('--accent-blue'),
-    green: getColor('--accent-green'),
-    red: getColor('--accent-red'),
-    yellow: getColor('--accent-yellow'),
-    purple: getColor('--accent-purple'),
-    teal: getColor('--accent-teal'),
-    muted: getColor('--text-muted'),
-    border: getColor('--border'),
-    text: getColor('--text-secondary'),
-    card: getColor('--bg-card'),
-});
-
-function chartDefaults() {
-    const c = CHART_COLORS();
+function chartDefaults(hideY = true) {
+    const text = getCSSColor('--text-secondary');
+    const muted = getCSSColor('--text-muted');
+    const border = getCSSColor('--border');
     return {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-            legend: { labels: { color: c.text, font: { family: "'Inter'" } } },
-            datalabels: { display: false },
+            legend: { labels: { color: text, font: { family: "'Inter'", size: 12 } } },
+            datalabels: {
+                color: text,
+                font: { family: "'JetBrains Mono'", size: 10, weight: 600 },
+                anchor: 'end',
+                align: 'end',
+                offset: 2,
+            },
         },
         scales: {
-            x: { ticks: { color: c.muted, font: { size: 11 } }, grid: { color: c.border + '40' } },
-            y: { ticks: { color: c.muted, font: { size: 11 } }, grid: { color: c.border + '40' } },
+            x: { ticks: { color: muted, font: { size: 11 } }, grid: { color: border + '30' }, border: { display: false } },
+            y: hideY
+                ? { display: false }
+                : { ticks: { color: muted, font: { size: 11 } }, grid: { color: border + '30' }, border: { display: false } },
         },
+    };
+}
+
+function barDatalabels(fmt) {
+    return {
+        color: getCSSColor('--text-primary'),
+        font: { family: "'JetBrains Mono'", size: 10, weight: 600 },
+        anchor: 'end',
+        align: 'end',
+        offset: 2,
+        formatter: fmt || (v => v?.toFixed?.(1)),
     };
 }
 
@@ -501,59 +494,40 @@ function destroyCharts() {
 
 function mountCharts() {
     destroyCharts();
-    const section = APP.activeSection;
     try {
-        switch(section) {
-            case 'resumo':        mountResumoCharts(); break;
-            case 'rentabilidade': mountRentabilidadeCharts(); break;
-            case 'credito':       mountCreditoCharts(); break;
-            case 'taxas':         mountTaxasCharts(); break;
-            case 'concentracao':  mountConcentracaoCharts(); break;
-            case 'comparativo':   mountComparativoCharts(); break;
-            case 'geografico':    mountGeograficoCharts(); break;
-            case 'reclamacoes':   mountReclamacoesCharts(); break;
-        }
-    } catch (e) {
-        console.error(`Erro ao montar gráficos (${section}):`, e);
-    }
+        const fn = {
+            resumo: mountResumoCharts, rentabilidade: mountRentabilidadeCharts,
+            credito: mountCreditoCharts, taxas: mountTaxasCharts,
+            concentracao: mountConcentracaoCharts, comparativo: mountComparativoCharts,
+            geografico: mountGeograficoCharts, reclamacoes: mountReclamacoesCharts,
+        }[APP.activeSection];
+        if (fn) fn();
+    } catch (e) { console.error('Chart error:', e); }
 }
 
-/* ─── Chart: Resumo ────────────────────── */
+/* ─── Charts: Resumo ───────────────────── */
 
 function mountResumoCharts() {
-    const c = CHART_COLORS();
-    const ind = APP.data.indicadores?.trimestres;
-    if (!ind) return;
-
-    const lastTri = Object.keys(ind).sort().pop();
-    const top10 = ind[lastTri]
-        .filter(i => i.roe !== null && i.ativo_total > 1e9)
-        .sort((a,b) => b.roe - a.roe)
-        .slice(0, 10);
+    const tri = getActiveTri();
+    const data = getFilteredInsts(tri).filter(i => i.roe !== null && i.ativo_total > 1e9)
+        .sort((a,b) => b.roe - a.roe).slice(0, 10);
 
     const ctx1 = document.getElementById('chart-resumo-roe');
-    if (ctx1) {
+    if (ctx1 && data.length) {
         APP.charts.resumoRoe = new Chart(ctx1, {
             type: 'bar',
             data: {
-                labels: top10.map(i => i.nome.slice(0, 20)),
-                datasets: [{
-                    data: top10.map(i => i.roe),
-                    backgroundColor: top10.map(i => SEG_COLORS[i.segmento] || c.muted),
-                    borderRadius: 4,
-                }],
+                labels: data.map(i => i.nome),
+                datasets: [{ data: data.map(i => i.roe), backgroundColor: data.map((d,i) => PALETTE[i % PALETTE.length]), borderRadius: 6 }],
             },
             options: { ...chartDefaults(), indexAxis: 'y',
-                plugins: { ...chartDefaults().plugins, legend: { display: false } },
-                scales: {
-                    x: { ...chartDefaults().scales.x, title: { display: true, text: 'ROE (%)', color: c.muted } },
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks, font: { size: 10 } } },
-                },
+                plugins: { ...chartDefaults().plugins, legend: { display: false },
+                    datalabels: barDatalabels(v => v.toFixed(1) + '%') },
+                scales: { x: { display: false }, y: { ...chartDefaults(false).scales.y, display: true, ticks: { color: getCSSColor('--text-primary'), font: { size: 11 } }, grid: { display: false } } },
             },
         });
     }
 
-    // Crédito total evolução
     const cred = APP.data.credito?.series?.credito_total?.monthly;
     if (cred) {
         const last24 = cred.slice(-24);
@@ -563,22 +537,13 @@ function mountResumoCharts() {
                 type: 'line',
                 data: {
                     labels: last24.map(m => m.data),
-                    datasets: [{
-                        label: 'Crédito Total (R$ mi)',
-                        data: last24.map(m => m.valor),
-                        borderColor: c.teal,
-                        backgroundColor: c.teal + '20',
-                        fill: true,
-                        tension: 0.3,
-                        pointRadius: 0,
-                    }],
+                    datasets: [{ data: last24.map(m => m.valor), borderColor: '#5eead4', backgroundColor: 'rgba(94,234,212,.1)', fill: true, tension: 0.3, pointRadius: 0 }],
                 },
-                options: { ...chartDefaults(),
-                    plugins: { ...chartDefaults().plugins, legend: { display: false } },
+                options: { ...chartDefaults(false),
+                    plugins: { legend: { display: false }, datalabels: { display: false } },
                     scales: {
-                        ...chartDefaults().scales,
-                        y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks,
-                            callback: v => (v/1e6).toFixed(1) + ' tri' } },
+                        x: { ...chartDefaults().scales.x },
+                        y: { ticks: { color: getCSSColor('--text-muted'), callback: v => (v/1e6).toFixed(1)+' tri' }, grid: { color: getCSSColor('--border')+'30' }, border: { display: false } },
                     },
                 },
             });
@@ -586,406 +551,299 @@ function mountResumoCharts() {
     }
 }
 
-/* ─── Chart: Rentabilidade ─────────────── */
+/* ─── Charts: Rentabilidade ────────────── */
 
 function mountRentabilidadeCharts() {
-    const c = CHART_COLORS();
-    const ind = APP.data.indicadores?.trimestres;
-    if (!ind) return;
-
-    const tris = Object.keys(ind).sort();
-    const lastTri = tris[tris.length - 1];
-
-    // ROE por instituição
-    let data = ind[lastTri].filter(i => i.roe !== null && i.ativo_total > 1e9);
-    if (APP.segFilter !== 'todos') data = data.filter(i => i.segmento === APP.segFilter);
-    data = data.sort((a,b) => b.roe - a.roe).slice(0, 15);
+    const tri = getActiveTri();
+    const data = getFilteredInsts(tri).filter(i => i.roe !== null && i.ativo_total > 1e9)
+        .sort((a,b) => b.roe - a.roe).slice(0, 15);
 
     const ctx1 = document.getElementById('chart-roe');
-    if (ctx1) {
+    if (ctx1 && data.length) {
         APP.charts.roe = new Chart(ctx1, {
             type: 'bar',
             data: {
-                labels: data.map(i => i.nome.slice(0, 22)),
-                datasets: [{
-                    data: data.map(i => i.roe),
-                    backgroundColor: data.map(i => SEG_COLORS[i.segmento] || c.muted),
-                    borderRadius: 4,
-                }],
+                labels: data.map(i => i.nome),
+                datasets: [{ data: data.map(i => i.roe), backgroundColor: data.map(i => segColor(i.segmento)), borderRadius: 6 }],
             },
             options: { ...chartDefaults(), indexAxis: 'y',
-                plugins: { ...chartDefaults().plugins, legend: { display: false } },
+                plugins: { ...chartDefaults().plugins, legend: { display: false },
+                    datalabels: barDatalabels(v => v.toFixed(1) + '%') },
+                scales: { x: { display: false }, y: { display: true, ticks: { color: getCSSColor('--text-primary'), font: { size: 10 } }, grid: { display: false }, border: { display: false } } },
             },
         });
     }
 
-    // ROE médio por segmento ao longo do tempo
-    const segmentos = ['S1', 'S1_publico', 'S2', 'digital', 'cooperativa'];
-    const datasets = segmentos.map(seg => {
-        const values = tris.map(tri => {
-            const insts = ind[tri].filter(i => i.segmento === seg && i.roe !== null);
-            return insts.length ? insts.reduce((s,i) => s + i.roe, 0) / insts.length : null;
-        });
-        return {
-            label: SEG_LABELS[seg],
-            data: values,
-            borderColor: SEG_COLORS[seg],
-            backgroundColor: 'transparent',
-            tension: 0.3,
-            pointRadius: 2,
-        };
-    });
-
+    // ROE médio por segmento
+    const tris = getAllTris();
+    const ind = APP.data.indicadores?.trimestres;
+    const segs = Object.keys(SEG_LABELS);
+    const datasets = segs.map(seg => ({
+        label: SEG_LABELS[seg],
+        data: tris.map(t => {
+            const insts = (ind[t]||[]).filter(i => i.segmento === seg && i.roe !== null);
+            return insts.length ? +(insts.reduce((s,i) => s+i.roe, 0)/insts.length).toFixed(2) : null;
+        }),
+        borderColor: segColor(seg), backgroundColor: 'transparent', tension: 0.3, pointRadius: 3,
+    }));
     const ctx2 = document.getElementById('chart-roe-evolucao');
     if (ctx2) {
         APP.charts.roeEvolucao = new Chart(ctx2, {
             type: 'line',
             data: { labels: tris.map(FMT.tri), datasets },
-            options: chartDefaults(),
+            options: { ...chartDefaults(false),
+                plugins: { ...chartDefaults(false).plugins, datalabels: { display: false } },
+                scales: {
+                    x: { ...chartDefaults().scales.x },
+                    y: { ticks: { color: getCSSColor('--text-muted'), callback: v => v+'%' }, grid: { color: getCSSColor('--border')+'30' }, border: { display: false } },
+                },
+            },
         });
     }
 }
 
-/* ─── Chart: Crédito ───────────────────── */
+/* ─── Charts: Crédito ──────────────────── */
 
 function mountCreditoCharts() {
-    const c = CHART_COLORS();
     const cred = APP.data.credito?.series;
     if (!cred) return;
-
-    // PF vs PJ
-    const pf = cred.credito_pf?.monthly?.slice(-24) || [];
-    const pj = cred.credito_pj?.monthly?.slice(-24) || [];
+    const pf = cred.credito_pf?.monthly?.slice(-24)||[];
+    const pj = cred.credito_pj?.monthly?.slice(-24)||[];
     const ctx1 = document.getElementById('chart-credito-pf-pj');
     if (ctx1 && pf.length) {
         APP.charts.creditoPfPj = new Chart(ctx1, {
             type: 'line',
-            data: {
-                labels: pf.map(m => m.data),
-                datasets: [
-                    { label: 'Pessoa Física', data: pf.map(m => m.valor), borderColor: c.blue, tension: 0.3, pointRadius: 0 },
-                    { label: 'Pessoa Jurídica', data: pj.map(m => m.valor), borderColor: c.yellow, tension: 0.3, pointRadius: 0 },
-                ],
-            },
-            options: { ...chartDefaults(),
-                scales: { ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks,
-                        callback: v => (v/1e6).toFixed(1) + ' tri' } },
-                },
-            },
+            data: { labels: pf.map(m=>m.data), datasets: [
+                { label:'Pessoa Física', data:pf.map(m=>m.valor), borderColor:'#58a6ff', tension:.3, pointRadius:0 },
+                { label:'Pessoa Jurídica', data:pj.map(m=>m.valor), borderColor:'#d29922', tension:.3, pointRadius:0 },
+            ]},
+            options: { ...chartDefaults(false), plugins:{...chartDefaults(false).plugins, datalabels:{display:false}},
+                scales: { x:{...chartDefaults().scales.x}, y:{ticks:{color:getCSSColor('--text-muted'),callback:v=>(v/1e6).toFixed(1)+' tri'},grid:{color:getCSSColor('--border')+'30'},border:{display:false}} } },
         });
     }
-
-    // Inadimplência
-    const inad = cred.inadimplencia?.monthly?.slice(-24) || [];
-    const inadPf = cred.inadimplencia_pf?.monthly?.slice(-24) || [];
-    const inadPj = cred.inadimplencia_pj?.monthly?.slice(-24) || [];
+    const inad = cred.inadimplencia?.monthly?.slice(-24)||[];
+    const inadPf = cred.inadimplencia_pf?.monthly?.slice(-24)||[];
+    const inadPj = cred.inadimplencia_pj?.monthly?.slice(-24)||[];
     const ctx2 = document.getElementById('chart-inadimplencia');
     if (ctx2 && inad.length) {
         APP.charts.inadimplencia = new Chart(ctx2, {
             type: 'line',
-            data: {
-                labels: inad.map(m => m.data),
-                datasets: [
-                    { label: 'Total', data: inad.map(m => m.valor), borderColor: c.red, tension: 0.3, pointRadius: 0, borderWidth: 2 },
-                    { label: 'PF', data: inadPf.map(m => m.valor), borderColor: c.blue, tension: 0.3, pointRadius: 0, borderDash: [5,3] },
-                    { label: 'PJ', data: inadPj.map(m => m.valor), borderColor: c.yellow, tension: 0.3, pointRadius: 0, borderDash: [5,3] },
-                ],
-            },
-            options: { ...chartDefaults(),
-                scales: { ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks, callback: v => v + '%' } },
-                },
-            },
+            data: { labels:inad.map(m=>m.data), datasets: [
+                { label:'Total', data:inad.map(m=>m.valor), borderColor:'#f85149', tension:.3, pointRadius:0, borderWidth:2 },
+                { label:'PF', data:inadPf.map(m=>m.valor), borderColor:'#58a6ff', tension:.3, pointRadius:0, borderDash:[5,3] },
+                { label:'PJ', data:inadPj.map(m=>m.valor), borderColor:'#d29922', tension:.3, pointRadius:0, borderDash:[5,3] },
+            ]},
+            options: { ...chartDefaults(false), plugins:{...chartDefaults(false).plugins, datalabels:{display:false}},
+                scales: { x:{...chartDefaults().scales.x}, y:{ticks:{color:getCSSColor('--text-muted'),callback:v=>v+'%'},grid:{color:getCSSColor('--border')+'30'},border:{display:false}} } },
         });
     }
-
-    // Spread
-    const spr = cred.spread_total?.monthly?.slice(-24) || [];
-    const sprPf = cred.spread_pf?.monthly?.slice(-24) || [];
+    const spr = cred.spread_total?.monthly?.slice(-24)||[];
+    const sprPf = cred.spread_pf?.monthly?.slice(-24)||[];
     const ctx3 = document.getElementById('chart-spread');
     if (ctx3 && spr.length) {
         APP.charts.spread = new Chart(ctx3, {
             type: 'line',
-            data: {
-                labels: spr.map(m => m.data),
-                datasets: [
-                    { label: 'Spread Total', data: spr.map(m => m.valor), borderColor: c.teal, tension: 0.3, pointRadius: 0 },
-                    { label: 'Spread PF', data: sprPf.map(m => m.valor), borderColor: c.purple, tension: 0.3, pointRadius: 0 },
-                ],
-            },
-            options: { ...chartDefaults(),
-                scales: { ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks, callback: v => v + ' p.p.' } },
-                },
-            },
+            data: { labels:spr.map(m=>m.data), datasets: [
+                { label:'Spread Total', data:spr.map(m=>m.valor), borderColor:'#5eead4', tension:.3, pointRadius:0 },
+                { label:'Spread PF', data:sprPf.map(m=>m.valor), borderColor:'#bc8cff', tension:.3, pointRadius:0 },
+            ]},
+            options: { ...chartDefaults(false), plugins:{...chartDefaults(false).plugins, datalabels:{display:false}},
+                scales: { x:{...chartDefaults().scales.x}, y:{ticks:{color:getCSSColor('--text-muted'),callback:v=>v+' p.p.'},grid:{color:getCSSColor('--border')+'30'},border:{display:false}} } },
         });
     }
 }
 
-/* ─── Chart: Taxas ─────────────────────── */
+/* ─── Charts: Taxas ────────────────────── */
 
 function mountTaxasCharts() {
-    const c = CHART_COLORS();
     const taxas = APP.data.taxas?.modalidades;
     if (!taxas) return;
-
-    const mods = Object.entries(taxas).filter(([,v]) => !v.erro && v.media_geral);
+    const mods = Object.entries(taxas).filter(([,v])=>!v.erro && v.media_geral);
     const ctx = document.getElementById('chart-taxas-media');
     if (ctx) {
         APP.charts.taxasMedia = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: mods.map(([,v]) => v.descricao.slice(0, 20)),
-                datasets: [{
-                    data: mods.map(([,v]) => v.media_geral),
-                    backgroundColor: [c.blue, c.green, c.yellow, c.purple, c.teal, c.red, c.blue, c.green, c.yellow, c.purple, c.teal, c.red],
-                    borderRadius: 4,
-                }],
+                labels: mods.map(([,v])=>v.descricao),
+                datasets: [{ data:mods.map(([,v])=>v.media_geral), backgroundColor:mods.map((_,i)=>PALETTE[i%PALETTE.length]), borderRadius:6 }],
             },
-            options: { ...chartDefaults(), indexAxis: 'y',
-                plugins: { ...chartDefaults().plugins, legend: { display: false } },
-                scales: {
-                    x: { ...chartDefaults().scales.x, title: { display: true, text: 'Taxa Média (% a.a.)', color: c.muted } },
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks, font: { size: 10 } } },
-                },
+            options: { ...chartDefaults(), indexAxis:'y',
+                plugins: { ...chartDefaults().plugins, legend:{display:false},
+                    datalabels: barDatalabels(v => v.toFixed(1)+'%') },
+                scales: { x:{display:false}, y:{display:true, ticks:{color:getCSSColor('--text-primary'),font:{size:10}}, grid:{display:false}, border:{display:false}} },
             },
         });
     }
 }
 
-/* ─── Chart: Concentração ──────────────── */
+/* ─── Charts: Concentração ─────────────── */
 
 function mountConcentracaoCharts() {
-    const c = CHART_COLORS();
     const conc = APP.data.concentracao?.trimestres;
     if (!conc) return;
+    const tri = getActiveTri();
+    const last = conc[tri];
+    if (!last) return;
 
-    const tris = Object.keys(conc).sort();
-    const lastTri = tris[tris.length - 1];
-    const last = conc[lastTri];
-
-    // Donut — top 10 market share
-    const top10 = last.ranking_ativo.slice(0, 10);
-    const outrosShare = 100 - top10.reduce((s,i) => s + i.share, 0);
-
+    const top10 = last.ranking_ativo.slice(0,10);
+    const outrosShare = 100 - top10.reduce((s,i)=>s+i.share,0);
     const ctx1 = document.getElementById('chart-share-ativo');
     if (ctx1) {
         APP.charts.shareAtivo = new Chart(ctx1, {
             type: 'doughnut',
             data: {
-                labels: [...top10.map(i => i.nome.slice(0,18)), 'Outros'],
-                datasets: [{
-                    data: [...top10.map(i => i.share), outrosShare],
-                    backgroundColor: [c.blue, c.green, c.teal, c.yellow, c.red, c.purple, c.blue+'aa', c.green+'aa', c.teal+'aa', c.yellow+'aa', c.muted],
-                    borderWidth: 0,
-                }],
+                labels: [...top10.map(i=>i.nome),'Outros'],
+                datasets: [{ data:[...top10.map(i=>i.share),outrosShare], backgroundColor:[...PALETTE.slice(0,10),'#3b4654'], borderWidth:0 }],
             },
-            options: { responsive: true, maintainAspectRatio: false,
-                plugins: {
-                    legend: { position: 'right', labels: { color: c.text, font: { size: 11 }, boxWidth: 12, padding: 8 } },
-                    datalabels: { display: false },
-                },
+            options: { responsive:true, maintainAspectRatio:false,
+                plugins: { legend:{position:'right',labels:{color:getCSSColor('--text-secondary'),font:{size:11},boxWidth:12,padding:8}},
+                    datalabels: { color:'#fff', font:{size:10,weight:700}, formatter:v=>v>3?v.toFixed(1)+'%':'' } },
             },
         });
     }
-
-    // Share por segmento
     const segShare = last.share_por_segmento;
-    const segs = Object.entries(segShare).sort((a,b) => b[1] - a[1]);
+    const segs = Object.entries(segShare).sort((a,b)=>b[1]-a[1]);
     const ctx2 = document.getElementById('chart-share-segmento');
     if (ctx2) {
         APP.charts.shareSegmento = new Chart(ctx2, {
             type: 'doughnut',
             data: {
-                labels: segs.map(([s]) => SEG_LABELS[s] || s),
-                datasets: [{
-                    data: segs.map(([,v]) => v),
-                    backgroundColor: segs.map(([s]) => SEG_COLORS[s] || c.muted),
-                    borderWidth: 0,
-                }],
+                labels: segs.map(([s])=>SEG_LABELS[s]||s),
+                datasets: [{ data:segs.map(([,v])=>v), backgroundColor:segs.map(([s])=>segColor(s)), borderWidth:0 }],
             },
-            options: { responsive: true, maintainAspectRatio: false,
-                plugins: {
-                    legend: { position: 'right', labels: { color: c.text, font: { size: 11 }, boxWidth: 12, padding: 8 } },
-                    datalabels: { display: false },
-                },
+            options: { responsive:true, maintainAspectRatio:false,
+                plugins: { legend:{position:'right',labels:{color:getCSSColor('--text-secondary'),font:{size:11},boxWidth:12,padding:8}},
+                    datalabels: { color:'#fff', font:{size:11,weight:700}, formatter:v=>v>3?v.toFixed(1)+'%':'' } },
             },
         });
     }
-
-    // HHI evolução
+    const tris = Object.keys(conc).sort();
     const ctx3 = document.getElementById('chart-hhi-evolucao');
     if (ctx3) {
         APP.charts.hhiEvolucao = new Chart(ctx3, {
             type: 'line',
-            data: {
-                labels: tris.map(FMT.tri),
-                datasets: [
-                    { label: 'HHI Ativo', data: tris.map(t => conc[t].hhi_ativo), borderColor: c.teal, tension: 0.3, pointRadius: 3, yAxisID: 'y' },
-                    { label: 'Top 5 Share (%)', data: tris.map(t => conc[t].top5_share_ativo), borderColor: c.blue, tension: 0.3, pointRadius: 3, yAxisID: 'y1' },
-                ],
-            },
-            options: { ...chartDefaults(),
+            data: { labels:tris.map(FMT.tri), datasets: [
+                { label:'HHI Ativo', data:tris.map(t=>conc[t].hhi_ativo), borderColor:'#5eead4', tension:.3, pointRadius:3, yAxisID:'y' },
+                { label:'Top 5 Share (%)', data:tris.map(t=>conc[t].top5_share_ativo), borderColor:'#58a6ff', tension:.3, pointRadius:3, yAxisID:'y1' },
+            ]},
+            options: { ...chartDefaults(false), plugins:{...chartDefaults(false).plugins, datalabels:{display:false}},
                 scales: {
-                    ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, position: 'left', title: { display: true, text: 'HHI', color: c.muted } },
-                    y1: { ...chartDefaults().scales.y, position: 'right', grid: { display: false }, title: { display: true, text: 'Share (%)', color: c.muted } },
+                    x:{...chartDefaults().scales.x},
+                    y:{position:'left', ticks:{color:getCSSColor('--text-muted')}, grid:{color:getCSSColor('--border')+'30'}, border:{display:false}, title:{display:true,text:'HHI',color:getCSSColor('--text-muted')}},
+                    y1:{position:'right', ticks:{color:getCSSColor('--text-muted')}, grid:{display:false}, border:{display:false}, title:{display:true,text:'Share (%)',color:getCSSColor('--text-muted')}},
                 },
             },
         });
     }
 }
 
-/* ─── Chart: Comparativo ───────────────── */
+/* ─── Charts: Comparativo ──────────────── */
 
 function mountComparativoCharts() {
-    const c = CHART_COLORS();
     const ind = APP.data.indicadores?.trimestres;
     if (!ind) return;
+    const tris = getAllTris();
+    const groups = Object.keys(SEG_LABELS);
 
-    const tris = Object.keys(ind).sort();
-    const groups = ['S1', 'cooperativa', 'digital'];
-
-    // ROE médio
     const datasets = groups.map(seg => ({
         label: SEG_LABELS[seg],
-        data: tris.map(tri => {
-            const insts = ind[tri].filter(i => i.segmento === seg && i.roe !== null);
-            return insts.length ? +(insts.reduce((s,i) => s + i.roe, 0) / insts.length).toFixed(2) : null;
+        data: tris.map(t => {
+            const insts = (ind[t]||[]).filter(i=>i.segmento===seg && i.roe!==null);
+            return insts.length ? +(insts.reduce((s,i)=>s+i.roe,0)/insts.length).toFixed(2) : null;
         }),
-        borderColor: SEG_COLORS[seg],
-        backgroundColor: 'transparent',
-        tension: 0.3,
-        pointRadius: 3,
+        borderColor: segColor(seg), backgroundColor: 'transparent', tension:.3, pointRadius:3,
     }));
-
     const ctx1 = document.getElementById('chart-comp-roe');
     if (ctx1) {
         APP.charts.compRoe = new Chart(ctx1, {
             type: 'line',
-            data: { labels: tris.map(FMT.tri), datasets },
-            options: { ...chartDefaults(),
-                scales: { ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks, callback: v => v + '%' } },
-                },
-            },
+            data: { labels:tris.map(FMT.tri), datasets },
+            options: { ...chartDefaults(false), plugins:{...chartDefaults(false).plugins, datalabels:{display:false}},
+                scales: { x:{...chartDefaults().scales.x}, y:{ticks:{color:getCSSColor('--text-muted'),callback:v=>v+'%'},grid:{color:getCSSColor('--border')+'30'},border:{display:false}} } },
         });
     }
 
-    // Taxas comparadas
     const taxas = APP.data.taxas?.modalidades;
     if (!taxas) return;
-
-    const modsComp = ['consignado_inss', 'credito_pessoal', 'veiculos', 'cheque_especial', 'capital_giro_curto'];
-    const modLabels = modsComp.map(m => taxas[m]?.descricao?.slice(0,18) || m);
-
+    const modsComp = ['consignado_inss','credito_pessoal','veiculos','cheque_especial','capital_giro_curto'];
+    const modLabels = modsComp.map(m=>taxas[m]?.descricao?.slice(0,18)||m);
     const taxaDatasets = groups.map(seg => ({
         label: SEG_LABELS[seg],
-        data: modsComp.map(m => taxas[m]?.media_por_segmento?.[seg] || null),
-        backgroundColor: SEG_COLORS[seg],
-        borderRadius: 4,
+        data: modsComp.map(m=>taxas[m]?.media_por_segmento?.[seg]||null),
+        backgroundColor: segColor(seg), borderRadius: 6,
     }));
-
     const ctx2 = document.getElementById('chart-comp-taxas');
     if (ctx2) {
         APP.charts.compTaxas = new Chart(ctx2, {
             type: 'bar',
-            data: { labels: modLabels, datasets: taxaDatasets },
-            options: { ...chartDefaults(),
-                scales: { ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, ticks: { ...chartDefaults().scales.y.ticks, callback: v => v + '%' } },
-                },
+            data: { labels:modLabels, datasets:taxaDatasets },
+            options: { ...chartDefaults(false),
+                plugins: { ...chartDefaults(false).plugins, datalabels:{display:false} },
+                scales: { x:{...chartDefaults().scales.x}, y:{ticks:{color:getCSSColor('--text-muted'),callback:v=>v+'%'},grid:{color:getCSSColor('--border')+'30'},border:{display:false}} },
             },
         });
     }
 }
 
-/* ─── Chart: Geográfico ────────────────── */
+/* ─── Charts: Geográfico ───────────────── */
 
 function mountGeograficoCharts() {
-    const c = CHART_COLORS();
     const estban = APP.data.estban;
-    if (!estban || !estban.por_uf) return;
-
-    const ufs = estban.por_uf.sort((a,b) => b.credito_per_capita - a.credito_per_capita);
-
+    if (!estban?.por_uf) return;
+    const ufs = [...estban.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
     const ctx = document.getElementById('chart-mapa-credito');
     if (ctx) {
         APP.charts.mapaCredito = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ufs.map(u => u.uf),
-                datasets: [{
-                    data: ufs.map(u => u.credito_per_capita),
-                    backgroundColor: ufs.map((u, i) => {
-                        const ratio = 1 - (i / ufs.length);
-                        return `rgba(94,234,212,${0.3 + ratio * 0.7})`;
-                    }),
-                    borderRadius: 4,
-                }],
+                labels: ufs.map(u=>u.uf),
+                datasets: [{ data:ufs.map(u=>u.credito_per_capita),
+                    backgroundColor: ufs.map((_,i)=>`rgba(94,234,212,${0.3+((ufs.length-i)/ufs.length)*0.7})`),
+                    borderRadius: 6 }],
             },
             options: { ...chartDefaults(),
-                plugins: { ...chartDefaults().plugins, legend: { display: false } },
-                scales: {
-                    ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, title: { display: true, text: 'R$ mil / hab', color: c.muted } },
-                },
+                plugins: { ...chartDefaults().plugins, legend:{display:false},
+                    datalabels: { ...barDatalabels(v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0})), anchor:'end', align:'top' } },
+                scales: { x:{...chartDefaults().scales.x, ticks:{color:getCSSColor('--text-primary'),font:{size:10,weight:600}}}, y:{display:false} },
             },
         });
     }
 }
 
-/* ─── Chart: Reclamações ───────────────── */
+/* ─── Charts: Reclamações ──────────────── */
 
 function mountReclamacoesCharts() {
-    const c = CHART_COLORS();
     const rec = APP.data.reclamacoes;
     if (!rec) return;
-
-    const ranking = rec.ranking.sort((a,b) => b.indice - a.indice);
+    const ranking = [...rec.ranking].sort((a,b)=>b.indice-a.indice);
     const ctx1 = document.getElementById('chart-reclamacoes');
     if (ctx1) {
         APP.charts.reclamacoes = new Chart(ctx1, {
             type: 'bar',
             data: {
-                labels: ranking.map(r => r.instituicao.slice(0, 18)),
-                datasets: [{
-                    data: ranking.map(r => r.indice),
-                    backgroundColor: ranking.map(r => SEG_COLORS[r.segmento] || c.muted),
-                    borderRadius: 4,
-                }],
+                labels: ranking.map(r=>r.instituicao),
+                datasets: [{ data:ranking.map(r=>r.indice), backgroundColor:ranking.map(r=>segColor(r.segmento)), borderRadius:6 }],
             },
-            options: { ...chartDefaults(), indexAxis: 'y',
-                plugins: { ...chartDefaults().plugins, legend: { display: false } },
-                scales: {
-                    x: { ...chartDefaults().scales.x, title: { display: true, text: 'Índice por milhão de clientes', color: c.muted } },
-                    y: { ...chartDefaults().scales.y },
-                },
+            options: { ...chartDefaults(), indexAxis:'y',
+                plugins: { ...chartDefaults().plugins, legend:{display:false},
+                    datalabels: barDatalabels(v=>v.toFixed(1)) },
+                scales: { x:{display:false}, y:{display:true,ticks:{color:getCSSColor('--text-primary'),font:{size:10}},grid:{display:false},border:{display:false}} },
             },
         });
     }
-
-    // Média por segmento
-    const segData = Object.entries(rec.media_por_segmento).sort((a,b) => b[1] - a[1]);
+    const segData = Object.entries(rec.media_por_segmento).sort((a,b)=>b[1]-a[1]);
     const ctx2 = document.getElementById('chart-reclamacoes-seg');
     if (ctx2) {
         APP.charts.reclamacoesSeg = new Chart(ctx2, {
             type: 'bar',
             data: {
-                labels: segData.map(([s]) => SEG_LABELS[s] || s),
-                datasets: [{
-                    data: segData.map(([,v]) => v),
-                    backgroundColor: segData.map(([s]) => SEG_COLORS[s] || c.muted),
-                    borderRadius: 4,
-                }],
+                labels: segData.map(([s])=>SEG_LABELS[s]||s),
+                datasets: [{ data:segData.map(([,v])=>v), backgroundColor:segData.map(([s])=>segColor(s)), borderRadius:6 }],
             },
             options: { ...chartDefaults(),
-                plugins: { ...chartDefaults().plugins, legend: { display: false } },
-                scales: {
-                    ...chartDefaults().scales,
-                    y: { ...chartDefaults().scales.y, title: { display: true, text: 'Índice médio', color: c.muted } },
-                },
+                plugins: { ...chartDefaults().plugins, legend:{display:false},
+                    datalabels: barDatalabels(v=>v.toFixed(1)) },
+                scales: { x:{...chartDefaults().scales.x}, y:{display:false} },
             },
         });
     }
@@ -996,7 +854,6 @@ function mountReclamacoesCharts() {
    ═══════════════════════════════════════ */
 
 function bindEvents() {
-    // Theme toggle
     document.getElementById('themeToggle')?.addEventListener('click', () => {
         const html = document.documentElement;
         const isDark = html.getAttribute('data-theme') !== 'light';
@@ -1006,18 +863,21 @@ function bindEvents() {
         mountCharts();
     });
 
-    // Navigation
     document.querySelectorAll('.nav-btn').forEach(btn => {
         btn.addEventListener('click', () => showSection(btn.dataset.section));
     });
 
-    // Segment filter
-    document.querySelectorAll('.filter-chip').forEach(chip => {
+    document.querySelectorAll('.seg-filter').forEach(chip => {
         chip.addEventListener('click', () => {
             APP.segFilter = chip.dataset.seg;
-            document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-            chip.classList.add('active');
-            mountCharts();
+            render();
+        });
+    });
+
+    document.querySelectorAll('.tri-filter').forEach(chip => {
+        chip.addEventListener('click', () => {
+            APP.triFilter = chip.dataset.tri;
+            render();
         });
     });
 }
@@ -1026,13 +886,11 @@ function showSection(id) {
     APP.activeSection = id;
     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
     document.getElementById(`sec-${id}`)?.classList.add('active');
-    document.querySelectorAll('.nav-btn').forEach(b => {
-        b.classList.toggle('active', b.dataset.section === id);
-    });
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.section === id));
     mountCharts();
 }
 
-/* ─── Plugin & Theme init ──────────────── */
+/* ─── Init ─────────────────────────────── */
 
 Chart.register(ChartDataLabels);
 Chart.defaults.plugins.datalabels.display = false;
@@ -1041,7 +899,5 @@ Chart.defaults.plugins.datalabels.display = false;
     const saved = localStorage.getItem('theme');
     if (saved) document.documentElement.setAttribute('data-theme', saved);
 })();
-
-/* ─── Start ────────────────────────────── */
 
 init();

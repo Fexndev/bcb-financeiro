@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T17:39:57Z",
+  "last_updated": "2026-04-05T18:35:00Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
@@ -8,254 +8,250 @@
       "top5_share_ativo": 63.28,
       "top10_share_ativo": 76.42,
       "share_por_segmento": {
-        "S1": 35.41,
-        "S2": 7.69,
-        "outro": 21.13,
-        "cooperativa": 4.95,
-        "S1_publico": 27.88,
-        "digital": 2.43,
-        "publico": 0.5
+        "grande": 63.74,
+        "outro_banco": 31.31,
+        "cooperativa": 4.95
       },
       "ranking_ativo": [
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2022503271261.92,
           "share": 16.0784
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2008251298311.2,
           "share": 15.9651
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1483622872045,
           "share": 11.7944
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1458718218778.47,
           "share": 11.5965
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 986705629566.57,
           "share": 7.8441
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 784591338941.43,
           "share": 6.2373
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 381410079107.09,
           "share": 3.0321
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 221289309732.2,
           "share": 1.7592
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 143974549422.99,
           "share": 1.1446
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 122404806249.88,
           "share": 0.9731
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 113278847350.21,
           "share": 0.9005
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 109943220422.25,
           "share": 0.874
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 103710079699.04,
           "share": 0.8245
         },
         {
           "nome": "CIELO S.A.",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 99813690020.78,
           "share": 0.7935
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 99485490626.81,
           "share": 0.7909
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 87744175281.11,
           "share": 0.6975
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 84016387478.09,
           "share": 0.6679
         },
         {
           "nome": "BNP PARIBAS",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 79328676365.08,
           "share": 0.6306
         },
         {
-          "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
-          "segmento": "publico",
+          "nome": "DO NORDESTE DO BRASIL S.A",
+          "segmento": "outro_banco",
           "valor": 63006496021.95,
           "share": 0.5009
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 61167013164.18,
           "share": 0.4863
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 888994636599.09,
           "share": 17.1249
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 815460899439.19,
           "share": 15.7084
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 788089646175.67,
           "share": 15.1811
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 616392412946.57,
           "share": 11.8737
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 454915532549.42,
           "share": 8.7631
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 267441048611.83,
           "share": 5.1518
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 112432322648.12,
           "share": 2.1658
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 105748593607.64,
           "share": 2.0371
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 66253136213.71,
           "share": 1.2762
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 42378482533.45,
           "share": 0.8163
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 37315227798.49,
           "share": 0.7188
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 28861083038.28,
           "share": 0.556
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 26401104437.01,
           "share": 0.5086
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 26222141791.99,
           "share": 0.5051
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 24035657479.94,
           "share": 0.463
         },
         {
           "nome": "ABC-BRASIL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 22916055187.76,
           "share": 0.4414
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 22202500114.25,
           "share": 0.4277
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 18301545967.76,
           "share": 0.3525
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 17928834337.63,
           "share": 0.3454
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 17801569009.02,
           "share": 0.3429
         }
@@ -267,254 +263,250 @@
       "top5_share_ativo": 62.63,
       "top10_share_ativo": 75.86,
       "share_por_segmento": {
-        "S1": 35.31,
-        "S2": 8.23,
-        "outro": 21.0,
-        "cooperativa": 5.09,
-        "S1_publico": 27.33,
-        "digital": 2.54,
-        "publico": 0.5
+        "grande": 63.15,
+        "outro_banco": 31.76,
+        "cooperativa": 5.09
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2105917121753.03,
           "share": 16.1332
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2076015550566.22,
           "share": 15.9041
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1492022995274.33,
           "share": 11.4302
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1490173965400.98,
           "share": 11.416
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1011342855406.06,
           "share": 7.7478
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 759514282588.24,
           "share": 5.8185
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 447821741784.18,
           "share": 3.4307
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 243394511527.65,
           "share": 1.8646
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 152724980135.93,
           "share": 1.17
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 122976525057.62,
           "share": 0.9421
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 122445373560.1,
           "share": 0.938
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 122433951173.61,
           "share": 0.938
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 109090039492.86,
           "share": 0.8357
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 105839598067.36,
           "share": 0.8108
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 97517354987,
           "share": 0.7471
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 92505045239.46,
           "share": 0.7087
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 86569507149.19,
           "share": 0.6632
         },
         {
           "nome": "BNP PARIBAS",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 81046654964.47,
           "share": 0.6209
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 66861446336.25,
           "share": 0.5122
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 65943678001.56,
           "share": 0.5052
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 928174798216.99,
           "share": 17.1718
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 859052553339.87,
           "share": 15.893
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 813555976064.82,
           "share": 15.0513
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 632953727335.42,
           "share": 11.71
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 467885239979.6,
           "share": 8.6562
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 273938162723.63,
           "share": 5.068
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 117407230568.71,
           "share": 2.1721
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 110289133215.33,
           "share": 2.0404
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 66508392467.97,
           "share": 1.2304
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 44585484517.93,
           "share": 0.8249
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 42372421375.95,
           "share": 0.7839
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 29393262361.12,
           "share": 0.5438
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 28670148001.07,
           "share": 0.5304
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 27270154020.3,
           "share": 0.5045
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 26142505684.57,
           "share": 0.4837
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 24481061651.28,
           "share": 0.4529
         },
         {
           "nome": "ABC-BRASIL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 24133569512.21,
           "share": 0.4465
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 21263457806.76,
           "share": 0.3934
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 20551929078.61,
           "share": 0.3802
         },
         {
           "nome": "BMG",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 19842327525.82,
           "share": 0.3671
         }
@@ -526,254 +518,250 @@
       "top5_share_ativo": 62.86,
       "top10_share_ativo": 75.53,
       "share_por_segmento": {
-        "S1": 35.96,
-        "S2": 8.02,
-        "outro": 20.6,
-        "cooperativa": 5.33,
-        "S1_publico": 26.91,
-        "digital": 2.71,
-        "publico": 0.46
+        "grande": 63.41,
+        "outro_banco": 31.26,
+        "cooperativa": 5.33
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2221407939525.34,
           "share": 16.1981
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2127442383581.6,
           "share": 15.5129
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1674914143416.64,
           "share": 12.2132
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1561332996637.37,
           "share": 11.385
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1035799883481.77,
           "share": 7.5529
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 753872468278.38,
           "share": 5.4971
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 431902952105.38,
           "share": 3.1494
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 248546044859.92,
           "share": 1.8124
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 155653342288.87,
           "share": 1.135
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 147679397554.84,
           "share": 1.0769
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 133491819121.62,
           "share": 0.9734
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 129447772990.01,
           "share": 0.9439
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 112816391496.89,
           "share": 0.8226
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 106083627800.52,
           "share": 0.7735
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 105753338158.54,
           "share": 0.7711
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 105463879564.5,
           "share": 0.769
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 103088547568.47,
           "share": 0.7517
         },
         {
           "nome": "BNP PARIBAS",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 77031553107.54,
           "share": 0.5617
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 72907100681.87,
           "share": 0.5316
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 67993986861.26,
           "share": 0.4958
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 977017150987.51,
           "share": 17.3126
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 880275310483.61,
           "share": 15.5984
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 861621459154,
           "share": 15.2678
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 644835075972.17,
           "share": 11.4264
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 483579977558.13,
           "share": 8.569
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 274612507645.94,
           "share": 4.8661
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 125142623590.35,
           "share": 2.2175
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 111635102483.41,
           "share": 1.9782
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 67399318810.13,
           "share": 1.1943
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 47440552510.75,
           "share": 0.8406
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 44598678532.51,
           "share": 0.7903
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 31600958279.32,
           "share": 0.56
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 28903064456.43,
           "share": 0.5122
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 28620697979.18,
           "share": 0.5072
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 28608148558.37,
           "share": 0.5069
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 28016992651.02,
           "share": 0.4965
         },
         {
           "nome": "ABC-BRASIL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 25321748624.34,
           "share": 0.4487
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 24052487541.15,
           "share": 0.4262
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 23715039622.68,
           "share": 0.4202
         },
         {
           "nome": "BMG",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 21825242087.18,
           "share": 0.3867
         }
@@ -785,254 +773,250 @@
       "top5_share_ativo": 62.09,
       "top10_share_ativo": 74.51,
       "share_por_segmento": {
-        "S1": 35.75,
-        "S2": 8.08,
-        "outro": 21.12,
-        "cooperativa": 5.22,
-        "S1_publico": 26.36,
-        "digital": 3.02,
-        "publico": 0.46
+        "grande": 62.82,
+        "outro_banco": 31.97,
+        "cooperativa": 5.22
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2264702287269.83,
           "share": 16.5884
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2010991123942.75,
           "share": 14.7301
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1585873063405.12,
           "share": 11.6162
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1538534888172.89,
           "share": 11.2694
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1076796102969.23,
           "share": 7.8873
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 681161316325.65,
           "share": 4.9894
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 441386142085.77,
           "share": 3.2331
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 252426071858.42,
           "share": 1.849
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 169772268594.12,
           "share": 1.2435
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 150419287056.51,
           "share": 1.1018
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 135664256461.13,
           "share": 0.9937
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 125221094895.47,
           "share": 0.9172
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 115018116441.58,
           "share": 0.8425
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 113894953780.92,
           "share": 0.8343
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 112048174360.88,
           "share": 0.8207
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 109762389655.69,
           "share": 0.804
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 102040529617.71,
           "share": 0.7474
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 97618048017.9,
           "share": 0.715
         },
         {
           "nome": "BNP PARIBAS",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 78213107079.31,
           "share": 0.5729
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 72952899199.73,
           "share": 0.5344
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1012344566508.69,
           "share": 17.3544
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 906186015456.09,
           "share": 15.5345
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 891401673776.78,
           "share": 15.2811
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 656430230173.77,
           "share": 11.253
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 488607756186.82,
           "share": 8.3761
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 278285079062.4,
           "share": 4.7706
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 122125767833.47,
           "share": 2.0936
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 118874335607.36,
           "share": 2.0378
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 70426927793.98,
           "share": 1.2073
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 49121869486.07,
           "share": 0.8421
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 48548551128.83,
           "share": 0.8323
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 35932238067.52,
           "share": 0.616
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 31862858538.82,
           "share": 0.5462
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 29787485711.96,
           "share": 0.5106
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 29340041991.27,
           "share": 0.503
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 29006327014.47,
           "share": 0.4972
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 28722596442.72,
           "share": 0.4924
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 26085719015.01,
           "share": 0.4472
         },
         {
           "nome": "ABC-BRASIL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 25414088829.31,
           "share": 0.4357
         },
         {
           "nome": "BMG",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 23203535075.23,
           "share": 0.3978
         }
@@ -1044,254 +1028,250 @@
       "top5_share_ativo": 62.2,
       "top10_share_ativo": 74.53,
       "share_por_segmento": {
-        "S1": 35.47,
-        "S2": 8.16,
-        "outro": 20.92,
-        "cooperativa": 5.34,
-        "S1_publico": 26.74,
-        "digital": 2.89,
-        "publico": 0.47
+        "grande": 62.87,
+        "outro_banco": 31.79,
+        "cooperativa": 5.34
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2329841403780.64,
           "share": 16.6384
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2093544677687.21,
           "share": 14.9509
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1649226955909.27,
           "share": 11.7778
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1559799995314.39,
           "share": 11.1392
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1077762285213.14,
           "share": 7.6968
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 688003796963.04,
           "share": 4.9133
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 460075470996.49,
           "share": 3.2856
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 250042045780.08,
           "share": 1.7857
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 167127309963.45,
           "share": 1.1935
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 160367419764.39,
           "share": 1.1453
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 137653505166.64,
           "share": 0.983
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 134323787273.17,
           "share": 0.9593
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 120511643054.85,
           "share": 0.8606
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 112569496524.21,
           "share": 0.8039
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 110881809921.21,
           "share": 0.7919
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 108414777108.38,
           "share": 0.7742
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 105783883919.88,
           "share": 0.7554
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 90868140252.8,
           "share": 0.6489
         },
         {
           "nome": "BNP PARIBAS",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 72452868590.45,
           "share": 0.5174
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 67706071413.05,
           "share": 0.4835
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1036897468458.65,
           "share": 17.5918
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 915278843270.42,
           "share": 15.5284
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 912716051951.43,
           "share": 15.485
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 642274084344.45,
           "share": 10.8967
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 499112711740.73,
           "share": 8.4678
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 271961150101.75,
           "share": 4.614
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 113898378851.84,
           "share": 1.9324
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 106472563059.05,
           "share": 1.8064
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 71459209858.64,
           "share": 1.2124
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 50087668373.52,
           "share": 0.8498
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 46081533746.29,
           "share": 0.7818
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 36705783165.66,
           "share": 0.6227
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 33751316390.6,
           "share": 0.5726
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 32465439596.81,
           "share": 0.5508
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 30859291590.9,
           "share": 0.5236
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 30519111292.54,
           "share": 0.5178
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 29998551608.86,
           "share": 0.5089
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 28293320855.69,
           "share": 0.48
         },
         {
           "nome": "BMG",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 24302689684.41,
           "share": 0.4123
         },
         {
           "nome": "ABC-BRASIL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 23627650685.7,
           "share": 0.4009
         }
@@ -1303,254 +1283,250 @@
       "top5_share_ativo": 61.5,
       "top10_share_ativo": 73.85,
       "share_por_segmento": {
-        "S1": 35.1,
-        "S2": 8.05,
-        "outro": 21.56,
-        "cooperativa": 5.46,
-        "S1_publico": 26.41,
-        "digital": 2.96,
-        "publico": 0.46
+        "grande": 62.22,
+        "outro_banco": 32.32,
+        "cooperativa": 5.46
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2357281136029.54,
           "share": 16.3593
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2080486245736.47,
           "share": 14.4384
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1722891520082.07,
           "share": 11.9567
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1573923084985.6,
           "share": 10.9229
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1127188237710.82,
           "share": 7.8226
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 710263339242.61,
           "share": 4.9292
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 465868249195.03,
           "share": 3.2331
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 248193146465.06,
           "share": 1.7224
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 185925676496.32,
           "share": 1.2903
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 169664660546.34,
           "share": 1.1775
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 169385183103.58,
           "share": 1.1755
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 139369015769.5,
           "share": 0.9672
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 118430552961.93,
           "share": 0.8219
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 115942181490.27,
           "share": 0.8046
         },
         {
           "nome": "BNP PARIBAS",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 113949157975.29,
           "share": 0.7908
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 107240387282.88,
           "share": 0.7442
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 107146007413.18,
           "share": 0.7436
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 102183363939.09,
           "share": 0.7091
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 102030701172.66,
           "share": 0.7081
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 73782779414.55,
           "share": 0.512
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1061636642968.69,
           "share": 17.9695
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 921659171307,
           "share": 15.6002
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 897252194002.31,
           "share": 15.1871
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 626729000308.1,
           "share": 10.6082
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 496114435487.92,
           "share": 8.3973
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 272550994302.81,
           "share": 4.6133
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 103243232977.54,
           "share": 1.7475
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 102398349923.54,
           "share": 1.7332
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 71341158480.03,
           "share": 1.2075
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 51501014151.83,
           "share": 0.8717
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 45231464029.48,
           "share": 0.7656
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 38914991395.15,
           "share": 0.6587
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 37384810103.19,
           "share": 0.6328
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 34386358241.72,
           "share": 0.582
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 33071217231.83,
           "share": 0.5598
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 31911190181.56,
           "share": 0.5401
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 28999170495.74,
           "share": 0.4908
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 28874533562.77,
           "share": 0.4887
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 24665092096.67,
           "share": 0.4175
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 24199457991.1,
           "share": 0.4096
         }
@@ -1562,254 +1538,250 @@
       "top5_share_ativo": 61.64,
       "top10_share_ativo": 73.91,
       "share_por_segmento": {
-        "S1": 35.11,
-        "S2": 8.2,
-        "outro": 20.9,
-        "cooperativa": 5.58,
-        "S1_publico": 26.55,
-        "digital": 3.22,
-        "publico": 0.43
+        "grande": 62.43,
+        "outro_banco": 31.99,
+        "cooperativa": 5.58
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2446125525016.95,
           "share": 16.3589
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2227265290898.48,
           "share": 14.8953
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1740553253660.59,
           "share": 11.6403
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1614881571684.99,
           "share": 10.7998
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1188545447479.9,
           "share": 7.9486
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 707765548786.44,
           "share": 4.7333
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 510811205836,
           "share": 3.4161
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 257142566261.59,
           "share": 1.7197
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 185560797893.91,
           "share": 1.241
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 173548839568.47,
           "share": 1.1606
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 168488958707.83,
           "share": 1.1268
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 135651675317.63,
           "share": 0.9072
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 132870362869.51,
           "share": 0.8886
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 122397182044.98,
           "share": 0.8186
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 119299667496.28,
           "share": 0.7978
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 115683781699.35,
           "share": 0.7737
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 112845406411.25,
           "share": 0.7547
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 103085655058.2,
           "share": 0.6894
         },
         {
-          "nome": "BANCO BNP PARIBAS BRASIL S.A.",
-          "segmento": "outro",
+          "nome": "BNP PARIBAS BRASIL S.A.",
+          "segmento": "outro_banco",
           "valor": 102554248097.12,
           "share": 0.6859
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 83363939970.13,
           "share": 0.5575
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1091366149577.56,
           "share": 18.0271
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 945588965456.74,
           "share": 15.6192
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 901295766260.22,
           "share": 14.8876
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 626531588491.7,
           "share": 10.349
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 502944748463.03,
           "share": 8.3076
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 274734481440.64,
           "share": 4.5381
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 109502853987.58,
           "share": 1.8088
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 106149255226.95,
           "share": 1.7534
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 71338060848.21,
           "share": 1.1784
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 52456931497.67,
           "share": 0.8665
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 44737048274.38,
           "share": 0.739
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 41485373018.94,
           "share": 0.6853
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 41405999259.9,
           "share": 0.6839
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 36775209603.79,
           "share": 0.6075
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 35643889397.3,
           "share": 0.5888
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 32924219104.05,
           "share": 0.5438
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 30408600053.68,
           "share": 0.5023
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 29313987671.28,
           "share": 0.4842
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 27700536021.57,
           "share": 0.4576
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 26629429358.49,
           "share": 0.4399
         }
@@ -1821,253 +1793,249 @@
       "top5_share_ativo": 60.71,
       "top10_share_ativo": 73.24,
       "share_por_segmento": {
-        "S1": 34.5,
-        "S2": 8.46,
-        "outro": 21.22,
-        "cooperativa": 5.49,
-        "S1_publico": 26.21,
-        "digital": 3.69,
-        "publico": 0.43
+        "grande": 61.64,
+        "outro_banco": 32.87,
+        "cooperativa": 5.49
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2440500136158.25,
           "share": 16.0659
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2153557982278.66,
           "share": 14.1769
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1827443597186.86,
           "share": 12.0301
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1625480810609.02,
           "share": 10.7006
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1174816519487.37,
           "share": 7.7338
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 721541796151.57,
           "share": 4.7499
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 516940906236.53,
           "share": 3.403
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 293785245283.98,
           "share": 1.934
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 189317529603.12,
           "share": 1.2463
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 182356567987.57,
           "share": 1.2005
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 164040008317.45,
           "share": 1.0799
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 142083636663.79,
           "share": 0.9353
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 141452281599.11,
           "share": 0.9312
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 130527155076.04,
           "share": 0.8593
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 127263373371.67,
           "share": 0.8378
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 123430189445.38,
           "share": 0.8125
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 115198675279.93,
           "share": 0.7584
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 115098434874.44,
           "share": 0.7577
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 103911131173.68,
           "share": 0.684
         },
         {
-          "nome": "BANCO BNP PARIBAS BRASIL S.A.",
-          "segmento": "outro",
+          "nome": "BNP PARIBAS BRASIL S.A.",
+          "segmento": "outro_banco",
           "valor": 94632173896.11,
           "share": 0.623
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1119740143519.74,
           "share": 17.9653
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 975463193960.5,
           "share": 15.6505
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 907550410427.93,
           "share": 14.5609
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 628089227027.63,
           "share": 10.0771
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 511874176254.93,
           "share": 8.2126
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 277663237885.98,
           "share": 4.4549
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 124480657694.35,
           "share": 1.9972
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 108403367250.95,
           "share": 1.7392
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 73306325326.57,
           "share": 1.1761
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 53669310501.09,
           "share": 0.8611
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 48229465152.71,
           "share": 0.7738
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 47223105322.98,
           "share": 0.7577
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 45653212893.83,
           "share": 0.7325
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 41519985808.48,
           "share": 0.6662
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 37425537684.3,
           "share": 0.6005
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 33963454939.73,
           "share": 0.5449
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 33349374052.74,
           "share": 0.5351
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 29663426331.52,
           "share": 0.4759
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 29061217304.66,
           "share": 0.4663
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 28337602765.04,
           "share": 0.4547
@@ -2080,254 +2048,250 @@
       "top5_share_ativo": 60.5,
       "top10_share_ativo": 73.24,
       "share_por_segmento": {
-        "S1": 34.11,
-        "S2": 8.55,
-        "outro": 21.55,
-        "cooperativa": 5.44,
-        "S1_publico": 26.4,
-        "digital": 3.53,
-        "publico": 0.42
+        "grande": 61.33,
+        "outro_banco": 33.23,
+        "cooperativa": 5.44
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2528221721235.91,
           "share": 16.034
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2282609423181.45,
           "share": 14.4763
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1878783229224.33,
           "share": 11.9152
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1659193707815.97,
           "share": 10.5226
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1191211330283.11,
           "share": 7.5547
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 732036183380.2,
           "share": 4.6426
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 578228452357.69,
           "share": 3.6671
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 287630193635.68,
           "share": 1.8241
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 213821161433.16,
           "share": 1.3561
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 196791363696.68,
           "share": 1.248
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 164529511981.23,
           "share": 1.0434
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 137864830416.49,
           "share": 0.8743
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 135666109431.5,
           "share": 0.8604
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 135187844307.23,
           "share": 0.8574
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 127867014301.58,
           "share": 0.8109
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 127750330405.01,
           "share": 0.8102
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 119826126741.72,
           "share": 0.7599
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 107775259605.71,
           "share": 0.6835
         },
         {
-          "nome": "BANCO BNP PARIBAS BRASIL S.A.",
-          "segmento": "outro",
+          "nome": "BNP PARIBAS BRASIL S.A.",
+          "segmento": "outro_banco",
           "valor": 92428724344.85,
           "share": 0.5862
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 90725144362.58,
           "share": 0.5754
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1144247533063.09,
           "share": 18.0516
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 1002458975718.2,
           "share": 15.8148
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 901888825458.53,
           "share": 14.2282
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 636339422058.41,
           "share": 10.0389
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 520621812984.84,
           "share": 8.2133
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 281124087080.99,
           "share": 4.435
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 119736395772.27,
           "share": 1.889
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 115864357820.36,
           "share": 1.8279
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 74030865677.62,
           "share": 1.1679
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 53861666279.48,
           "share": 0.8497
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 49145606026.33,
           "share": 0.7753
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 47763070527.1,
           "share": 0.7535
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 46230097427.5,
           "share": 0.7293
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 45517041008.19,
           "share": 0.7181
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 38291712137.6,
           "share": 0.6041
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 34273541613.62,
           "share": 0.5407
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 30252091787.68,
           "share": 0.4773
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 30059972856.11,
           "share": 0.4742
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 30026275804.23,
           "share": 0.4737
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 29206856284.8,
           "share": 0.4608
         }
@@ -2339,254 +2303,250 @@
       "top5_share_ativo": 60.08,
       "top10_share_ativo": 72.91,
       "share_por_segmento": {
-        "S1": 34.31,
-        "S2": 8.5,
-        "outro": 21.87,
-        "cooperativa": 5.51,
-        "S1_publico": 25.78,
-        "digital": 3.61,
-        "publico": 0.41
+        "grande": 60.98,
+        "outro_banco": 33.51,
+        "cooperativa": 5.51
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2668446292041.96,
           "share": 16.2108
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2334998796422.41,
           "share": 14.1851
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1906943159259.63,
           "share": 11.5847
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1706649323692.84,
           "share": 10.3679
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1272247867207.78,
           "share": 7.7289
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 772679809507.28,
           "share": 4.694
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 604571789805.26,
           "share": 3.6728
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 295999532866.09,
           "share": 1.7982
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 227182535409.37,
           "share": 1.3801
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 212616841051.28,
           "share": 1.2916
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 172425955180.86,
           "share": 1.0475
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 146212798793.28,
           "share": 0.8882
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 145910726954.52,
           "share": 0.8864
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 140920807204.34,
           "share": 0.8561
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 135485875522.22,
           "share": 0.8231
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 135099291141.17,
           "share": 0.8207
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 133708266319.66,
           "share": 0.8123
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 105333256881.13,
           "share": 0.6399
         },
         {
-          "nome": "BANCO BNP PARIBAS BRASIL S.A.",
-          "segmento": "outro",
+          "nome": "BNP PARIBAS BRASIL S.A.",
+          "segmento": "outro_banco",
           "valor": 97773516746.34,
           "share": 0.594
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 92264931585.48,
           "share": 0.5605
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1174696158340.95,
           "share": 17.9367
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 1024504847512.34,
           "share": 15.6434
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 945568097911.21,
           "share": 14.4381
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 658077948509.42,
           "share": 10.0483
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 534182377023.81,
           "share": 8.1565
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 285779265688.73,
           "share": 4.3636
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 123483545341.05,
           "share": 1.8855
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 122503181505.72,
           "share": 1.8705
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 73931424923.62,
           "share": 1.1289
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 54716962076.53,
           "share": 0.8355
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 54428975683.48,
           "share": 0.8311
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 49109340239.79,
           "share": 0.7499
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 47958821884.74,
           "share": 0.7323
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 47880615489.23,
           "share": 0.7311
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 39850597336.06,
           "share": 0.6085
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 34159363238.78,
           "share": 0.5216
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 32336432410.86,
           "share": 0.4938
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 31874303330.83,
           "share": 0.4867
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 31873444972.29,
           "share": 0.4867
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 30006330559.4,
           "share": 0.4582
         }
@@ -2598,254 +2558,250 @@
       "top5_share_ativo": 59.82,
       "top10_share_ativo": 72.72,
       "share_por_segmento": {
-        "S1": 33.77,
-        "S2": 8.55,
-        "outro": 21.99,
-        "S1_publico": 26.06,
-        "cooperativa": 5.51,
-        "digital": 3.7,
-        "publico": 0.42
+        "grande": 60.76,
+        "outro_banco": 33.74,
+        "cooperativa": 5.51
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2720401272200.44,
           "share": 16.0152
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2442453150996.15,
           "share": 14.3789
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1982210560197.79,
           "share": 11.6694
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1712859761502.8,
           "share": 10.0837
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1303611909678.29,
           "share": 7.6745
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 801560818213.25,
           "share": 4.7189
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 615878898398.12,
           "share": 3.6257
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 314368327545.37,
           "share": 1.8507
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 250375256986.12,
           "share": 1.474
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 208734065023.68,
           "share": 1.2288
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 184196227321.71,
           "share": 1.0844
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 167318140602.3,
           "share": 0.985
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 156471892978.34,
           "share": 0.9212
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 152227475288.09,
           "share": 0.8962
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 143149834254.62,
           "share": 0.8427
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 140166800960.5,
           "share": 0.8252
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 124740315930.88,
           "share": 0.7344
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 104688194372.79,
           "share": 0.6163
         },
         {
-          "nome": "BANCO BNP PARIBAS BRASIL S.A.",
-          "segmento": "outro",
+          "nome": "BNP PARIBAS BRASIL S.A.",
+          "segmento": "outro_banco",
           "valor": 101869354911.3,
           "share": 0.5997
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 98622980740.54,
           "share": 0.5806
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1209423272041.54,
           "share": 17.9302
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 1050086054935.09,
           "share": 15.568
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 962421334120.77,
           "share": 14.2683
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 688656454489.34,
           "share": 10.2096
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 531100049443.87,
           "share": 7.8738
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 286311577952.41,
           "share": 4.2447
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 131404599068.22,
           "share": 1.9481
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 116400001481.74,
           "share": 1.7257
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 75874580997.64,
           "share": 1.1249
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 58886022776.11,
           "share": 0.873
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 57653222951.61,
           "share": 0.8547
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 52162442455.55,
           "share": 0.7733
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 50962142487.33,
           "share": 0.7555
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 45807387834.18,
           "share": 0.6791
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 42826184158.68,
           "share": 0.6349
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 35652253883.72,
           "share": 0.5286
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 34660175635.39,
           "share": 0.5139
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 33915225383.31,
           "share": 0.5028
         },
         {
           "nome": "MASTER",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 33728690508.28,
           "share": 0.5
         },
         {
           "nome": "INTER",
-          "segmento": "digital",
+          "segmento": "outro_banco",
           "valor": 32657511724.75,
           "share": 0.4842
         }
@@ -2857,254 +2813,250 @@
       "top5_share_ativo": 59.02,
       "top10_share_ativo": 72.28,
       "share_por_segmento": {
-        "S1": 33.64,
-        "S2": 8.48,
-        "outro": 22.6,
-        "S1_publico": 25.39,
-        "cooperativa": 5.52,
-        "digital": 3.96,
-        "publico": 0.4
+        "grande": 60.04,
+        "outro_banco": 34.44,
+        "cooperativa": 5.52
       },
       "ranking_ativo": [
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 2766166427516.94,
           "share": 15.8235
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 2410321787073.84,
           "share": 13.788
         },
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 2026456970996.41,
           "share": 11.5921
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 1744567704888.5,
           "share": 9.9796
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 1369373832039.69,
           "share": 7.8333
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 835928013371.46,
           "share": 4.7818
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 649637478036.18,
           "share": 3.7162
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 302042203703.49,
           "share": 1.7278
         },
         {
           "nome": "XP",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 301760063611.43,
           "share": 1.7262
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 229633957124.51,
           "share": 1.3136
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 191215588038.93,
           "share": 1.0938
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 176097862319.76,
           "share": 1.0073
         },
         {
-          "nome": "BANCO SICOOB",
+          "nome": "Sicoob",
           "segmento": "cooperativa",
           "valor": 153546411156.88,
           "share": 0.8783
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 145133795283.68,
           "share": 0.8302
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 140976182780.89,
           "share": 0.8064
         },
         {
-          "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
-          "segmento": "outro",
+          "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+          "segmento": "outro_banco",
           "valor": 128999092769.67,
           "share": 0.7379
         },
         {
-          "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "outro",
+          "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+          "segmento": "outro_banco",
           "valor": 120211374935.14,
           "share": 0.6877
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 116214087578.9,
           "share": 0.6648
         },
         {
           "nome": "JP MORGAN CHASE",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 109247609454.74,
           "share": 0.6249
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 94467214159.25,
           "share": 0.5404
         }
       ],
       "ranking_credito": [
         {
-          "nome": "CAIXA ECONÔMICA FEDERAL",
-          "segmento": "S1_publico",
+          "nome": "Caixa",
+          "segmento": "grande",
           "valor": 1236308293496.98,
           "share": 17.4887
         },
         {
           "nome": "BB",
-          "segmento": "S1_publico",
+          "segmento": "grande",
           "valor": 1100666418670.43,
           "share": 15.5699
         },
         {
-          "nome": "ITAU",
-          "segmento": "S1",
+          "nome": "Itaú",
+          "segmento": "grande",
           "valor": 1023068081484.77,
           "share": 14.4722
         },
         {
-          "nome": "BRADESCO",
-          "segmento": "S1",
+          "nome": "Bradesco",
+          "segmento": "grande",
           "valor": 718318598021.86,
           "share": 10.1612
         },
         {
-          "nome": "SANTANDER",
-          "segmento": "S1",
+          "nome": "Santander",
+          "segmento": "grande",
           "valor": 541119088825.81,
           "share": 7.6546
         },
         {
-          "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
-          "segmento": "outro",
+          "nome": "NACIONAL DE DESENVOLVIMEN",
+          "segmento": "outro_banco",
           "valor": 297015852901.29,
           "share": 4.2015
         },
         {
-          "nome": "BTG PACTUAL",
-          "segmento": "S2",
+          "nome": "BTG Pactual",
+          "segmento": "outro_banco",
           "valor": 136708500585.66,
           "share": 1.9339
         },
         {
           "nome": "SAFRA",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 112846786926.75,
           "share": 1.5963
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "S2",
+          "segmento": "outro_banco",
           "valor": 75786336324.53,
           "share": 1.0721
         },
         {
-          "nome": "NUBANK",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "grande",
           "valor": 65540431523.94,
           "share": 0.9271
         },
         {
           "nome": "BANRISUL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 62045229482.97,
           "share": 0.8777
         },
         {
-          "nome": "C6 BANK",
-          "segmento": "digital",
+          "nome": "C6 Bank",
+          "segmento": "outro_banco",
           "valor": 57125769773.86,
           "share": 0.8081
         },
         {
-          "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
-          "segmento": "digital",
+          "nome": "Nubank",
+          "segmento": "outro_banco",
           "valor": 57079908542.86,
           "share": 0.8074
         },
         {
           "nome": "DAYCOVAL",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 52850761468.18,
           "share": 0.7476
         },
         {
-          "nome": "BANCO VOLKSWAGEN S.A.",
-          "segmento": "outro",
+          "nome": "VOLKSWAGEN S.A.",
+          "segmento": "outro_banco",
           "valor": 46667200629.29,
           "share": 0.6601
         },
         {
           "nome": "BRB",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 41023918406.71,
           "share": 0.5803
         },
         {
-          "nome": "BANCO COOPERATIVO SICREDI S.A.",
+          "nome": "Sicredi",
           "segmento": "cooperativa",
           "valor": 38658113437.6,
           "share": 0.5469
         },
         {
           "nome": "CITIBANK",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 36562887846.22,
           "share": 0.5172
         },
         {
-          "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
-          "segmento": "digital",
+          "nome": "RABOBANK INTERNATIONAL BR",
+          "segmento": "outro_banco",
           "valor": 36325457634.64,
           "share": 0.5139
         },
         {
           "nome": "PAGBANK-PAGSEGURO",
-          "segmento": "outro",
+          "segmento": "outro_banco",
           "valor": 36220497037.19,
           "share": 0.5124
         }

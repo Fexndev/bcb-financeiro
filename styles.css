@@ -177,6 +177,33 @@ body {
 .nav-btn.active { color: var(--accent-teal); background: rgba(94,234,212,.08); }
 
 /* ═══════════════════════════════════════
+   GLOBAL FILTERS
+   ═══════════════════════════════════════ */
+
+.global-filters {
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    min-width: 70px;
+}
+
+/* ═══════════════════════════════════════
    KPI CARDS
    ═══════════════════════════════════════ */
 
@@ -359,13 +386,9 @@ tbody tr:hover { background: var(--bg-card-hover); }
     display: inline-block;
 }
 
-.seg-S1 { background: rgba(88,166,255,.12); color: var(--accent-blue); }
-.seg-S1_publico { background: rgba(63,185,80,.12); color: var(--accent-green); }
-.seg-S2 { background: rgba(210,153,34,.12); color: var(--accent-yellow); }
-.seg-digital { background: rgba(188,140,255,.12); color: var(--accent-purple); }
+.seg-grande { background: rgba(88,166,255,.12); color: var(--accent-blue); }
+.seg-outro_banco { background: rgba(210,153,34,.12); color: var(--accent-yellow); }
 .seg-cooperativa { background: rgba(94,234,212,.12); color: var(--accent-teal); }
-.seg-publico { background: rgba(63,185,80,.12); color: var(--accent-green); }
-.seg-outro { background: rgba(110,118,129,.12); color: var(--text-muted); }
 
 /* ═══════════════════════════════════════
    METRIC BADGES
