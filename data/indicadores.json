@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:07:32Z",
+  "last_updated": "2026-04-05T19:23:51Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
@@ -5097,7 +5097,7 @@
             "carteira_credito": 1509753258.5
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 7476120887.03,
             "lucro_liquido": 35243376.98,
@@ -5105,7 +5105,7 @@
             "carteira_credito": 4587736022.68
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6278477938.26,
             "lucro_liquido": 11799914.66,
@@ -5507,7 +5507,7 @@
             "carteira_credito": 927597234.32
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1446105835.64,
             "lucro_liquido": 333607.63,
@@ -5643,7 +5643,7 @@
             "carteira_credito": 104570945.83
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 230803767.88,
             "lucro_liquido": 375471.2,
@@ -6151,7 +6151,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 109943220422.25,
             "lucro_liquido": 13865204.53,
@@ -11729,7 +11729,7 @@
             "carteira_credito": 1410207964.88
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 8318811801.04,
             "lucro_liquido": 64920986.61,
@@ -11737,7 +11737,7 @@
             "carteira_credito": 5064134318.23
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6444260336.09,
             "lucro_liquido": 22299515.82,
@@ -12139,7 +12139,7 @@
             "carteira_credito": 1017724757.51
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1471424200.56,
             "lucro_liquido": 380057.66,
@@ -12275,7 +12275,7 @@
             "carteira_credito": 107403824.38
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 248039307.64,
             "lucro_liquido": 740847.11,
@@ -12783,7 +12783,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 122445373560.1,
             "lucro_liquido": 99325364.79,
@@ -18505,7 +18505,7 @@
             "carteira_credito": 1126308479.32
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 9596894335.69,
             "lucro_liquido": 43176215.33,
@@ -18513,7 +18513,7 @@
             "carteira_credito": 5439439119.07
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6965023290.73,
             "lucro_liquido": 9727276.32,
@@ -18915,7 +18915,7 @@
             "carteira_credito": 1163107162.98
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1558652576.4,
             "lucro_liquido": 175391.19,
@@ -19051,7 +19051,7 @@
             "carteira_credito": 113429141.85
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 259107287.51,
             "lucro_liquido": -360417.68,
@@ -19559,7 +19559,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 147679397554.84,
             "lucro_liquido": 52852219.7,
@@ -25479,7 +25479,7 @@
             "carteira_credito": 1839917.67
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 9652086761.12,
             "lucro_liquido": 79941874.32,
@@ -25495,7 +25495,7 @@
             "carteira_credito": 4402723970.74
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6457943263.37,
             "lucro_liquido": 16425091.08,
@@ -25615,7 +25615,7 @@
             "carteira_credito": 1877550507.95
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2321375983.81,
             "lucro_liquido": -27487.54,
@@ -25889,7 +25889,7 @@
             "carteira_credito": 1197307952.7
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1642882431.29,
             "lucro_liquido": 173826.05,
@@ -26025,7 +26025,7 @@
             "carteira_credito": 122182444.14
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 276006173.26,
             "lucro_liquido": -922219.63,
@@ -26533,7 +26533,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 150419287056.51,
             "lucro_liquido": 80184141.7,
@@ -32579,7 +32579,7 @@
             "carteira_credito": 697301.17
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 10021341960.1,
             "lucro_liquido": 48611425.4,
@@ -32603,7 +32603,7 @@
             "carteira_credito": 141664526.19
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6464830780.49,
             "lucro_liquido": 9687846.53,
@@ -32715,7 +32715,7 @@
             "carteira_credito": 1290323880.33
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2327268156.25,
             "lucro_liquido": 2037486.19,
@@ -32989,7 +32989,7 @@
             "carteira_credito": 1228656263.19
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1667067919.88,
             "lucro_liquido": 186415.67,
@@ -33109,7 +33109,7 @@
             "carteira_credito": 130712646.41
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 280667420.5,
             "lucro_liquido": -877880.29,
@@ -33609,7 +33609,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 167127309963.45,
             "lucro_liquido": 73282007.75,
@@ -39745,7 +39745,7 @@
             "carteira_credito": 596794.37
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 10161035185.28,
             "lucro_liquido": 107207603.9,
@@ -39769,7 +39769,7 @@
             "carteira_credito": 119664526.19
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6917052717.46,
             "lucro_liquido": 23713310.01,
@@ -39889,7 +39889,7 @@
             "carteira_credito": 1419156902.55
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2491666682.13,
             "lucro_liquido": 3468801.99,
@@ -40155,7 +40155,7 @@
             "carteira_credito": 1251441031.58
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1663387909.64,
             "lucro_liquido": 479947.59,
@@ -40275,7 +40275,7 @@
             "carteira_credito": 132089510.29
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 296225417.52,
             "lucro_liquido": -1085237.28,
@@ -40775,7 +40775,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 169664660546.34,
             "lucro_liquido": 155644927.15,
@@ -47073,7 +47073,7 @@
             "carteira_credito": 525695.48
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 10972610693.08,
             "lucro_liquido": 87971968.9,
@@ -47097,7 +47097,7 @@
             "carteira_credito": 5128141905.19
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 7283540307.12,
             "lucro_liquido": 10142772.03,
@@ -47217,7 +47217,7 @@
             "carteira_credito": 1703487846.53
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2723747738.89,
             "lucro_liquido": 2552552.53,
@@ -47483,7 +47483,7 @@
             "carteira_credito": 1325241577.77
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1901901029.43,
             "lucro_liquido": 209430.47,
@@ -47595,7 +47595,7 @@
             "carteira_credito": 138189112.53
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 301137249.77,
             "lucro_liquido": 159823.46,
@@ -48095,7 +48095,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 173548839568.47,
             "lucro_liquido": 70847236.72,
@@ -54492,7 +54492,7 @@
             "carteira_credito": 423854.67
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 11413887015.45,
             "lucro_liquido": 128836225.13,
@@ -54532,7 +54532,7 @@
             "carteira_credito": 3692955508.87
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6858919852.16,
             "lucro_liquido": 18469747.96,
@@ -54644,7 +54644,7 @@
             "carteira_credito": 1530056445.72
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2729881787.35,
             "lucro_liquido": 8291167.14,
@@ -54902,7 +54902,7 @@
             "carteira_credito": 1468937542.31
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 1880953136.64,
             "lucro_liquido": 106111.68,
@@ -55014,7 +55014,7 @@
             "carteira_credito": 230795064.22
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 313561597.21,
             "lucro_liquido": 1071632.97,
@@ -55490,7 +55490,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 164040008317.45,
             "lucro_liquido": 61554034.06,
@@ -62031,7 +62031,7 @@
             "carteira_credito": 322239.82
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 12183240775.97,
             "lucro_liquido": 54286067.92,
@@ -62071,7 +62071,7 @@
             "carteira_credito": 3691543251.74
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6566409915.07,
             "lucro_liquido": 10379025.22,
@@ -62183,7 +62183,7 @@
             "carteira_credito": 1566748433.89
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2768557220.38,
             "lucro_liquido": 4376431.58,
@@ -62441,7 +62441,7 @@
             "carteira_credito": 1581798577.43
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 2071535532.63,
             "lucro_liquido": 225824.19,
@@ -62553,7 +62553,7 @@
             "carteira_credito": 232842276.3
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 326640193.33,
             "lucro_liquido": 685217.52,
@@ -63029,7 +63029,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 164529511981.23,
             "lucro_liquido": 49580602.5,
@@ -69651,7 +69651,7 @@
             "carteira_credito": 220583.1
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 12206652566.17,
             "lucro_liquido": 99627736.23,
@@ -69699,7 +69699,7 @@
             "carteira_credito": 4613642320.84
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6663526623.04,
             "lucro_liquido": 22954077.62,
@@ -69803,7 +69803,7 @@
             "carteira_credito": 1179550102.15
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2725570913.28,
             "lucro_liquido": 7976242.39,
@@ -70061,7 +70061,7 @@
             "carteira_credito": 1685569817.96
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 2230494049.81,
             "lucro_liquido": 498789.39,
@@ -70165,7 +70165,7 @@
             "carteira_credito": 241802046.12
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 349857678.52,
             "lucro_liquido": 1539780.61,
@@ -70641,7 +70641,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 172425955180.86,
             "lucro_liquido": 67456725.81,
@@ -77434,7 +77434,7 @@
             "carteira_credito": 92780.07
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 12555273146.55,
             "lucro_liquido": 66021589.64,
@@ -77482,7 +77482,7 @@
             "carteira_credito": 4687800433.55
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 6802082037.56,
             "lucro_liquido": 10357288.82,
@@ -77602,7 +77602,7 @@
             "carteira_credito": 1310452485.44
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2742187413.38,
             "lucro_liquido": 4907489.83,
@@ -77844,7 +77844,7 @@
             "carteira_credito": 1713789639.07
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED CENTRAL M",
+            "nome": "UNICRED CENTRAL MULTIRREGIONAL",
             "uf": "MG",
             "ativo_total": 2587720754.19,
             "lucro_liquido": 168139.94,
@@ -77956,7 +77956,7 @@
             "carteira_credito": 238689000.29
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 362277727.14,
             "lucro_liquido": 600746.61,
@@ -78400,7 +78400,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 184196227321.71,
             "lucro_liquido": -31829561.33,
@@ -85229,7 +85229,7 @@
             "carteira_credito": 0
           },
           {
-            "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+            "nome": "SICOOB COCRED",
             "uf": "SP",
             "ativo_total": 12874463244.7,
             "lucro_liquido": 159191019.56,
@@ -85269,7 +85269,7 @@
             "carteira_credito": 3890384613.07
           },
           {
-            "nome": "SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+            "nome": "SICOOB UNI",
             "uf": "GO",
             "ativo_total": 7761604327.76,
             "lucro_liquido": 15165876.94,
@@ -85397,7 +85397,7 @@
             "carteira_credito": 853395566.55
           },
           {
-            "nome": "SICOOB UNIMAIS RIO LTDA.",
+            "nome": "SICOOB UNIMAIS RIO",
             "uf": "RJ",
             "ativo_total": 2820595599.88,
             "lucro_liquido": 9335987.45,
@@ -85727,7 +85727,7 @@
             "carteira_credito": 247961984.49
           },
           {
-            "nome": "COOPERATIVA DE CRÉDITO UNICRED COOMARCA",
+            "nome": "UNICRED COOMARCA",
             "uf": "SC",
             "ativo_total": 379946191.93,
             "lucro_liquido": 1942374.18,
@@ -86179,7 +86179,7 @@
         ],
         "Sicredi": [
           {
-            "nome": "SICREDI S.A.",
+            "nome": "BANCO COOPERATIVO SICREDI",
             "uf": "RS",
             "ativo_total": 191215588038.93,
             "lucro_liquido": 73474489.47,

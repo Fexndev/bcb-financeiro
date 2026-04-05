@@ -200,21 +200,73 @@ def limpar_nome_singular(nome):
     nome = nome.strip()
     upper = nome.upper()
 
+    # 0. Remover sufixos genéricos, depois "COOPERATIVA DE CRÉDITO" do final
+    for suf in [" LTDA.", " LTDA", " S.A.", " S.A"]:
+        if upper.endswith(suf.upper()):
+            nome = nome[:len(nome)-len(suf)].strip()
+            upper = nome.upper()
+    for tail in ["COOPERATIVA DE CRÉDITO", "COOPERATIVA DE CREDITO",
+                  "DE COOPERATIVAS DE CRÉDITO", "DE COOPERATIVAS DE CREDITO"]:
+        if upper.endswith(tail):
+            nome = nome[:len(nome)-len(tail)].strip()
+            upper = nome.upper()
+            break
+
     # 1. Tentar extrair nome após " - " (padrão: "COOP LONGA - NOME CURTO")
     # Separadores possíveis: " - " ou "-" colado
     sep = " - " if " - " in nome else ("-" if nome.count("-") == 1 else None)
     if sep and sep in nome:
         parts = [p.strip() for p in nome.split(sep) if len(p.strip()) > 3]
         if parts:
-            # Preferir a parte MAIS CURTA que contenha nome do sistema (é o nome fantasia)
-            with_sistema = [p for p in parts if any(s in p.upper() for s in ["SICOOB","SICREDI","UNICRED","CRESOL"])]
-            if with_sistema:
-                best = min(with_sistema, key=len)
+            # Identificar parte com nome do sistema
+            sistemas = ["SICOOB","SICREDI","UNICRED","CRESOL"]
+            with_sis = [p for p in parts if any(s in p.upper() for s in sistemas)]
+            without = [p for p in parts if not any(s in p.upper() for s in sistemas)]
+
+            if with_sis and len(with_sis) > 1:
+                # Múltiplas partes com sistema → pegar a mais curta
+                best = min(with_sis, key=len)
+            elif with_sis and without:
+                short_sis = min(with_sis, key=len)
+                # Se a parte com sistema é curta (<30), usar ela; senão prefixar a sem sistema
+                if len(short_sis) < 65:
+                    best = short_sis
+                else:
+                    best = without[-1]
+                    for s in sistemas:
+                        if s in upper:
+                            best = s.capitalize() + " " + best
+                            break
+            elif with_sis:
+                best = min(with_sis, key=len)
             else:
-                best = parts[-1]  # última parte = nome fantasia
+                best = parts[-1]
+                for s in sistemas:
+                    if s in upper:
+                        best = s.capitalize() + " " + best
+                        break
             for suf in [" LTDA.", " LTDA", " S.A.", "."]:
                 if best.upper().endswith(suf.upper()):
                     best = best[:len(best)-len(suf)].strip()
+            # Se o resultado ainda começa com "COOPERATIVA DE...", aplicar limpeza de prefixo
+            bu = best.upper()
+            for pfx in ["COOPERATIVA DE CRÉDITO, POUPANÇA E INVESTIMENTO ","COOPERATIVA DE CREDITO, POUPANÇA E INVESTIMENTO ",
+                         "COOPERATIVA DE CRÉDITO E INVESTIMENTO COM INTERAÇÃO SOLIDÁRIA ","COOPERATIVA DE CRÉDITO E ECONOMIA COM INTERAÇÃO SOLIDÁRIA ",
+                         "COOPERATIVA DE CRÉDITO DOS MÉDICOS, DENTISTAS, PROFISSIONAIS DA ÁREA DE SAÚDE E DE LIVRE ADMISSÃO ",
+                         "COOPERATIVA DE CRÉDITO DOS ","COOPERATIVA DE CREDITO DOS ",
+                         "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO ","COOPERATIVA DE CRÉDITO ",
+                         "COOPERATIVA DE CREDITO ","COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO "]:
+                if bu.startswith(pfx.upper()):
+                    rest = best[len(pfx):].strip()
+                    if rest:
+                        # Prefixar sistema se necessário
+                        if not any(s in rest.upper() for s in sistemas):
+                            for s in sistemas:
+                                if s in upper:
+                                    rest = s.capitalize() + " " + rest
+                                    break
+                        best = rest
+                    break
             return best[:40]
 
     # 2. Remover prefixos longos (do mais longo para o mais curto)
