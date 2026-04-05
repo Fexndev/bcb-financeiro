@@ -1,0 +1,852 @@
+{
+  "last_updated": "2026-04-05T17:27:34Z",
+  "source": "BCB/IF.data (agregado por UF da sede)",
+  "periodo": "202412",
+  "por_uf": [
+    {
+      "uf": "AC",
+      "ativo_total": 656719936.75,
+      "carteira_credito": 358420047.82,
+      "captacoes": 448713076.99,
+      "num_instituicoes": 2,
+      "credito_per_capita": 382.93,
+      "captacao_per_capita": 479.39,
+      "populacao_mil": 936
+    },
+    {
+      "uf": "AL",
+      "ativo_total": 2459886383.01,
+      "carteira_credito": 1355648153.11,
+      "captacoes": 1722030612.97,
+      "num_instituicoes": 5,
+      "credito_per_capita": 404.55,
+      "captacao_per_capita": 513.89,
+      "populacao_mil": 3351
+    },
+    {
+      "uf": "AM",
+      "ativo_total": 564360052.55,
+      "carteira_credito": 92843052.79,
+      "captacoes": 122962308.35,
+      "num_instituicoes": 4,
+      "credito_per_capita": 21.55,
+      "captacao_per_capita": 28.54,
+      "populacao_mil": 4308
+    },
+    {
+      "uf": "AP",
+      "ativo_total": 18078627.58,
+      "carteira_credito": 16793574.76,
+      "captacoes": 167949.87,
+      "num_instituicoes": 1,
+      "credito_per_capita": 18.64,
+      "captacao_per_capita": 0.19,
+      "populacao_mil": 901
+    },
+    {
+      "uf": "BA",
+      "ativo_total": 41632268333.9,
+      "carteira_credito": 16405894372.71,
+      "captacoes": 29446884337.73,
+      "num_instituicoes": 22,
+      "credito_per_capita": 1094.82,
+      "captacao_per_capita": 1965.09,
+      "populacao_mil": 14985
+    },
+    {
+      "uf": "CE",
+      "ativo_total": 71785711614.38,
+      "carteira_credito": 17957241379.11,
+      "captacoes": 26450155981.75,
+      "num_instituicoes": 11,
+      "credito_per_capita": 1936.3,
+      "captacao_per_capita": 2852.08,
+      "populacao_mil": 9274
+    },
+    {
+      "uf": "DF",
+      "ativo_total": 4669111250340.92,
+      "carteira_credito": 2419687746417.61,
+      "captacoes": 3816496323788.47,
+      "num_instituicoes": 19,
+      "credito_per_capita": 782058.1,
+      "captacao_per_capita": 1233515.3,
+      "populacao_mil": 3094
+    },
+    {
+      "uf": "ES",
+      "ativo_total": 81014403365.69,
+      "carteira_credito": 29488584802.67,
+      "captacoes": 55888510302.58,
+      "num_instituicoes": 23,
+      "credito_per_capita": 7176.58,
+      "captacao_per_capita": 13601.49,
+      "populacao_mil": 4109
+    },
+    {
+      "uf": "GO",
+      "ativo_total": 57061064093.9,
+      "carteira_credito": 23868243591.94,
+      "captacoes": 28915254784.79,
+      "num_instituicoes": 39,
+      "credito_per_capita": 3312.27,
+      "captacao_per_capita": 4012.66,
+      "populacao_mil": 7206
+    },
+    {
+      "uf": "MA",
+      "ativo_total": 1047543442.67,
+      "carteira_credito": 704725983.55,
+      "captacoes": 600531587.48,
+      "num_instituicoes": 5,
+      "credito_per_capita": 98.51,
+      "captacao_per_capita": 83.94,
+      "populacao_mil": 7154
+    },
+    {
+      "uf": "MG",
+      "ativo_total": 289647451585.17,
+      "carteira_credito": 119927831691.95,
+      "captacoes": 175326324733.12,
+      "num_instituicoes": 200,
+      "credito_per_capita": 5600.96,
+      "captacao_per_capita": 8188.23,
+      "populacao_mil": 21412
+    },
+    {
+      "uf": "MS",
+      "ativo_total": 27359575115.29,
+      "carteira_credito": 13103438309.49,
+      "captacoes": 13644178206.58,
+      "num_instituicoes": 13,
+      "credito_per_capita": 4570.44,
+      "captacao_per_capita": 4759.04,
+      "populacao_mil": 2867
+    },
+    {
+      "uf": "MT",
+      "ativo_total": 68024121267.6,
+      "carteira_credito": 36667804997.15,
+      "captacoes": 32957313364.53,
+      "num_instituicoes": 23,
+      "credito_per_capita": 9690.22,
+      "captacao_per_capita": 8709.65,
+      "populacao_mil": 3784
+    },
+    {
+      "uf": "PA",
+      "ativo_total": 73609411335.4,
+      "carteira_credito": 47354264283.84,
+      "captacoes": 30465249191.05,
+      "num_instituicoes": 12,
+      "credito_per_capita": 5395.27,
+      "captacao_per_capita": 3471.03,
+      "populacao_mil": 8777
+    },
+    {
+      "uf": "PB",
+      "ativo_total": 7858465652.27,
+      "carteira_credito": 3228635101.82,
+      "captacoes": 4176743714.78,
+      "num_instituicoes": 11,
+      "credito_per_capita": 795.43,
+      "captacao_per_capita": 1029.01,
+      "populacao_mil": 4059
+    },
+    {
+      "uf": "PE",
+      "ativo_total": 2685356610.52,
+      "carteira_credito": 1454187499.57,
+      "captacoes": 1961485216.69,
+      "num_instituicoes": 11,
+      "credito_per_capita": 150.32,
+      "captacao_per_capita": 202.76,
+      "populacao_mil": 9674
+    },
+    {
+      "uf": "PI",
+      "ativo_total": 985948757.9,
+      "carteira_credito": 638102202.11,
+      "captacoes": 145923510.82,
+      "num_instituicoes": 5,
+      "credito_per_capita": 194.01,
+      "captacao_per_capita": 44.37,
+      "populacao_mil": 3289
+    },
+    {
+      "uf": "PR",
+      "ativo_total": 249269582834.79,
+      "carteira_credito": 151242548393.81,
+      "captacoes": 154111692325.41,
+      "num_instituicoes": 113,
+      "credito_per_capita": 13041.52,
+      "captacao_per_capita": 13288.93,
+      "populacao_mil": 11597
+    },
+    {
+      "uf": "RJ",
+      "ativo_total": 1923672693997.55,
+      "carteira_credito": 502836567827.94,
+      "captacoes": 873116123839.31,
+      "num_instituicoes": 77,
+      "credito_per_capita": 28728.59,
+      "captacao_per_capita": 49883.8,
+      "populacao_mil": 17503
+    },
+    {
+      "uf": "RN",
+      "ativo_total": 2095907677.12,
+      "carteira_credito": 1093234001.35,
+      "captacoes": 1592692612.75,
+      "num_instituicoes": 4,
+      "credito_per_capita": 307.09,
+      "captacao_per_capita": 447.39,
+      "populacao_mil": 3560
+    },
+    {
+      "uf": "RO",
+      "ativo_total": 26132487589.05,
+      "carteira_credito": 13836626079.53,
+      "captacoes": 12498749703.26,
+      "num_instituicoes": 16,
+      "credito_per_capita": 7623.49,
+      "captacao_per_capita": 6886.36,
+      "populacao_mil": 1815
+    },
+    {
+      "uf": "RR",
+      "ativo_total": 137886711.39,
+      "carteira_credito": 78028699.35,
+      "captacoes": 73331493.4,
+      "num_instituicoes": 2,
+      "credito_per_capita": 108.98,
+      "captacao_per_capita": 102.42,
+      "populacao_mil": 716
+    },
+    {
+      "uf": "RS",
+      "ativo_total": 597764339814.33,
+      "carteira_credito": 256486649123.71,
+      "captacoes": 447957343222.97,
+      "num_instituicoes": 142,
+      "credito_per_capita": 22355.67,
+      "captacao_per_capita": 39044.48,
+      "populacao_mil": 11473
+    },
+    {
+      "uf": "SC",
+      "ativo_total": 161769213498.57,
+      "carteira_credito": 75810306232.32,
+      "captacoes": 91998070590.52,
+      "num_instituicoes": 113,
+      "credito_per_capita": 9961.93,
+      "captacao_per_capita": 12089.1,
+      "populacao_mil": 7610
+    },
+    {
+      "uf": "SE",
+      "ativo_total": 14198241965.52,
+      "carteira_credito": 5607627897.26,
+      "captacoes": 11555860523.76,
+      "num_instituicoes": 5,
+      "credito_per_capita": 2390.29,
+      "captacao_per_capita": 4925.77,
+      "populacao_mil": 2346
+    },
+    {
+      "uf": "SP",
+      "ativo_total": 9110097378598.57,
+      "carteira_credito": 3329495561944.07,
+      "captacoes": 6074028114758.76,
+      "num_instituicoes": 521,
+      "credito_per_capita": 71373.35,
+      "captacao_per_capita": 130207.04,
+      "populacao_mil": 46649
+    },
+    {
+      "uf": "TO",
+      "ativo_total": 680460558.19,
+      "carteira_credito": 404327074.08,
+      "captacoes": 477206275.15,
+      "num_instituicoes": 2,
+      "credito_per_capita": 251.6,
+      "captacao_per_capita": 296.95,
+      "populacao_mil": 1607
+    }
+  ],
+  "evolucao": {
+    "202212": [
+      {
+        "uf": "AC",
+        "ativo_total": 481720207.58,
+        "carteira_credito": 313823034.44,
+        "captacoes": 304784982.8,
+        "num_instituicoes": 2
+      },
+      {
+        "uf": "AL",
+        "ativo_total": 2397022050.32,
+        "carteira_credito": 1580480964.8,
+        "captacoes": 1814745000.93,
+        "num_instituicoes": 7
+      },
+      {
+        "uf": "AM",
+        "ativo_total": 692495271.49,
+        "carteira_credito": 355621967.74,
+        "captacoes": 258124536.21,
+        "num_instituicoes": 4
+      },
+      {
+        "uf": "AP",
+        "ativo_total": 30415502.46,
+        "carteira_credito": 20251753.85,
+        "captacoes": 2050621.43,
+        "num_instituicoes": 1
+      },
+      {
+        "uf": "BA",
+        "ativo_total": 27536756718.32,
+        "carteira_credito": 14199718273.73,
+        "captacoes": 22272300445.88,
+        "num_instituicoes": 29
+      },
+      {
+        "uf": "CE",
+        "ativo_total": 65749872842.19,
+        "carteira_credito": 15138123283.33,
+        "captacoes": 21801153153.32,
+        "num_instituicoes": 11
+      },
+      {
+        "uf": "DF",
+        "ativo_total": 3755188530129.04,
+        "carteira_credito": 1961859191398.33,
+        "captacoes": 3030809798190.93,
+        "num_instituicoes": 19
+      },
+      {
+        "uf": "ES",
+        "ativo_total": 61198009258.94,
+        "carteira_credito": 19678890047.44,
+        "captacoes": 45873630219.87,
+        "num_instituicoes": 28
+      },
+      {
+        "uf": "GO",
+        "ativo_total": 39645506390.83,
+        "carteira_credito": 18120851923.79,
+        "captacoes": 18252654921.38,
+        "num_instituicoes": 39
+      },
+      {
+        "uf": "MA",
+        "ativo_total": 644014091.65,
+        "carteira_credito": 427939244.53,
+        "captacoes": 391432621.37,
+        "num_instituicoes": 6
+      },
+      {
+        "uf": "MG",
+        "ativo_total": 198429855279.65,
+        "carteira_credito": 94612097804.16,
+        "captacoes": 112841653481.05,
+        "num_instituicoes": 205
+      },
+      {
+        "uf": "MS",
+        "ativo_total": 18529097964.29,
+        "carteira_credito": 10513242677.33,
+        "captacoes": 9842005231.92,
+        "num_instituicoes": 13
+      },
+      {
+        "uf": "MT",
+        "ativo_total": 50568208516.4,
+        "carteira_credito": 28486569022.97,
+        "captacoes": 22558082201.67,
+        "num_instituicoes": 22
+      },
+      {
+        "uf": "PA",
+        "ativo_total": 50787476878.33,
+        "carteira_credito": 30955658128.84,
+        "captacoes": 23090522401.77,
+        "num_instituicoes": 13
+      },
+      {
+        "uf": "PB",
+        "ativo_total": 8452902772.76,
+        "carteira_credito": 2587553920.47,
+        "captacoes": 2964857397.87,
+        "num_instituicoes": 12
+      },
+      {
+        "uf": "PE",
+        "ativo_total": 1918498645.63,
+        "carteira_credito": 1155749955.36,
+        "captacoes": 1406955581.17,
+        "num_instituicoes": 10
+      },
+      {
+        "uf": "PI",
+        "ativo_total": 861836039.15,
+        "carteira_credito": 614024081.23,
+        "captacoes": 82916501.55,
+        "num_instituicoes": 4
+      },
+      {
+        "uf": "PR",
+        "ativo_total": 172893099170.77,
+        "carteira_credito": 106305903186.97,
+        "captacoes": 108464793067.43,
+        "num_instituicoes": 105
+      },
+      {
+        "uf": "RJ",
+        "ativo_total": 1327650294451.2,
+        "carteira_credito": 436754449907.75,
+        "captacoes": 571180061007.28,
+        "num_instituicoes": 82
+      },
+      {
+        "uf": "RN",
+        "ativo_total": 1522946685.61,
+        "carteira_credito": 1013600178.15,
+        "captacoes": 1126837235.82,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "RO",
+        "ativo_total": 18652767974.7,
+        "carteira_credito": 11395204896.43,
+        "captacoes": 8715796158.96,
+        "num_instituicoes": 17
+      },
+      {
+        "uf": "RR",
+        "ativo_total": 131279597.06,
+        "carteira_credito": 74992119.17,
+        "captacoes": 70067656.61,
+        "num_instituicoes": 2
+      },
+      {
+        "uf": "RS",
+        "ativo_total": 445544396100.87,
+        "carteira_credito": 185048423816.55,
+        "captacoes": 335138829148.67,
+        "num_instituicoes": 141
+      },
+      {
+        "uf": "SC",
+        "ativo_total": 112721613251.66,
+        "carteira_credito": 51623758119.13,
+        "captacoes": 63214566701.25,
+        "num_instituicoes": 111
+      },
+      {
+        "uf": "SE",
+        "ativo_total": 8406753314.81,
+        "carteira_credito": 3805914720.37,
+        "captacoes": 7210932236.43,
+        "num_instituicoes": 3
+      },
+      {
+        "uf": "SP",
+        "ativo_total": 7281247701060.42,
+        "carteira_credito": 2836460217433.72,
+        "captacoes": 4859308307095.27,
+        "num_instituicoes": 460
+      },
+      {
+        "uf": "TO",
+        "ativo_total": 402388387.21,
+        "carteira_credito": 262333784.0,
+        "captacoes": 286277765.86,
+        "num_instituicoes": 2
+      }
+    ],
+    "202312": [
+      {
+        "uf": "AC",
+        "ativo_total": 608243494.58,
+        "carteira_credito": 348391900.67,
+        "captacoes": 406270498.97,
+        "num_instituicoes": 2
+      },
+      {
+        "uf": "AL",
+        "ativo_total": 2518341825.18,
+        "carteira_credito": 1382958989.61,
+        "captacoes": 1895735354.7,
+        "num_instituicoes": 6
+      },
+      {
+        "uf": "AM",
+        "ativo_total": 503909766.24,
+        "carteira_credito": 83383910.48,
+        "captacoes": 53694324.19,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "AP",
+        "ativo_total": 21518015.58,
+        "carteira_credito": 15773490.4,
+        "captacoes": 1882330.3,
+        "num_instituicoes": 1
+      },
+      {
+        "uf": "BA",
+        "ativo_total": 33652340926.02,
+        "carteira_credito": 15709567873.82,
+        "captacoes": 23794596288.96,
+        "num_instituicoes": 25
+      },
+      {
+        "uf": "CE",
+        "ativo_total": 68474497800.21,
+        "carteira_credito": 15028674341.31,
+        "captacoes": 22406778768.16,
+        "num_instituicoes": 11
+      },
+      {
+        "uf": "DF",
+        "ativo_total": 4178039069160.04,
+        "carteira_credito": 2163536277672.22,
+        "captacoes": 3423585993986.44,
+        "num_instituicoes": 19
+      },
+      {
+        "uf": "ES",
+        "ativo_total": 74309844499.24,
+        "carteira_credito": 23987171373.45,
+        "captacoes": 54619944657.1,
+        "num_instituicoes": 24
+      },
+      {
+        "uf": "GO",
+        "ativo_total": 48032346610.77,
+        "carteira_credito": 20883467639.04,
+        "captacoes": 22337452229.74,
+        "num_instituicoes": 40
+      },
+      {
+        "uf": "MA",
+        "ativo_total": 835867213.59,
+        "carteira_credito": 531742091.81,
+        "captacoes": 502931653.53,
+        "num_instituicoes": 6
+      },
+      {
+        "uf": "MG",
+        "ativo_total": 235814280698.85,
+        "carteira_credito": 105075732332.0,
+        "captacoes": 136059238299.25,
+        "num_instituicoes": 206
+      },
+      {
+        "uf": "MS",
+        "ativo_total": 23130938095.56,
+        "carteira_credito": 12041330048.75,
+        "captacoes": 11506862793.25,
+        "num_instituicoes": 13
+      },
+      {
+        "uf": "MT",
+        "ativo_total": 60943057615.33,
+        "carteira_credito": 32691292940.51,
+        "captacoes": 27864973249.32,
+        "num_instituicoes": 23
+      },
+      {
+        "uf": "PA",
+        "ativo_total": 63425202552.96,
+        "carteira_credito": 39421426478.59,
+        "captacoes": 27857769076.21,
+        "num_instituicoes": 12
+      },
+      {
+        "uf": "PB",
+        "ativo_total": 10003858592.15,
+        "carteira_credito": 2803677296.42,
+        "captacoes": 3375782717.21,
+        "num_instituicoes": 12
+      },
+      {
+        "uf": "PE",
+        "ativo_total": 2163493054.4,
+        "carteira_credito": 1272721165.08,
+        "captacoes": 1632196646.27,
+        "num_instituicoes": 10
+      },
+      {
+        "uf": "PI",
+        "ativo_total": 977072067.15,
+        "carteira_credito": 643025462.29,
+        "captacoes": 88002526.72,
+        "num_instituicoes": 4
+      },
+      {
+        "uf": "PR",
+        "ativo_total": 212039560359.61,
+        "carteira_credito": 128816557714.91,
+        "captacoes": 129773008179.34,
+        "num_instituicoes": 109
+      },
+      {
+        "uf": "RJ",
+        "ativo_total": 1510217897248.32,
+        "carteira_credito": 437197746012.69,
+        "captacoes": 656043130196.38,
+        "num_instituicoes": 82
+      },
+      {
+        "uf": "RN",
+        "ativo_total": 1796761316.62,
+        "carteira_credito": 964556711.81,
+        "captacoes": 1365592120.39,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "RO",
+        "ativo_total": 22330733004.9,
+        "carteira_credito": 12303040888.2,
+        "captacoes": 10542538899.63,
+        "num_instituicoes": 18
+      },
+      {
+        "uf": "RR",
+        "ativo_total": 116951333.3,
+        "carteira_credito": 79993619.91,
+        "captacoes": 67652839.59,
+        "num_instituicoes": 2
+      },
+      {
+        "uf": "RS",
+        "ativo_total": 509747058524.39,
+        "carteira_credito": 214811480971.05,
+        "captacoes": 373123700161.49,
+        "num_instituicoes": 140
+      },
+      {
+        "uf": "SC",
+        "ativo_total": 139359241278.3,
+        "carteira_credito": 62282133732.52,
+        "captacoes": 77498575307.69,
+        "num_instituicoes": 114
+      },
+      {
+        "uf": "SE",
+        "ativo_total": 9734926513.81,
+        "carteira_credito": 4310472098.07,
+        "captacoes": 8422149411.04,
+        "num_instituicoes": 3
+      },
+      {
+        "uf": "SP",
+        "ativo_total": 7981244273834.67,
+        "carteira_credito": 2936264792623.19,
+        "captacoes": 5425461820836.36,
+        "num_instituicoes": 488
+      },
+      {
+        "uf": "TO",
+        "ativo_total": 552871748.69,
+        "carteira_credito": 319525449.88,
+        "captacoes": 388832974.96,
+        "num_instituicoes": 2
+      }
+    ],
+    "202412": [
+      {
+        "uf": "AC",
+        "ativo_total": 656719936.75,
+        "carteira_credito": 358420047.82,
+        "captacoes": 448713076.99,
+        "num_instituicoes": 2
+      },
+      {
+        "uf": "AL",
+        "ativo_total": 2459886383.01,
+        "carteira_credito": 1355648153.11,
+        "captacoes": 1722030612.97,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "AM",
+        "ativo_total": 564360052.55,
+        "carteira_credito": 92843052.79,
+        "captacoes": 122962308.35,
+        "num_instituicoes": 4
+      },
+      {
+        "uf": "AP",
+        "ativo_total": 18078627.58,
+        "carteira_credito": 16793574.76,
+        "captacoes": 167949.87,
+        "num_instituicoes": 1
+      },
+      {
+        "uf": "BA",
+        "ativo_total": 41632268333.9,
+        "carteira_credito": 16405894372.71,
+        "captacoes": 29446884337.73,
+        "num_instituicoes": 22
+      },
+      {
+        "uf": "CE",
+        "ativo_total": 71785711614.38,
+        "carteira_credito": 17957241379.11,
+        "captacoes": 26450155981.75,
+        "num_instituicoes": 11
+      },
+      {
+        "uf": "DF",
+        "ativo_total": 4669111250340.92,
+        "carteira_credito": 2419687746417.61,
+        "captacoes": 3816496323788.47,
+        "num_instituicoes": 19
+      },
+      {
+        "uf": "ES",
+        "ativo_total": 81014403365.69,
+        "carteira_credito": 29488584802.67,
+        "captacoes": 55888510302.58,
+        "num_instituicoes": 23
+      },
+      {
+        "uf": "GO",
+        "ativo_total": 57061064093.9,
+        "carteira_credito": 23868243591.94,
+        "captacoes": 28915254784.79,
+        "num_instituicoes": 39
+      },
+      {
+        "uf": "MA",
+        "ativo_total": 1047543442.67,
+        "carteira_credito": 704725983.55,
+        "captacoes": 600531587.48,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "MG",
+        "ativo_total": 289647451585.17,
+        "carteira_credito": 119927831691.95,
+        "captacoes": 175326324733.12,
+        "num_instituicoes": 200
+      },
+      {
+        "uf": "MS",
+        "ativo_total": 27359575115.29,
+        "carteira_credito": 13103438309.49,
+        "captacoes": 13644178206.58,
+        "num_instituicoes": 13
+      },
+      {
+        "uf": "MT",
+        "ativo_total": 68024121267.6,
+        "carteira_credito": 36667804997.15,
+        "captacoes": 32957313364.53,
+        "num_instituicoes": 23
+      },
+      {
+        "uf": "PA",
+        "ativo_total": 73609411335.4,
+        "carteira_credito": 47354264283.84,
+        "captacoes": 30465249191.05,
+        "num_instituicoes": 12
+      },
+      {
+        "uf": "PB",
+        "ativo_total": 7858465652.27,
+        "carteira_credito": 3228635101.82,
+        "captacoes": 4176743714.78,
+        "num_instituicoes": 11
+      },
+      {
+        "uf": "PE",
+        "ativo_total": 2685356610.52,
+        "carteira_credito": 1454187499.57,
+        "captacoes": 1961485216.69,
+        "num_instituicoes": 11
+      },
+      {
+        "uf": "PI",
+        "ativo_total": 985948757.9,
+        "carteira_credito": 638102202.11,
+        "captacoes": 145923510.82,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "PR",
+        "ativo_total": 249269582834.79,
+        "carteira_credito": 151242548393.81,
+        "captacoes": 154111692325.41,
+        "num_instituicoes": 113
+      },
+      {
+        "uf": "RJ",
+        "ativo_total": 1923672693997.55,
+        "carteira_credito": 502836567827.94,
+        "captacoes": 873116123839.31,
+        "num_instituicoes": 77
+      },
+      {
+        "uf": "RN",
+        "ativo_total": 2095907677.12,
+        "carteira_credito": 1093234001.35,
+        "captacoes": 1592692612.75,
+        "num_instituicoes": 4
+      },
+      {
+        "uf": "RO",
+        "ativo_total": 26132487589.05,
+        "carteira_credito": 13836626079.53,
+        "captacoes": 12498749703.26,
+        "num_instituicoes": 16
+      },
+      {
+        "uf": "RR",
+        "ativo_total": 137886711.39,
+        "carteira_credito": 78028699.35,
+        "captacoes": 73331493.4,
+        "num_instituicoes": 2
+      },
+      {
+        "uf": "RS",
+        "ativo_total": 597764339814.33,
+        "carteira_credito": 256486649123.71,
+        "captacoes": 447957343222.97,
+        "num_instituicoes": 142
+      },
+      {
+        "uf": "SC",
+        "ativo_total": 161769213498.57,
+        "carteira_credito": 75810306232.32,
+        "captacoes": 91998070590.52,
+        "num_instituicoes": 113
+      },
+      {
+        "uf": "SE",
+        "ativo_total": 14198241965.52,
+        "carteira_credito": 5607627897.26,
+        "captacoes": 11555860523.76,
+        "num_instituicoes": 5
+      },
+      {
+        "uf": "SP",
+        "ativo_total": 9110097378598.57,
+        "carteira_credito": 3329495561944.07,
+        "captacoes": 6074028114758.76,
+        "num_instituicoes": 521
+      },
+      {
+        "uf": "TO",
+        "ativo_total": 680460558.19,
+        "carteira_credito": 404327074.08,
+        "captacoes": 477206275.15,
+        "num_instituicoes": 2
+      }
+    ]
+  }
+}

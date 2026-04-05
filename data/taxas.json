@@ -1,0 +1,2566 @@
+{
+  "last_updated": "2026-04-05T17:11:09Z",
+  "source": "BCB/Olinda - Taxas de Juros",
+  "periodo_referencia": "2026-03-13",
+  "modalidades": {
+    "consignado_inss": {
+      "codigo": "218101",
+      "descricao": "Consignado INSS",
+      "total_instituicoes": 685,
+      "media_geral": 23.41,
+      "media_por_segmento": {
+        "outro": 23.34,
+        "digital": 22.73,
+        "S2": 23.37,
+        "cooperativa": 22.4,
+        "S1": 24.33,
+        "S1_publico": 25.83
+      },
+      "ranking": [
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.15,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.18,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.21,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.25,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.25,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.28,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.32,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.32,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.34,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.34,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.49,
+          "taxa_aa": 19.35,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.49,
+          "taxa_aa": 19.36,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.49,
+          "taxa_aa": 19.37,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.49,
+          "taxa_aa": 19.38,
+          "posicao": 1
+        },
+        {
+          "instituicao": "NU FINANCEIRA S.A. CFI",
+          "cnpj8": "30680829",
+          "segmento": "outro",
+          "taxa_am": 1.49,
+          "taxa_aa": 19.38,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 19.98,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO INBURSA",
+          "cnpj8": "04866275",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 19.99,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO INBURSA",
+          "cnpj8": "04866275",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 20.0,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 20.0,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO PAULISTA S.A.",
+          "cnpj8": "61820817",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 20.01,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 20.01,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO INBURSA",
+          "cnpj8": "04866275",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.06,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.09,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO INBURSA",
+          "cnpj8": "04866275",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.09,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO INBURSA",
+          "cnpj8": "04866275",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.1,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO INBURSA",
+          "cnpj8": "04866275",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.12,
+          "posicao": 2
+        }
+      ]
+    },
+    "consignado_publico": {
+      "codigo": "220101",
+      "descricao": "Consignado Público",
+      "total_instituicoes": 824,
+      "media_geral": 28.91,
+      "media_por_segmento": {
+        "outro": 30.89,
+        "cooperativa": 21.48,
+        "digital": 21.33,
+        "S1_publico": 21.28,
+        "S1": 23.21,
+        "S2": 25.74
+      },
+      "ranking": [
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.42,
+          "taxa_aa": 18.44,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.46,
+          "taxa_aa": 19.02,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.46,
+          "taxa_aa": 19.03,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.47,
+          "taxa_aa": 19.19,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.22,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.24,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.48,
+          "taxa_aa": 19.24,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.49,
+          "taxa_aa": 19.47,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.5,
+          "taxa_aa": 19.49,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.5,
+          "taxa_aa": 19.53,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.5,
+          "taxa_aa": 19.6,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.5,
+          "taxa_aa": 19.61,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.5,
+          "taxa_aa": 19.63,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.51,
+          "taxa_aa": 19.64,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.51,
+          "taxa_aa": 19.66,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.51,
+          "taxa_aa": 19.67,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.51,
+          "taxa_aa": 19.76,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO ALFA S.A.",
+          "cnpj8": "03323840",
+          "segmento": "outro",
+          "taxa_am": 1.52,
+          "taxa_aa": 19.83,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO SENFF S.A.",
+          "cnpj8": "11970623",
+          "segmento": "outro",
+          "taxa_am": 1.52,
+          "taxa_aa": 19.83,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.52,
+          "taxa_aa": 19.86,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.53,
+          "taxa_aa": 19.92,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.53,
+          "taxa_aa": 19.95,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 19.96,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO COOPERATIVO SICREDI S.A.",
+          "cnpj8": "01181521",
+          "segmento": "cooperativa",
+          "taxa_am": 1.53,
+          "taxa_aa": 20.0,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.53,
+          "taxa_aa": 20.02,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.06,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCOSEGURO S.A.",
+          "cnpj8": "10264663",
+          "segmento": "outro",
+          "taxa_am": 1.54,
+          "taxa_aa": 20.12,
+          "posicao": 3
+        }
+      ]
+    },
+    "consignado_privado": {
+      "codigo": "219101",
+      "descricao": "Consignado Privado",
+      "total_instituicoes": 935,
+      "media_geral": 54.54,
+      "media_por_segmento": {
+        "outro": 54.64,
+        "cooperativa": 34.11,
+        "S2": 55.22,
+        "S1": 48.31,
+        "S1_publico": 45.83,
+        "digital": 74.82
+      },
+      "ranking": [
+        {
+          "instituicao": "COMPREV CFI S.A.",
+          "cnpj8": "46241852",
+          "segmento": "outro",
+          "taxa_am": 1.38,
+          "taxa_aa": 17.88,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COMPREV CFI S.A.",
+          "cnpj8": "46241852",
+          "segmento": "outro",
+          "taxa_am": 1.38,
+          "taxa_aa": 17.88,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.62,
+          "taxa_aa": 21.27,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.62,
+          "taxa_aa": 21.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.62,
+          "taxa_aa": 21.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.62,
+          "taxa_aa": 21.32,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.62,
+          "taxa_aa": 21.33,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.34,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.37,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.38,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.38,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.41,
+          "posicao": 2
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.42,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.45,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.45,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.45,
+          "posicao": 1
+        },
+        {
+          "instituicao": "COBUCCIO S.A. SCFI",
+          "cnpj8": "36947229",
+          "segmento": "outro",
+          "taxa_am": 1.63,
+          "taxa_aa": 21.46,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DO EST. DE SE S.A.",
+          "cnpj8": "13009717",
+          "segmento": "outro",
+          "taxa_am": 1.66,
+          "taxa_aa": 21.89,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DO EST. DE SE S.A.",
+          "cnpj8": "13009717",
+          "segmento": "outro",
+          "taxa_am": 1.67,
+          "taxa_aa": 21.99,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DO EST. DE SE S.A.",
+          "cnpj8": "13009717",
+          "segmento": "outro",
+          "taxa_am": 1.7,
+          "taxa_aa": 22.4,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XP S.A.",
+          "cnpj8": "33264668",
+          "segmento": "outro",
+          "taxa_am": 1.7,
+          "taxa_aa": 22.46,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DO EST. DE SE S.A.",
+          "cnpj8": "13009717",
+          "segmento": "outro",
+          "taxa_am": 1.73,
+          "taxa_aa": 22.8,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XP S.A.",
+          "cnpj8": "33264668",
+          "segmento": "outro",
+          "taxa_am": 1.73,
+          "taxa_aa": 22.85,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XP S.A.",
+          "cnpj8": "33264668",
+          "segmento": "outro",
+          "taxa_am": 1.74,
+          "taxa_aa": 23.05,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XP S.A.",
+          "cnpj8": "33264668",
+          "segmento": "outro",
+          "taxa_am": 1.74,
+          "taxa_aa": 23.05,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XP S.A.",
+          "cnpj8": "33264668",
+          "segmento": "outro",
+          "taxa_am": 1.75,
+          "taxa_aa": 23.07,
+          "posicao": 2
+        }
+      ]
+    },
+    "credito_pessoal": {
+      "codigo": "221101",
+      "descricao": "Crédito Pessoal",
+      "total_instituicoes": 1479,
+      "media_geral": 171.64,
+      "media_por_segmento": {
+        "outro": 201.17,
+        "S1": 53.51,
+        "cooperativa": 167.6,
+        "digital": 25.83,
+        "S2": 119.81,
+        "S1_publico": 38.64
+      },
+      "ranking": [
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 0.99,
+          "taxa_aa": 12.61,
+          "posicao": 2
+        },
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 0.99,
+          "taxa_aa": 12.61,
+          "posicao": 2
+        },
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 1.11,
+          "taxa_aa": 14.14,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BARU SCFI S/A",
+          "cnpj8": "42723848",
+          "segmento": "outro",
+          "taxa_am": 1.14,
+          "taxa_aa": 14.63,
+          "posicao": 2
+        },
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 1.17,
+          "taxa_aa": 14.95,
+          "posicao": 2
+        },
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 1.17,
+          "taxa_aa": 14.95,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.24,
+          "taxa_aa": 15.9,
+          "posicao": 2
+        },
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 1.24,
+          "taxa_aa": 15.93,
+          "posicao": 1
+        },
+        {
+          "instituicao": "SINOSSERRA S/A - SCFI",
+          "cnpj8": "22639377",
+          "segmento": "outro",
+          "taxa_am": 1.24,
+          "taxa_aa": 15.93,
+          "posicao": 1
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.24,
+          "taxa_aa": 15.97,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.25,
+          "taxa_aa": 16.04,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.26,
+          "taxa_aa": 16.15,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.26,
+          "taxa_aa": 16.22,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.26,
+          "taxa_aa": 16.27,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.27,
+          "taxa_aa": 16.4,
+          "posicao": 1
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.28,
+          "taxa_aa": 16.45,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.28,
+          "taxa_aa": 16.49,
+          "posicao": 1
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.29,
+          "taxa_aa": 16.55,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.29,
+          "taxa_aa": 16.64,
+          "posicao": 3
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.29,
+          "taxa_aa": 16.65,
+          "posicao": 1
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.29,
+          "taxa_aa": 16.68,
+          "posicao": 3
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.3,
+          "taxa_aa": 16.81,
+          "posicao": 1
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.3,
+          "taxa_aa": 16.82,
+          "posicao": 1
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.31,
+          "taxa_aa": 16.84,
+          "posicao": 2
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.31,
+          "taxa_aa": 16.87,
+          "posicao": 3
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.31,
+          "taxa_aa": 16.91,
+          "posicao": 3
+        },
+        {
+          "instituicao": "DM SCFI",
+          "cnpj8": "91669747",
+          "segmento": "outro",
+          "taxa_am": 1.32,
+          "taxa_aa": 17.02,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO RIBEIRAO PRETO S.A.",
+          "cnpj8": "00517645",
+          "segmento": "outro",
+          "taxa_am": 1.45,
+          "taxa_aa": 18.83,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO RIBEIRAO PRETO S.A.",
+          "cnpj8": "00517645",
+          "segmento": "outro",
+          "taxa_am": 1.45,
+          "taxa_aa": 18.83,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO RIBEIRAO PRETO S.A.",
+          "cnpj8": "00517645",
+          "segmento": "outro",
+          "taxa_am": 1.45,
+          "taxa_aa": 18.83,
+          "posicao": 2
+        }
+      ]
+    },
+    "veiculos": {
+      "codigo": "401101",
+      "descricao": "Aquisição de Veículos",
+      "total_instituicoes": 769,
+      "media_geral": 25.74,
+      "media_por_segmento": {
+        "outro": 25.25,
+        "S1_publico": 24.55,
+        "S1": 24.94,
+        "digital": 24.2,
+        "S2": 32.89
+      },
+      "ranking": [
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.63,
+          "taxa_aa": 7.82,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.67,
+          "taxa_aa": 8.32,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.69,
+          "taxa_aa": 8.62,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.79,
+          "taxa_aa": 9.87,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.82,
+          "taxa_aa": 10.28,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.83,
+          "taxa_aa": 10.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.83,
+          "taxa_aa": 10.48,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.84,
+          "taxa_aa": 10.59,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.84,
+          "taxa_aa": 10.59,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.85,
+          "taxa_aa": 10.65,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.85,
+          "taxa_aa": 10.69,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.86,
+          "taxa_aa": 10.83,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.87,
+          "taxa_aa": 10.89,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.88,
+          "taxa_aa": 11.12,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.89,
+          "taxa_aa": 11.17,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.89,
+          "taxa_aa": 11.17,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.91,
+          "taxa_aa": 11.44,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.91,
+          "taxa_aa": 11.5,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.92,
+          "taxa_aa": 11.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.92,
+          "taxa_aa": 11.61,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.93,
+          "taxa_aa": 11.68,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.94,
+          "taxa_aa": 11.85,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.94,
+          "taxa_aa": 11.92,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.95,
+          "taxa_aa": 11.95,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.95,
+          "taxa_aa": 12.06,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.96,
+          "taxa_aa": 12.09,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO MERCEDES-BENZ S.A.",
+          "cnpj8": "60814191",
+          "segmento": "outro",
+          "taxa_am": 0.96,
+          "taxa_aa": 12.11,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.97,
+          "taxa_aa": 12.22,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BMW FINANCEIRA S.A. - CFI",
+          "cnpj8": "04452473",
+          "segmento": "outro",
+          "taxa_am": 0.97,
+          "taxa_aa": 12.27,
+          "posicao": 1
+        }
+      ]
+    },
+    "cheque_especial": {
+      "codigo": "216101",
+      "descricao": "Cheque Especial",
+      "total_instituicoes": 1155,
+      "media_geral": 188.63,
+      "media_por_segmento": {
+        "outro": 166.77,
+        "S2": 188.74,
+        "digital": 177.33,
+        "cooperativa": 68.93,
+        "S1": 326.33,
+        "S1_publico": 300.47
+      },
+      "ranking": [
+        {
+          "instituicao": "BCO CREFISA S.A.",
+          "cnpj8": "61033106",
+          "segmento": "outro",
+          "taxa_am": 0.32,
+          "taxa_aa": 3.89,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO CREFISA S.A.",
+          "cnpj8": "61033106",
+          "segmento": "outro",
+          "taxa_am": 0.32,
+          "taxa_aa": 3.89,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO CREFISA S.A.",
+          "cnpj8": "61033106",
+          "segmento": "outro",
+          "taxa_am": 0.32,
+          "taxa_aa": 3.89,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO CREFISA S.A.",
+          "cnpj8": "61033106",
+          "segmento": "outro",
+          "taxa_am": 0.32,
+          "taxa_aa": 3.89,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO CREFISA S.A.",
+          "cnpj8": "61033106",
+          "segmento": "outro",
+          "taxa_am": 0.63,
+          "taxa_aa": 7.78,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.65,
+          "taxa_aa": 8.03,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.65,
+          "taxa_aa": 8.11,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.65,
+          "taxa_aa": 8.12,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.65,
+          "taxa_aa": 8.14,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.65,
+          "taxa_aa": 8.14,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.68,
+          "taxa_aa": 8.52,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.69,
+          "taxa_aa": 8.56,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.69,
+          "taxa_aa": 8.56,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 0.69,
+          "taxa_aa": 8.6,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 1.67,
+          "taxa_aa": 22.0,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 1.67,
+          "taxa_aa": 22.03,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 1.8,
+          "taxa_aa": 23.83,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO GENIAL",
+          "cnpj8": "45246410",
+          "segmento": "outro",
+          "taxa_am": 1.91,
+          "taxa_aa": 25.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO SUMITOMO MITSUI BRASIL S.A.",
+          "cnpj8": "60518222",
+          "segmento": "outro",
+          "taxa_am": 2.03,
+          "taxa_aa": 27.34,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO SUMITOMO MITSUI BRASIL S.A.",
+          "cnpj8": "60518222",
+          "segmento": "outro",
+          "taxa_am": 2.03,
+          "taxa_aa": 27.34,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO SUMITOMO MITSUI BRASIL S.A.",
+          "cnpj8": "60518222",
+          "segmento": "outro",
+          "taxa_am": 2.03,
+          "taxa_aa": 27.34,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 2.13,
+          "taxa_aa": 28.8,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO PAN",
+          "cnpj8": "59285411",
+          "segmento": "S2",
+          "taxa_am": 2.13,
+          "taxa_aa": 28.82,
+          "posicao": 2
+        }
+      ]
+    },
+    "cartao_rotativo": {
+      "codigo": "204101",
+      "descricao": "Cartão Rotativo",
+      "total_instituicoes": 1185,
+      "media_geral": 482.61,
+      "media_por_segmento": {
+        "outro": 501.68,
+        "S2": 392.92,
+        "S1": 432.07,
+        "cooperativa": 384.01,
+        "S1_publico": 292.96,
+        "digital": 507.95
+      },
+      "ranking": [
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 3.18,
+          "taxa_aa": 45.52,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 3.18,
+          "taxa_aa": 45.52,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 3.23,
+          "taxa_aa": 46.37,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 3.33,
+          "taxa_aa": 48.2,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 3.33,
+          "taxa_aa": 48.2,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO BMG S.A.",
+          "cnpj8": "61186680",
+          "segmento": "S2",
+          "taxa_am": 3.35,
+          "taxa_aa": 48.42,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO BMG S.A.",
+          "cnpj8": "61186680",
+          "segmento": "S2",
+          "taxa_am": 3.35,
+          "taxa_aa": 48.47,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DAYCOVAL S.A",
+          "cnpj8": "62232889",
+          "segmento": "outro",
+          "taxa_am": 3.36,
+          "taxa_aa": 48.6,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DAYCOVAL S.A",
+          "cnpj8": "62232889",
+          "segmento": "outro",
+          "taxa_am": 3.38,
+          "taxa_aa": 48.98,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO DAYCOVAL S.A",
+          "cnpj8": "62232889",
+          "segmento": "outro",
+          "taxa_am": 3.41,
+          "taxa_aa": 49.6,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO DAYCOVAL S.A",
+          "cnpj8": "62232889",
+          "segmento": "outro",
+          "taxa_am": 3.42,
+          "taxa_aa": 49.65,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO DAYCOVAL S.A",
+          "cnpj8": "62232889",
+          "segmento": "outro",
+          "taxa_am": 3.42,
+          "taxa_aa": 49.67,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO BMG S.A.",
+          "cnpj8": "61186680",
+          "segmento": "S2",
+          "taxa_am": 3.56,
+          "taxa_aa": 52.13,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO BMG S.A.",
+          "cnpj8": "61186680",
+          "segmento": "S2",
+          "taxa_am": 3.74,
+          "taxa_aa": 55.28,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO BMG S.A.",
+          "cnpj8": "61186680",
+          "segmento": "S2",
+          "taxa_am": 3.74,
+          "taxa_aa": 55.45,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO DAYCOVAL S.A",
+          "cnpj8": "62232889",
+          "segmento": "outro",
+          "taxa_am": 4.0,
+          "taxa_aa": 60.02,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 4.35,
+          "taxa_aa": 66.7,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.47,
+          "taxa_aa": 69.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.48,
+          "taxa_aa": 69.2,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.5,
+          "taxa_aa": 69.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.52,
+          "taxa_aa": 69.99,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.53,
+          "taxa_aa": 70.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.53,
+          "taxa_aa": 70.18,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.54,
+          "taxa_aa": 70.39,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.55,
+          "taxa_aa": 70.5,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.55,
+          "taxa_aa": 70.61,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.56,
+          "taxa_aa": 70.83,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.57,
+          "taxa_aa": 70.99,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.58,
+          "taxa_aa": 71.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO INDUSTRIAL DO BRASIL S.A.",
+          "cnpj8": "31895683",
+          "segmento": "outro",
+          "taxa_am": 4.62,
+          "taxa_aa": 71.85,
+          "posicao": 4
+        }
+      ]
+    },
+    "cartao_parcelado": {
+      "codigo": "215101",
+      "descricao": "Cartão Parcelado",
+      "total_instituicoes": 1172,
+      "media_geral": 200.09,
+      "media_por_segmento": {
+        "outro": 208.65,
+        "S2": 118.13,
+        "digital": 144.46,
+        "cooperativa": 213.63,
+        "S1": 213.41,
+        "S1_publico": 169.55
+      },
+      "ranking": [
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "RP FINANCEIRA",
+          "cnpj8": "44431743",
+          "segmento": "outro",
+          "taxa_am": 0.09,
+          "taxa_aa": 1.08,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.52,
+          "taxa_aa": 34.78,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.53,
+          "taxa_aa": 34.91,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.53,
+          "taxa_aa": 34.96,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.53,
+          "taxa_aa": 34.96,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.53,
+          "taxa_aa": 35.0,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.53,
+          "taxa_aa": 35.03,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO AGIBANK S.A.",
+          "cnpj8": "10664513",
+          "segmento": "outro",
+          "taxa_am": 2.54,
+          "taxa_aa": 35.12,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO BMG S.A.",
+          "cnpj8": "61186680",
+          "segmento": "S2",
+          "taxa_am": 2.54,
+          "taxa_aa": 35.17,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 2.54,
+          "taxa_aa": 35.18,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 2.55,
+          "taxa_aa": 35.3,
+          "posicao": 3
+        }
+      ]
+    },
+    "capital_giro_curto": {
+      "codigo": "210101",
+      "descricao": "Capital de Giro ≤365d",
+      "total_instituicoes": 903,
+      "media_geral": 64.58,
+      "media_por_segmento": {
+        "outro": 69.74,
+        "cooperativa": 17.32,
+        "S2": 56.24,
+        "S1_publico": 39.39,
+        "S1": 31.77,
+        "digital": 55.95
+      },
+      "ranking": [
+        {
+          "instituicao": "BCO VOLKSWAGEN S.A",
+          "cnpj8": "59109165",
+          "segmento": "outro",
+          "taxa_am": 0.16,
+          "taxa_aa": 1.98,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO VOLKSWAGEN S.A",
+          "cnpj8": "59109165",
+          "segmento": "outro",
+          "taxa_am": 0.16,
+          "taxa_aa": 1.98,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO VOLKSWAGEN S.A",
+          "cnpj8": "59109165",
+          "segmento": "outro",
+          "taxa_am": 0.16,
+          "taxa_aa": 1.98,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO VOLKSWAGEN S.A",
+          "cnpj8": "59109165",
+          "segmento": "outro",
+          "taxa_am": 0.16,
+          "taxa_aa": 1.98,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO VOLKSWAGEN S.A",
+          "cnpj8": "59109165",
+          "segmento": "outro",
+          "taxa_am": 0.16,
+          "taxa_aa": 1.98,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.29,
+          "taxa_aa": 3.55,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO DES. DE MG S.A.",
+          "cnpj8": "38486817",
+          "segmento": "outro",
+          "taxa_am": 0.37,
+          "taxa_aa": 4.57,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO DES. DE MG S.A.",
+          "cnpj8": "38486817",
+          "segmento": "outro",
+          "taxa_am": 0.37,
+          "taxa_aa": 4.57,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO DES. DE MG S.A.",
+          "cnpj8": "38486817",
+          "segmento": "outro",
+          "taxa_am": 0.37,
+          "taxa_aa": 4.57,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO DES. DE MG S.A.",
+          "cnpj8": "38486817",
+          "segmento": "outro",
+          "taxa_am": 0.37,
+          "taxa_aa": 4.57,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO DES. DE MG S.A.",
+          "cnpj8": "38486817",
+          "segmento": "outro",
+          "taxa_am": 0.37,
+          "taxa_aa": 4.57,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.43,
+          "taxa_aa": 5.29,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.47,
+          "taxa_aa": 5.82,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.48,
+          "taxa_aa": 5.92,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.48,
+          "taxa_aa": 5.92,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.49,
+          "taxa_aa": 6.06,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.58,
+          "taxa_aa": 7.24,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO XCMG BRASIL S.A.",
+          "cnpj8": "36658769",
+          "segmento": "outro",
+          "taxa_am": 0.76,
+          "taxa_aa": 9.56,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.03,
+          "taxa_aa": 13.02,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.16,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO VOTORANTIM S.A.",
+          "cnpj8": "59588111",
+          "segmento": "S2",
+          "taxa_am": 1.23,
+          "taxa_aa": 15.81,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BCO VOTORANTIM S.A.",
+          "cnpj8": "59588111",
+          "segmento": "S2",
+          "taxa_am": 1.23,
+          "taxa_aa": 15.81,
+          "posicao": 2
+        }
+      ]
+    },
+    "capital_giro_longo": {
+      "codigo": "211101",
+      "descricao": "Capital de Giro >365d",
+      "total_instituicoes": 969,
+      "media_geral": 37.76,
+      "media_por_segmento": {
+        "outro": 39.28,
+        "cooperativa": 15.3,
+        "S2": 47.76,
+        "digital": 27.01,
+        "S1_publico": 26.59,
+        "S1": 28.74
+      },
+      "ranking": [
+        {
+          "instituicao": "BRB - BCO DE BRASILIA S.A.",
+          "cnpj8": "00000208",
+          "segmento": "outro",
+          "taxa_am": 0.37,
+          "taxa_aa": 4.48,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BRB - BCO DE BRASILIA S.A.",
+          "cnpj8": "00000208",
+          "segmento": "outro",
+          "taxa_am": 0.4,
+          "taxa_aa": 4.93,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BRB - BCO DE BRASILIA S.A.",
+          "cnpj8": "00000208",
+          "segmento": "outro",
+          "taxa_am": 0.41,
+          "taxa_aa": 5.0,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BRB - BCO DE BRASILIA S.A.",
+          "cnpj8": "00000208",
+          "segmento": "outro",
+          "taxa_am": 0.42,
+          "taxa_aa": 5.2,
+          "posicao": 1
+        },
+        {
+          "instituicao": "STARA FINANCEIRA S.A. - CFI",
+          "cnpj8": "17359351",
+          "segmento": "outro",
+          "taxa_am": 0.53,
+          "taxa_aa": 6.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "STARA FINANCEIRA S.A. - CFI",
+          "cnpj8": "17359351",
+          "segmento": "outro",
+          "taxa_am": 0.53,
+          "taxa_aa": 6.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "STARA FINANCEIRA S.A. - CFI",
+          "cnpj8": "17359351",
+          "segmento": "outro",
+          "taxa_am": 0.53,
+          "taxa_aa": 6.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "STARA FINANCEIRA S.A. - CFI",
+          "cnpj8": "17359351",
+          "segmento": "outro",
+          "taxa_am": 0.53,
+          "taxa_aa": 6.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "STARA FINANCEIRA S.A. - CFI",
+          "cnpj8": "17359351",
+          "segmento": "outro",
+          "taxa_am": 0.53,
+          "taxa_aa": 6.58,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.89,
+          "taxa_aa": 11.26,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.89,
+          "taxa_aa": 11.26,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.89,
+          "taxa_aa": 11.26,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.89,
+          "taxa_aa": 11.26,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.3,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.3,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.3,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BCO MERCANTIL DO BRASIL S.A.",
+          "cnpj8": "17184037",
+          "segmento": "outro",
+          "taxa_am": 0.9,
+          "taxa_aa": 11.32,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.13,
+          "taxa_aa": 14.4,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.15,
+          "taxa_aa": 14.64,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.15,
+          "taxa_aa": 14.65,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.15,
+          "taxa_aa": 14.73,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.15,
+          "taxa_aa": 14.73,
+          "posicao": 3
+        },
+        {
+          "instituicao": "VIA CERTA FINANCIADORA S.A. - CFI",
+          "cnpj8": "05192316",
+          "segmento": "outro",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.11,
+          "posicao": 3
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.18,
+          "taxa_aa": 15.15,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.19,
+          "taxa_aa": 15.22,
+          "posicao": 1
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.19,
+          "taxa_aa": 15.26,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.19,
+          "taxa_aa": 15.28,
+          "posicao": 2
+        },
+        {
+          "instituicao": "BANCO SICOOB S.A.",
+          "cnpj8": "02038232",
+          "segmento": "cooperativa",
+          "taxa_am": 1.19,
+          "taxa_aa": 15.29,
+          "posicao": 2
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6463 @@
+{
+  "last_updated": "2026-04-05T17:22:04Z",
+  "source": "BCB/IF.data",
+  "trimestres": {
+    "202203": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 4.59,
+        "roa": 0.4855,
+        "indice_basileia": null,
+        "ativo_total": 1458718218778.47
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 4.74,
+        "roa": 0.3625,
+        "indice_basileia": null,
+        "ativo_total": 2008251298311.2
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 3.27,
+        "roa": 0.2266,
+        "indice_basileia": null,
+        "ativo_total": 221289309732.2
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 5.42,
+        "roa": 0.4585,
+        "indice_basileia": null,
+        "ativo_total": 87744175281.11
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 4.15,
+        "roa": 0.2236,
+        "indice_basileia": null,
+        "ativo_total": 36354928989.08
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 1.82,
+        "roa": 0.1582,
+        "indice_basileia": null,
+        "ativo_total": 103710079699.04
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 1.25,
+        "roa": 0.1404,
+        "indice_basileia": null,
+        "ativo_total": 34404463007.64
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 4.89,
+        "roa": 0.405,
+        "indice_basileia": null,
+        "ativo_total": 986705629566.57
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 3.9,
+        "roa": 0.2982,
+        "indice_basileia": null,
+        "ativo_total": 143974549422.99
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 6.39,
+        "roa": 0.9847,
+        "indice_basileia": null,
+        "ativo_total": 39518064936.93
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 1.84,
+        "roa": 0.1171,
+        "indice_basileia": null,
+        "ativo_total": 24719154542.22
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 2.94,
+        "roa": 0.1886,
+        "indice_basileia": null,
+        "ativo_total": 37468098797.79
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "roe": -0.41,
+        "roa": -0.0253,
+        "indice_basileia": null,
+        "ativo_total": 17755623356.96
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 3.84,
+        "roa": 0.4086,
+        "indice_basileia": null,
+        "ativo_total": 44827837422.78
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 4.69,
+        "roa": 0.3303,
+        "indice_basileia": null,
+        "ativo_total": 2022503271261.92
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 4.67,
+        "roa": 0.5093,
+        "indice_basileia": null,
+        "ativo_total": 381410079107.09
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 3.2,
+        "roa": 0.3168,
+        "indice_basileia": null,
+        "ativo_total": 122404806249.88
+      },
+      {
+        "nome": "CREDIT AGRICOLE",
+        "segmento": "cooperativa",
+        "roe": 1.47,
+        "roa": 0.0845,
+        "indice_basileia": null,
+        "ativo_total": 42044551852.96
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 5.62,
+        "roa": 0.646,
+        "indice_basileia": null,
+        "ativo_total": 34957420491.39
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 1.07,
+        "roa": 0.1314,
+        "indice_basileia": null,
+        "ativo_total": 21832547276.78
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 2.92,
+        "roa": 0.5529,
+        "indice_basileia": null,
+        "ativo_total": 23549161113.12
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "roe": -1.51,
+        "roa": -0.0836,
+        "indice_basileia": null,
+        "ativo_total": 79328676365.08
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 1.61,
+        "roa": 0.1844,
+        "indice_basileia": null,
+        "ativo_total": 21045991728.19
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 2.88,
+        "roa": 0.1558,
+        "indice_basileia": null,
+        "ativo_total": 1483622872045
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 4.62,
+        "roa": 0.1439,
+        "indice_basileia": null,
+        "ativo_total": 84016387478.09
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -5.33,
+        "roa": -0.5049,
+        "indice_basileia": null,
+        "ativo_total": 24264584875.27
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 0.2,
+        "roa": 0.0448,
+        "indice_basileia": null,
+        "ativo_total": 38253375106.17
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 3.83,
+        "roa": 0.3207,
+        "indice_basileia": null,
+        "ativo_total": 61167013164.18
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 5.74,
+        "roa": 0.4455,
+        "indice_basileia": null,
+        "ativo_total": 56491244907.98
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -4.25,
+        "roa": -0.7645,
+        "indice_basileia": null,
+        "ativo_total": 31980961515.13
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": -1.0,
+        "roa": -0.0582,
+        "indice_basileia": null,
+        "ativo_total": 113278847350.21
+      },
+      {
+        "nome": "SCOTIABANK",
+        "segmento": "outro",
+        "roe": 2.31,
+        "roa": 0.2581,
+        "indice_basileia": null,
+        "ativo_total": 18718045228.46
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 2.62,
+        "roa": 0.2844,
+        "indice_basileia": null,
+        "ativo_total": 46138209062.19
+      },
+      {
+        "nome": "CIELO S.A.",
+        "segmento": "outro",
+        "roe": 1.81,
+        "roa": 0.1849,
+        "indice_basileia": null,
+        "ativo_total": 99813690020.78
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 0.56,
+        "roa": 0.0126,
+        "indice_basileia": null,
+        "ativo_total": 109943220422.25
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 1.37,
+        "roa": 0.625,
+        "indice_basileia": null,
+        "ativo_total": 99485490626.81
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 7.67,
+        "roa": 0.811,
+        "indice_basileia": null,
+        "ativo_total": 16028667462.34
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 6.73,
+        "roa": 0.7296,
+        "indice_basileia": null,
+        "ativo_total": 29722738061.39
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 5.15,
+        "roa": 0.649,
+        "indice_basileia": null,
+        "ativo_total": 63006496021.95
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 2.55,
+        "roa": 0.8726,
+        "indice_basileia": null,
+        "ativo_total": 25508644064.96
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 3.63,
+        "roa": 0.1778,
+        "indice_basileia": null,
+        "ativo_total": 56013679599.32
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 13.8,
+        "roa": 0.7055,
+        "indice_basileia": null,
+        "ativo_total": 15373156212.66
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": -4.02,
+        "roa": -0.1524,
+        "indice_basileia": null,
+        "ativo_total": 31132779846.13
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": -2.22,
+        "roa": -0.1324,
+        "indice_basileia": null,
+        "ativo_total": 53401281873.53
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.56,
+        "roa": 0.3531,
+        "indice_basileia": null,
+        "ativo_total": 17610432973.14
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 9.06,
+        "roa": 1.6444,
+        "indice_basileia": null,
+        "ativo_total": 784591338941.43
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 1.82,
+        "roa": 0.0845,
+        "indice_basileia": null,
+        "ativo_total": 21846724219.82
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 0.72,
+        "roa": 0.0734,
+        "indice_basileia": null,
+        "ativo_total": 28153445567.81
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.5,
+        "roa": 0.0465,
+        "indice_basileia": null,
+        "ativo_total": 44078499504.06
+      },
+      {
+        "nome": "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+        "segmento": "outro",
+        "roe": 2.42,
+        "roa": 0.4896,
+        "indice_basileia": null,
+        "ativo_total": 17227423696.2
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 3.34,
+        "roa": 0.2223,
+        "indice_basileia": 0.1482,
+        "ativo_total": 10699285811.84
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 1.51,
+        "roa": 0.0882,
+        "indice_basileia": 0.1735,
+        "ativo_total": 10290822349.36
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 1.39,
+        "roa": 0.3028,
+        "indice_basileia": 0.2261,
+        "ativo_total": 9649553718.8
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 2.0,
+        "roa": 0.0688,
+        "indice_basileia": 0.1463,
+        "ativo_total": 9343101441.89
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 5.01,
+        "roa": 1.0925,
+        "indice_basileia": 0.3071,
+        "ativo_total": 9313859084.35
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 1.61,
+        "roa": 0.0762,
+        "indice_basileia": 0.1818,
+        "ativo_total": 9050232518.29
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 3.68,
+        "roa": 0.4714,
+        "indice_basileia": 0.1566,
+        "ativo_total": 7476120887.03
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 5.59,
+        "roa": 0.1879,
+        "indice_basileia": 0.1863,
+        "ativo_total": 6278477938.26
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 7.94,
+        "roa": 0.9683,
+        "indice_basileia": 0.1726,
+        "ativo_total": 5804450109.48
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.3245,
+        "ativo_total": 5631411107.27
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 4.14,
+        "roa": 0.6477,
+        "indice_basileia": 0.2286,
+        "ativo_total": 4973352831.73
+      },
+      {
+        "nome": "UNIPRIME DO BRASIL - COOPERATIVA DE CRÉDITO LTDA.",
+        "segmento": "cooperativa",
+        "roe": 6.55,
+        "roa": 1.0259,
+        "indice_basileia": 0.1807,
+        "ativo_total": 4917536005.95
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 1.43,
+        "roa": 0.0883,
+        "indice_basileia": 0.1907,
+        "ativo_total": 4844944667.74
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DA AMAZÔNIA LTDA. - SICOOB CREDISUL.",
+        "segmento": "cooperativa",
+        "roe": 8.24,
+        "roa": 1.0723,
+        "indice_basileia": 0.1669,
+        "ativo_total": 4699204560.26
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 6.26,
+        "roa": 0.7538,
+        "indice_basileia": 0.1582,
+        "ativo_total": 4585085367.31
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 5.09,
+        "roa": 0.7411,
+        "indice_basileia": 0.2151,
+        "ativo_total": 4481006758.11
+      }
+    ],
+    "202206": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 8.99,
+        "roa": 0.9432,
+        "indice_basileia": null,
+        "ativo_total": 1492022995274.33
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 9.41,
+        "roa": 0.7138,
+        "indice_basileia": null,
+        "ativo_total": 2105917121753.03
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 7.27,
+        "roa": 0.4688,
+        "indice_basileia": null,
+        "ativo_total": 243394511527.65
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 6.51,
+        "roa": 0.5289,
+        "indice_basileia": null,
+        "ativo_total": 92505045239.46
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 9.38,
+        "roa": 0.4913,
+        "indice_basileia": null,
+        "ativo_total": 37069032147.22
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 4.37,
+        "roa": 0.3593,
+        "indice_basileia": null,
+        "ativo_total": 109090039492.86
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 2.6,
+        "roa": 0.2466,
+        "indice_basileia": null,
+        "ativo_total": 40520867053.3
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 9.73,
+        "roa": 0.7975,
+        "indice_basileia": null,
+        "ativo_total": 1011342855406.06
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 8.37,
+        "roa": 0.6308,
+        "indice_basileia": null,
+        "ativo_total": 152724980135.93
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 9.26,
+        "roa": 1.407,
+        "indice_basileia": null,
+        "ativo_total": 41242096569.01
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 0.51,
+        "roa": 0.0253,
+        "indice_basileia": null,
+        "ativo_total": 31528568680.83
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 7.82,
+        "roa": 0.5085,
+        "indice_basileia": null,
+        "ativo_total": 37466304535.31
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "roe": -1.49,
+        "roa": -0.0907,
+        "indice_basileia": null,
+        "ativo_total": 17945718089.41
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 7.84,
+        "roa": 0.7821,
+        "indice_basileia": null,
+        "ativo_total": 49205322153.45
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 9.87,
+        "roa": 0.6923,
+        "indice_basileia": null,
+        "ativo_total": 2076015550566.22
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 9.22,
+        "roa": 0.8954,
+        "indice_basileia": null,
+        "ativo_total": 447821741784.18
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 6.29,
+        "roa": 0.653,
+        "indice_basileia": null,
+        "ativo_total": 122433951173.61
+      },
+      {
+        "nome": "CREDIT AGRICOLE",
+        "segmento": "cooperativa",
+        "roe": 1.76,
+        "roa": 0.0992,
+        "indice_basileia": null,
+        "ativo_total": 43434923472.82
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 11.06,
+        "roa": 1.0376,
+        "indice_basileia": null,
+        "ativo_total": 45691679986.6
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 2.89,
+        "roa": 0.3413,
+        "indice_basileia": null,
+        "ativo_total": 22879019013.29
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 3.92,
+        "roa": 0.7074,
+        "indice_basileia": null,
+        "ativo_total": 25786694409.95
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "roe": 0.5,
+        "roa": 0.0276,
+        "indice_basileia": null,
+        "ativo_total": 81046654964.47
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 4.35,
+        "roa": 0.3747,
+        "indice_basileia": null,
+        "ativo_total": 28989957246.12
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 4.9,
+        "roa": 0.2661,
+        "indice_basileia": null,
+        "ativo_total": 1490173965400.98
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 10.47,
+        "roa": 0.3361,
+        "indice_basileia": null,
+        "ativo_total": 86569507149.19
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -29.63,
+        "roa": -2.1828,
+        "indice_basileia": null,
+        "ativo_total": 25543881655.16
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 0.35,
+        "roa": 0.072,
+        "indice_basileia": null,
+        "ativo_total": 40571075008.22
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 8.87,
+        "roa": 0.7098,
+        "indice_basileia": null,
+        "ativo_total": 65943678001.56
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 9.48,
+        "roa": 0.472,
+        "indice_basileia": null,
+        "ativo_total": 18476551109.83
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 9.83,
+        "roa": 0.6768,
+        "indice_basileia": null,
+        "ativo_total": 66861446336.25
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -10.82,
+        "roa": -1.6026,
+        "indice_basileia": null,
+        "ativo_total": 36235888129.95
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": -2.51,
+        "roa": -0.1344,
+        "indice_basileia": null,
+        "ativo_total": 122976525057.62
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 5.66,
+        "roa": 0.5977,
+        "indice_basileia": null,
+        "ativo_total": 49065370256
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 7.77,
+        "roa": 0.7746,
+        "indice_basileia": null,
+        "ativo_total": 105839598067.36
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 3.1,
+        "roa": 0.0811,
+        "indice_basileia": null,
+        "ativo_total": 122445373560.1
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 3.47,
+        "roa": 1.5408,
+        "indice_basileia": null,
+        "ativo_total": 97517354987
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 9.82,
+        "roa": 1.3436,
+        "indice_basileia": null,
+        "ativo_total": 32685445171.45
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 8.56,
+        "roa": 1.0789,
+        "indice_basileia": null,
+        "ativo_total": 65005840803.75
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 5.55,
+        "roa": 1.8343,
+        "indice_basileia": null,
+        "ativo_total": 26529495708.37
+      },
+      {
+        "nome": "BANCOSEGURO S.A.",
+        "segmento": "outro",
+        "roe": 3.67,
+        "roa": 0.1174,
+        "indice_basileia": 0.096,
+        "ativo_total": 16613251406.09
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 9.75,
+        "roa": 0.4882,
+        "indice_basileia": null,
+        "ativo_total": 56466563693.07
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 16.62,
+        "roa": 0.8111,
+        "indice_basileia": null,
+        "ativo_total": 17343102552.14
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": -7.07,
+        "roa": -0.2743,
+        "indice_basileia": null,
+        "ativo_total": 30383590102.42
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 1.68,
+        "roa": 0.0998,
+        "indice_basileia": null,
+        "ativo_total": 58292120649.46
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.99,
+        "roa": 0.6117,
+        "indice_basileia": null,
+        "ativo_total": 19144332522.95
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 19.03,
+        "roa": 3.241,
+        "indice_basileia": null,
+        "ativo_total": 759514282588.24
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 1.27,
+        "roa": 0.0451,
+        "indice_basileia": null,
+        "ativo_total": 28430997185.3
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 0.72,
+        "roa": 0.0672,
+        "indice_basileia": null,
+        "ativo_total": 31153160368.91
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 3.09,
+        "roa": 0.1433,
+        "indice_basileia": null,
+        "ativo_total": 29365260245.32
+      },
+      {
+        "nome": "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+        "segmento": "outro",
+        "roe": 6.07,
+        "roa": 1.2353,
+        "indice_basileia": null,
+        "ativo_total": 17803318830.67
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 7.89,
+        "roa": 0.4639,
+        "indice_basileia": 0.1613,
+        "ativo_total": 12320202945.51
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 4.59,
+        "roa": 0.2769,
+        "indice_basileia": 0.189,
+        "ativo_total": 11490528168.52
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 5.4,
+        "roa": 0.1735,
+        "indice_basileia": 0.1448,
+        "ativo_total": 10593511992.99
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 5.29,
+        "roa": 1.1063,
+        "indice_basileia": 0.2255,
+        "ativo_total": 10225687761.71
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 9.36,
+        "roa": 1.9814,
+        "indice_basileia": 0.3034,
+        "ativo_total": 10089503611
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 5.33,
+        "roa": 0.2403,
+        "indice_basileia": 0.1751,
+        "ativo_total": 9985657851.1
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 6.47,
+        "roa": 0.7804,
+        "indice_basileia": 0.151,
+        "ativo_total": 8318811801.04
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 10.11,
+        "roa": 0.346,
+        "indice_basileia": 0.178,
+        "ativo_total": 6444260336.09
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.2944,
+        "ativo_total": 6399623203.75
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 13.85,
+        "roa": 1.5923,
+        "indice_basileia": 0.1639,
+        "ativo_total": 6176653402.39
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 7.33,
+        "roa": 1.0577,
+        "indice_basileia": 0.2141,
+        "ativo_total": 5405794548.56
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 4.4,
+        "roa": 0.261,
+        "indice_basileia": 0.2049,
+        "ativo_total": 5189158888.43
+      },
+      {
+        "nome": "UNIPRIME DO BRASIL - COOPERATIVA DE CRÉDITO LTDA.",
+        "segmento": "cooperativa",
+        "roe": 11.52,
+        "roa": 1.8466,
+        "indice_basileia": 0.2021,
+        "ativo_total": 5177103525.61
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 12.83,
+        "roa": 1.554,
+        "indice_basileia": 0.1587,
+        "ativo_total": 4881455434.19
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DA AMAZÔNIA LTDA. - SICOOB CREDISUL.",
+        "segmento": "cooperativa",
+        "roe": 17.81,
+        "roa": 2.5659,
+        "indice_basileia": 0.1818,
+        "ativo_total": 4669039828.13
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 9.07,
+        "roa": 1.3612,
+        "indice_basileia": 0.2272,
+        "ativo_total": 4571893390.48
+      }
+    ],
+    "202209": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 3.23,
+        "roa": 0.3101,
+        "indice_basileia": null,
+        "ativo_total": 1674914143416.64
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 5.0,
+        "roa": 0.3727,
+        "indice_basileia": null,
+        "ativo_total": 2221407939525.34
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 3.9,
+        "roa": 0.2572,
+        "indice_basileia": null,
+        "ativo_total": 248546044859.92
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 1.38,
+        "roa": 0.0991,
+        "indice_basileia": null,
+        "ativo_total": 106083627800.52
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 3.81,
+        "roa": 0.197,
+        "indice_basileia": null,
+        "ativo_total": 38838425617.55
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 0.8,
+        "roa": 0.0638,
+        "indice_basileia": null,
+        "ativo_total": 112816391496.89
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 1.39,
+        "roa": 0.1241,
+        "indice_basileia": null,
+        "ativo_total": 43074458321.58
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 3.7,
+        "roa": 0.3033,
+        "indice_basileia": null,
+        "ativo_total": 1035799883481.77
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 3.28,
+        "roa": 0.2559,
+        "indice_basileia": null,
+        "ativo_total": 155653342288.87
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 1.56,
+        "roa": 0.2341,
+        "indice_basileia": null,
+        "ativo_total": 42809604365.32
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": -0.16,
+        "roa": -0.0082,
+        "indice_basileia": null,
+        "ativo_total": 30324663951.79
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 2.78,
+        "roa": 0.1522,
+        "indice_basileia": null,
+        "ativo_total": 38932151671.4
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "roe": 1.42,
+        "roa": 0.0827,
+        "indice_basileia": null,
+        "ativo_total": 19002235822.07
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 4.3,
+        "roa": 0.4299,
+        "indice_basileia": null,
+        "ativo_total": 50749346028.83
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 5.55,
+        "roa": 0.3859,
+        "indice_basileia": null,
+        "ativo_total": 2127442383581.6
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 4.55,
+        "roa": 0.4682,
+        "indice_basileia": null,
+        "ativo_total": 431902952105.38
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 3.04,
+        "roa": 0.2968,
+        "indice_basileia": null,
+        "ativo_total": 129447772990.01
+      },
+      {
+        "nome": "CREDIT AGRICOLE",
+        "segmento": "cooperativa",
+        "roe": 2.17,
+        "roa": 0.201,
+        "indice_basileia": null,
+        "ativo_total": 27083586895.46
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 4.32,
+        "roa": 0.5744,
+        "indice_basileia": null,
+        "ativo_total": 33682261721.48
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 1.86,
+        "roa": 0.2125,
+        "indice_basileia": null,
+        "ativo_total": 24134449105.88
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 2.39,
+        "roa": 0.4716,
+        "indice_basileia": null,
+        "ativo_total": 24203615873.63
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "roe": -5.4,
+        "roa": -0.3016,
+        "indice_basileia": null,
+        "ativo_total": 77031553107.54
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 1.65,
+        "roa": 0.1761,
+        "indice_basileia": null,
+        "ativo_total": 23619732188.26
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 4.23,
+        "roa": 0.2298,
+        "indice_basileia": null,
+        "ativo_total": 1561332996637.37
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 3.27,
+        "roa": 0.089,
+        "indice_basileia": null,
+        "ativo_total": 105753338158.54
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -18.47,
+        "roa": -1.1975,
+        "indice_basileia": null,
+        "ativo_total": 32705249306.24
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": -0.81,
+        "roa": -0.1548,
+        "indice_basileia": null,
+        "ativo_total": 43574634399.6
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 4.71,
+        "roa": 0.3777,
+        "indice_basileia": null,
+        "ativo_total": 67993986861.26
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 6.57,
+        "roa": 0.3172,
+        "indice_basileia": null,
+        "ativo_total": 20662621562.36
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 4.8,
+        "roa": 0.318,
+        "indice_basileia": null,
+        "ativo_total": 72907100681.87
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -6.09,
+        "roa": -0.7812,
+        "indice_basileia": null,
+        "ativo_total": 39658484184.59
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": -0.32,
+        "roa": -0.0199,
+        "indice_basileia": null,
+        "ativo_total": 133491819121.62
+      },
+      {
+        "nome": "SCOTIABANK",
+        "segmento": "outro",
+        "roe": 3.1,
+        "roa": 0.4773,
+        "indice_basileia": null,
+        "ativo_total": 19062238917.22
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 3.78,
+        "roa": 0.4008,
+        "indice_basileia": null,
+        "ativo_total": 50863140970.86
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 3.89,
+        "roa": 0.3999,
+        "indice_basileia": null,
+        "ativo_total": 105463879564.5
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 1.63,
+        "roa": 0.0358,
+        "indice_basileia": null,
+        "ativo_total": 147679397554.84
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 1.96,
+        "roa": 0.8397,
+        "indice_basileia": null,
+        "ativo_total": 103088547568.47
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 7.94,
+        "roa": 1.1415,
+        "indice_basileia": null,
+        "ativo_total": 33975030000.35
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 6.7,
+        "roa": 0.9019,
+        "indice_basileia": null,
+        "ativo_total": 63769067573.06
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 2.95,
+        "roa": 0.9701,
+        "indice_basileia": null,
+        "ativo_total": 27293749447.36
+      },
+      {
+        "nome": "BANCOSEGURO S.A.",
+        "segmento": "outro",
+        "roe": -4.04,
+        "roa": -0.1367,
+        "indice_basileia": 0.113,
+        "ativo_total": 20821714446.91
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 4.24,
+        "roa": 0.228,
+        "indice_basileia": null,
+        "ativo_total": 54933348992.08
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 9.01,
+        "roa": 0.4415,
+        "indice_basileia": null,
+        "ativo_total": 19128228456.59
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 5.26,
+        "roa": 0.2026,
+        "indice_basileia": null,
+        "ativo_total": 31426710422.18
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 2.28,
+        "roa": 0.1843,
+        "indice_basileia": null,
+        "ativo_total": 65299581991.79
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": -0.06,
+        "roa": -0.0371,
+        "indice_basileia": null,
+        "ativo_total": 21479830099.45
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 6.99,
+        "roa": 1.2716,
+        "indice_basileia": null,
+        "ativo_total": 753872468278.38
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": -1.36,
+        "roa": -0.0521,
+        "indice_basileia": null,
+        "ativo_total": 26751800381.37
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 2.56,
+        "roa": 0.2138,
+        "indice_basileia": null,
+        "ativo_total": 34274974815.08
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.26,
+        "roa": 0.0405,
+        "indice_basileia": null,
+        "ativo_total": 42968009245.78
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 3.37,
+        "roa": 0.1861,
+        "indice_basileia": 0.1371,
+        "ativo_total": 14296834999.34
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 3.45,
+        "roa": 0.0947,
+        "indice_basileia": 0.1462,
+        "ativo_total": 13134132277.44
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 2.53,
+        "roa": 0.1385,
+        "indice_basileia": 0.1672,
+        "ativo_total": 13034037263.18
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 6.03,
+        "roa": 1.192,
+        "indice_basileia": 0.2869,
+        "ativo_total": 11359771250.62
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 3.36,
+        "roa": 0.142,
+        "indice_basileia": 0.1566,
+        "ativo_total": 11012774106.17
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 2.48,
+        "roa": 0.5122,
+        "indice_basileia": 0.2218,
+        "ativo_total": 10740594738.15
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.07,
+        "roa": 0.4499,
+        "indice_basileia": 0.1461,
+        "ativo_total": 9596894335.69
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.07,
+        "roa": 0.1397,
+        "indice_basileia": 0.1775,
+        "ativo_total": 6965023290.73
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": 0.0,
+        "roa": 0.0,
+        "indice_basileia": 0.2947,
+        "ativo_total": 6893416033.79
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 5.58,
+        "roa": 0.6071,
+        "indice_basileia": 0.1603,
+        "ativo_total": 6824870414.77
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 2.74,
+        "roa": 0.3742,
+        "indice_basileia": 0.2036,
+        "ativo_total": 5937358896.2
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 2.07,
+        "roa": 0.1132,
+        "indice_basileia": 0.1577,
+        "ativo_total": 5743233670.12
+      },
+      {
+        "nome": "UNIPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 6.81,
+        "roa": 1.055,
+        "indice_basileia": 0.203,
+        "ativo_total": 5684010123.28
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 5.9,
+        "roa": 0.6822,
+        "indice_basileia": 0.1615,
+        "ativo_total": 5409279698.09
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DA AMAZÔNIA LTDA. - SICOOB CREDISUL.",
+        "segmento": "cooperativa",
+        "roe": 9.72,
+        "roa": 1.4316,
+        "indice_basileia": 0.185,
+        "ativo_total": 5003748368.04
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 4.96,
+        "roa": 0.74,
+        "indice_basileia": 0.2298,
+        "ativo_total": 4868144033.29
+      }
+    ],
+    "202212": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 4.15,
+        "roa": 0.4267,
+        "indice_basileia": null,
+        "ativo_total": 1538534888172.89
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 9.18,
+        "roa": 0.6877,
+        "indice_basileia": null,
+        "ativo_total": 2264702287269.83
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 5.8,
+        "roa": 0.4218,
+        "indice_basileia": null,
+        "ativo_total": 252426071858.42
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 12.53,
+        "roa": 0.9717,
+        "indice_basileia": null,
+        "ativo_total": 109762389655.69
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 7.27,
+        "roa": 0.404,
+        "indice_basileia": null,
+        "ativo_total": 36616696136.67
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 3.43,
+        "roa": 0.2883,
+        "indice_basileia": null,
+        "ativo_total": 112048174360.88
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 3.2,
+        "roa": 0.2848,
+        "indice_basileia": null,
+        "ativo_total": 44318225756.09
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 5.71,
+        "roa": 0.4481,
+        "indice_basileia": null,
+        "ativo_total": 1076796102969.23
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 13.72,
+        "roa": 0.9526,
+        "indice_basileia": null,
+        "ativo_total": 169772268594.12
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 5.48,
+        "roa": 0.9243,
+        "indice_basileia": null,
+        "ativo_total": 38058189098.22
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 4.7,
+        "roa": 0.3744,
+        "indice_basileia": null,
+        "ativo_total": 20794254563.19
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 5.2,
+        "roa": 0.2886,
+        "indice_basileia": null,
+        "ativo_total": 40105057189.72
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 7.98,
+        "roa": 0.7487,
+        "indice_basileia": null,
+        "ativo_total": 55486288184.47
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 11.02,
+        "roa": 0.8457,
+        "indice_basileia": null,
+        "ativo_total": 2010991123942.75
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 8.61,
+        "roa": 0.8682,
+        "indice_basileia": null,
+        "ativo_total": 441386142085.77
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 9.63,
+        "roa": 0.7341,
+        "indice_basileia": null,
+        "ativo_total": 20545604831.28
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 5.14,
+        "roa": 0.5286,
+        "indice_basileia": null,
+        "ativo_total": 125221094895.47
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 10.03,
+        "roa": 1.3777,
+        "indice_basileia": null,
+        "ativo_total": 32836904592.84
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 3.15,
+        "roa": 0.3734,
+        "indice_basileia": null,
+        "ativo_total": 23326973332.6
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 8.35,
+        "roa": 1.768,
+        "indice_basileia": null,
+        "ativo_total": 22446936927.12
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "roe": -8.13,
+        "roa": -0.4327,
+        "indice_basileia": null,
+        "ativo_total": 78213107079.31
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 13.53,
+        "roa": 1.1239,
+        "indice_basileia": null,
+        "ativo_total": 34278727100.81
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 6.48,
+        "roa": 0.3464,
+        "indice_basileia": null,
+        "ativo_total": 1585873063405.12
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 5.58,
+        "roa": 0.1758,
+        "indice_basileia": null,
+        "ativo_total": 102040529617.71
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -68.12,
+        "roa": -3.3416,
+        "indice_basileia": null,
+        "ativo_total": 34837580771.18
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": -1.68,
+        "roa": -0.2589,
+        "indice_basileia": null,
+        "ativo_total": 45892352203.63
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 11.06,
+        "roa": 0.8992,
+        "indice_basileia": null,
+        "ativo_total": 70605117117.7
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 13.21,
+        "roa": 0.5997,
+        "indice_basileia": null,
+        "ativo_total": 22248908225.18
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 16.8,
+        "roa": 0.9474,
+        "indice_basileia": 0.2138,
+        "ativo_total": 97618048017.9
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -51.04,
+        "roa": -4.18,
+        "indice_basileia": null,
+        "ativo_total": 43617798167.15
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": -1.86,
+        "roa": -0.1136,
+        "indice_basileia": null,
+        "ativo_total": 135664256461.13
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 8.98,
+        "roa": 1.0628,
+        "indice_basileia": null,
+        "ativo_total": 47739521693.02
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 6.86,
+        "roa": 0.6518,
+        "indice_basileia": null,
+        "ativo_total": 115018116441.58
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 2.25,
+        "roa": 0.0533,
+        "indice_basileia": null,
+        "ativo_total": 150419287056.51
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 4.09,
+        "roa": 1.6203,
+        "indice_basileia": null,
+        "ativo_total": 113894953780.92
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 6.4,
+        "roa": 0.6069,
+        "indice_basileia": null,
+        "ativo_total": 20697391561.96
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 14.11,
+        "roa": 1.9747,
+        "indice_basileia": null,
+        "ativo_total": 34595898972.24
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 14.61,
+        "roa": 2.0802,
+        "indice_basileia": null,
+        "ativo_total": 63167204048.03
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 6.02,
+        "roa": 2.0067,
+        "indice_basileia": null,
+        "ativo_total": 27859971506.16
+      },
+      {
+        "nome": "BANCOSEGURO S.A.",
+        "segmento": "outro",
+        "roe": -0.46,
+        "roa": -0.0149,
+        "indice_basileia": 0.1509,
+        "ativo_total": 22247324611.04
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 9.73,
+        "roa": 0.4669,
+        "indice_basileia": null,
+        "ativo_total": 64332549279.52
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 38.61,
+        "roa": 2.4071,
+        "indice_basileia": null,
+        "ativo_total": 22285084988.84
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 6.58,
+        "roa": 0.2389,
+        "indice_basileia": null,
+        "ativo_total": 34791389155.17
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 16.38,
+        "roa": 1.3459,
+        "indice_basileia": null,
+        "ativo_total": 72952899199.73
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.9,
+        "roa": 0.5274,
+        "indice_basileia": null,
+        "ativo_total": 21855544649.87
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 13.04,
+        "roa": 2.5145,
+        "indice_basileia": null,
+        "ativo_total": 681161316325.65
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 1.48,
+        "roa": 0.0703,
+        "indice_basileia": null,
+        "ativo_total": 22232956047.8
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 4.18,
+        "roa": 0.3584,
+        "indice_basileia": null,
+        "ativo_total": 37596681159.44
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.76,
+        "roa": 0.1253,
+        "indice_basileia": null,
+        "ativo_total": 30867339555.7
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 6.08,
+        "roa": 0.5602,
+        "indice_basileia": null,
+        "ativo_total": 27152399492.3
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 6.19,
+        "roa": 0.3673,
+        "indice_basileia": 0.1521,
+        "ativo_total": 14521592285.82
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 4.98,
+        "roa": 0.2777,
+        "indice_basileia": 0.1578,
+        "ativo_total": 13175841930.29
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 6.58,
+        "roa": 0.2663,
+        "indice_basileia": 0.1502,
+        "ativo_total": 11763814935.79
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 11.63,
+        "roa": 2.3137,
+        "indice_basileia": 0.276,
+        "ativo_total": 11412169083.17
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 6.46,
+        "roa": 0.2184,
+        "indice_basileia": 0.1533,
+        "ativo_total": 11270652003.7
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 6.69,
+        "roa": 1.3052,
+        "indice_basileia": 0.212,
+        "ativo_total": 11242101027.56
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 7.23,
+        "roa": 0.8282,
+        "indice_basileia": 0.1441,
+        "ativo_total": 9652086761.12
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.2642,
+        "ativo_total": 7211176012.06
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 10.4,
+        "roa": 1.1772,
+        "indice_basileia": 0.1628,
+        "ativo_total": 7055067216.2
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 7.78,
+        "roa": 0.2543,
+        "indice_basileia": 0.1586,
+        "ativo_total": 6457943263.37
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 3.04,
+        "roa": 0.1754,
+        "indice_basileia": 0.1683,
+        "ativo_total": 6325028223.43
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 6.85,
+        "roa": 0.8961,
+        "indice_basileia": 0.1963,
+        "ativo_total": 6308385012.62
+      },
+      {
+        "nome": "UNIPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 11.11,
+        "roa": 1.849,
+        "indice_basileia": 0.218,
+        "ativo_total": 5951894349.69
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 12.95,
+        "roa": 1.5028,
+        "indice_basileia": 0.165,
+        "ativo_total": 5719233011.89
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DA AMAZÔNIA LTDA. - SICOOB CREDISUL.",
+        "segmento": "cooperativa",
+        "roe": 15.79,
+        "roa": 2.4255,
+        "indice_basileia": 0.1919,
+        "ativo_total": 5514778558.76
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 10.88,
+        "roa": 1.5277,
+        "indice_basileia": 0.2193,
+        "ativo_total": 5475312407.93
+      },
+      {
+        "nome": "CREDICOAMO CREDITO RURAL COOPERATIVA",
+        "segmento": "cooperativa",
+        "roe": 11.02,
+        "roa": 2.7922,
+        "indice_basileia": 0.4224,
+        "ativo_total": 4632755806.69
+      }
+    ],
+    "202303": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 2.68,
+        "roa": 0.2735,
+        "indice_basileia": null,
+        "ativo_total": 1559799995314.39
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 4.59,
+        "roa": 0.343,
+        "indice_basileia": null,
+        "ativo_total": 2329841403780.64
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 2.41,
+        "roa": 0.2302,
+        "indice_basileia": null,
+        "ativo_total": 250042045780.08
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": -0.69,
+        "roa": -0.0483,
+        "indice_basileia": null,
+        "ativo_total": 120511643054.85
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 3.41,
+        "roa": 0.1907,
+        "indice_basileia": null,
+        "ativo_total": 37003953425.1
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 2.25,
+        "roa": 0.1892,
+        "indice_basileia": null,
+        "ativo_total": 112569496524.21
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 0.59,
+        "roa": 0.0524,
+        "indice_basileia": null,
+        "ativo_total": 43710894529.9
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 2.53,
+        "roa": 0.1999,
+        "indice_basileia": null,
+        "ativo_total": 1077762285213.14
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 3.5,
+        "roa": 0.2699,
+        "indice_basileia": null,
+        "ativo_total": 160367419764.39
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 1.42,
+        "roa": 0.3682,
+        "indice_basileia": null,
+        "ativo_total": 25047735225.46
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 0.25,
+        "roa": 0.0117,
+        "indice_basileia": null,
+        "ativo_total": 35387761777.65
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": -2.0,
+        "roa": -0.1047,
+        "indice_basileia": null,
+        "ativo_total": 41392901282.74
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 3.58,
+        "roa": 0.3641,
+        "indice_basileia": null,
+        "ativo_total": 52196441217.01
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 5.21,
+        "roa": 0.3967,
+        "indice_basileia": null,
+        "ativo_total": 2093544677687.21
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 4.61,
+        "roa": 0.4637,
+        "indice_basileia": null,
+        "ativo_total": 460075470996.49
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 4.27,
+        "roa": 0.3074,
+        "indice_basileia": null,
+        "ativo_total": 23073926247.64
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 2.2,
+        "roa": 0.2106,
+        "indice_basileia": null,
+        "ativo_total": 134323787273.17
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 5.29,
+        "roa": 0.7123,
+        "indice_basileia": null,
+        "ativo_total": 35346624956.96
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 0.15,
+        "roa": 0.02,
+        "indice_basileia": null,
+        "ativo_total": 21303510037.18
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 1.53,
+        "roa": 0.3056,
+        "indice_basileia": null,
+        "ativo_total": 24116697068.55
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "roe": -1.66,
+        "roa": -0.0959,
+        "indice_basileia": null,
+        "ativo_total": 72452868590.45
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": -1.49,
+        "roa": -0.1482,
+        "indice_basileia": null,
+        "ativo_total": 28234546306.46
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 2.12,
+        "roa": 0.1115,
+        "indice_basileia": null,
+        "ativo_total": 1649226955909.27
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 3.53,
+        "roa": 0.1059,
+        "indice_basileia": null,
+        "ativo_total": 110881809921.21
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -47.93,
+        "roa": -2.5426,
+        "indice_basileia": null,
+        "ativo_total": 32725305166.26
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": -0.14,
+        "roa": -0.0207,
+        "indice_basileia": null,
+        "ativo_total": 46985158321.82
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 3.94,
+        "roa": 0.3412,
+        "indice_basileia": null,
+        "ativo_total": 67706071413.05
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 3.45,
+        "roa": 0.1668,
+        "indice_basileia": null,
+        "ativo_total": 21618207368.91
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 11.31,
+        "roa": 0.7735,
+        "indice_basileia": 0.1867,
+        "ativo_total": 90868140252.8
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -10.69,
+        "roa": -0.7123,
+        "indice_basileia": null,
+        "ativo_total": 49168329760.46
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 0.22,
+        "roa": 0.0154,
+        "indice_basileia": null,
+        "ativo_total": 137653505166.64
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": -0.41,
+        "roa": -0.0142,
+        "indice_basileia": 0.15,
+        "ativo_total": 21061448181.4
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 3.88,
+        "roa": 0.4722,
+        "indice_basileia": null,
+        "ativo_total": 48239221507.21
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 3.94,
+        "roa": 0.4167,
+        "indice_basileia": null,
+        "ativo_total": 105783883919.88
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 2.01,
+        "roa": 0.0438,
+        "indice_basileia": null,
+        "ativo_total": 167127309963.45
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 2.17,
+        "roa": 0.924,
+        "indice_basileia": null,
+        "ativo_total": 108414777108.38
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 1.85,
+        "roa": 0.1584,
+        "indice_basileia": null,
+        "ativo_total": 22846076781.11
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 5.56,
+        "roa": 0.7516,
+        "indice_basileia": null,
+        "ativo_total": 38141211582.02
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 5.29,
+        "roa": 0.7598,
+        "indice_basileia": null,
+        "ativo_total": 66143764681.28
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 2.73,
+        "roa": 0.9614,
+        "indice_basileia": null,
+        "ativo_total": 27150802540.79
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 5.11,
+        "roa": 0.2489,
+        "indice_basileia": null,
+        "ativo_total": 61976110104.49
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 11.84,
+        "roa": 0.7784,
+        "indice_basileia": null,
+        "ativo_total": 23778779110.06
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 7.27,
+        "roa": 0.3074,
+        "indice_basileia": null,
+        "ativo_total": 33118009013.91
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 10.7,
+        "roa": 1.1873,
+        "indice_basileia": null,
+        "ativo_total": 65520340430.62
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.0,
+        "roa": 0.0009,
+        "indice_basileia": null,
+        "ativo_total": 21926646313.11
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 3.0,
+        "roa": 0.576,
+        "indice_basileia": null,
+        "ativo_total": 688003796963.04
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": -2.27,
+        "roa": -0.0778,
+        "indice_basileia": null,
+        "ativo_total": 30233695847.57
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 1.45,
+        "roa": 0.1202,
+        "indice_basileia": null,
+        "ativo_total": 38523899041.9
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.0,
+        "roa": 0.0288,
+        "indice_basileia": null,
+        "ativo_total": 48860146155.11
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.08,
+        "roa": 0.0967,
+        "indice_basileia": null,
+        "ativo_total": 28376634666.14
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 3.09,
+        "roa": 0.1784,
+        "indice_basileia": 0.1438,
+        "ativo_total": 15720973396.4
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 2.63,
+        "roa": 0.1403,
+        "indice_basileia": 0.1476,
+        "ativo_total": 14165194241.12
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 2.62,
+        "roa": 0.1175,
+        "indice_basileia": 0.1659,
+        "ativo_total": 12429740608.2
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 4.17,
+        "roa": 0.8146,
+        "indice_basileia": 0.2665,
+        "ativo_total": 12137088195.95
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 3.03,
+        "roa": 0.6409,
+        "indice_basileia": 0.2257,
+        "ativo_total": 11419609579.42
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 3.31,
+        "roa": 0.1208,
+        "indice_basileia": 0.1543,
+        "ativo_total": 11005992835.31
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.23,
+        "roa": 0.4851,
+        "indice_basileia": 0.1425,
+        "ativo_total": 10021341960.1
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 5.48,
+        "roa": 0.5968,
+        "indice_basileia": 0.1608,
+        "ativo_total": 7670420991.72
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.252,
+        "ativo_total": 7329809738.95
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 1.85,
+        "roa": 0.0966,
+        "indice_basileia": 0.1494,
+        "ativo_total": 7145181626.89
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.41,
+        "roa": 0.1499,
+        "indice_basileia": 0.1641,
+        "ativo_total": 6464830780.49
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 2.23,
+        "roa": 0.2877,
+        "indice_basileia": 0.1915,
+        "ativo_total": 6444367963.57
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 5.17,
+        "roa": 0.7966,
+        "indice_basileia": 0.2219,
+        "ativo_total": 6261982074.86
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 6.4,
+        "roa": 0.735,
+        "indice_basileia": 0.172,
+        "ativo_total": 6157589809.38
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DA AMAZÔNIA LTDA. - SICOOB CREDISUL.",
+        "segmento": "cooperativa",
+        "roe": 7.63,
+        "roa": 1.2046,
+        "indice_basileia": 0.2025,
+        "ativo_total": 5745708090.82
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 6.17,
+        "roa": 0.9125,
+        "indice_basileia": 0.2268,
+        "ativo_total": 5561432447.78
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE GOIANO",
+        "segmento": "cooperativa",
+        "roe": 5.13,
+        "roa": 1.1882,
+        "indice_basileia": 0.3294,
+        "ativo_total": 5148865460.83
+      }
+    ],
+    "202306": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 5.38,
+        "roa": 0.5613,
+        "indice_basileia": null,
+        "ativo_total": 1573923084985.6
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 9.42,
+        "roa": 0.713,
+        "indice_basileia": null,
+        "ativo_total": 2357281136029.54
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 5.47,
+        "roa": 0.5346,
+        "indice_basileia": null,
+        "ativo_total": 248193146465.06
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 3.31,
+        "roa": 0.2722,
+        "indice_basileia": null,
+        "ativo_total": 107240387282.88
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 8.85,
+        "roa": 0.4795,
+        "indice_basileia": null,
+        "ativo_total": 38634767459.95
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 4.66,
+        "roa": 0.3789,
+        "indice_basileia": null,
+        "ativo_total": 115942181490.27
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 0.22,
+        "roa": 0.0194,
+        "indice_basileia": null,
+        "ativo_total": 44443198219.84
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 5.01,
+        "roa": 0.3795,
+        "indice_basileia": null,
+        "ativo_total": 1127188237710.82
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 6.61,
+        "roa": 0.466,
+        "indice_basileia": null,
+        "ativo_total": 185925676496.32
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 1.23,
+        "roa": 0.2886,
+        "indice_basileia": null,
+        "ativo_total": 27503588715.44
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 0.73,
+        "roa": 0.0569,
+        "indice_basileia": null,
+        "ativo_total": 21523099881.02
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 1.75,
+        "roa": 0.0928,
+        "indice_basileia": null,
+        "ativo_total": 45413713038.96
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "roe": -0.98,
+        "roa": -0.074,
+        "indice_basileia": null,
+        "ativo_total": 21595925790.17
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 7.23,
+        "roa": 0.7397,
+        "indice_basileia": null,
+        "ativo_total": 52983403516.81
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 10.66,
+        "roa": 0.8095,
+        "indice_basileia": null,
+        "ativo_total": 2080486245736.47
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 9.38,
+        "roa": 0.9819,
+        "indice_basileia": null,
+        "ativo_total": 465868249195.03
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 15.66,
+        "roa": 1.0624,
+        "indice_basileia": null,
+        "ativo_total": 27349683231.62
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 4.38,
+        "roa": 0.4052,
+        "indice_basileia": null,
+        "ativo_total": 139369015769.5
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 8.16,
+        "roa": 1.101,
+        "indice_basileia": null,
+        "ativo_total": 36660525964.37
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 1.4,
+        "roa": 0.1813,
+        "indice_basileia": null,
+        "ativo_total": 21438713126.17
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 3.25,
+        "roa": 0.7669,
+        "indice_basileia": null,
+        "ativo_total": 21958345578.78
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "roe": -3.59,
+        "roa": -0.1309,
+        "indice_basileia": null,
+        "ativo_total": 113949157975.29
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 0.94,
+        "roa": 0.0771,
+        "indice_basileia": null,
+        "ativo_total": 34966155720.26
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 4.85,
+        "roa": 0.2448,
+        "indice_basileia": null,
+        "ativo_total": 1722891520082.07
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 6.49,
+        "roa": 0.1883,
+        "indice_basileia": null,
+        "ativo_total": 118430552961.93
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -36.04,
+        "roa": -2.2501,
+        "indice_basileia": null,
+        "ativo_total": 34403732947.93
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 0.37,
+        "roa": 0.0538,
+        "indice_basileia": null,
+        "ativo_total": 49349198567.88
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 7.66,
+        "roa": 0.6219,
+        "indice_basileia": null,
+        "ativo_total": 73782779414.55
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 11.69,
+        "roa": 0.5325,
+        "indice_basileia": null,
+        "ativo_total": 24312043227.86
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 23.47,
+        "roa": 1.6598,
+        "indice_basileia": 0.2017,
+        "ativo_total": 102030701172.66
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -14.42,
+        "roa": -0.8492,
+        "indice_basileia": null,
+        "ativo_total": 55754512331.74
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 1.08,
+        "roa": 0.0635,
+        "indice_basileia": null,
+        "ativo_total": 169385183103.58
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 7.74,
+        "roa": 0.8569,
+        "indice_basileia": null,
+        "ativo_total": 47551667999.42
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 9.84,
+        "roa": 1.1248,
+        "indice_basileia": null,
+        "ativo_total": 102183363939.09
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 3.67,
+        "roa": 0.0917,
+        "indice_basileia": null,
+        "ativo_total": 169664660546.34
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 4.36,
+        "roa": 1.9136,
+        "indice_basileia": null,
+        "ativo_total": 107146007413.18
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 4.63,
+        "roa": 0.4797,
+        "indice_basileia": null,
+        "ativo_total": 22446734550.06
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 10.36,
+        "roa": 1.3884,
+        "indice_basileia": null,
+        "ativo_total": 40760172953.15
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 9.32,
+        "roa": 1.3751,
+        "indice_basileia": null,
+        "ativo_total": 66816705112.37
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 5.28,
+        "roa": 1.8788,
+        "indice_basileia": null,
+        "ativo_total": 27556685085.97
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 11.2,
+        "roa": 0.5598,
+        "indice_basileia": null,
+        "ativo_total": 62533074908.31
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 23.64,
+        "roa": 1.7908,
+        "indice_basileia": null,
+        "ativo_total": 23695394944.07
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 15.53,
+        "roa": 0.813,
+        "indice_basileia": null,
+        "ativo_total": 33560374344.78
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 20.59,
+        "roa": 2.4554,
+        "indice_basileia": null,
+        "ativo_total": 68409244087.41
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.99,
+        "roa": 0.5909,
+        "indice_basileia": null,
+        "ativo_total": 24338459930.89
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 6.76,
+        "roa": 1.338,
+        "indice_basileia": null,
+        "ativo_total": 710263339242.61
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 1.42,
+        "roa": 0.0428,
+        "indice_basileia": null,
+        "ativo_total": 35916759076.71
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 4.41,
+        "roa": 0.38,
+        "indice_basileia": null,
+        "ativo_total": 39774429427.98
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.77,
+        "roa": 0.1034,
+        "indice_basileia": null,
+        "ativo_total": 38346893345.54
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.94,
+        "roa": 0.1227,
+        "indice_basileia": null,
+        "ativo_total": 40565925137.27
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 5.84,
+        "roa": 0.3083,
+        "indice_basileia": 0.1383,
+        "ativo_total": 17520188811.55
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 4.25,
+        "roa": 0.2539,
+        "indice_basileia": 0.1771,
+        "ativo_total": 14987931604.41
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 4.85,
+        "roa": 0.2081,
+        "indice_basileia": 0.1586,
+        "ativo_total": 13308924305.14
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 8.87,
+        "roa": 1.6641,
+        "indice_basileia": 0.2592,
+        "ativo_total": 13229289509.46
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 6.44,
+        "roa": 0.2382,
+        "indice_basileia": 0.1622,
+        "ativo_total": 12062307725.09
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 6.19,
+        "roa": 1.2728,
+        "indice_basileia": 0.2225,
+        "ativo_total": 11799291575.38
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 8.74,
+        "roa": 1.0551,
+        "indice_basileia": 0.1432,
+        "ativo_total": 10161035185.28
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 12.28,
+        "roa": 1.3366,
+        "indice_basileia": 0.1566,
+        "ativo_total": 7947846616.27
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": 0.0,
+        "roa": 0.0,
+        "indice_basileia": 0.2775,
+        "ativo_total": 7877951707.36
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 3.91,
+        "roa": 0.1911,
+        "indice_basileia": 0.1422,
+        "ativo_total": 7769638338.44
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 10.39,
+        "roa": 0.3428,
+        "indice_basileia": 0.1555,
+        "ativo_total": 6917052717.46
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 12.05,
+        "roa": 2.4451,
+        "indice_basileia": 0.2979,
+        "ativo_total": 6846760191.05
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 4.31,
+        "roa": 0.5541,
+        "indice_basileia": 0.1933,
+        "ativo_total": 6696335287.24
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 12.37,
+        "roa": 1.4391,
+        "indice_basileia": 0.1716,
+        "ativo_total": 6441985743.53
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 11.93,
+        "roa": 1.8309,
+        "indice_basileia": 0.2202,
+        "ativo_total": 6365254528.75
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 11.55,
+        "roa": 1.6316,
+        "indice_basileia": 0.2206,
+        "ativo_total": 6206776064.66
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DA AMAZÔNIA LTDA. - SICOOB CREDISUL.",
+        "segmento": "cooperativa",
+        "roe": 14.96,
+        "roa": 2.4406,
+        "indice_basileia": 0.2083,
+        "ativo_total": 5698583364.41
+      }
+    ],
+    "202309": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 2.81,
+        "roa": 0.2885,
+        "indice_basileia": null,
+        "ativo_total": 1614881571684.99
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 4.35,
+        "roa": 0.3256,
+        "indice_basileia": null,
+        "ativo_total": 2446125525016.95
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 3.8,
+        "roa": 0.3656,
+        "indice_basileia": null,
+        "ativo_total": 257142566261.59
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 6.01,
+        "roa": 0.4995,
+        "indice_basileia": null,
+        "ativo_total": 112845406411.25
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 4.39,
+        "roa": 0.2299,
+        "indice_basileia": null,
+        "ativo_total": 41623269088.07
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 1.34,
+        "roa": 0.1038,
+        "indice_basileia": null,
+        "ativo_total": 122397182044.98
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 1.84,
+        "roa": 0.1626,
+        "indice_basileia": null,
+        "ativo_total": 44074495257.83
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 3.13,
+        "roa": 0.228,
+        "indice_basileia": null,
+        "ativo_total": 1188545447479.9
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 6.31,
+        "roa": 0.4595,
+        "indice_basileia": null,
+        "ativo_total": 185560797893.91
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 1.38,
+        "roa": 0.353,
+        "indice_basileia": null,
+        "ativo_total": 25376097184.33
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 1.4,
+        "roa": 0.0981,
+        "indice_basileia": null,
+        "ativo_total": 24271147036.34
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 3.1,
+        "roa": 0.1621,
+        "indice_basileia": null,
+        "ativo_total": 47165962419.38
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 3.99,
+        "roa": 0.4167,
+        "indice_basileia": null,
+        "ativo_total": 54767433427.29
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 5.35,
+        "roa": 0.3877,
+        "indice_basileia": null,
+        "ativo_total": 2227265290898.48
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 5.26,
+        "roa": 0.5134,
+        "indice_basileia": null,
+        "ativo_total": 510811205836
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 0.21,
+        "roa": 0.0123,
+        "indice_basileia": null,
+        "ativo_total": 30999723868.91
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 2.19,
+        "roa": 0.21,
+        "indice_basileia": null,
+        "ativo_total": 135651675317.63
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 6.62,
+        "roa": 0.9962,
+        "indice_basileia": null,
+        "ativo_total": 33664549295.6
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "roe": 1.06,
+        "roa": 0.1435,
+        "indice_basileia": null,
+        "ativo_total": 20775097167.43
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 3.67,
+        "roa": 0.4021,
+        "indice_basileia": null,
+        "ativo_total": 27315386973.13
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 3.38,
+        "roa": 0.1745,
+        "indice_basileia": null,
+        "ativo_total": 1740553253660.59
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 4.12,
+        "roa": 0.1112,
+        "indice_basileia": null,
+        "ativo_total": 132870362869.51
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -15.02,
+        "roa": -0.8317,
+        "indice_basileia": null,
+        "ativo_total": 33992066755.31
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 0.63,
+        "roa": 0.0833,
+        "indice_basileia": null,
+        "ativo_total": 54182503464.96
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 5.17,
+        "roa": 0.4398,
+        "indice_basileia": null,
+        "ativo_total": 72914039677.23
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 4.68,
+        "roa": 0.2217,
+        "indice_basileia": null,
+        "ativo_total": 24536784583.55
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 15.88,
+        "roa": 1.1806,
+        "indice_basileia": null,
+        "ativo_total": 115683781699.35
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -8.99,
+        "roa": -0.45,
+        "indice_basileia": null,
+        "ativo_total": 60215734687.13
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 2.33,
+        "roa": 0.1125,
+        "indice_basileia": null,
+        "ativo_total": 168488958707.83
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": -1.98,
+        "roa": -0.0642,
+        "indice_basileia": null,
+        "ativo_total": 23535963908.67
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 3.79,
+        "roa": 0.4218,
+        "indice_basileia": null,
+        "ativo_total": 49139147061.98
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 3.82,
+        "roa": 0.443,
+        "indice_basileia": null,
+        "ativo_total": 103085655058.2
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 1.65,
+        "roa": 0.0408,
+        "indice_basileia": null,
+        "ativo_total": 173548839568.47
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 2.0,
+        "roa": 0.8021,
+        "indice_basileia": null,
+        "ativo_total": 119299667496.28
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 0.47,
+        "roa": 0.0188,
+        "indice_basileia": null,
+        "ativo_total": 102554248097.12
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 0.3,
+        "roa": 0.0287,
+        "indice_basileia": null,
+        "ativo_total": 24252836129.11
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 5.74,
+        "roa": 0.7806,
+        "indice_basileia": null,
+        "ativo_total": 42722537080.17
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 5.86,
+        "roa": 0.9274,
+        "indice_basileia": null,
+        "ativo_total": 64847130228.44
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 3.15,
+        "roa": 0.8491,
+        "indice_basileia": null,
+        "ativo_total": 34858442992.96
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 7.34,
+        "roa": 0.3545,
+        "indice_basileia": null,
+        "ativo_total": 65092713944.33
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 14.62,
+        "roa": 1.1158,
+        "indice_basileia": null,
+        "ativo_total": 27815386439
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 4.68,
+        "roa": 0.2373,
+        "indice_basileia": null,
+        "ativo_total": 37796657880.62
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 14.33,
+        "roa": 1.6477,
+        "indice_basileia": null,
+        "ativo_total": 83363939970.13
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.53,
+        "roa": 0.3,
+        "indice_basileia": null,
+        "ativo_total": 26531947544.52
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 3.34,
+        "roa": 0.6986,
+        "indice_basileia": null,
+        "ativo_total": 707765548786.44
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 1.45,
+        "roa": 0.0664,
+        "indice_basileia": null,
+        "ativo_total": 24081928553.92
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": -1.36,
+        "roa": -0.1118,
+        "indice_basileia": null,
+        "ativo_total": 41141264266.82
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.46,
+        "roa": 0.0584,
+        "indice_basileia": null,
+        "ativo_total": 36407377618.96
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.92,
+        "roa": 0.1234,
+        "indice_basileia": null,
+        "ativo_total": 24048787064.97
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 3.07,
+        "roa": 0.276,
+        "indice_basileia": null,
+        "ativo_total": 29523988300.41
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 3.48,
+        "roa": 0.1776,
+        "indice_basileia": 0.1509,
+        "ativo_total": 19305716030.35
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 1.94,
+        "roa": 0.111,
+        "indice_basileia": 0.1704,
+        "ativo_total": 15987054528.64
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 4.24,
+        "roa": 0.7473,
+        "indice_basileia": 0.2622,
+        "ativo_total": 14599047267.5
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 2.57,
+        "roa": 0.1038,
+        "indice_basileia": 0.1437,
+        "ativo_total": 14556082244.04
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 2.75,
+        "roa": 0.092,
+        "indice_basileia": 0.152,
+        "ativo_total": 14499900593.66
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 3.42,
+        "roa": 0.7104,
+        "indice_basileia": 0.2183,
+        "ativo_total": 12136351319.91
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 6.6,
+        "roa": 0.8017,
+        "indice_basileia": 0.149,
+        "ativo_total": 10972610693.08
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 2.2,
+        "roa": 0.1195,
+        "indice_basileia": 0.1868,
+        "ativo_total": 8667574992.31
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": 0.0,
+        "roa": 0.0,
+        "indice_basileia": 0.2947,
+        "ativo_total": 8514539623.72
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 6.57,
+        "roa": 0.7446,
+        "indice_basileia": 0.1567,
+        "ativo_total": 8087903701.69
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.3,
+        "roa": 0.1393,
+        "indice_basileia": 0.1684,
+        "ativo_total": 7283540307.12
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 7.06,
+        "roa": 1.4445,
+        "indice_basileia": 0.2835,
+        "ativo_total": 7154286679.13
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 3.1,
+        "roa": 0.3987,
+        "indice_basileia": 0.1905,
+        "ativo_total": 6977570287.03
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 3.95,
+        "roa": 0.44,
+        "indice_basileia": 0.1704,
+        "ativo_total": 6973206191.84
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 7.17,
+        "roa": 1.0826,
+        "indice_basileia": 0.2024,
+        "ativo_total": 6792309199.65
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 5.52,
+        "roa": 0.7907,
+        "indice_basileia": 0.2171,
+        "ativo_total": 6495216079.95
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO E INVESTIMENTO DO SUDOESTE  DA AMAZÔNIA LTDA - SICOOB CREDISUL",
+        "segmento": "cooperativa",
+        "roe": 5.21,
+        "roa": 0.8523,
+        "indice_basileia": 0.1967,
+        "ativo_total": 5904564285.42
+      }
+    ],
+    "202312": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 3.84,
+        "roa": 0.3931,
+        "indice_basileia": null,
+        "ativo_total": 1625480810609.02
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 8.92,
+        "roa": 0.6935,
+        "indice_basileia": null,
+        "ativo_total": 2440500136158.25
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 7.08,
+        "roa": 0.6544,
+        "indice_basileia": null,
+        "ativo_total": 293785245283.98
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 12.67,
+        "roa": 1.1009,
+        "indice_basileia": null,
+        "ativo_total": 115198675279.93
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 8.36,
+        "roa": 0.447,
+        "indice_basileia": null,
+        "ativo_total": 41476150289.94
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 4.46,
+        "roa": 0.349,
+        "indice_basileia": null,
+        "ativo_total": 123430189445.38
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 4.99,
+        "roa": 0.4464,
+        "indice_basileia": null,
+        "ativo_total": 43917910974.83
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 5.52,
+        "roa": 0.4097,
+        "indice_basileia": null,
+        "ativo_total": 1174816519487.37
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 12.62,
+        "roa": 0.85,
+        "indice_basileia": null,
+        "ativo_total": 182356567987.57
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 0.61,
+        "roa": 0.1686,
+        "indice_basileia": null,
+        "ativo_total": 21974102984.74
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 6.24,
+        "roa": 0.3302,
+        "indice_basileia": null,
+        "ativo_total": 49286551950.51
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 7.83,
+        "roa": 0.7835,
+        "indice_basileia": null,
+        "ativo_total": 58670140922.62
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 10.89,
+        "roa": 0.8301,
+        "indice_basileia": null,
+        "ativo_total": 2153557982278.66
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 10.39,
+        "roa": 1.035,
+        "indice_basileia": null,
+        "ativo_total": 516940906236.53
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 10.13,
+        "roa": 0.6654,
+        "indice_basileia": null,
+        "ativo_total": 36253825761.68
+      },
+      {
+        "nome": "PINE",
+        "segmento": "outro",
+        "roe": 10.91,
+        "roa": 0.4953,
+        "indice_basileia": null,
+        "ativo_total": 21693419550.89
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 4.36,
+        "roa": 0.4123,
+        "indice_basileia": null,
+        "ativo_total": 142083636663.79
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 10.14,
+        "roa": 1.5906,
+        "indice_basileia": null,
+        "ativo_total": 33452017340.44
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 9.2,
+        "roa": 1.1213,
+        "indice_basileia": null,
+        "ativo_total": 25913424804.31
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 7.43,
+        "roa": 0.379,
+        "indice_basileia": null,
+        "ativo_total": 1827443597186.86
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 7.68,
+        "roa": 0.2458,
+        "indice_basileia": null,
+        "ativo_total": 130527155076.04
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": -51.13,
+        "roa": -2.0637,
+        "indice_basileia": null,
+        "ativo_total": 36237153746.39
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 2.3,
+        "roa": 0.2863,
+        "indice_basileia": null,
+        "ativo_total": 59423337963.15
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 10.48,
+        "roa": 0.8189,
+        "indice_basileia": null,
+        "ativo_total": 78530848590.45
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 11.97,
+        "roa": 0.5218,
+        "indice_basileia": null,
+        "ativo_total": 27762852419.94
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 32.67,
+        "roa": 2.3112,
+        "indice_basileia": null,
+        "ativo_total": 141452281599.11
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": -15.62,
+        "roa": -0.5781,
+        "indice_basileia": null,
+        "ativo_total": 75191202312.89
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 2.7,
+        "roa": 0.1496,
+        "indice_basileia": null,
+        "ativo_total": 189317529603.12
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": 1.65,
+        "roa": 0.0424,
+        "indice_basileia": null,
+        "ativo_total": 30874301431.92
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 7.62,
+        "roa": 0.8669,
+        "indice_basileia": null,
+        "ativo_total": 46745663344.84
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 7.65,
+        "roa": 0.8145,
+        "indice_basileia": null,
+        "ativo_total": 115098434874.44
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 1.28,
+        "roa": 0.0375,
+        "indice_basileia": null,
+        "ativo_total": 164040008317.45
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 3.98,
+        "roa": 1.5292,
+        "indice_basileia": null,
+        "ativo_total": 127263373371.67
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "roe": -1.21,
+        "roa": -0.0509,
+        "indice_basileia": null,
+        "ativo_total": 94632173896.11
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 1.45,
+        "roa": 0.1331,
+        "indice_basileia": null,
+        "ativo_total": 26667086828.56
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 13.24,
+        "roa": 1.7235,
+        "indice_basileia": null,
+        "ativo_total": 45212323810.46
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 11.01,
+        "roa": 1.7945,
+        "indice_basileia": null,
+        "ativo_total": 65731259459.25
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 6.75,
+        "roa": 1.421,
+        "indice_basileia": null,
+        "ativo_total": 43386595177.51
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 14.39,
+        "roa": 0.6915,
+        "indice_basileia": null,
+        "ativo_total": 70776204581.37
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 1.72,
+        "roa": 0.0948,
+        "indice_basileia": null,
+        "ativo_total": 33522846246.65
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 5.19,
+        "roa": 0.2251,
+        "indice_basileia": null,
+        "ativo_total": 44349926341.27
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 27.04,
+        "roa": 2.9057,
+        "indice_basileia": null,
+        "ativo_total": 103911131173.68
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.6,
+        "roa": 0.3364,
+        "indice_basileia": null,
+        "ativo_total": 27143229942.48
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 8.19,
+        "roa": 1.7185,
+        "indice_basileia": null,
+        "ativo_total": 721541796151.57
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 9.59,
+        "roa": 0.4346,
+        "indice_basileia": null,
+        "ativo_total": 26402778400.89
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": -0.78,
+        "roa": -0.0687,
+        "indice_basileia": null,
+        "ativo_total": 43161266059.5
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 3.09,
+        "roa": 0.1516,
+        "indice_basileia": null,
+        "ativo_total": 30236008945.55
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 9.08,
+        "roa": 0.367,
+        "indice_basileia": null,
+        "ativo_total": 26643548612.5
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 6.34,
+        "roa": 0.6741,
+        "indice_basileia": null,
+        "ativo_total": 24487016135.45
+      },
+      {
+        "nome": "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+        "segmento": "outro",
+        "roe": 6.74,
+        "roa": 1.3111,
+        "indice_basileia": null,
+        "ativo_total": 21098390534.4
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 6.59,
+        "roa": 0.3708,
+        "indice_basileia": 0.1663,
+        "ativo_total": 19210915876.17
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 5.23,
+        "roa": 0.1979,
+        "indice_basileia": 0.1505,
+        "ativo_total": 15739865123.56
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 4.85,
+        "roa": 0.3016,
+        "indice_basileia": 0.1755,
+        "ativo_total": 15331783104.84
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 8.76,
+        "roa": 1.587,
+        "indice_basileia": 0.2641,
+        "ativo_total": 14563255678.1
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 5.67,
+        "roa": 0.2188,
+        "indice_basileia": 0.1616,
+        "ativo_total": 13563919695.83
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 7.11,
+        "roa": 1.374,
+        "indice_basileia": 0.209,
+        "ativo_total": 12835782646.46
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 9.35,
+        "roa": 1.1288,
+        "indice_basileia": 0.149,
+        "ativo_total": 11413887015.45
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.3256,
+        "ativo_total": 9298696964.46
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 4.77,
+        "roa": 0.2558,
+        "indice_basileia": 0.172,
+        "ativo_total": 8953731862.41
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 12.98,
+        "roa": 1.5505,
+        "indice_basileia": 0.162,
+        "ativo_total": 8317861214.82
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 14.22,
+        "roa": 2.8678,
+        "indice_basileia": 0.2745,
+        "ativo_total": 7744739013.71
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 9.83,
+        "roa": 1.0914,
+        "indice_basileia": 0.1679,
+        "ativo_total": 7319059030.79
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 12.01,
+        "roa": 1.8847,
+        "indice_basileia": 0.2151,
+        "ativo_total": 7261118470.41
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 7.7,
+        "roa": 1.0506,
+        "indice_basileia": 0.1914,
+        "ativo_total": 6991477217.02
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 9.58,
+        "roa": 1.3567,
+        "indice_basileia": 0.2179,
+        "ativo_total": 6870403642.33
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 7.11,
+        "roa": 0.2693,
+        "indice_basileia": 0.1971,
+        "ativo_total": 6858919852.16
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO E INVESTIMENTO DO SUDOESTE  DA AMAZÔNIA LTDA - SICOOB CREDISUL",
+        "segmento": "cooperativa",
+        "roe": 13.07,
+        "roa": 2.2508,
+        "indice_basileia": 0.1982,
+        "ativo_total": 6409626108.58
+      }
+    ],
+    "202403": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 2.57,
+        "roa": 0.2573,
+        "indice_basileia": null,
+        "ativo_total": 1659193707815.97
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 5.15,
+        "roa": 0.3761,
+        "indice_basileia": null,
+        "ativo_total": 2528221721235.91
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 2.44,
+        "roa": 0.232,
+        "indice_basileia": null,
+        "ativo_total": 287630193635.68
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 2.86,
+        "roa": 0.2455,
+        "indice_basileia": null,
+        "ativo_total": 119826126741.72
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 3.01,
+        "roa": 0.16,
+        "indice_basileia": null,
+        "ativo_total": 42691469536.19
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 1.91,
+        "roa": 0.1467,
+        "indice_basileia": null,
+        "ativo_total": 127750330405.01
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 2.37,
+        "roa": 0.2051,
+        "indice_basileia": null,
+        "ativo_total": 46016780342.51
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 3.5,
+        "roa": 0.259,
+        "indice_basileia": null,
+        "ativo_total": 1191211330283.11
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 4.9,
+        "roa": 0.3188,
+        "indice_basileia": null,
+        "ativo_total": 196791363696.68
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": 0.08,
+        "roa": 0.0052,
+        "indice_basileia": null,
+        "ativo_total": 25184597532.53
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": -1.67,
+        "roa": -0.0874,
+        "indice_basileia": null,
+        "ativo_total": 49098833683.06
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 3.85,
+        "roa": 0.4013,
+        "indice_basileia": null,
+        "ativo_total": 59199615938.52
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 5.37,
+        "roa": 0.3981,
+        "indice_basileia": null,
+        "ativo_total": 2282609423181.45
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 5.13,
+        "roa": 0.4797,
+        "indice_basileia": null,
+        "ativo_total": 578228452357.69
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 2.44,
+        "roa": 0.1442,
+        "indice_basileia": null,
+        "ativo_total": 41242450079.6
+      },
+      {
+        "nome": "PINE",
+        "segmento": "outro",
+        "roe": 5.83,
+        "roa": 0.2577,
+        "indice_basileia": null,
+        "ativo_total": 24436715469.24
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 2.36,
+        "roa": 0.2347,
+        "indice_basileia": null,
+        "ativo_total": 135666109431.5
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 4.19,
+        "roa": 0.5952,
+        "indice_basileia": null,
+        "ativo_total": 38533658463.95
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 2.22,
+        "roa": 0.1706,
+        "indice_basileia": null,
+        "ativo_total": 42125319300.7
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 2.38,
+        "roa": 0.121,
+        "indice_basileia": null,
+        "ativo_total": 1878783229224.33
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 3.89,
+        "roa": 0.1228,
+        "indice_basileia": null,
+        "ativo_total": 137864830416.49
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": 13.77,
+        "roa": 0.6446,
+        "indice_basileia": null,
+        "ativo_total": 37832888360.86
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 0.97,
+        "roa": 0.1147,
+        "indice_basileia": null,
+        "ativo_total": 61245000001.91
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 5.75,
+        "roa": 0.4822,
+        "indice_basileia": null,
+        "ativo_total": 76313372466.13
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 5.54,
+        "roa": 0.2625,
+        "indice_basileia": null,
+        "ativo_total": 27155338298.31
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 17.06,
+        "roa": 1.4364,
+        "indice_basileia": null,
+        "ativo_total": 127867014301.58
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": 13.61,
+        "roa": 0.5755,
+        "indice_basileia": null,
+        "ativo_total": 76676327097.81
+      },
+      {
+        "nome": "TERRA",
+        "segmento": "outro",
+        "roe": 1.64,
+        "roa": 0.0035,
+        "indice_basileia": null,
+        "ativo_total": 34030465837.48
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 0.81,
+        "roa": 0.0329,
+        "indice_basileia": null,
+        "ativo_total": 213821161433.16
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": -1.22,
+        "roa": -0.0282,
+        "indice_basileia": null,
+        "ativo_total": 33838181066.53
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 2.53,
+        "roa": 0.2388,
+        "indice_basileia": null,
+        "ativo_total": 56981795628.51
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 4.14,
+        "roa": 0.4668,
+        "indice_basileia": null,
+        "ativo_total": 107775259605.71
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 1.03,
+        "roa": 0.0301,
+        "indice_basileia": null,
+        "ativo_total": 164529511981.23
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 1.56,
+        "roa": 0.5716,
+        "indice_basileia": null,
+        "ativo_total": 135187844307.23
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 0.84,
+        "roa": 0.0367,
+        "indice_basileia": null,
+        "ativo_total": 92428724344.85
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": -2.53,
+        "roa": -0.226,
+        "indice_basileia": null,
+        "ativo_total": 27207410777.18
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 3.38,
+        "roa": 0.429,
+        "indice_basileia": null,
+        "ativo_total": 48194839783.59
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 4.43,
+        "roa": 0.7494,
+        "indice_basileia": null,
+        "ativo_total": 66814954030.62
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 3.25,
+        "roa": 0.625,
+        "indice_basileia": null,
+        "ativo_total": 48979176319.47
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 4.37,
+        "roa": 0.2238,
+        "indice_basileia": null,
+        "ativo_total": 67309362348
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 18.42,
+        "roa": 1.223,
+        "indice_basileia": null,
+        "ativo_total": 36680400748.76
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 4.1,
+        "roa": 0.1726,
+        "indice_basileia": null,
+        "ativo_total": 50318782551.02
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 13.65,
+        "roa": 1.9393,
+        "indice_basileia": null,
+        "ativo_total": 90725144362.58
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": -0.01,
+        "roa": -0.0073,
+        "indice_basileia": null,
+        "ativo_total": 26290202610.84
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 3.38,
+        "roa": 0.7155,
+        "indice_basileia": null,
+        "ativo_total": 732036183380.2
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 1.46,
+        "roa": 0.0703,
+        "indice_basileia": null,
+        "ativo_total": 25199383380.83
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 1.1,
+        "roa": 0.0974,
+        "indice_basileia": null,
+        "ativo_total": 44092900704.99
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.11,
+        "roa": 0.0391,
+        "indice_basileia": null,
+        "ativo_total": 42680297186.75
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 3.03,
+        "roa": 0.1184,
+        "indice_basileia": null,
+        "ativo_total": 28366165563.17
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.21,
+        "roa": 0.1076,
+        "indice_basileia": null,
+        "ativo_total": 29576582739.61
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 3.8,
+        "roa": 1.1877,
+        "indice_basileia": null,
+        "ativo_total": 20166734003.94
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 2.85,
+        "roa": 0.1627,
+        "indice_basileia": 0.1427,
+        "ativo_total": 19992893960.2
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 2.62,
+        "roa": 0.1546,
+        "indice_basileia": 0.1651,
+        "ativo_total": 16620347743.91
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 2.44,
+        "roa": 0.1074,
+        "indice_basileia": 0.1554,
+        "ativo_total": 15969989478.84
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 3.59,
+        "roa": 0.6688,
+        "indice_basileia": 0.2657,
+        "ativo_total": 14889407158.24
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 3.08,
+        "roa": 0.1261,
+        "indice_basileia": 0.1732,
+        "ativo_total": 13633618961.28
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 3.3,
+        "roa": 0.6904,
+        "indice_basileia": 0.2223,
+        "ativo_total": 13011760917.96
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 3.72,
+        "roa": 0.4456,
+        "indice_basileia": 0.1443,
+        "ativo_total": 12183240775.97
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 1.99,
+        "roa": 0.1191,
+        "indice_basileia": 0.2069,
+        "ativo_total": 9884157797.48
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.3299,
+        "ativo_total": 9559656641.04
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.06,
+        "roa": 0.4756,
+        "indice_basileia": 0.153,
+        "ativo_total": 8609623818.9
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 6.81,
+        "roa": 1.3329,
+        "indice_basileia": 0.2699,
+        "ativo_total": 8436052699.49
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 5.43,
+        "roa": 0.604,
+        "indice_basileia": 0.1702,
+        "ativo_total": 7698869521.11
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 5.84,
+        "roa": 0.8968,
+        "indice_basileia": 0.2124,
+        "ativo_total": 7491362497.08
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 2.29,
+        "roa": 0.3109,
+        "indice_basileia": 0.183,
+        "ativo_total": 7171593870.46
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 4.05,
+        "roa": 0.6,
+        "indice_basileia": 0.225,
+        "ativo_total": 6850786556.66
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 3.88,
+        "roa": 0.1581,
+        "indice_basileia": 0.2191,
+        "ativo_total": 6566409915.07
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO E INVESTIMENTO DO SUDOESTE  DA AMAZÔNIA LTDA - SICOOB CREDISUL",
+        "segmento": "cooperativa",
+        "roe": 3.17,
+        "roa": 0.5602,
+        "indice_basileia": 0.1997,
+        "ativo_total": 6355715858.83
+      }
+    ],
+    "202406": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 5.45,
+        "roa": 0.5296,
+        "indice_basileia": null,
+        "ativo_total": 1706649323692.84
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 9.93,
+        "roa": 0.7198,
+        "indice_basileia": null,
+        "ativo_total": 2668446292041.96
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 4.95,
+        "roa": 0.4662,
+        "indice_basileia": null,
+        "ativo_total": 295999532866.09
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 4.87,
+        "roa": 0.3633,
+        "indice_basileia": null,
+        "ativo_total": 140920807204.34
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 7.48,
+        "roa": 0.4383,
+        "indice_basileia": null,
+        "ativo_total": 38436729466.89
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 4.3,
+        "roa": 0.3208,
+        "indice_basileia": null,
+        "ativo_total": 135485875522.22
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 4.88,
+        "roa": 0.4346,
+        "indice_basileia": null,
+        "ativo_total": 46286723624.72
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 7.0,
+        "roa": 0.4901,
+        "indice_basileia": null,
+        "ativo_total": 1272247867207.78
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 7.0,
+        "roa": 0.4212,
+        "indice_basileia": null,
+        "ativo_total": 212616841051.28
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": -0.29,
+        "roa": -0.0163,
+        "indice_basileia": null,
+        "ativo_total": 30537157962.09
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 0.31,
+        "roa": 0.0145,
+        "indice_basileia": null,
+        "ativo_total": 53092440680.88
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 7.88,
+        "roa": 0.7488,
+        "indice_basileia": null,
+        "ativo_total": 65918387189.34
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 10.53,
+        "roa": 0.7798,
+        "indice_basileia": null,
+        "ativo_total": 2334998796422.41
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 10.16,
+        "roa": 0.9258,
+        "indice_basileia": null,
+        "ativo_total": 604571789805.26
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 11.95,
+        "roa": 0.8847,
+        "indice_basileia": null,
+        "ativo_total": 56588110567.52
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 4.98,
+        "roa": 0.5071,
+        "indice_basileia": null,
+        "ativo_total": 133708266319.66
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 6.65,
+        "roa": 0.8977,
+        "indice_basileia": null,
+        "ativo_total": 41690079757.78
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 3.21,
+        "roa": 0.5277,
+        "indice_basileia": null,
+        "ativo_total": 35428763738.99
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 11.15,
+        "roa": 1.0642,
+        "indice_basileia": null,
+        "ativo_total": 37242825923.48
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 5.36,
+        "roa": 0.278,
+        "indice_basileia": null,
+        "ativo_total": 1906943159259.63
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 6.85,
+        "roa": 0.2114,
+        "indice_basileia": null,
+        "ativo_total": 145910726954.52
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": 16.21,
+        "roa": 0.7142,
+        "indice_basileia": null,
+        "ativo_total": 44447444990.59
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 2.26,
+        "roa": 0.252,
+        "indice_basileia": null,
+        "ativo_total": 65309274255.75
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 11.95,
+        "roa": 0.987,
+        "indice_basileia": null,
+        "ativo_total": 81665728276.24
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 10.75,
+        "roa": 0.4591,
+        "indice_basileia": null,
+        "ativo_total": 30837597482.95
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 34.69,
+        "roa": 2.9379,
+        "indice_basileia": null,
+        "ativo_total": 146212798793.28
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": 25.12,
+        "roa": 1.0953,
+        "indice_basileia": null,
+        "ativo_total": 86089831611.62
+      },
+      {
+        "nome": "TERRA",
+        "segmento": "outro",
+        "roe": 1.79,
+        "roa": 0.0047,
+        "indice_basileia": null,
+        "ativo_total": 27256697260.81
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 3.87,
+        "roa": 0.1474,
+        "indice_basileia": null,
+        "ativo_total": 227182535409.37
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": 3.56,
+        "roa": 0.0756,
+        "indice_basileia": null,
+        "ativo_total": 38571735599.64
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 3.64,
+        "roa": 0.3593,
+        "indice_basileia": null,
+        "ativo_total": 51142974059.51
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 7.19,
+        "roa": 0.8437,
+        "indice_basileia": null,
+        "ativo_total": 105333256881.13
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 1.41,
+        "roa": 0.0391,
+        "indice_basileia": null,
+        "ativo_total": 172425955180.86
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 2.99,
+        "roa": 1.1089,
+        "indice_basileia": null,
+        "ativo_total": 135099291141.17
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "roe": -1.43,
+        "roa": -0.0567,
+        "indice_basileia": null,
+        "ativo_total": 97773516746.34
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": -6.71,
+        "roa": -0.641,
+        "indice_basileia": null,
+        "ativo_total": 25722123184.66
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 8.34,
+        "roa": 1.0561,
+        "indice_basileia": null,
+        "ativo_total": 51049086531.48
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 8.85,
+        "roa": 1.4955,
+        "indice_basileia": null,
+        "ativo_total": 68212840353
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 5.63,
+        "roa": 1.0355,
+        "indice_basileia": null,
+        "ativo_total": 52543985045.47
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 8.81,
+        "roa": 0.4823,
+        "indice_basileia": null,
+        "ativo_total": 63974766834.21
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 24.79,
+        "roa": 1.5199,
+        "indice_basileia": null,
+        "ativo_total": 43730984148.29
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 6.33,
+        "roa": 0.2648,
+        "indice_basileia": null,
+        "ativo_total": 52510080210.09
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 28.48,
+        "roa": 4.3983,
+        "indice_basileia": null,
+        "ativo_total": 92264931585.48
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.59,
+        "roa": 0.3338,
+        "indice_basileia": null,
+        "ativo_total": 27908823945.33
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 8.33,
+        "roa": 1.7258,
+        "indice_basileia": null,
+        "ativo_total": 772679809507.28
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "roe": 2.88,
+        "roa": 0.1314,
+        "indice_basileia": null,
+        "ativo_total": 26833646421.04
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 2.87,
+        "roa": 0.291,
+        "indice_basileia": null,
+        "ativo_total": 46150561281.72
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.06,
+        "roa": 0.0736,
+        "indice_basileia": null,
+        "ativo_total": 42658769508.77
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 4.57,
+        "roa": 0.16,
+        "indice_basileia": null,
+        "ativo_total": 32319436528.33
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.48,
+        "roa": 0.2496,
+        "indice_basileia": null,
+        "ativo_total": 26506481280.04
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 5.45,
+        "roa": 0.2831,
+        "indice_basileia": 0.1342,
+        "ativo_total": 22272453685.51
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "roe": 3.07,
+        "roa": 0.9047,
+        "indice_basileia": null,
+        "ativo_total": 21750480690.49
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 4.48,
+        "roa": 0.2491,
+        "indice_basileia": 0.132,
+        "ativo_total": 18008746091.19
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 4.62,
+        "roa": 0.1957,
+        "indice_basileia": 0.1345,
+        "ativo_total": 17048672482.28
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 7.35,
+        "roa": 1.3807,
+        "indice_basileia": 0.2641,
+        "ativo_total": 15483289070
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 5.44,
+        "roa": 0.2355,
+        "indice_basileia": 0.1734,
+        "ativo_total": 13647492847.99
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 8.24,
+        "roa": 1.6825,
+        "indice_basileia": 0.2212,
+        "ativo_total": 13522383593.02
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 6.54,
+        "roa": 0.8162,
+        "indice_basileia": 0.1453,
+        "ativo_total": 12206652566.17
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 4.17,
+        "roa": 0.2306,
+        "indice_basileia": 0.1795,
+        "ativo_total": 10968011066.73
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": -0.0,
+        "roa": -0.0,
+        "indice_basileia": 0.3778,
+        "ativo_total": 10420119930.75
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 12.26,
+        "roa": 2.2324,
+        "indice_basileia": 0.2512,
+        "ativo_total": 9464188320.07
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 12.16,
+        "roa": 1.2524,
+        "indice_basileia": 0.1689,
+        "ativo_total": 8913103359.6
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 6.64,
+        "roa": 0.7703,
+        "indice_basileia": 0.1526,
+        "ativo_total": 8769413719.3
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 10.34,
+        "roa": 1.5765,
+        "indice_basileia": 0.222,
+        "ativo_total": 7989141898.45
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 7.8,
+        "roa": 1.1318,
+        "indice_basileia": 0.2207,
+        "ativo_total": 7427808691.45
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 4.62,
+        "roa": 0.6122,
+        "indice_basileia": 0.1752,
+        "ativo_total": 7425096568.5
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO E INVESTIMENTO DO SUDOESTE  DA AMAZÔNIA LTDA - SICOOB CREDISUL",
+        "segmento": "cooperativa",
+        "roe": 6.12,
+        "roa": 0.9709,
+        "indice_basileia": 0.1875,
+        "ativo_total": 6972571373.11
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 8.34,
+        "roa": 0.3445,
+        "indice_basileia": 0.2004,
+        "ativo_total": 6663526623.04
+      }
+    ],
+    "202409": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 3.11,
+        "roa": 0.3066,
+        "indice_basileia": null,
+        "ativo_total": 1712859761502.8
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 4.77,
+        "roa": 0.3549,
+        "indice_basileia": null,
+        "ativo_total": 2720401272200.44
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 3.43,
+        "roa": 0.2419,
+        "indice_basileia": null,
+        "ativo_total": 314368327545.37
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 2.6,
+        "roa": 0.1681,
+        "indice_basileia": null,
+        "ativo_total": 167318140602.3
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 3.92,
+        "roa": 0.2425,
+        "indice_basileia": null,
+        "ativo_total": 37515832724.36
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 1.92,
+        "roa": 0.1406,
+        "indice_basileia": null,
+        "ativo_total": 140166800960.5
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 2.8,
+        "roa": 0.2599,
+        "indice_basileia": null,
+        "ativo_total": 45922394229.62
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 4.0,
+        "roa": 0.276,
+        "indice_basileia": null,
+        "ativo_total": 1303611909678.29
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 4.7,
+        "roa": 0.3022,
+        "indice_basileia": null,
+        "ativo_total": 208734065023.68
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "roe": -0.42,
+        "roa": -0.025,
+        "indice_basileia": null,
+        "ativo_total": 28202791018.98
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 3.02,
+        "roa": 0.1559,
+        "indice_basileia": null,
+        "ativo_total": 55617791206.07
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 4.24,
+        "roa": 0.403,
+        "indice_basileia": null,
+        "ativo_total": 67446906119.33
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 5.08,
+        "roa": 0.3721,
+        "indice_basileia": null,
+        "ativo_total": 2442453150996.15
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 5.19,
+        "roa": 0.4982,
+        "indice_basileia": null,
+        "ativo_total": 615878898398.12
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 5.23,
+        "roa": 0.3049,
+        "indice_basileia": null,
+        "ativo_total": 77618743125.24
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 3.53,
+        "roa": 0.3439,
+        "indice_basileia": null,
+        "ativo_total": 143149834254.62
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 6.81,
+        "roa": 1.0788,
+        "indice_basileia": null,
+        "ativo_total": 38176789454.91
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 6.43,
+        "roa": 0.5383,
+        "indice_basileia": null,
+        "ativo_total": 45271378448.6
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 2.95,
+        "roa": 0.1516,
+        "indice_basileia": null,
+        "ativo_total": 1982210560197.79
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 3.1,
+        "roa": 0.0948,
+        "indice_basileia": null,
+        "ativo_total": 152227475288.09
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "roe": 1.39,
+        "roa": 0.0601,
+        "indice_basileia": null,
+        "ativo_total": 48783459874.73
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 1.79,
+        "roa": 0.191,
+        "indice_basileia": null,
+        "ativo_total": 67776551205.28
+      },
+      {
+        "nome": "AGIBANK",
+        "segmento": "outro",
+        "roe": 9.81,
+        "roa": 0.784,
+        "indice_basileia": null,
+        "ativo_total": 26187248048.48
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 6.36,
+        "roa": 0.5696,
+        "indice_basileia": null,
+        "ativo_total": 79114286997.15
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 3.1,
+        "roa": 0.1267,
+        "indice_basileia": null,
+        "ativo_total": 33161033508.65
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 22.74,
+        "roa": 1.4641,
+        "indice_basileia": null,
+        "ativo_total": 156471892978.34
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": 18.03,
+        "roa": 0.8395,
+        "indice_basileia": null,
+        "ativo_total": 98622980740.54
+      },
+      {
+        "nome": "TERRA",
+        "segmento": "outro",
+        "roe": 1.52,
+        "roa": 0.0034,
+        "indice_basileia": null,
+        "ativo_total": 32645265514.78
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 2.57,
+        "roa": 0.0918,
+        "indice_basileia": null,
+        "ativo_total": 250375256986.12
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": 3.53,
+        "roa": 0.0759,
+        "indice_basileia": null,
+        "ativo_total": 39488245803.28
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 2.66,
+        "roa": 0.2651,
+        "indice_basileia": null,
+        "ativo_total": 52013646436.6
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 1.92,
+        "roa": 0.162,
+        "indice_basileia": null,
+        "ativo_total": 104688194372.79
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": -0.64,
+        "roa": -0.0173,
+        "indice_basileia": null,
+        "ativo_total": 184196227321.71
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 2.04,
+        "roa": 0.7225,
+        "indice_basileia": null,
+        "ativo_total": 124740315930.88
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "roe": -0.67,
+        "roa": -0.0254,
+        "indice_basileia": null,
+        "ativo_total": 101869354911.3
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 0.52,
+        "roa": 0.0497,
+        "indice_basileia": null,
+        "ativo_total": 26302710462.27
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 4.69,
+        "roa": 0.6075,
+        "indice_basileia": null,
+        "ativo_total": 52567308356.23
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 3.99,
+        "roa": 0.7672,
+        "indice_basileia": null,
+        "ativo_total": 70559240254.73
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 1.69,
+        "roa": 0.3013,
+        "indice_basileia": null,
+        "ativo_total": 55083351308.93
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 2.84,
+        "roa": 0.1542,
+        "indice_basileia": null,
+        "ativo_total": 64030270560.31
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 6.28,
+        "roa": 0.3919,
+        "indice_basileia": null,
+        "ativo_total": 47871850161.83
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 8.76,
+        "roa": 0.4001,
+        "indice_basileia": null,
+        "ativo_total": 53478004251.41
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 15.52,
+        "roa": 3.0062,
+        "indice_basileia": null,
+        "ativo_total": 83426498579.26
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 2.6,
+        "roa": 0.1321,
+        "indice_basileia": 0.1405,
+        "ativo_total": 25746117091.6
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": -0.01,
+        "roa": -0.0066,
+        "indice_basileia": null,
+        "ativo_total": 29837643811.82
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 3.34,
+        "roa": 0.7047,
+        "indice_basileia": null,
+        "ativo_total": 801560818213.25
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 0.48,
+        "roa": 0.0466,
+        "indice_basileia": null,
+        "ativo_total": 49001417654.19
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.38,
+        "roa": 0.0545,
+        "indice_basileia": null,
+        "ativo_total": 39287153378.88
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.73,
+        "roa": 0.0914,
+        "indice_basileia": null,
+        "ativo_total": 34670438734.48
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 1.25,
+        "roa": 0.1218,
+        "indice_basileia": null,
+        "ativo_total": 27666329713.31
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 2.11,
+        "roa": 0.1335,
+        "indice_basileia": 0.1665,
+        "ativo_total": 18237160661.33
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 2.16,
+        "roa": 0.0894,
+        "indice_basileia": 0.1325,
+        "ativo_total": 17824642027.55
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 3.97,
+        "roa": 0.7474,
+        "indice_basileia": 0.2653,
+        "ativo_total": 16124485814.22
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 2.82,
+        "roa": 0.1178,
+        "indice_basileia": 0.16,
+        "ativo_total": 15022442241.95
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 4.13,
+        "roa": 0.8565,
+        "indice_basileia": 0.2407,
+        "ativo_total": 13979140409.46
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.09,
+        "roa": 0.5258,
+        "indice_basileia": 0.1537,
+        "ativo_total": 12555273146.55
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 2.21,
+        "roa": 0.1142,
+        "indice_basileia": 0.1702,
+        "ativo_total": 12025268758.57
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": 0.0,
+        "roa": 0.0,
+        "indice_basileia": 0.3988,
+        "ativo_total": 11180528537.28
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 7.75,
+        "roa": 0.7842,
+        "indice_basileia": 0.1659,
+        "ativo_total": 9796889616.94
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 7.34,
+        "roa": 1.3751,
+        "indice_basileia": 0.2493,
+        "ativo_total": 9763273946.8
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 5.11,
+        "roa": 0.5976,
+        "indice_basileia": 0.1522,
+        "ativo_total": 9099894609.37
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 3.6,
+        "roa": 0.4508,
+        "indice_basileia": 0.1598,
+        "ativo_total": 8398349687.74
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.95,
+        "roa": 0.7663,
+        "indice_basileia": 0.2243,
+        "ativo_total": 8398208687.96
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 5.05,
+        "roa": 0.7902,
+        "indice_basileia": 0.2306,
+        "ativo_total": 7261406045.36
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO E INVESTIMENTO DO SUDOESTE  DA AMAZÔNIA LTDA - SICOOB CREDISUL",
+        "segmento": "cooperativa",
+        "roe": 5.29,
+        "roa": 0.8686,
+        "indice_basileia": 0.1856,
+        "ativo_total": 7003379717.43
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 3.69,
+        "roa": 0.1523,
+        "indice_basileia": 0.1985,
+        "ativo_total": 6802082037.56
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO UNICRED CONEXÃO LTDA - UNICRED CENTRAL CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 0.35,
+        "roa": 0.0154,
+        "indice_basileia": 0.2839,
+        "ativo_total": 6519171375.21
+      }
+    ],
+    "202412": [
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "roe": 6.04,
+        "roa": 0.579,
+        "indice_basileia": null,
+        "ativo_total": 1744567704888.5
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "roe": 9.19,
+        "roa": 0.7022,
+        "indice_basileia": null,
+        "ativo_total": 2766166427516.94
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "roe": 9.05,
+        "roa": 0.6434,
+        "indice_basileia": null,
+        "ativo_total": 302042203703.49
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "roe": 8.38,
+        "roa": 0.8729,
+        "indice_basileia": null,
+        "ativo_total": 109247609454.74
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "roe": 9.5,
+        "roa": 0.6059,
+        "indice_basileia": null,
+        "ativo_total": 36971025402.34
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "roe": 4.62,
+        "roa": 0.3314,
+        "indice_basileia": null,
+        "ativo_total": 145133795283.68
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "roe": 5.08,
+        "roa": 0.4432,
+        "indice_basileia": null,
+        "ativo_total": 49367117599.18
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "roe": 7.8,
+        "roa": 0.5207,
+        "indice_basileia": null,
+        "ativo_total": 1369373832039.69
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "roe": 11.78,
+        "roa": 0.6064,
+        "indice_basileia": null,
+        "ativo_total": 229633957124.51
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "roe": 6.11,
+        "roa": 0.37,
+        "indice_basileia": null,
+        "ativo_total": 61326353904.84
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "roe": 8.19,
+        "roa": 0.753,
+        "indice_basileia": null,
+        "ativo_total": 69875612006.74
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "roe": 9.83,
+        "roa": 0.7431,
+        "indice_basileia": null,
+        "ativo_total": 2410321787073.84
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "roe": 10.28,
+        "roa": 0.9532,
+        "indice_basileia": null,
+        "ativo_total": 649637478036.18
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "roe": 11.88,
+        "roa": 0.6908,
+        "indice_basileia": null,
+        "ativo_total": 82047099381.62
+      },
+      {
+        "nome": "PINE",
+        "segmento": "outro",
+        "roe": 10.71,
+        "roa": 0.4721,
+        "indice_basileia": null,
+        "ativo_total": 27840903744.42
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "roe": 7.43,
+        "roa": 0.7303,
+        "indice_basileia": null,
+        "ativo_total": 140976182780.89
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "roe": 10.91,
+        "roa": 1.3172,
+        "indice_basileia": null,
+        "ativo_total": 49328525890.3
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "roe": 5.77,
+        "roa": 1.2142,
+        "indice_basileia": null,
+        "ativo_total": 27457784303.67
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "roe": 12.04,
+        "roa": 0.996,
+        "indice_basileia": null,
+        "ativo_total": 48919167015.56
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "roe": 7.03,
+        "roa": 0.3608,
+        "indice_basileia": null,
+        "ativo_total": 2026456970996.41
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "roe": 5.67,
+        "roa": 0.1845,
+        "indice_basileia": null,
+        "ativo_total": 153546411156.88
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "roe": 5.35,
+        "roa": 0.5198,
+        "indice_basileia": null,
+        "ativo_total": 74679540030.7
+      },
+      {
+        "nome": "AGIBANK",
+        "segmento": "outro",
+        "roe": 15.76,
+        "roa": 1.4281,
+        "indice_basileia": null,
+        "ativo_total": 30024685137.44
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "roe": 12.49,
+        "roa": 0.953,
+        "indice_basileia": null,
+        "ativo_total": 92674016658.31
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "roe": 9.12,
+        "roa": 0.365,
+        "indice_basileia": null,
+        "ativo_total": 34845733730.4
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "roe": 38.4,
+        "roa": 2.7443,
+        "indice_basileia": null,
+        "ativo_total": 176097862319.76
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "roe": 27.8,
+        "roa": 1.1422,
+        "indice_basileia": null,
+        "ativo_total": 116214087578.9
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "roe": 5.33,
+        "roa": 0.1904,
+        "indice_basileia": null,
+        "ativo_total": 301760063611.43
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "roe": 2.05,
+        "roa": 0.0399,
+        "indice_basileia": null,
+        "ativo_total": 43095077382.88
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "roe": 3.44,
+        "roa": 0.2865,
+        "indice_basileia": null,
+        "ativo_total": 61588317403.53
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 5.96,
+        "roa": 0.4577,
+        "indice_basileia": null,
+        "ativo_total": 120211374935.14
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "roe": 1.48,
+        "roa": 0.0384,
+        "indice_basileia": null,
+        "ativo_total": 191215588038.93
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 4.11,
+        "roa": 1.4331,
+        "indice_basileia": null,
+        "ativo_total": 128999092769.67
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "roe": -0.64,
+        "roa": -0.0256,
+        "indice_basileia": null,
+        "ativo_total": 93391900011.76
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "roe": 0.16,
+        "roa": 0.0146,
+        "indice_basileia": null,
+        "ativo_total": 29259677592.84
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "roe": 9.08,
+        "roa": 1.0915,
+        "indice_basileia": null,
+        "ativo_total": 54315898228.42
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "roe": 9.48,
+        "roa": 1.8902,
+        "indice_basileia": null,
+        "ativo_total": 69962975381.19
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "roe": 4.9,
+        "roa": 0.6836,
+        "indice_basileia": null,
+        "ativo_total": 70181682195.64
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "roe": 8.89,
+        "roa": 0.3818,
+        "indice_basileia": null,
+        "ativo_total": 73322387911.57
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "roe": 16.13,
+        "roa": 0.8688,
+        "indice_basileia": null,
+        "ativo_total": 60153400038.72
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "roe": 7.76,
+        "roa": 0.3352,
+        "indice_basileia": null,
+        "ativo_total": 60386052103.39
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "roe": 28.71,
+        "roa": 5.791,
+        "indice_basileia": null,
+        "ativo_total": 94467214159.25
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "roe": 0.65,
+        "roa": 0.3591,
+        "indice_basileia": null,
+        "ativo_total": 30997096376.17
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "roe": 8.24,
+        "roa": 1.5615,
+        "indice_basileia": null,
+        "ativo_total": 835928013371.46
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "roe": 6.08,
+        "roa": 0.5827,
+        "indice_basileia": null,
+        "ativo_total": 53284781163.73
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 2.29,
+        "roa": 0.1014,
+        "indice_basileia": null,
+        "ativo_total": 34964454100.57
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 7.17,
+        "roa": 0.2045,
+        "indice_basileia": null,
+        "ativo_total": 42364593492.47
+      },
+      {
+        "nome": "DEUTSCHE BANK S.A. - BANCO ALEMAO",
+        "segmento": "outro",
+        "roe": 2.7,
+        "roa": 0.2393,
+        "indice_basileia": null,
+        "ativo_total": 30505150631.85
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "roe": 4.02,
+        "roa": 0.3978,
+        "indice_basileia": null,
+        "ativo_total": 26867825716.04
+      },
+      {
+        "nome": "BANCO ORIGINAL S.A.",
+        "segmento": "digital",
+        "roe": -9.58,
+        "roa": -0.5841,
+        "indice_basileia": null,
+        "ativo_total": 28399599551
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "roe": 4.74,
+        "roa": 0.2548,
+        "indice_basileia": 0.1438,
+        "ativo_total": 26086411512.44
+      },
+      {
+        "nome": "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE",
+        "segmento": "cooperativa",
+        "roe": 3.43,
+        "roa": 0.136,
+        "indice_basileia": 0.1361,
+        "ativo_total": 18684390414.46
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS",
+        "segmento": "cooperativa",
+        "roe": 3.93,
+        "roa": 0.2533,
+        "indice_basileia": 0.1696,
+        "ativo_total": 18415640694.31
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO CREDICITRUS",
+        "segmento": "cooperativa",
+        "roe": 6.95,
+        "roa": 1.3536,
+        "indice_basileia": 0.2594,
+        "ativo_total": 15820732219.79
+      },
+      {
+        "nome": "COOPERATIVA DE CREDITO VALE DO ITAJAI - VIACREDI",
+        "segmento": "cooperativa",
+        "roe": 5.63,
+        "roa": 1.0874,
+        "indice_basileia": 0.228,
+        "ativo_total": 14514660392.68
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO",
+        "segmento": "cooperativa",
+        "roe": 4.32,
+        "roa": 0.1992,
+        "indice_basileia": 0.1786,
+        "ativo_total": 14210933682.48
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO UNICRED DO BRASIL - UNICRED DO BRASIL",
+        "segmento": "cooperativa",
+        "roe": -6.01,
+        "roa": -0.2684,
+        "indice_basileia": 0.2296,
+        "ativo_total": 13266821133.25
+      },
+      {
+        "nome": "SICOOB COCRED COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 9.33,
+        "roa": 1.2365,
+        "indice_basileia": 0.1592,
+        "ativo_total": 12874463244.7
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES",
+        "segmento": "cooperativa",
+        "roe": 4.07,
+        "roa": 0.2029,
+        "indice_basileia": 0.1622,
+        "ativo_total": 12631951576.3
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO - AILOS",
+        "segmento": "cooperativa",
+        "roe": 0.0,
+        "roa": 0.0,
+        "indice_basileia": 0.3651,
+        "ativo_total": 11660738071.78
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO",
+        "segmento": "cooperativa",
+        "roe": 13.44,
+        "roa": 2.4911,
+        "indice_basileia": 0.2399,
+        "ativo_total": 10429972612.6
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO SICREDI SERRANA RS/ES",
+        "segmento": "cooperativa",
+        "roe": 12.48,
+        "roa": 1.2819,
+        "indice_basileia": 0.169,
+        "ativo_total": 9965441501.35
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.",
+        "segmento": "cooperativa",
+        "roe": 5.05,
+        "roa": 0.5816,
+        "indice_basileia": 0.1428,
+        "ativo_total": 9520103836.51
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO MAXI ALFA DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB MAXICRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 10.26,
+        "roa": 1.2357,
+        "indice_basileia": 0.1549,
+        "ativo_total": 9419356900.1
+      },
+      {
+        "nome": "SISPRIME DO BRASIL - COOPERATIVA DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 8.28,
+        "roa": 1.4014,
+        "indice_basileia": 0.2364,
+        "ativo_total": 8870155216.07
+      },
+      {
+        "nome": "SICOOB CREDICOM - COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS MEDICOS E PROFISSIONAIS DA AREA DE SAUDE DO BRASIL LTDA.",
+        "segmento": "cooperativa",
+        "roe": 8.39,
+        "roa": 1.2553,
+        "indice_basileia": 0.2219,
+        "ativo_total": 7865260006.67
+      },
+      {
+        "nome": "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO",
+        "segmento": "cooperativa",
+        "roe": 4.98,
+        "roa": 0.1954,
+        "indice_basileia": 0.1728,
+        "ativo_total": 7761604327.76
+      },
+      {
+        "nome": "COOPERATIVA DE CRÉDITO E INVESTIMENTO DO SUDOESTE  DA AMAZÔNIA LTDA - SICOOB CREDISUL",
+        "segmento": "cooperativa",
+        "roe": 11.16,
+        "roa": 1.9367,
+        "indice_basileia": 0.1934,
+        "ativo_total": 7314409582.51
+      }
+    ],
+    "202503": []
+  }
+}

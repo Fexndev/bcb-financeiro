@@ -1,0 +1,5431 @@
+{
+  "last_updated": "2026-04-05T17:22:04Z",
+  "source": "BCB/IF.data",
+  "trimestres": {
+    "202203": [
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2022503271261.92,
+        "patrimonio_liquido": 142565920692.61,
+        "lucro_liquido": 6680978014.78,
+        "carteira_credito": 788089646175.67,
+        "captacoes": 1609751148239.57
+      },
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2008251298311.2,
+        "patrimonio_liquido": 153474039350.16,
+        "lucro_liquido": 7280169873.86,
+        "carteira_credito": 815460899439.19,
+        "captacoes": 1422921203741.65
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1483622872045,
+        "patrimonio_liquido": 80270445958.92,
+        "lucro_liquido": 2312079183.23,
+        "carteira_credito": 888994636599.09,
+        "captacoes": 1218664960355.22
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1458718218778.47,
+        "patrimonio_liquido": 154248880964.42,
+        "lucro_liquido": 7081922473.83,
+        "carteira_credito": 616392412946.57,
+        "captacoes": 1078877484418.89
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 986705629566.57,
+        "patrimonio_liquido": 81701756554.65,
+        "lucro_liquido": 3995865890.61,
+        "carteira_credito": 454915532549.42,
+        "captacoes": 721512130936.87
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 784591338941.43,
+        "patrimonio_liquido": 142421980444.57,
+        "lucro_liquido": 12901944075.6,
+        "carteira_credito": 267441048611.83,
+        "captacoes": 259953871523.4
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 381410079107.09,
+        "patrimonio_liquido": 41573402769.3,
+        "lucro_liquido": 1942584754.93,
+        "carteira_credito": 105748593607.64,
+        "captacoes": 261023409885.81
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 221289309732.2,
+        "patrimonio_liquido": 15321924754.88,
+        "lucro_liquido": 501415093.37,
+        "carteira_credito": 112432322648.12,
+        "captacoes": 172974011521.61
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 143974549422.99,
+        "patrimonio_liquido": 11008513495.82,
+        "lucro_liquido": 429333851.23,
+        "carteira_credito": 28861083038.28,
+        "captacoes": 80876384440.81
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 122404806249.88,
+        "patrimonio_liquido": 12119362800.91,
+        "lucro_liquido": 387795527.96,
+        "carteira_credito": 66253136213.71,
+        "captacoes": 87032044048.33
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 113278847350.21,
+        "patrimonio_liquido": 6611593998.92,
+        "lucro_liquido": -65895003.75,
+        "carteira_credito": 14470173481.99,
+        "captacoes": 77635564466.27
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 109943220422.25,
+        "patrimonio_liquido": 2463642577.46,
+        "lucro_liquido": 13865204.53,
+        "carteira_credito": 17928834337.63,
+        "captacoes": 97431946646.85
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 103710079699.04,
+        "patrimonio_liquido": 8992111062.61,
+        "lucro_liquido": 164092550.01,
+        "carteira_credito": 42378482533.45,
+        "captacoes": 81843055247.61
+      },
+      {
+        "nome": "CIELO S.A.",
+        "segmento": "outro",
+        "ativo_total": 99813690020.78,
+        "patrimonio_liquido": 10170375916.75,
+        "lucro_liquido": 184557095.78,
+        "carteira_credito": 0,
+        "captacoes": 3900410602.9
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 99485490626.81,
+        "patrimonio_liquido": 45469173332.97,
+        "lucro_liquido": 621792171.02,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 87744175281.11,
+        "patrimonio_liquido": 7425213267.68,
+        "lucro_liquido": 402268030.19,
+        "carteira_credito": 4335565639.07,
+        "captacoes": 53873452324.6
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 84016387478.09,
+        "patrimonio_liquido": 2614407391.79,
+        "lucro_liquido": 120884417.5,
+        "carteira_credito": 17566845769.12,
+        "captacoes": 69084603603.65
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "ativo_total": 79328676365.08,
+        "patrimonio_liquido": 4397435840.09,
+        "lucro_liquido": -66336081.56,
+        "carteira_credito": 16395030487.33,
+        "captacoes": 31158904070.47
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 63006496021.95,
+        "patrimonio_liquido": 7935020303.21,
+        "lucro_liquido": 408893359.77,
+        "carteira_credito": 14994124428.89,
+        "captacoes": 18652185246.97
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 61167013164.18,
+        "patrimonio_liquido": 5116548728.85,
+        "lucro_liquido": 196134407.62,
+        "carteira_credito": 37315227798.49,
+        "captacoes": 47375690348.07
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 56491244907.98,
+        "patrimonio_liquido": 4384788686.47,
+        "lucro_liquido": 251679551.31,
+        "carteira_credito": 18301545967.76,
+        "captacoes": 49447578952.71
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 56013679599.32,
+        "patrimonio_liquido": 2746559423.32,
+        "lucro_liquido": 99618858.92,
+        "carteira_credito": 0,
+        "captacoes": 2302439614.96
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 53401281873.53,
+        "patrimonio_liquido": 3183617943.46,
+        "lucro_liquido": -70726250.49,
+        "carteira_credito": 26401104437.01,
+        "captacoes": 12968053644.15
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 46138209062.19,
+        "patrimonio_liquido": 5016106039.74,
+        "lucro_liquido": 131221193.15,
+        "carteira_credito": 26222141791.99,
+        "captacoes": 29287861156
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 44827837422.78,
+        "patrimonio_liquido": 4774274058.1,
+        "lucro_liquido": 183161916.41,
+        "carteira_credito": 22916055187.76,
+        "captacoes": 34485340858.31
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 44078499504.06,
+        "patrimonio_liquido": 1364949209.52,
+        "lucro_liquido": 20507383.12,
+        "carteira_credito": 3572994499.8,
+        "captacoes": 7235014662.09
+      },
+      {
+        "nome": "CREDIT AGRICOLE",
+        "segmento": "cooperativa",
+        "ativo_total": 42044551852.96,
+        "patrimonio_liquido": 2418034278.96,
+        "lucro_liquido": 35543883.14,
+        "carteira_credito": 2905535270.11,
+        "captacoes": 8865189815.98
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 39518064936.93,
+        "patrimonio_liquido": 6088934208.66,
+        "lucro_liquido": 389130649.43,
+        "carteira_credito": 9666557798.41,
+        "captacoes": 20661652976.53
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 38253375106.17,
+        "patrimonio_liquido": 8429147710.35,
+        "lucro_liquido": 17138999.55,
+        "carteira_credito": 17801569009.02,
+        "captacoes": 24479956862.73
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 37468098797.79,
+        "patrimonio_liquido": 2403028480.1,
+        "lucro_liquido": 70665944.38,
+        "carteira_credito": 22202500114.25,
+        "captacoes": 32467294555.09
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 36354928989.08,
+        "patrimonio_liquido": 1957957434.95,
+        "lucro_liquido": 81272852.07,
+        "carteira_credito": 6635564358.69,
+        "captacoes": 33167085773.66
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 34957420491.39,
+        "patrimonio_liquido": 4018825181.96,
+        "lucro_liquido": 225838923.02,
+        "carteira_credito": 979521174.86,
+        "captacoes": 15874004152.5
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 34404463007.64,
+        "patrimonio_liquido": 3861343552.8,
+        "lucro_liquido": 48307410.55,
+        "carteira_credito": 16307365290.01,
+        "captacoes": 26387955984.06
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 31980961515.13,
+        "patrimonio_liquido": 5753984760.97,
+        "lucro_liquido": -244480981.38,
+        "carteira_credito": 17592535183.44,
+        "captacoes": 20164010278.42
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 31132779846.13,
+        "patrimonio_liquido": 1179012958.26,
+        "lucro_liquido": -47435799.0,
+        "carteira_credito": 0,
+        "captacoes": 4463318284.43
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 29722738061.39,
+        "patrimonio_liquido": 3220182833.87,
+        "lucro_liquido": 216849570,
+        "carteira_credito": 12771855608.03,
+        "captacoes": 9200904113.12
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 28153445567.81,
+        "patrimonio_liquido": 2876570866.15,
+        "lucro_liquido": 20652917.4,
+        "carteira_credito": 24035657479.94,
+        "captacoes": 20173066474.19
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 25508644064.96,
+        "patrimonio_liquido": 8725252509.12,
+        "lucro_liquido": 222583532.18,
+        "carteira_credito": 449531373.23,
+        "captacoes": 1865714245.69
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 24719154542.22,
+        "patrimonio_liquido": 1577784991.79,
+        "lucro_liquido": 28958063.84,
+        "carteira_credito": 1347620829.48,
+        "captacoes": 4671036551.55
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 24264584875.27,
+        "patrimonio_liquido": 2298978652.49,
+        "lucro_liquido": -122500394.25,
+        "carteira_credito": 15036015952.7,
+        "captacoes": 19066493673.71
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 23549161113.12,
+        "patrimonio_liquido": 4455145637.57,
+        "lucro_liquido": 130212818.69,
+        "carteira_credito": 0,
+        "captacoes": 9090061635.8
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 21846724219.82,
+        "patrimonio_liquido": 1014586752.91,
+        "lucro_liquido": 18465889.14,
+        "carteira_credito": 2048646160.87,
+        "captacoes": 7284965134.99
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 21832547276.78,
+        "patrimonio_liquido": 2680062757.5,
+        "lucro_liquido": 28679296.82,
+        "carteira_credito": 13512905935.82,
+        "captacoes": 18082052448
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 21045991728.19,
+        "patrimonio_liquido": 2417141325.47,
+        "lucro_liquido": 38809326.92,
+        "carteira_credito": 10209586.99,
+        "captacoes": 4955570352.45
+      },
+      {
+        "nome": "SCOTIABANK",
+        "segmento": "outro",
+        "ativo_total": 18718045228.46,
+        "patrimonio_liquido": 2091777105.2,
+        "lucro_liquido": 48303408.29,
+        "carteira_credito": 2076454229.25,
+        "captacoes": 12028155290.11
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "ativo_total": 17755623356.96,
+        "patrimonio_liquido": 1104194817.84,
+        "lucro_liquido": -4490372.16,
+        "carteira_credito": 9905576769.38,
+        "captacoes": 13882900255.07
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 17610432973.14,
+        "patrimonio_liquido": 11165090061.74,
+        "lucro_liquido": 62177557.17,
+        "carteira_credito": 0,
+        "captacoes": 1050545440.65
+      },
+      {
+        "nome": "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+        "segmento": "outro",
+        "ativo_total": 17227423696.2,
+        "patrimonio_liquido": 3482215304.5,
+        "lucro_liquido": 84353234.18,
+        "carteira_credito": 14333650339.11,
+        "captacoes": 12764930000.06
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 16028667462.34,
+        "patrimonio_liquido": 1694917575.27,
+        "lucro_liquido": 129987445.27,
+        "carteira_credito": 15364601806,
+        "captacoes": 13769889896.08
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 15373156212.66,
+        "patrimonio_liquido": 785937034.03,
+        "lucro_liquido": 108450254.64,
+        "carteira_credito": 1599987329.73,
+        "captacoes": 4596202291.44
+      }
+    ],
+    "202206": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2105917121753.03,
+        "patrimonio_liquido": 159813128097.22,
+        "lucro_liquido": 15032321593.23,
+        "carteira_credito": 859052553339.87,
+        "captacoes": 1476593948304.51
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2076015550566.22,
+        "patrimonio_liquido": 145592993050.17,
+        "lucro_liquido": 14372376493.12,
+        "carteira_credito": 813555976064.82,
+        "captacoes": 1645061801274.83
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1492022995274.33,
+        "patrimonio_liquido": 156511191939.36,
+        "lucro_liquido": 14072893174.49,
+        "carteira_credito": 632953727335.42,
+        "captacoes": 1101721964655.27
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1490173965400.98,
+        "patrimonio_liquido": 80970006872.76,
+        "lucro_liquido": 3965024822.42,
+        "carteira_credito": 928174798216.99,
+        "captacoes": 1219001605840.14
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1011342855406.06,
+        "patrimonio_liquido": 82889736544.27,
+        "lucro_liquido": 8065366463.62,
+        "carteira_credito": 467885239979.6,
+        "captacoes": 735703285422.4
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 759514282588.24,
+        "patrimonio_liquido": 129328027492.12,
+        "lucro_liquido": 24615500096.99,
+        "carteira_credito": 273938162723.63,
+        "captacoes": 248025415582.63
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 447821741784.18,
+        "patrimonio_liquido": 43498864684.53,
+        "lucro_liquido": 4009882189.57,
+        "carteira_credito": 110289133215.33,
+        "captacoes": 288802458797.78
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 243394511527.65,
+        "patrimonio_liquido": 15701238024.87,
+        "lucro_liquido": 1140921482.38,
+        "carteira_credito": 117407230568.71,
+        "captacoes": 190319798407.84
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 152724980135.93,
+        "patrimonio_liquido": 11510146245.98,
+        "lucro_liquido": 963314187.02,
+        "carteira_credito": 27270154020.3,
+        "captacoes": 88122788575.42
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 122976525057.62,
+        "patrimonio_liquido": 6575180248.74,
+        "lucro_liquido": -165308737.87,
+        "carteira_credito": 16443447821.89,
+        "captacoes": 84174324739.56
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 122445373560.1,
+        "patrimonio_liquido": 3200378650.44,
+        "lucro_liquido": 99325364.79,
+        "carteira_credito": 18228968165.07,
+        "captacoes": 108634444759.18
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 122433951173.61,
+        "patrimonio_liquido": 12702926149.97,
+        "lucro_liquido": 799512199.18,
+        "carteira_credito": 66508392467.97,
+        "captacoes": 87131861297.46
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 109090039492.86,
+        "patrimonio_liquido": 8966823685.95,
+        "lucro_liquido": 391916026.25,
+        "carteira_credito": 44585484517.93,
+        "captacoes": 85864389117.49
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 105839598067.36,
+        "patrimonio_liquido": 10549992374.93,
+        "lucro_liquido": 819816954.19,
+        "carteira_credito": 0,
+        "captacoes": 4830290880.74
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 97517354987,
+        "patrimonio_liquido": 43326634482.84,
+        "lucro_liquido": 1502527458.17,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 92505045239.46,
+        "patrimonio_liquido": 7511117882.63,
+        "lucro_liquido": 489258693.38,
+        "carteira_credito": 4192424941.45,
+        "captacoes": 57697116338.77
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 86569507149.19,
+        "patrimonio_liquido": 2778072066.56,
+        "lucro_liquido": 291001649.55,
+        "carteira_credito": 18348164106.86,
+        "captacoes": 70264761721.29
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "ativo_total": 81046654964.47,
+        "patrimonio_liquido": 4458983452.98,
+        "lucro_liquido": 22381855.73,
+        "carteira_credito": 17528355359.9,
+        "captacoes": 32708891243.74
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 66861446336.25,
+        "patrimonio_liquido": 4600890525.45,
+        "lucro_liquido": 452496447.75,
+        "carteira_credito": 20551929078.61,
+        "captacoes": 57900142751.14
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 65943678001.56,
+        "patrimonio_liquido": 5274704737.01,
+        "lucro_liquido": 468068274.98,
+        "carteira_credito": 42372421375.95,
+        "captacoes": 51372535623.79
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 65005840803.75,
+        "patrimonio_liquido": 8190351593.84,
+        "lucro_liquido": 701342677.12,
+        "carteira_credito": 14031225548.39,
+        "captacoes": 20891034759.69
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 58292120649.46,
+        "patrimonio_liquido": 3458627928.4,
+        "lucro_liquido": 58159651.1,
+        "carteira_credito": 29393262361.12,
+        "captacoes": 14841594958.45
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 56466563693.07,
+        "patrimonio_liquido": 2826498219.17,
+        "lucro_liquido": 275672249.65,
+        "carteira_credito": 0,
+        "captacoes": 1898227937.69
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 49205322153.45,
+        "patrimonio_liquido": 4910570665.21,
+        "lucro_liquido": 384812915.64,
+        "carteira_credito": 24133569512.21,
+        "captacoes": 37228557435.19
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 49065370256,
+        "patrimonio_liquido": 5182673768.09,
+        "lucro_liquido": 293264033.97,
+        "carteira_credito": 28670148001.07,
+        "captacoes": 32657395073.19
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 45691679986.6,
+        "patrimonio_liquido": 4286733558.68,
+        "lucro_liquido": 474098742.02,
+        "carteira_credito": 1194354557.08,
+        "captacoes": 16605388544.73
+      },
+      {
+        "nome": "CREDIT AGRICOLE",
+        "segmento": "cooperativa",
+        "ativo_total": 43434923472.82,
+        "patrimonio_liquido": 2442346092.48,
+        "lucro_liquido": 43100099.72,
+        "carteira_credito": 3043989001.79,
+        "captacoes": 10952283334.56
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 41242096569.01,
+        "patrimonio_liquido": 6267844238.74,
+        "lucro_liquido": 580274101,
+        "carteira_credito": 9456516427.69,
+        "captacoes": 22396163326.24
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 40571075008.22,
+        "patrimonio_liquido": 8349268107.51,
+        "lucro_liquido": 29227282.04,
+        "carteira_credito": 19049068007.24,
+        "captacoes": 26428828974.4
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 40520867053.3,
+        "patrimonio_liquido": 3839328588.67,
+        "lucro_liquido": 99937092.48,
+        "carteira_credito": 19842327525.82,
+        "captacoes": 32352684422
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 37466304535.31,
+        "patrimonio_liquido": 2434963592.19,
+        "lucro_liquido": 190525025.62,
+        "carteira_credito": 24481061651.28,
+        "captacoes": 31570131996.45
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 37069032147.22,
+        "patrimonio_liquido": 1941387543.76,
+        "lucro_liquido": 182115116.7,
+        "carteira_credito": 7069660166.98,
+        "captacoes": 33834597952.46
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 36235888129.95,
+        "patrimonio_liquido": 5365874483.33,
+        "lucro_liquido": -580701648.28,
+        "carteira_credito": 21263457806.76,
+        "captacoes": 23418185052.37
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 32685445171.45,
+        "patrimonio_liquido": 4470162291.79,
+        "lucro_liquido": 439161270.25,
+        "carteira_credito": 14598497179.19,
+        "captacoes": 10235319387.94
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 31528568680.83,
+        "patrimonio_liquido": 1557100410.09,
+        "lucro_liquido": 7977561.33,
+        "carteira_credito": 1293465139.11,
+        "captacoes": 4480467035.54
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 31153160368.91,
+        "patrimonio_liquido": 2910546588.73,
+        "lucro_liquido": 20939625.16,
+        "carteira_credito": 26142505684.57,
+        "captacoes": 23149933471.78
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 30383590102.42,
+        "patrimonio_liquido": 1178335203.1,
+        "lucro_liquido": -83352525.41,
+        "carteira_credito": 0,
+        "captacoes": 3917555982.18
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 29365260245.32,
+        "patrimonio_liquido": 1360979238.22,
+        "lucro_liquido": 42071562.56,
+        "carteira_credito": 4073565367.49,
+        "captacoes": 8400050096.53
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 28989957246.12,
+        "patrimonio_liquido": 2495037657.1,
+        "lucro_liquido": 108637929.06,
+        "carteira_credito": 321178743.26,
+        "captacoes": 7714042859.58
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 28430997185.3,
+        "patrimonio_liquido": 1007416640.83,
+        "lucro_liquido": 12827282.53,
+        "carteira_credito": 2167368997.64,
+        "captacoes": 6845090532.79
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 26529495708.37,
+        "patrimonio_liquido": 8770659590.32,
+        "lucro_liquido": 486635969.72,
+        "carteira_credito": 434093458.91,
+        "captacoes": 1908963796.24
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 25786694409.95,
+        "patrimonio_liquido": 4657506566.1,
+        "lucro_liquido": 182404778.31,
+        "carteira_credito": 0,
+        "captacoes": 7538201405.79
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 25543881655.16,
+        "patrimonio_liquido": 1881834469.68,
+        "lucro_liquido": -557582306.09,
+        "carteira_credito": 17035970564.05,
+        "captacoes": 19961375781.02
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 22879019013.29,
+        "patrimonio_liquido": 2705861554.35,
+        "lucro_liquido": 78090296.36,
+        "carteira_credito": 13897649732.51,
+        "captacoes": 19187601595.72
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 19144332522.95,
+        "patrimonio_liquido": 11774375375.43,
+        "lucro_liquido": 117098830.28,
+        "carteira_credito": 0,
+        "captacoes": 1521589423.7
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 18476551109.83,
+        "patrimonio_liquido": 919996774.13,
+        "lucro_liquido": 87206879.89,
+        "carteira_credito": 9996471741.77,
+        "captacoes": 16318101632.58
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "ativo_total": 17945718089.41,
+        "patrimonio_liquido": 1091637119.8,
+        "lucro_liquido": -16284843.34,
+        "carteira_credito": 9718477997.7,
+        "captacoes": 14141352485.89
+      },
+      {
+        "nome": "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+        "segmento": "outro",
+        "ativo_total": 17803318830.67,
+        "patrimonio_liquido": 3625307958.12,
+        "lucro_liquido": 219921937.95,
+        "carteira_credito": 14623712438.67,
+        "captacoes": 13085999294
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 17343102552.14,
+        "patrimonio_liquido": 846676542.09,
+        "lucro_liquido": 140678241.02,
+        "carteira_credito": 1765026489.65,
+        "captacoes": 4613324452.11
+      },
+      {
+        "nome": "BANCOSEGURO S.A.",
+        "segmento": "outro",
+        "ativo_total": 16613251406.09,
+        "patrimonio_liquido": 532051073.92,
+        "lucro_liquido": 19507763.2,
+        "carteira_credito": 403079069.75,
+        "captacoes": 15917943422.27
+      }
+    ],
+    "202209": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2221407939525.34,
+        "patrimonio_liquido": 165465723946.86,
+        "lucro_liquido": 8279577081.25,
+        "carteira_credito": 880275310483.61,
+        "captacoes": 1587565603786.59
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2127442383581.6,
+        "patrimonio_liquido": 147900625017.02,
+        "lucro_liquido": 8209955131.88,
+        "carteira_credito": 861621459154,
+        "captacoes": 1685461826219.48
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1674914143416.64,
+        "patrimonio_liquido": 160769488704.24,
+        "lucro_liquido": 5194176694.01,
+        "carteira_credito": 644835075972.17,
+        "captacoes": 1195160332333.74
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1561332996637.37,
+        "patrimonio_liquido": 84816007125.09,
+        "lucro_liquido": 3587830735.43,
+        "carteira_credito": 977017150987.51,
+        "captacoes": 1288889401530.27
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1035799883481.77,
+        "patrimonio_liquido": 85000919293.51,
+        "lucro_liquido": 3141506162.03,
+        "carteira_credito": 483579977558.13,
+        "captacoes": 757504056612.82
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 753872468278.38,
+        "patrimonio_liquido": 137045909238.84,
+        "lucro_liquido": 9586343035.11,
+        "carteira_credito": 274612507645.94,
+        "captacoes": 231842247713.18
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 431902952105.38,
+        "patrimonio_liquido": 44422399886.04,
+        "lucro_liquido": 2022178532.01,
+        "carteira_credito": 111635102483.41,
+        "captacoes": 302463864114.2
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 248546044859.92,
+        "patrimonio_liquido": 16394167960.24,
+        "lucro_liquido": 639184845.32,
+        "carteira_credito": 125142623590.35,
+        "captacoes": 193312668302.5
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 155653342288.87,
+        "patrimonio_liquido": 12145577565.87,
+        "lucro_liquido": 398299611.48,
+        "carteira_credito": 28608148558.37,
+        "captacoes": 87793234424.92
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 147679397554.84,
+        "patrimonio_liquido": 3251785085.86,
+        "lucro_liquido": 52852219.7,
+        "carteira_credito": 20658462367.59,
+        "captacoes": 133098944485.38
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 133491819121.62,
+        "patrimonio_liquido": 8427801917.22,
+        "lucro_liquido": -26573175.19,
+        "carteira_credito": 20445797771.07,
+        "captacoes": 93144550313.15
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 129447772990.01,
+        "patrimonio_liquido": 12620773029.03,
+        "lucro_liquido": 384252884.32,
+        "carteira_credito": 67399318810.13,
+        "captacoes": 90045424213.95
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 112816391496.89,
+        "patrimonio_liquido": 9005760712.33,
+        "lucro_liquido": 71944453.91,
+        "carteira_credito": 47440552510.75,
+        "captacoes": 88334926637.78
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 106083627800.52,
+        "patrimonio_liquido": 7613430415.24,
+        "lucro_liquido": 105167696.4,
+        "carteira_credito": 3622575652.32,
+        "captacoes": 68298080425.36
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 105753338158.54,
+        "patrimonio_liquido": 2878754862,
+        "lucro_liquido": 94101304.13,
+        "carteira_credito": 19264559383.77,
+        "captacoes": 88677592759.62
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 105463879564.5,
+        "patrimonio_liquido": 10832500169.09,
+        "lucro_liquido": 421740666.89,
+        "carteira_credito": 0,
+        "captacoes": 4363668634.79
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 103088547568.47,
+        "patrimonio_liquido": 44193856002.63,
+        "lucro_liquido": 865651366.97,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "ativo_total": 77031553107.54,
+        "patrimonio_liquido": 4299061646.82,
+        "lucro_liquido": -232339563.57,
+        "carteira_credito": 16182778220.09,
+        "captacoes": 33527798951.74
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 72907100681.87,
+        "patrimonio_liquido": 4831441285.78,
+        "lucro_liquido": 231821727.95,
+        "carteira_credito": 24052487541.15,
+        "captacoes": 63343864407.37
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 67993986861.26,
+        "patrimonio_liquido": 5447244171.06,
+        "lucro_liquido": 256832715.96,
+        "carteira_credito": 44598678532.51,
+        "captacoes": 54203006768.28
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 65299581991.79,
+        "patrimonio_liquido": 5286519601.73,
+        "lucro_liquido": 120371891.34,
+        "carteira_credito": 31600958279.32,
+        "captacoes": 15941795269.57
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 63769067573.06,
+        "patrimonio_liquido": 8589191037.28,
+        "lucro_liquido": 575106473.05,
+        "carteira_credito": 14111639247.21,
+        "captacoes": 20648725294.58
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 54933348992.08,
+        "patrimonio_liquido": 2951795288.43,
+        "lucro_liquido": 125243704.21,
+        "carteira_credito": 0,
+        "captacoes": 1234183101.52
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 50863140970.86,
+        "patrimonio_liquido": 5394095503.86,
+        "lucro_liquido": 203868828.88,
+        "carteira_credito": 28620697979.18,
+        "captacoes": 32623053867.43
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 50749346028.83,
+        "patrimonio_liquido": 5070724781.9,
+        "lucro_liquido": 218147927.55,
+        "carteira_credito": 25321748624.34,
+        "captacoes": 39266578281.65
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 43574634399.6,
+        "patrimonio_liquido": 8352623706.19,
+        "lucro_liquido": -67445819.92,
+        "carteira_credito": 20523193609.09,
+        "captacoes": 29424170482.67
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 43074458321.58,
+        "patrimonio_liquido": 3839154067.54,
+        "lucro_liquido": 53447384.87,
+        "carteira_credito": 21825242087.18,
+        "captacoes": 33666719297.58
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 42968009245.78,
+        "patrimonio_liquido": 1377997741.99,
+        "lucro_liquido": 17420466.59,
+        "carteira_credito": 2801340850.2,
+        "captacoes": 11432067932.32
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 42809604365.32,
+        "patrimonio_liquido": 6421664923.44,
+        "lucro_liquido": 100237350.67,
+        "carteira_credito": 8314513102.78,
+        "captacoes": 21453511852.49
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 39658484184.59,
+        "patrimonio_liquido": 5084735449.73,
+        "lucro_liquido": -309808626.82,
+        "carteira_credito": 23715039622.68,
+        "captacoes": 26151898301
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 38932151671.4,
+        "patrimonio_liquido": 2131885775.07,
+        "lucro_liquido": 59272788.11,
+        "carteira_credito": 28016992651.02,
+        "captacoes": 33053821737.9
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 38838425617.55,
+        "patrimonio_liquido": 2009403277.17,
+        "lucro_liquido": 76501129.45,
+        "carteira_credito": 7487691663.65,
+        "captacoes": 35532723874.21
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 34274974815.08,
+        "patrimonio_liquido": 2858757602.78,
+        "lucro_liquido": 73264390.9,
+        "carteira_credito": 28903064456.43,
+        "captacoes": 26750748611.05
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 33975030000.35,
+        "patrimonio_liquido": 4881812391.59,
+        "lucro_liquido": 387827770.33,
+        "carteira_credito": 17728266058.74,
+        "captacoes": 9780126253.33
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 33682261721.48,
+        "patrimonio_liquido": 4481362746.1,
+        "lucro_liquido": 193459821.09,
+        "carteira_credito": 1158788561.06,
+        "captacoes": 17311048667.27
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 32705249306.24,
+        "patrimonio_liquido": 2120577166.9,
+        "lucro_liquido": -391650654.06,
+        "carteira_credito": 19423826676.96,
+        "captacoes": 26821033454.03
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 31426710422.18,
+        "patrimonio_liquido": 1210288459.25,
+        "lucro_liquido": 63658091.62,
+        "carteira_credito": 0,
+        "captacoes": 3592296062.11
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 30324663951.79,
+        "patrimonio_liquido": 1572900145.83,
+        "lucro_liquido": -2475212.18,
+        "carteira_credito": 756145231.55,
+        "captacoes": 4163935098.71
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 27293749447.36,
+        "patrimonio_liquido": 8988774475.14,
+        "lucro_liquido": 264783340.34,
+        "carteira_credito": 457817937.14,
+        "captacoes": 1803082287.47
+      },
+      {
+        "nome": "CREDIT AGRICOLE",
+        "segmento": "cooperativa",
+        "ativo_total": 27083586895.46,
+        "patrimonio_liquido": 2504350341.23,
+        "lucro_liquido": 54433565.0,
+        "carteira_credito": 2836696814.73,
+        "captacoes": 7555388847.11
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 26751800381.37,
+        "patrimonio_liquido": 1028167154.3,
+        "lucro_liquido": -13938062.65,
+        "carteira_credito": 1892910443.1,
+        "captacoes": 6286876195.72
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 24203615873.63,
+        "patrimonio_liquido": 4772730110.28,
+        "lucro_liquido": 114145502.85,
+        "carteira_credito": 0,
+        "captacoes": 8946098982.47
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 24134449105.88,
+        "patrimonio_liquido": 2758079390.72,
+        "lucro_liquido": 51286192.76,
+        "carteira_credito": 14068115601.54,
+        "captacoes": 20272745308.08
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 23619732188.26,
+        "patrimonio_liquido": 2520403046.98,
+        "lucro_liquido": 41588272.91,
+        "carteira_credito": 330565484.92,
+        "captacoes": 7890629229.68
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 21479830099.45,
+        "patrimonio_liquido": 12698029881.97,
+        "lucro_liquido": -7963806.36,
+        "carteira_credito": 0,
+        "captacoes": 2171064494.16
+      },
+      {
+        "nome": "BANCOSEGURO S.A.",
+        "segmento": "outro",
+        "ativo_total": 20821714446.91,
+        "patrimonio_liquido": 703763088.23,
+        "lucro_liquido": -28459782.13,
+        "carteira_credito": 790052875.12,
+        "captacoes": 19941438833.37
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 20662621562.36,
+        "patrimonio_liquido": 998301955.97,
+        "lucro_liquido": 65551568.01,
+        "carteira_credito": 11365344655.51,
+        "captacoes": 18362319282.67
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 19128228456.59,
+        "patrimonio_liquido": 937662542.56,
+        "lucro_liquido": 84445613.4,
+        "carteira_credito": 1804055489.18,
+        "captacoes": 5557882705.06
+      },
+      {
+        "nome": "SCOTIABANK",
+        "segmento": "outro",
+        "ativo_total": 19062238917.22,
+        "patrimonio_liquido": 2931442864.15,
+        "lucro_liquido": 90986792.76,
+        "carteira_credito": 2280399619.19,
+        "captacoes": 11390407458.65
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "ativo_total": 19002235822.07,
+        "patrimonio_liquido": 1108651982.92,
+        "lucro_liquido": 15722886.42,
+        "carteira_credito": 10476440406.54,
+        "captacoes": 15011217346.32
+      }
+    ],
+    "202212": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2264702287269.83,
+        "patrimonio_liquido": 169703800223.97,
+        "lucro_liquido": 15575155509.42,
+        "carteira_credito": 906186015456.09,
+        "captacoes": 1635163761181.09
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2010991123942.75,
+        "patrimonio_liquido": 154332855049.82,
+        "lucro_liquido": 17005951922.87,
+        "carteira_credito": 891401673776.78,
+        "captacoes": 1588033729744.82
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1585873063405.12,
+        "patrimonio_liquido": 84813538044.74,
+        "lucro_liquido": 5493434596.1,
+        "carteira_credito": 1012344566508.69,
+        "captacoes": 1315127949008.08
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1538534888172.89,
+        "patrimonio_liquido": 158030694679.62,
+        "lucro_liquido": 6565185542.77,
+        "carteira_credito": 656430230173.77,
+        "captacoes": 1168245369919.81
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1076796102969.23,
+        "patrimonio_liquido": 84518890573.37,
+        "lucro_liquido": 4824782983.7,
+        "carteira_credito": 488607756186.82,
+        "captacoes": 771344630615.38
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 681161316325.65,
+        "patrimonio_liquido": 131323725599.93,
+        "lucro_liquido": 17127548388.34,
+        "carteira_credito": 278285079062.4,
+        "captacoes": 146804555858.45
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 441386142085.77,
+        "patrimonio_liquido": 44531690230.7,
+        "lucro_liquido": 3831954911.56,
+        "carteira_credito": 118874335607.36,
+        "captacoes": 290523568044.73
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 252426071858.42,
+        "patrimonio_liquido": 18355534426.76,
+        "lucro_liquido": 1064740029.17,
+        "carteira_credito": 122125767833.47,
+        "captacoes": 197421128529.77
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 169772268594.12,
+        "patrimonio_liquido": 11788363728.82,
+        "lucro_liquido": 1617262973.21,
+        "carteira_credito": 28722596442.72,
+        "captacoes": 94072431447.06
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 150419287056.51,
+        "patrimonio_liquido": 3558629048.57,
+        "lucro_liquido": 80184141.7,
+        "carteira_credito": 22101025235.73,
+        "captacoes": 134807584500.49
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 135664256461.13,
+        "patrimonio_liquido": 8290426113.84,
+        "lucro_liquido": -154105608.68,
+        "carteira_credito": 22260538193.33,
+        "captacoes": 97817953444.31
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 125221094895.47,
+        "patrimonio_liquido": 12887770573.55,
+        "lucro_liquido": 661954873.89,
+        "carteira_credito": 70426927793.98,
+        "captacoes": 89088359176.98
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 115018116441.58,
+        "patrimonio_liquido": 10928577483.95,
+        "lucro_liquido": 749710346.34,
+        "carteira_credito": 0,
+        "captacoes": 6644888897.28
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 113894953780.92,
+        "patrimonio_liquido": 45144805742.04,
+        "lucro_liquido": 1845457991.57,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 112048174360.88,
+        "patrimonio_liquido": 9414963382.86,
+        "lucro_liquido": 323017587.65,
+        "carteira_credito": 49121869486.07,
+        "captacoes": 88088945217.15
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 109762389655.69,
+        "patrimonio_liquido": 8515184378.87,
+        "lucro_liquido": 1066570400.06,
+        "carteira_credito": 3305398406.5,
+        "captacoes": 70106513336.77
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 102040529617.71,
+        "patrimonio_liquido": 3214466659.67,
+        "lucro_liquido": 179359145.7,
+        "carteira_credito": 21100412446.01,
+        "captacoes": 86572911285.6
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 97618048017.9,
+        "patrimonio_liquido": 5503277921.84,
+        "lucro_liquido": 924795884.55,
+        "carteira_credito": 26085719015.01,
+        "captacoes": 80504067400.21
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "ativo_total": 78213107079.31,
+        "patrimonio_liquido": 4162373534.95,
+        "lucro_liquido": -338404081.15,
+        "carteira_credito": 14280096904.68,
+        "captacoes": 29252699206.02
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 72952899199.73,
+        "patrimonio_liquido": 5994305765.57,
+        "lucro_liquido": 981904796.54,
+        "carteira_credito": 35932238067.52,
+        "captacoes": 15501828262.26
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 70605117117.7,
+        "patrimonio_liquido": 5738458728.53,
+        "lucro_liquido": 634858294.6,
+        "carteira_credito": 48548551128.83,
+        "captacoes": 56450559202.2
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 64332549279.52,
+        "patrimonio_liquido": 3086267928.27,
+        "lucro_liquido": 300376889.6,
+        "carteira_credito": 0,
+        "captacoes": 2288658639.57
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 63167204048.03,
+        "patrimonio_liquido": 8996183410.41,
+        "lucro_liquido": 1313988503.86,
+        "carteira_credito": 13413880025.01,
+        "captacoes": 20613712217.25
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 55486288184.47,
+        "patrimonio_liquido": 5205386000.34,
+        "lucro_liquido": 415419794.61,
+        "carteira_credito": 25414088829.31,
+        "captacoes": 39725915476
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 47739521693.02,
+        "patrimonio_liquido": 5652122048.31,
+        "lucro_liquido": 507372350.3,
+        "carteira_credito": 29787485711.96,
+        "captacoes": 34314813486.66
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 45892352203.63,
+        "patrimonio_liquido": 7080079718.63,
+        "lucro_liquido": -118815001.18,
+        "carteira_credito": 22317335157.04,
+        "captacoes": 32505673917.14
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 44318225756.09,
+        "patrimonio_liquido": 3939541119.3,
+        "lucro_liquido": 126220578.09,
+        "carteira_credito": 23203535075.23,
+        "captacoes": 33924465906.57
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 43617798167.15,
+        "patrimonio_liquido": 3572226934.38,
+        "lucro_liquido": -1823230383.05,
+        "carteira_credito": 29006327014.47,
+        "captacoes": 31382037953.39
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 40105057189.72,
+        "patrimonio_liquido": 2227811965.66,
+        "lucro_liquido": 115760612.67,
+        "carteira_credito": 29340041991.27,
+        "captacoes": 34332089138.29
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 38058189098.22,
+        "patrimonio_liquido": 6423824082.68,
+        "lucro_liquido": 351775713.35,
+        "carteira_credito": 6558259455.21,
+        "captacoes": 18871641908.59
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 37596681159.44,
+        "patrimonio_liquido": 3222079877.32,
+        "lucro_liquido": 134756770.35,
+        "carteira_credito": 31862858538.82,
+        "captacoes": 29739623226.25
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 36616696136.67,
+        "patrimonio_liquido": 2035292022.29,
+        "lucro_liquido": 147927794.87,
+        "carteira_credito": 7939247180.13,
+        "captacoes": 33220460070.42
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 34837580771.18,
+        "patrimonio_liquido": 1708822100.6,
+        "lucro_liquido": -1164119597.31,
+        "carteira_credito": 17776935176.85,
+        "captacoes": 29799852661.15
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 34791389155.17,
+        "patrimonio_liquido": 1263860385.69,
+        "lucro_liquido": 83130136.44,
+        "carteira_credito": 0,
+        "captacoes": 5159822361.77
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 34595898972.24,
+        "patrimonio_liquido": 4841380572.78,
+        "lucro_liquido": 683152900.66,
+        "carteira_credito": 19757320267.75,
+        "captacoes": 9372648986.91
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 34278727100.81,
+        "patrimonio_liquido": 2847110780.73,
+        "lucro_liquido": 385267854.59,
+        "carteira_credito": 311595366.83,
+        "captacoes": 17318983108.46
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 32836904592.84,
+        "patrimonio_liquido": 4510217958.98,
+        "lucro_liquido": 452392758.61,
+        "carteira_credito": 1116651745.43,
+        "captacoes": 14447167648.18
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 30867339555.7,
+        "patrimonio_liquido": 1403559228.41,
+        "lucro_liquido": 38690368.61,
+        "carteira_credito": 2401605639.43,
+        "captacoes": 8093094787.06
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 27859971506.16,
+        "patrimonio_liquido": 9292945838.1,
+        "lucro_liquido": 559078319.78,
+        "carteira_credito": 509158144.52,
+        "captacoes": 1257496904.6
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 27152399492.3,
+        "patrimonio_liquido": 2500231736.06,
+        "lucro_liquido": 152111153.74,
+        "carteira_credito": 4626356670.19,
+        "captacoes": 9107266737.15
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 23326973332.6,
+        "patrimonio_liquido": 2765117733.32,
+        "lucro_liquido": 87113540.5,
+        "carteira_credito": 13845223717.68,
+        "captacoes": 19576393532.38
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 22446936927.12,
+        "patrimonio_liquido": 4755113364.51,
+        "lucro_liquido": 396869859.68,
+        "carteira_credito": 0,
+        "captacoes": 9804225239.38
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 22285084988.84,
+        "patrimonio_liquido": 1389258592.46,
+        "lucro_liquido": 536434288.14,
+        "carteira_credito": 1762588030.61,
+        "captacoes": 7804937977.65
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 22248908225.18,
+        "patrimonio_liquido": 1010105062.96,
+        "lucro_liquido": 133418625.15,
+        "carteira_credito": 11871078101.67,
+        "captacoes": 19718477936.03
+      },
+      {
+        "nome": "BANCOSEGURO S.A.",
+        "segmento": "outro",
+        "ativo_total": 22247324611.04,
+        "patrimonio_liquido": 728827413.48,
+        "lucro_liquido": -3325738.93,
+        "carteira_credito": 864825096.84,
+        "captacoes": 21018559028.24
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 22232956047.8,
+        "patrimonio_liquido": 1054349955.74,
+        "lucro_liquido": 15636823.52,
+        "carteira_credito": 1634608753.14,
+        "captacoes": 5091406835.63
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 21855544649.87,
+        "patrimonio_liquido": 12760637180.69,
+        "lucro_liquido": 115263943.3,
+        "carteira_credito": 0,
+        "captacoes": 2516458753.57
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 20794254563.19,
+        "patrimonio_liquido": 1654857980.96,
+        "lucro_liquido": 77852312.6,
+        "carteira_credito": 673843198.48,
+        "captacoes": 4158179727.79
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 20697391561.96,
+        "patrimonio_liquido": 1962731534.37,
+        "lucro_liquido": 125608896.89,
+        "carteira_credito": 19685164429.24,
+        "captacoes": 17801640241.41
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 20545604831.28,
+        "patrimonio_liquido": 1566286055.72,
+        "lucro_liquido": 150821273.08,
+        "carteira_credito": 9788673535.76,
+        "captacoes": 18346995349.69
+      }
+    ],
+    "202303": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2329841403780.64,
+        "patrimonio_liquido": 174173702517.96,
+        "lucro_liquido": 7991268244.32,
+        "carteira_credito": 912716051951.43,
+        "captacoes": 1681842715970.95
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2093544677687.21,
+        "patrimonio_liquido": 159369237493.4,
+        "lucro_liquido": 8304929770.87,
+        "carteira_credito": 915278843270.42,
+        "captacoes": 1675468002102.59
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1649226955909.27,
+        "patrimonio_liquido": 86635751061.69,
+        "lucro_liquido": 1839231761.62,
+        "carteira_credito": 1036897468458.65,
+        "captacoes": 1375291459005.94
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1559799995314.39,
+        "patrimonio_liquido": 159136032246.37,
+        "lucro_liquido": 4265439150.47,
+        "carteira_credito": 642274084344.45,
+        "captacoes": 1177935861487.92
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1077762285213.14,
+        "patrimonio_liquido": 85316800932.74,
+        "lucro_liquido": 2154432956.1,
+        "carteira_credito": 499112711740.73,
+        "captacoes": 800331587124.87
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 688003796963.04,
+        "patrimonio_liquido": 132034077619.88,
+        "lucro_liquido": 3962687319.05,
+        "carteira_credito": 271961150101.75,
+        "captacoes": 144659933286.97
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 460075470996.49,
+        "patrimonio_liquido": 46309766406.25,
+        "lucro_liquido": 2133223191.89,
+        "carteira_credito": 113898378851.84,
+        "captacoes": 302553708834.89
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 250042045780.08,
+        "patrimonio_liquido": 23898959103.68,
+        "lucro_liquido": 575683830.01,
+        "carteira_credito": 106472563059.05,
+        "captacoes": 185440588459.86
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 167127309963.45,
+        "patrimonio_liquido": 3636916196.59,
+        "lucro_liquido": 73282007.75,
+        "carteira_credito": 22751766228.74,
+        "captacoes": 150628287529.01
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 160367419764.39,
+        "patrimonio_liquido": 12352809707.02,
+        "lucro_liquido": 432763777.29,
+        "carteira_credito": 28293320855.69,
+        "captacoes": 91748738903.32
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 137653505166.64,
+        "patrimonio_liquido": 9536002930.48,
+        "lucro_liquido": 21200732.11,
+        "carteira_credito": 23164532328.29,
+        "captacoes": 91518655737.03
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 134323787273.17,
+        "patrimonio_liquido": 12835615715.96,
+        "lucro_liquido": 282918327.52,
+        "carteira_credito": 71459209858.64,
+        "captacoes": 90653490664.35
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 120511643054.85,
+        "patrimonio_liquido": 8460782100.9,
+        "lucro_liquido": -58224778.0,
+        "carteira_credito": 3148648168.68,
+        "captacoes": 63262982307.02
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 112569496524.21,
+        "patrimonio_liquido": 9472595722.85,
+        "lucro_liquido": 212972589.65,
+        "carteira_credito": 50087668373.52,
+        "captacoes": 87964816648.21
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 110881809921.21,
+        "patrimonio_liquido": 3324120313.7,
+        "lucro_liquido": 117436568.01,
+        "carteira_credito": 21987467754.01,
+        "captacoes": 92925218233.93
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 108414777108.38,
+        "patrimonio_liquido": 46148647467.05,
+        "lucro_liquido": 1001719592.68,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 105783883919.88,
+        "patrimonio_liquido": 11181455186.96,
+        "lucro_liquido": 440842668.53,
+        "carteira_credito": 0,
+        "captacoes": 6436625458.08
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 90868140252.8,
+        "patrimonio_liquido": 6214849742.17,
+        "lucro_liquido": 702840727.18,
+        "carteira_credito": 29998551608.86,
+        "captacoes": 79033200413.93
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "ativo_total": 72452868590.45,
+        "patrimonio_liquido": 4176430842.08,
+        "lucro_liquido": -69516533.47,
+        "carteira_credito": 13386293560.97,
+        "captacoes": 28307346575.04
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 67706071413.05,
+        "patrimonio_liquido": 5861127132.77,
+        "lucro_liquido": 231041412.62,
+        "carteira_credito": 46081533746.29,
+        "captacoes": 54091477325.28
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 66143764681.28,
+        "patrimonio_liquido": 9496301386.47,
+        "lucro_liquido": 502553002.16,
+        "carteira_credito": 13868485322.24,
+        "captacoes": 21114718124.9
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 65520340430.62,
+        "patrimonio_liquido": 7267685675.63,
+        "lucro_liquido": 777932263.67,
+        "carteira_credito": 36705783165.66,
+        "captacoes": 8967582615.25
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 61976110104.49,
+        "patrimonio_liquido": 3018932364.72,
+        "lucro_liquido": 154287140.27,
+        "carteira_credito": 0,
+        "captacoes": 1436883461.97
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 52196441217.01,
+        "patrimonio_liquido": 5303106049.44,
+        "lucro_liquido": 190023010.03,
+        "carteira_credito": 23627650685.7,
+        "captacoes": 38376458235.76
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 49168329760.46,
+        "patrimonio_liquido": 3275060726,
+        "lucro_liquido": -350210088.56,
+        "carteira_credito": 33751316390.6,
+        "captacoes": 36602242416.11
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 48860146155.11,
+        "patrimonio_liquido": 1412812703.18,
+        "lucro_liquido": 14061295.27,
+        "carteira_credito": 2292761827.51,
+        "captacoes": 8292586780.51
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 48239221507.21,
+        "patrimonio_liquido": 5870304508.9,
+        "lucro_liquido": 227805679.99,
+        "carteira_credito": 30519111292.54,
+        "captacoes": 33951456329.38
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 46985158321.82,
+        "patrimonio_liquido": 7095913529.42,
+        "lucro_liquido": -9736423.15,
+        "carteira_credito": 23405333563.73,
+        "captacoes": 33415765697.99
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 43710894529.9,
+        "patrimonio_liquido": 3898828285.37,
+        "lucro_liquido": 22900172.72,
+        "carteira_credito": 24302689684.41,
+        "captacoes": 33438582930.86
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 41392901282.74,
+        "patrimonio_liquido": 2170265694.57,
+        "lucro_liquido": -43340296.02,
+        "carteira_credito": 30859291590.9,
+        "captacoes": 35549737753.03
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 38523899041.9,
+        "patrimonio_liquido": 3195128871.01,
+        "lucro_liquido": 46312597.73,
+        "carteira_credito": 32465439596.81,
+        "captacoes": 30717150027.71
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 38141211582.02,
+        "patrimonio_liquido": 5156516698.67,
+        "lucro_liquido": 286687482.46,
+        "carteira_credito": 20550618517.73,
+        "captacoes": 10656516548.26
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 37003953425.1,
+        "patrimonio_liquido": 2071977004.53,
+        "lucro_liquido": 70562389.68,
+        "carteira_credito": 8284695090.25,
+        "captacoes": 33568527812.87
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 35387761777.65,
+        "patrimonio_liquido": 1665461487.08,
+        "lucro_liquido": 4133123.59,
+        "carteira_credito": 555900230.22,
+        "captacoes": 3596651261.3
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 35346624956.96,
+        "patrimonio_liquido": 4760349963.96,
+        "lucro_liquido": 251788541.87,
+        "carteira_credito": 1193354175.07,
+        "captacoes": 15254584672.96
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 33118009013.91,
+        "patrimonio_liquido": 1400077463.82,
+        "lucro_liquido": 101801281.94,
+        "carteira_credito": 0,
+        "captacoes": 4379775937.22
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 32725305166.26,
+        "patrimonio_liquido": 1736106421.45,
+        "lucro_liquido": -832079662.41,
+        "carteira_credito": 16794571080.42,
+        "captacoes": 27650892821.16
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 30233695847.57,
+        "patrimonio_liquido": 1036259959.7,
+        "lucro_liquido": -23534073.04,
+        "carteira_credito": 1731142315.58,
+        "captacoes": 4621087431.29
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 28376634666.14,
+        "patrimonio_liquido": 2535262766.08,
+        "lucro_liquido": 27435340.13,
+        "carteira_credito": 4700540722.53,
+        "captacoes": 9076334538.65
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 28234546306.46,
+        "patrimonio_liquido": 2814186342.36,
+        "lucro_liquido": -41835882.91,
+        "carteira_credito": 314821767.19,
+        "captacoes": 8880153078.41
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 27150802540.79,
+        "patrimonio_liquido": 9554317913,
+        "lucro_liquido": 261038205.84,
+        "carteira_credito": 432944347.72,
+        "captacoes": 796259684.33
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 25047735225.46,
+        "patrimonio_liquido": 6499836512.23,
+        "lucro_liquido": 92233316.84,
+        "carteira_credito": 6221367370.54,
+        "captacoes": 12086798958.73
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 24116697068.55,
+        "patrimonio_liquido": 4829057056.85,
+        "lucro_liquido": 73712103.76,
+        "carteira_credito": 0,
+        "captacoes": 8899295256.94
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 23778779110.06,
+        "patrimonio_liquido": 1563375808.87,
+        "lucro_liquido": 185096285.14,
+        "carteira_credito": 2008202125.04,
+        "captacoes": 7686315020.16
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 23073926247.64,
+        "patrimonio_liquido": 1660890814.96,
+        "lucro_liquido": 70936180.57,
+        "carteira_credito": 10766368743.43,
+        "captacoes": 20745901594.38
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 22846076781.11,
+        "patrimonio_liquido": 1953115751.04,
+        "lucro_liquido": 36189467.31,
+        "carteira_credito": 21870453340.68,
+        "captacoes": 19408751199.07
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 21926646313.11,
+        "patrimonio_liquido": 12615565017.73,
+        "lucro_liquido": 188229.31,
+        "carteira_credito": 0,
+        "captacoes": 2867666841.07
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 21618207368.91,
+        "patrimonio_liquido": 1046217480.32,
+        "lucro_liquido": 36054292.51,
+        "carteira_credito": 11661767168.24,
+        "captacoes": 19079253172.45
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 21303510037.18,
+        "patrimonio_liquido": 2769089449.49,
+        "lucro_liquido": 4261404.57,
+        "carteira_credito": 12949375026.58,
+        "captacoes": 17521002105.7
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 21061448181.4,
+        "patrimonio_liquido": 726041576.91,
+        "lucro_liquido": -2998854.65,
+        "carteira_credito": 958178848.17,
+        "captacoes": 19807936179.18
+      }
+    ],
+    "202306": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2357281136029.54,
+        "patrimonio_liquido": 178468846182.26,
+        "lucro_liquido": 16808518880.59,
+        "carteira_credito": 897252194002.31,
+        "captacoes": 1725709382233.48
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2080486245736.47,
+        "patrimonio_liquido": 157964521229.25,
+        "lucro_liquido": 16842179554.59,
+        "carteira_credito": 921659171307,
+        "captacoes": 1656318778661.11
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1722891520082.07,
+        "patrimonio_liquido": 87016030174.78,
+        "lucro_liquido": 4217933011.1,
+        "carteira_credito": 1061636642968.69,
+        "captacoes": 1445903539072.45
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1573923084985.6,
+        "patrimonio_liquido": 164354652349,
+        "lucro_liquido": 8835137336.67,
+        "carteira_credito": 626729000308.1,
+        "captacoes": 1178936442731.88
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1127188237710.82,
+        "patrimonio_liquido": 85405677635.09,
+        "lucro_liquido": 4278088642.24,
+        "carteira_credito": 496114435487.92,
+        "captacoes": 828029151002.4
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 710263339242.61,
+        "patrimonio_liquido": 140623173194.84,
+        "lucro_liquido": 9503165546.79,
+        "carteira_credito": 272550994302.81,
+        "captacoes": 153068867174.89
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 465868249195.03,
+        "patrimonio_liquido": 48766346118.56,
+        "lucro_liquido": 4574469124.51,
+        "carteira_credito": 102398349923.54,
+        "captacoes": 313951076190.61
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 248193146465.06,
+        "patrimonio_liquido": 24261018490.86,
+        "lucro_liquido": 1326720988.42,
+        "carteira_credito": 103243232977.54,
+        "captacoes": 185010999935.7
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 185925676496.32,
+        "patrimonio_liquido": 13105657335.62,
+        "lucro_liquido": 866332530.3,
+        "carteira_credito": 28999170495.74,
+        "captacoes": 101666767083.91
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 169664660546.34,
+        "patrimonio_liquido": 4238692707.95,
+        "lucro_liquido": 155644927.15,
+        "carteira_credito": 23280341958.55,
+        "captacoes": 151962991316.41
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 169385183103.58,
+        "patrimonio_liquido": 9983989256.89,
+        "lucro_liquido": 107569135.57,
+        "carteira_credito": 24199457991.1,
+        "captacoes": 107045532871.9
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 139369015769.5,
+        "patrimonio_liquido": 12904218352.8,
+        "lucro_liquido": 564748810.2,
+        "carteira_credito": 71341158480.03,
+        "captacoes": 94737625036.02
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 118430552961.93,
+        "patrimonio_liquido": 3436069069.53,
+        "lucro_liquido": 223052486.08,
+        "carteira_credito": 22526399939.11,
+        "captacoes": 99455215839.12
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 115942181490.27,
+        "patrimonio_liquido": 9422935927.19,
+        "lucro_liquido": 439288703.6,
+        "carteira_credito": 51501014151.83,
+        "captacoes": 90257316097.45
+      },
+      {
+        "nome": "BNP PARIBAS",
+        "segmento": "outro",
+        "ativo_total": 113949157975.29,
+        "patrimonio_liquido": 4149383178.3,
+        "lucro_liquido": -149110690.23,
+        "carteira_credito": 12826077430.25,
+        "captacoes": 30327102947.62
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 107240387282.88,
+        "patrimonio_liquido": 8816148247.36,
+        "lucro_liquido": 291861368.46,
+        "carteira_credito": 3777554718.71,
+        "captacoes": 62876947769.94
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 107146007413.18,
+        "patrimonio_liquido": 47034408199.51,
+        "lucro_liquido": 2050369014.02,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 102183363939.09,
+        "patrimonio_liquido": 11675543898.18,
+        "lucro_liquido": 1149331258.09,
+        "carteira_credito": 0,
+        "captacoes": 7406720564.9
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 102030701172.66,
+        "patrimonio_liquido": 7214138818.74,
+        "lucro_liquido": 1693491664.74,
+        "carteira_credito": 33071217231.83,
+        "captacoes": 87224623455.74
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 73782779414.55,
+        "patrimonio_liquido": 5986627649.67,
+        "lucro_liquido": 458862511.01,
+        "carteira_credito": 45231464029.48,
+        "captacoes": 58193400013.97
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 68409244087.41,
+        "patrimonio_liquido": 8156940625.69,
+        "lucro_liquido": 1679686694.35,
+        "carteira_credito": 38914991395.15,
+        "captacoes": 9119149461.26
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 66816705112.37,
+        "patrimonio_liquido": 9862321140.93,
+        "lucro_liquido": 918782496.04,
+        "carteira_credito": 13827428039.35,
+        "captacoes": 20945508004.13
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 62533074908.31,
+        "patrimonio_liquido": 3125375455.83,
+        "lucro_liquido": 350063369.23,
+        "carteira_credito": 0,
+        "captacoes": 1603891545.35
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 55754512331.74,
+        "patrimonio_liquido": 3283863828.13,
+        "lucro_liquido": -473487267.51,
+        "carteira_credito": 37384810103.19,
+        "captacoes": 41566583052.98
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 52983403516.81,
+        "patrimonio_liquido": 5420811404.39,
+        "lucro_liquido": 391901006.05,
+        "carteira_credito": 22967048693.13,
+        "captacoes": 39838514299.53
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 49349198567.88,
+        "patrimonio_liquido": 7256468252.62,
+        "lucro_liquido": 26562293.76,
+        "carteira_credito": 24665092096.67,
+        "captacoes": 35405790822.35
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 47551667999.42,
+        "patrimonio_liquido": 5266159255.51,
+        "lucro_liquido": 407467744.24,
+        "carteira_credito": 28874533562.77,
+        "captacoes": 33163910030.6
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 45413713038.96,
+        "patrimonio_liquido": 2406252808.85,
+        "lucro_liquido": 42139780.03,
+        "carteira_credito": 31911190181.56,
+        "captacoes": 39124055054.16
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 44443198219.84,
+        "patrimonio_liquido": 3839482157.24,
+        "lucro_liquido": 8614407.43,
+        "carteira_credito": 23958251979.24,
+        "captacoes": 34062422240.91
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 40760172953.15,
+        "patrimonio_liquido": 5462613256.16,
+        "lucro_liquido": 565924692.51,
+        "carteira_credito": 21021981317.58,
+        "captacoes": 11710288502.58
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 40565925137.27,
+        "patrimonio_liquido": 2564669892.88,
+        "lucro_liquido": 49777533.89,
+        "carteira_credito": 5241439283.32,
+        "captacoes": 11763797876.94
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 39774429427.98,
+        "patrimonio_liquido": 3430398737.92,
+        "lucro_liquido": 151156220.18,
+        "carteira_credito": 34386358241.72,
+        "captacoes": 31981832015.61
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 38634767459.95,
+        "patrimonio_liquido": 2093326065.2,
+        "lucro_liquido": 185242218.57,
+        "carteira_credito": 8829985787.13,
+        "captacoes": 35029035569.44
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 38346893345.54,
+        "patrimonio_liquido": 1432109590.74,
+        "lucro_liquido": 39664869.6,
+        "carteira_credito": 1903148144.09,
+        "captacoes": 8438090244.88
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 36660525964.37,
+        "patrimonio_liquido": 4944789640.95,
+        "lucro_liquido": 403635543.69,
+        "carteira_credito": 1260995038.46,
+        "captacoes": 17177836686.08
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 35916759076.71,
+        "patrimonio_liquido": 1080605917.24,
+        "lucro_liquido": 15383024.84,
+        "carteira_credito": 1431744766.45,
+        "captacoes": 6363548811.74
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 34966155720.26,
+        "patrimonio_liquido": 2881405750.42,
+        "lucro_liquido": 26965349.82,
+        "carteira_credito": 435991924.15,
+        "captacoes": 12162602534.58
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 34403732947.93,
+        "patrimonio_liquido": 2147779304.94,
+        "lucro_liquido": -774133764.07,
+        "carteira_credito": 17828167237.54,
+        "captacoes": 28941755715.09
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 33560374344.78,
+        "patrimonio_liquido": 1757094050.82,
+        "lucro_liquido": 272858907.02,
+        "carteira_credito": 0,
+        "captacoes": 5228053117.73
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 27556685085.97,
+        "patrimonio_liquido": 9809676590.68,
+        "lucro_liquido": 517732124.64,
+        "carteira_credito": 433982683.34,
+        "captacoes": 965621433.66
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 27503588715.44,
+        "patrimonio_liquido": 6479783743.25,
+        "lucro_liquido": 79380003.57,
+        "carteira_credito": 6050107792.65,
+        "captacoes": 12795406128.96
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 27349683231.62,
+        "patrimonio_liquido": 1855344203.75,
+        "lucro_liquido": 290555888.94,
+        "carteira_credito": 11600541104.99,
+        "captacoes": 24510521487.65
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 24338459930.89,
+        "patrimonio_liquido": 14483555191.98,
+        "lucro_liquido": 143813095.76,
+        "carteira_credito": 0,
+        "captacoes": 2000569444.44
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 24312043227.86,
+        "patrimonio_liquido": 1107004156.55,
+        "lucro_liquido": 129461104.79,
+        "carteira_credito": 12408355450.78,
+        "captacoes": 20465690274.99
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 23695394944.07,
+        "patrimonio_liquido": 1794963665.02,
+        "lucro_liquido": 424334774.33,
+        "carteira_credito": 2254850272.31,
+        "captacoes": 8801577885.14
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 22446734550.06,
+        "patrimonio_liquido": 2323754704.37,
+        "lucro_liquido": 107677145.91,
+        "carteira_credito": 21598160566.69,
+        "captacoes": 18430952404.17
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 21958345578.78,
+        "patrimonio_liquido": 5180677236.19,
+        "lucro_liquido": 168392801.17,
+        "carteira_credito": 0,
+        "captacoes": 8010648765.61
+      },
+      {
+        "nome": "CCB",
+        "segmento": "outro",
+        "ativo_total": 21595925790.17,
+        "patrimonio_liquido": 1624467162.26,
+        "lucro_liquido": -15977907.16,
+        "carteira_credito": 10504434369.02,
+        "captacoes": 15438478268.99
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 21523099881.02,
+        "patrimonio_liquido": 1680168731.43,
+        "lucro_liquido": 12238868.49,
+        "carteira_credito": 787724313.03,
+        "captacoes": 3501538463.07
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 21438713126.17,
+        "patrimonio_liquido": 2781513513.1,
+        "lucro_liquido": 38878628.85,
+        "carteira_credito": 12194800760.69,
+        "captacoes": 17496671132.82
+      }
+    ],
+    "202309": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2446125525016.95,
+        "patrimonio_liquido": 183129379964.49,
+        "lucro_liquido": 7965524584.64,
+        "carteira_credito": 901295766260.22,
+        "captacoes": 1805185467801.47
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2227265290898.48,
+        "patrimonio_liquido": 161286134548.22,
+        "lucro_liquido": 8635197492.51,
+        "carteira_credito": 945588965456.74,
+        "captacoes": 1800704216736.85
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1740553253660.59,
+        "patrimonio_liquido": 89925394006.04,
+        "lucro_liquido": 3036513652.97,
+        "carteira_credito": 1091366149577.56,
+        "captacoes": 1461935089810.23
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1614881571684.99,
+        "patrimonio_liquido": 166014040439.06,
+        "lucro_liquido": 4658224605.29,
+        "carteira_credito": 626531588491.7,
+        "captacoes": 1221409348258.62
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1188545447479.9,
+        "patrimonio_liquido": 86427477327.36,
+        "lucro_liquido": 2709423721.27,
+        "carteira_credito": 502944748463.03,
+        "captacoes": 890451822492.82
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 707765548786.44,
+        "patrimonio_liquido": 147939248315.62,
+        "lucro_liquido": 4944616004.03,
+        "carteira_credito": 274734481440.64,
+        "captacoes": 139801255843.28
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 510811205836,
+        "patrimonio_liquido": 49842576253.57,
+        "lucro_liquido": 2622549673.13,
+        "carteira_credito": 106149255226.95,
+        "captacoes": 336007197544.77
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 257142566261.59,
+        "patrimonio_liquido": 24727066212.76,
+        "lucro_liquido": 940224841.3,
+        "carteira_credito": 109502853987.58,
+        "captacoes": 190590404243.03
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 185560797893.91,
+        "patrimonio_liquido": 13502678103.32,
+        "lucro_liquido": 852638200.94,
+        "carteira_credito": 30408600053.68,
+        "captacoes": 115229862972.67
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 173548839568.47,
+        "patrimonio_liquido": 4288074953.66,
+        "lucro_liquido": 70847236.72,
+        "carteira_credito": 25461490066.77,
+        "captacoes": 155079576525.4
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 168488958707.83,
+        "patrimonio_liquido": 8154173108.75,
+        "lucro_liquido": 189585254.91,
+        "carteira_credito": 27700536021.57,
+        "captacoes": 108212554409.81
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 135651675317.63,
+        "patrimonio_liquido": 13026458039.92,
+        "lucro_liquido": 284832246.51,
+        "carteira_credito": 71338060848.21,
+        "captacoes": 94359169171.69
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 132870362869.51,
+        "patrimonio_liquido": 3583190892.41,
+        "lucro_liquido": 147724823.27,
+        "carteira_credito": 23724994935.44,
+        "captacoes": 112967695913.98
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 122397182044.98,
+        "patrimonio_liquido": 9479946870.07,
+        "lucro_liquido": 127109025.24,
+        "carteira_credito": 52456931497.67,
+        "captacoes": 96079815130.82
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 119299667496.28,
+        "patrimonio_liquido": 47955023712.18,
+        "lucro_liquido": 956888183.83,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 115683781699.35,
+        "patrimonio_liquido": 8602272238.94,
+        "lucro_liquido": 1365752335.72,
+        "carteira_credito": 36775209603.79,
+        "captacoes": 92313019352.93
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 112845406411.25,
+        "patrimonio_liquido": 9380485979.34,
+        "lucro_liquido": 563608981.96,
+        "carteira_credito": 3132565980.57,
+        "captacoes": 54319813811.77
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 103085655058.2,
+        "patrimonio_liquido": 11948644837.05,
+        "lucro_liquido": 456682633,
+        "carteira_credito": 0,
+        "captacoes": 6429687995.67
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 102554248097.12,
+        "patrimonio_liquido": 4130220761.04,
+        "lucro_liquido": 19232475.4,
+        "carteira_credito": 10563527583.27,
+        "captacoes": 28328732933.39
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 83363939970.13,
+        "patrimonio_liquido": 9588607414.97,
+        "lucro_liquido": 1373604418.01,
+        "carteira_credito": 41485373018.94,
+        "captacoes": 16797207596.13
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 72914039677.23,
+        "patrimonio_liquido": 6204903467.19,
+        "lucro_liquido": 320708779.6,
+        "carteira_credito": 44737048274.38,
+        "captacoes": 58275131340.54
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 65092713944.33,
+        "patrimonio_liquido": 3144214223.76,
+        "lucro_liquido": 230725421.76,
+        "carteira_credito": 0,
+        "captacoes": 1310131065.16
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 64847130228.44,
+        "patrimonio_liquido": 10267025061.55,
+        "lucro_liquido": 601398996.89,
+        "carteira_credito": 13710327297.72,
+        "captacoes": 19929181005.88
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 60215734687.13,
+        "patrimonio_liquido": 3013853809.68,
+        "lucro_liquido": -270992926.03,
+        "carteira_credito": 41405999259.9,
+        "captacoes": 45624607073.43
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 54767433427.29,
+        "patrimonio_liquido": 5721807406.27,
+        "lucro_liquido": 228217594.69,
+        "carteira_credito": 23244337986.61,
+        "captacoes": 41246846811.48
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 54182503464.96,
+        "patrimonio_liquido": 7216220654.31,
+        "lucro_liquido": 45118086.89,
+        "carteira_credito": 26629429358.49,
+        "captacoes": 39136677728.23
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 49139147061.98,
+        "patrimonio_liquido": 5471715534,
+        "lucro_liquido": 207258893.11,
+        "carteira_credito": 29313987671.28,
+        "captacoes": 33030486988.49
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 47165962419.38,
+        "patrimonio_liquido": 2467568972.65,
+        "lucro_liquido": 76448493.48,
+        "carteira_credito": 32924219104.05,
+        "captacoes": 40697550160.37
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 44074495257.83,
+        "patrimonio_liquido": 3896320601.34,
+        "lucro_liquido": 71662725.75,
+        "carteira_credito": 23626244339.83,
+        "captacoes": 33206864673.3
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 42722537080.17,
+        "patrimonio_liquido": 5811577003.07,
+        "lucro_liquido": 333497988.83,
+        "carteira_credito": 23286299085.37,
+        "captacoes": 11925821995.86
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 41623269088.07,
+        "patrimonio_liquido": 2178699183.62,
+        "lucro_liquido": 95679220.29,
+        "carteira_credito": 9196722955.41,
+        "captacoes": 37919600266.49
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 41141264266.82,
+        "patrimonio_liquido": 3386268900.51,
+        "lucro_liquido": -45985542.07,
+        "carteira_credito": 35643889397.3,
+        "captacoes": 32798046456.37
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 37796657880.62,
+        "patrimonio_liquido": 1916276704.39,
+        "lucro_liquido": 89685289.52,
+        "carteira_credito": 0,
+        "captacoes": 5996323300.08
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 36407377618.96,
+        "patrimonio_liquido": 1455107379.48,
+        "lucro_liquido": 21275854.68,
+        "carteira_credito": 1813273529.88,
+        "captacoes": 9242671128.76
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 34858442992.96,
+        "patrimonio_liquido": 9406911834.25,
+        "lucro_liquido": 295987737.19,
+        "carteira_credito": 438901463.2,
+        "captacoes": 7806193467
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 33992066755.31,
+        "patrimonio_liquido": 1882710726.75,
+        "lucro_liquido": -282708155.79,
+        "carteira_credito": 17985030618.01,
+        "captacoes": 29046239154.04
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 33664549295.6,
+        "patrimonio_liquido": 5063006051.64,
+        "lucro_liquido": 335362407.44,
+        "carteira_credito": 1935085356.95,
+        "captacoes": 17699457978.33
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 30999723868.91,
+        "patrimonio_liquido": 1858347929.6,
+        "lucro_liquido": 3813725.79,
+        "carteira_credito": 13291067779.92,
+        "captacoes": 27937720849.91
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 29523988300.41,
+        "patrimonio_liquido": 2651418532.85,
+        "lucro_liquido": 81477917.62,
+        "carteira_credito": 5050910809.42,
+        "captacoes": 9298054686.33
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 27815386439,
+        "patrimonio_liquido": 2123134047.51,
+        "lucro_liquido": 310364609.32,
+        "carteira_credito": 2802605290.4,
+        "captacoes": 9579961126.56
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 27315386973.13,
+        "patrimonio_liquido": 2990887476.39,
+        "lucro_liquido": 109835499.46,
+        "carteira_credito": 439449134.06,
+        "captacoes": 10528922200.14
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 26531947544.52,
+        "patrimonio_liquido": 15075827012.98,
+        "lucro_liquido": 79603203.89,
+        "carteira_credito": 0,
+        "captacoes": 3178410540.03
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 25376097184.33,
+        "patrimonio_liquido": 6493570782.77,
+        "lucro_liquido": 89566381.74,
+        "carteira_credito": 5291064215.81,
+        "captacoes": 10286764388.62
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 24536784583.55,
+        "patrimonio_liquido": 1163534220.08,
+        "lucro_liquido": 54402630.95,
+        "carteira_credito": 12790198521.5,
+        "captacoes": 20366188462.94
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 24271147036.34,
+        "patrimonio_liquido": 1706710444.13,
+        "lucro_liquido": 23809979.99,
+        "carteira_credito": 593275159.25,
+        "captacoes": 3350049619.15
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 24252836129.11,
+        "patrimonio_liquido": 2351409158.28,
+        "lucro_liquido": 6969295.16,
+        "carteira_credito": 23271440571.74,
+        "captacoes": 20008835086.76
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 24081928553.92,
+        "patrimonio_liquido": 1100406383.43,
+        "lucro_liquido": 15982345.8,
+        "carteira_credito": 1784199177.76,
+        "captacoes": 5712996642.46
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 24048787064.97,
+        "patrimonio_liquido": 1016758166.6,
+        "lucro_liquido": 29671144.6,
+        "carteira_credito": 3815935702.4,
+        "captacoes": 11870571050.3
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 23535963908.67,
+        "patrimonio_liquido": 762768458.12,
+        "lucro_liquido": -15114492.41,
+        "carteira_credito": 7090873315.18,
+        "captacoes": 22318105445.67
+      },
+      {
+        "nome": "ALFA",
+        "segmento": "outro",
+        "ativo_total": 20775097167.43,
+        "patrimonio_liquido": 2811318103.42,
+        "lucro_liquido": 29804590.31,
+        "carteira_credito": 11780529306.89,
+        "captacoes": 16844543769.3
+      }
+    ],
+    "202312": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2440500136158.25,
+        "patrimonio_liquido": 189766924481.78,
+        "lucro_liquido": 16924245341.32,
+        "carteira_credito": 907550410427.93,
+        "captacoes": 1818086992145.74
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2153557982278.66,
+        "patrimonio_liquido": 164201690559.83,
+        "lucro_liquido": 17876098860.12,
+        "carteira_credito": 975463193960.5,
+        "captacoes": 1717390707395.8
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1827443597186.86,
+        "patrimonio_liquido": 93220539183.38,
+        "lucro_liquido": 6925570494.11,
+        "carteira_credito": 1119740143519.74,
+        "captacoes": 1544477129409.72
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1625480810609.02,
+        "patrimonio_liquido": 166338818436.09,
+        "lucro_liquido": 6389087255.35,
+        "carteira_credito": 628089227027.63,
+        "captacoes": 1247353447359.8
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1174816519487.37,
+        "patrimonio_liquido": 87247543022.92,
+        "lucro_liquido": 4812805050.51,
+        "carteira_credito": 511874176254.93,
+        "captacoes": 880354637469.51
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 721541796151.57,
+        "patrimonio_liquido": 151328511883.83,
+        "lucro_liquido": 12399923628.41,
+        "carteira_credito": 277663237885.98,
+        "captacoes": 131060163730.18
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 516940906236.53,
+        "patrimonio_liquido": 51477548731.02,
+        "lucro_liquido": 5350096388.09,
+        "carteira_credito": 108403367250.95,
+        "captacoes": 345738128734.48
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 293785245283.98,
+        "patrimonio_liquido": 27154924189.69,
+        "lucro_liquido": 1922606139.93,
+        "carteira_credito": 124480657694.35,
+        "captacoes": 227831443780.42
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 189317529603.12,
+        "patrimonio_liquido": 10499205141.16,
+        "lucro_liquido": 283196656.58,
+        "carteira_credito": 29663426331.52,
+        "captacoes": 133459818864.78
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 182356567987.57,
+        "patrimonio_liquido": 12283597672.33,
+        "lucro_liquido": 1550038132.28,
+        "carteira_credito": 33349374052.74,
+        "captacoes": 112597058317.98
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 164040008317.45,
+        "patrimonio_liquido": 4792696455.57,
+        "lucro_liquido": 61554034.06,
+        "carteira_credito": 28337602765.04,
+        "captacoes": 143347228060.29
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 142083636663.79,
+        "patrimonio_liquido": 13431401730.72,
+        "lucro_liquido": 585812516.09,
+        "carteira_credito": 73306325326.57,
+        "captacoes": 104806015645.02
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 141452281599.11,
+        "patrimonio_liquido": 10007129291.71,
+        "lucro_liquido": 3269224882.27,
+        "carteira_credito": 41519985808.48,
+        "captacoes": 106816151707.17
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 130527155076.04,
+        "patrimonio_liquido": 4175452294.37,
+        "lucro_liquido": 320773207.01,
+        "carteira_credito": 25907518566.15,
+        "captacoes": 111530880024.97
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 127263373371.67,
+        "patrimonio_liquido": 48943146625.65,
+        "lucro_liquido": 1946080720.22,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 123430189445.38,
+        "patrimonio_liquido": 9663341305.1,
+        "lucro_liquido": 430815234.31,
+        "carteira_credito": 53669310501.09,
+        "captacoes": 98137536174.26
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 115198675279.93,
+        "patrimonio_liquido": 10010934166.53,
+        "lucro_liquido": 1268259884.22,
+        "carteira_credito": 3266493815.41,
+        "captacoes": 73998148403.5
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 115098434874.44,
+        "patrimonio_liquido": 12258803508.52,
+        "lucro_liquido": 937507182.43,
+        "carteira_credito": 0,
+        "captacoes": 7759585241.4
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 103911131173.68,
+        "patrimonio_liquido": 11166960586.17,
+        "lucro_liquido": 3019381999.09,
+        "carteira_credito": 47223105322.98,
+        "captacoes": 25898460017.35
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 94632173896.11,
+        "patrimonio_liquido": 3992946407.38,
+        "lucro_liquido": -48148331.24,
+        "carteira_credito": 10505593812.03,
+        "captacoes": 28166863785.98
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 78530848590.45,
+        "patrimonio_liquido": 6136379709.09,
+        "lucro_liquido": 643066176.81,
+        "carteira_credito": 48229465152.71,
+        "captacoes": 63174335662.6
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 75191202312.89,
+        "patrimonio_liquido": 2782364451.72,
+        "lucro_liquido": -434712204.52,
+        "carteira_credito": 45653212893.83,
+        "captacoes": 51195683071.08
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 70776204581.37,
+        "patrimonio_liquido": 3400363085.08,
+        "lucro_liquido": 489434072.36,
+        "carteira_credito": 0,
+        "captacoes": 695817832.2
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 65731259459.25,
+        "patrimonio_liquido": 10708590790.5,
+        "lucro_liquido": 1179516912.18,
+        "carteira_credito": 13200115952.64,
+        "captacoes": 21224067841.74
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 59423337963.15,
+        "patrimonio_liquido": 7403607296.84,
+        "lucro_liquido": 170105036.56,
+        "carteira_credito": 29061217304.66,
+        "captacoes": 43289511004.22
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 58670140922.62,
+        "patrimonio_liquido": 5871729001.54,
+        "lucro_liquido": 459680907.62,
+        "carteira_credito": 23906514683.02,
+        "captacoes": 42604502987.39
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 49286551950.51,
+        "patrimonio_liquido": 2607437071.79,
+        "lucro_liquido": 162740554.34,
+        "carteira_credito": 33963454939.73,
+        "captacoes": 42186785089.84
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 46745663344.84,
+        "patrimonio_liquido": 5315964622.61,
+        "lucro_liquido": 405242466.73,
+        "carteira_credito": 27592371292.61,
+        "captacoes": 32503775418.38
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 45212323810.46,
+        "patrimonio_liquido": 5883324996.97,
+        "lucro_liquido": 779226000.68,
+        "carteira_credito": 25825034715.48,
+        "captacoes": 12570480481.16
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 44349926341.27,
+        "patrimonio_liquido": 1922957470.74,
+        "lucro_liquido": 99846452.26,
+        "carteira_credito": 0,
+        "captacoes": 9123953672
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 43917910974.83,
+        "patrimonio_liquido": 3925272875.58,
+        "lucro_liquido": 196054278.29,
+        "carteira_credito": 23827245883.38,
+        "captacoes": 32958011893.73
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 43386595177.51,
+        "patrimonio_liquido": 9127082391.01,
+        "lucro_liquido": 616533036.18,
+        "carteira_credito": 463807976.98,
+        "captacoes": 15278069961.04
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 43161266059.5,
+        "patrimonio_liquido": 3819467446.33,
+        "lucro_liquido": -29667192.82,
+        "carteira_credito": 37425537684.3,
+        "captacoes": 34216110514.02
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 41476150289.94,
+        "patrimonio_liquido": 2216351284.65,
+        "lucro_liquido": 185377727.32,
+        "carteira_credito": 9523389008.55,
+        "captacoes": 37877089366.01
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 36253825761.68,
+        "patrimonio_liquido": 2382446110.6,
+        "lucro_liquido": 241232199.89,
+        "carteira_credito": 16105549867.54,
+        "captacoes": 32650521249.53
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 36237153746.39,
+        "patrimonio_liquido": 1462610718.86,
+        "lucro_liquido": -747809986.92,
+        "carteira_credito": 19581323386.35,
+        "captacoes": 31014819373.74
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 33522846246.65,
+        "patrimonio_liquido": 1846279003.02,
+        "lucro_liquido": 31781567.11,
+        "carteira_credito": 3830446369.45,
+        "captacoes": 12472410456.02
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 33452017340.44,
+        "patrimonio_liquido": 5246767587.19,
+        "lucro_liquido": 532098696.06,
+        "carteira_credito": 3001738429.12,
+        "captacoes": 19585005620.87
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 30874301431.92,
+        "patrimonio_liquido": 790834733.23,
+        "lucro_liquido": 13079267.13,
+        "carteira_credito": 14339140510.54,
+        "captacoes": 29614590845.77
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 30236008945.55,
+        "patrimonio_liquido": 1482775569.66,
+        "lucro_liquido": 45831842.39,
+        "carteira_credito": 1458673746.92,
+        "captacoes": 9051926035.62
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 27762852419.94,
+        "patrimonio_liquido": 1209951889.56,
+        "lucro_liquido": 144859564.45,
+        "carteira_credito": 13239548376.35,
+        "captacoes": 21015603155.59
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 27143229942.48,
+        "patrimonio_liquido": 15145726030.62,
+        "lucro_liquido": 91321143.15,
+        "carteira_credito": 0,
+        "captacoes": 3649034751.2
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 26667086828.56,
+        "patrimonio_liquido": 2455616813.23,
+        "lucro_liquido": 35504898.68,
+        "carteira_credito": 25651742473.13,
+        "captacoes": 22283262098.17
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 26643548612.5,
+        "patrimonio_liquido": 1076554351.09,
+        "lucro_liquido": 97784438.78,
+        "carteira_credito": 3094113639.85,
+        "captacoes": 12816199415.25
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 26402778400.89,
+        "patrimonio_liquido": 1196214402.3,
+        "lucro_liquido": 114744958.45,
+        "carteira_credito": 1436492346.44,
+        "captacoes": 5463661725.19
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 25913424804.31,
+        "patrimonio_liquido": 3158800630.52,
+        "lucro_liquido": 290565413.65,
+        "carteira_credito": 429934416.34,
+        "captacoes": 9341282487.26
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 24487016135.45,
+        "patrimonio_liquido": 2603915942,
+        "lucro_liquido": 165074577.48,
+        "carteira_credito": 5173909714.12,
+        "captacoes": 8628808760.75
+      },
+      {
+        "nome": "CREDIT SUISSE",
+        "segmento": "cooperativa",
+        "ativo_total": 21974102984.74,
+        "patrimonio_liquido": 6046120825.72,
+        "lucro_liquido": 37057096.98,
+        "carteira_credito": 4549431021.88,
+        "captacoes": 7087692630.3
+      },
+      {
+        "nome": "PINE",
+        "segmento": "outro",
+        "ativo_total": 21693419550.89,
+        "patrimonio_liquido": 984479493.78,
+        "lucro_liquido": 107441056.94,
+        "carteira_credito": 7424402894.78,
+        "captacoes": 16761234331
+      },
+      {
+        "nome": "BANCO REGIONAL DE DESENVOLVIMENTO DO EXTREMO SUL",
+        "segmento": "outro",
+        "ativo_total": 21098390534.4,
+        "patrimonio_liquido": 4101322431.86,
+        "lucro_liquido": 276630310.1,
+        "carteira_credito": 17824653942.69,
+        "captacoes": 15560683382.1
+      }
+    ],
+    "202403": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2528221721235.91,
+        "patrimonio_liquido": 184579934639.74,
+        "lucro_liquido": 9507787662.25,
+        "carteira_credito": 901888825458.53,
+        "captacoes": 1861763613307.43
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2282609423181.45,
+        "patrimonio_liquido": 169381966796.51,
+        "lucro_liquido": 9087782564.17,
+        "carteira_credito": 1002458975718.2,
+        "captacoes": 1811597470335.56
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1878783229224.33,
+        "patrimonio_liquido": 95614542867.82,
+        "lucro_liquido": 2272515543.41,
+        "carteira_credito": 1144247533063.09,
+        "captacoes": 1594669341894.03
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1659193707815.97,
+        "patrimonio_liquido": 165959780725.47,
+        "lucro_liquido": 4269416328.37,
+        "carteira_credito": 636339422058.41,
+        "captacoes": 1259709109636.98
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1191211330283.11,
+        "patrimonio_liquido": 88153113849.33,
+        "lucro_liquido": 3085691550.84,
+        "carteira_credito": 520621812984.84,
+        "captacoes": 888082060987.22
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 732036183380.2,
+        "patrimonio_liquido": 154987967933.33,
+        "lucro_liquido": 5237432936.43,
+        "carteira_credito": 281124087080.99,
+        "captacoes": 128411581639.15
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 578228452357.69,
+        "patrimonio_liquido": 54046603802.36,
+        "lucro_liquido": 2773873289.1,
+        "carteira_credito": 115864357820.36,
+        "captacoes": 382800737331.38
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 287630193635.68,
+        "patrimonio_liquido": 27291571506.89,
+        "lucro_liquido": 667172384.44,
+        "carteira_credito": 119736395772.27,
+        "captacoes": 217931660542.24
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 213821161433.16,
+        "patrimonio_liquido": 8735853733.35,
+        "lucro_liquido": 70434987.21,
+        "carteira_credito": 29206856284.8,
+        "captacoes": 145927146896.43
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 196791363696.68,
+        "patrimonio_liquido": 12811994150.94,
+        "lucro_liquido": 627390013.73,
+        "carteira_credito": 28747660817.1,
+        "captacoes": 125836768118.21
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 164529511981.23,
+        "patrimonio_liquido": 4806801394.18,
+        "lucro_liquido": 49580602.5,
+        "carteira_credito": 30252091787.68,
+        "captacoes": 143203578612.48
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 137864830416.49,
+        "patrimonio_liquido": 4346101635.58,
+        "lucro_liquido": 169270819.51,
+        "carteira_credito": 26417818999.22,
+        "captacoes": 116425861466.63
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 135666109431.5,
+        "patrimonio_liquido": 13462311626.18,
+        "lucro_liquido": 318377225.51,
+        "carteira_credito": 74030865677.62,
+        "captacoes": 96916091516.52
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 135187844307.23,
+        "patrimonio_liquido": 49459229064.75,
+        "lucro_liquido": 772687147.86,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 127867014301.58,
+        "patrimonio_liquido": 10766340716.03,
+        "lucro_liquido": 1836676993.36,
+        "carteira_credito": 49145606026.33,
+        "captacoes": 110877807607.58
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 127750330405.01,
+        "patrimonio_liquido": 9800140742.28,
+        "lucro_liquido": 187386544.36,
+        "carteira_credito": 53861666279.48,
+        "captacoes": 101264049940.29
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 119826126741.72,
+        "patrimonio_liquido": 10305293928.53,
+        "lucro_liquido": 294230653.49,
+        "carteira_credito": 2982212712.8,
+        "captacoes": 59029261087.61
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 107775259605.71,
+        "patrimonio_liquido": 12164534454.17,
+        "lucro_liquido": 503085225.42,
+        "carteira_credito": 0,
+        "captacoes": 4124961915.28
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 92428724344.85,
+        "patrimonio_liquido": 4047105811.23,
+        "lucro_liquido": 33947860.19,
+        "carteira_credito": 9577947870.69,
+        "captacoes": 27772372225.95
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 90725144362.58,
+        "patrimonio_liquido": 12886092163.09,
+        "lucro_liquido": 1759400012.5,
+        "carteira_credito": 47763070527.1,
+        "captacoes": 9599618948.5
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 76676327097.81,
+        "patrimonio_liquido": 3243282444.75,
+        "lucro_liquido": 441251819.83,
+        "carteira_credito": 45517041008.19,
+        "captacoes": 52617434542.92
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 76313372466.13,
+        "patrimonio_liquido": 6403824965.01,
+        "lucro_liquido": 367968194.33,
+        "carteira_credito": 46230097427.5,
+        "captacoes": 63683004524.27
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 67309362348,
+        "patrimonio_liquido": 3451450180.9,
+        "lucro_liquido": 150660405.03,
+        "carteira_credito": 0,
+        "captacoes": 650258747.11
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 66814954030.62,
+        "patrimonio_liquido": 11299129914.39,
+        "lucro_liquido": 500720189.18,
+        "carteira_credito": 12848473411.5,
+        "captacoes": 21364617630.07
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 61245000001.91,
+        "patrimonio_liquido": 7274971745.31,
+        "lucro_liquido": 70248605.56,
+        "carteira_credito": 30059972856.11,
+        "captacoes": 44261470093.76
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 59199615938.52,
+        "patrimonio_liquido": 6163383749.15,
+        "lucro_liquido": 237541753.18,
+        "carteira_credito": 22114932102.38,
+        "captacoes": 42629942824.44
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 56981795628.51,
+        "patrimonio_liquido": 5376561064.19,
+        "lucro_liquido": 136045141.78,
+        "carteira_credito": 30026275804.23,
+        "captacoes": 35318700361.56
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 50318782551.02,
+        "patrimonio_liquido": 2118183833.67,
+        "lucro_liquido": 86861197.18,
+        "carteira_credito": 0,
+        "captacoes": 10880260014.78
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 49098833683.06,
+        "patrimonio_liquido": 2563236155.44,
+        "lucro_liquido": -42921991.08,
+        "carteira_credito": 34273541613.62,
+        "captacoes": 42394216823.65
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 48979176319.47,
+        "patrimonio_liquido": 9432544573.69,
+        "lucro_liquido": 306107915.59,
+        "carteira_credito": 449684130.68,
+        "captacoes": 19999030722.59
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 48194839783.59,
+        "patrimonio_liquido": 6113977294.26,
+        "lucro_liquido": 206771573.4,
+        "carteira_credito": 26932802432.62,
+        "captacoes": 13451930381.21
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 46016780342.51,
+        "patrimonio_liquido": 3986038103.5,
+        "lucro_liquido": 94379264.87,
+        "carteira_credito": 24872138191.83,
+        "captacoes": 35215442735.2
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 44092900704.99,
+        "patrimonio_liquido": 3907385349.33,
+        "lucro_liquido": 42939768.64,
+        "carteira_credito": 38291712137.6,
+        "captacoes": 35386108784.41
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 42691469536.19,
+        "patrimonio_liquido": 2271978108.64,
+        "lucro_liquido": 68287184.64,
+        "carteira_credito": 10025036264.02,
+        "captacoes": 39013741066.83
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 42680297186.75,
+        "patrimonio_liquido": 1506906183.29,
+        "lucro_liquido": 16672047.79,
+        "carteira_credito": 1645406370.36,
+        "captacoes": 9558775990.37
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 42125319300.7,
+        "patrimonio_liquido": 3233459638.65,
+        "lucro_liquido": 71869736.39,
+        "carteira_credito": 441776840.81,
+        "captacoes": 14510194150.77
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 41242450079.6,
+        "patrimonio_liquido": 2441625292.28,
+        "lucro_liquido": 59485455.51,
+        "carteira_credito": 17432214140.18,
+        "captacoes": 37100907583.64
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 38533658463.95,
+        "patrimonio_liquido": 5476915802.65,
+        "lucro_liquido": 229338978.65,
+        "carteira_credito": 2432682436.72,
+        "captacoes": 20685980991.19
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 37832888360.86,
+        "patrimonio_liquido": 1771623154.13,
+        "lucro_liquido": 243878519.07,
+        "carteira_credito": 22264285940.6,
+        "captacoes": 31782647549.89
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 36680400748.76,
+        "patrimonio_liquido": 2434961353.39,
+        "lucro_liquido": 448613322.66,
+        "carteira_credito": 4680634967.63,
+        "captacoes": 13574733507.79
+      },
+      {
+        "nome": "TERRA",
+        "segmento": "outro",
+        "ativo_total": 34030465837.48,
+        "patrimonio_liquido": 71614204.51,
+        "lucro_liquido": 1174332.2,
+        "carteira_credito": 0,
+        "captacoes": 1711355085.24
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 33838181066.53,
+        "patrimonio_liquido": 781231154.3,
+        "lucro_liquido": -9530631.5,
+        "carteira_credito": 18537355298.01,
+        "captacoes": 32651023182.85
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 29576582739.61,
+        "patrimonio_liquido": 2639517921.12,
+        "lucro_liquido": 31813164.68,
+        "carteira_credito": 4575782140.48,
+        "captacoes": 10345169298.33
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 28366165563.17,
+        "patrimonio_liquido": 1110173094.51,
+        "lucro_liquido": 33596525.69,
+        "carteira_credito": 2702992160.43,
+        "captacoes": 12342642199.83
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 27207410777.18,
+        "patrimonio_liquido": 2429136884.24,
+        "lucro_liquido": -61501544.91,
+        "carteira_credito": 26049688453.53,
+        "captacoes": 22730154694.42
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 27155338298.31,
+        "patrimonio_liquido": 1286947822.67,
+        "lucro_liquido": 71283532.88,
+        "carteira_credito": 12680604460.75,
+        "captacoes": 21466265685.58
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 26290202610.84,
+        "patrimonio_liquido": 14995437386.65,
+        "lucro_liquido": -1930542.43,
+        "carteira_credito": 0,
+        "captacoes": 3089333303.89
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 25199383380.83,
+        "patrimonio_liquido": 1212448859.46,
+        "lucro_liquido": 17706828.89,
+        "carteira_credito": 1525831527.76,
+        "captacoes": 7320328424.45
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 25184597532.53,
+        "patrimonio_liquido": 1718765867.95,
+        "lucro_liquido": 1312953.09,
+        "carteira_credito": 627920059.59,
+        "captacoes": 3297129491.94
+      },
+      {
+        "nome": "PINE",
+        "segmento": "outro",
+        "ativo_total": 24436715469.24,
+        "patrimonio_liquido": 1079865497.62,
+        "lucro_liquido": 62978339.14,
+        "carteira_credito": 9405100772.42,
+        "captacoes": 19229362453.29
+      }
+    ],
+    "202406": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2668446292041.96,
+        "patrimonio_liquido": 193412225495.83,
+        "lucro_liquido": 19208472180.25,
+        "carteira_credito": 945568097911.21,
+        "captacoes": 1960562323079.34
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2334998796422.41,
+        "patrimonio_liquido": 172906437978.05,
+        "lucro_liquido": 18208308012.3,
+        "carteira_credito": 1024504847512.34,
+        "captacoes": 1848221839303.81
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1906943159259.63,
+        "patrimonio_liquido": 98974671983.01,
+        "lucro_liquido": 5300680732.21,
+        "carteira_credito": 1174696158340.95,
+        "captacoes": 1618106335648.28
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1706649323692.84,
+        "patrimonio_liquido": 165861054414.27,
+        "lucro_liquido": 9038044208.13,
+        "carteira_credito": 658077948509.42,
+        "captacoes": 1299735117246.74
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1272247867207.78,
+        "patrimonio_liquido": 89046716111.65,
+        "lucro_liquido": 6235120122.11,
+        "carteira_credito": 534182377023.81,
+        "captacoes": 933153003983.06
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 772679809507.28,
+        "patrimonio_liquido": 160048351953.29,
+        "lucro_liquido": 13334995543.15,
+        "carteira_credito": 285779265688.73,
+        "captacoes": 142844968985.81
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 604571789805.26,
+        "patrimonio_liquido": 55069140940.95,
+        "lucro_liquido": 5597057339.97,
+        "carteira_credito": 123483545341.05,
+        "captacoes": 408866198968.25
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 295999532866.09,
+        "patrimonio_liquido": 27862324295.34,
+        "lucro_liquido": 1380009065.11,
+        "carteira_credito": 122503181505.72,
+        "captacoes": 228784806354.02
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 227182535409.37,
+        "patrimonio_liquido": 8643907416.3,
+        "lucro_liquido": 334838855.76,
+        "carteira_credito": 25825183005.4,
+        "captacoes": 151900558808.4
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 212616841051.28,
+        "patrimonio_liquido": 12801439524.42,
+        "lucro_liquido": 895606302.55,
+        "carteira_credito": 30006330559.4,
+        "captacoes": 131915959576.57
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 172425955180.86,
+        "patrimonio_liquido": 4795884224.86,
+        "lucro_liquido": 67456725.81,
+        "carteira_credito": 31873444972.29,
+        "captacoes": 150439779755.22
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 146212798793.28,
+        "patrimonio_liquido": 12382243609.44,
+        "lucro_liquido": 4295627331.34,
+        "carteira_credito": 54428975683.48,
+        "captacoes": 124861602114.77
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 145910726954.52,
+        "patrimonio_liquido": 4506750094.97,
+        "lucro_liquido": 308497540.06,
+        "carteira_credito": 27846165845.08,
+        "captacoes": 122541004363.44
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 140920807204.34,
+        "patrimonio_liquido": 10523077879.25,
+        "lucro_liquido": 512014604.21,
+        "carteira_credito": 2567449451.73,
+        "captacoes": 65149941889.4
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 135485875522.22,
+        "patrimonio_liquido": 10097381865.1,
+        "lucro_liquido": 434610133.29,
+        "carteira_credito": 54716962076.53,
+        "captacoes": 114409000411
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 135099291141.17,
+        "patrimonio_liquido": 50186325974.12,
+        "lucro_liquido": 1498170361.17,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 133708266319.66,
+        "patrimonio_liquido": 13619111398.32,
+        "lucro_liquido": 677986314.25,
+        "carteira_credito": 73931424923.62,
+        "captacoes": 98066421929.66
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 105333256881.13,
+        "patrimonio_liquido": 12357588223.25,
+        "lucro_liquido": 888657046.23,
+        "carteira_credito": 0,
+        "captacoes": 3659770304.25
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 97773516746.34,
+        "patrimonio_liquido": 3890012837.62,
+        "lucro_liquido": -55442619.52,
+        "carteira_credito": 9801891122.56,
+        "captacoes": 26860248046.05
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 92264931585.48,
+        "patrimonio_liquido": 14249193729.23,
+        "lucro_liquido": 4058066731.86,
+        "carteira_credito": 49109340239.79,
+        "captacoes": 10083264837.39
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 86089831611.62,
+        "patrimonio_liquido": 3753310012.85,
+        "lucro_liquido": 942922861.93,
+        "carteira_credito": 47958821884.74,
+        "captacoes": 62797077082.21
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 81665728276.24,
+        "patrimonio_liquido": 6742459829.48,
+        "lucro_liquido": 806055685,
+        "carteira_credito": 47880615489.23,
+        "captacoes": 67349743510.81
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 68212840353,
+        "patrimonio_liquido": 11528178329.52,
+        "lucro_liquido": 1020119114.77,
+        "carteira_credito": 13556432631.88,
+        "captacoes": 22123831573.18
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 65918387189.34,
+        "patrimonio_liquido": 6266272410.85,
+        "lucro_liquido": 493598390.29,
+        "carteira_credito": 21971501157.74,
+        "captacoes": 46324006250.72
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 65309274255.75,
+        "patrimonio_liquido": 7279192090.54,
+        "lucro_liquido": 164561764.99,
+        "carteira_credito": 31874303330.83,
+        "captacoes": 48295837707.5
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 63974766834.21,
+        "patrimonio_liquido": 3500335704.37,
+        "lucro_liquido": 308548864.26,
+        "carteira_credito": 0,
+        "captacoes": 1289818001.68
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 56588110567.52,
+        "patrimonio_liquido": 4187838796.91,
+        "lucro_liquido": 500649433.07,
+        "carteira_credito": 22538735835.77,
+        "captacoes": 49737147384.53
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 53092440680.88,
+        "patrimonio_liquido": 2489437185.96,
+        "lucro_liquido": 7720944.62,
+        "carteira_credito": 34159363238.78,
+        "captacoes": 45441818860.95
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 52543985045.47,
+        "patrimonio_liquido": 9659099595.07,
+        "lucro_liquido": 544104973.29,
+        "carteira_credito": 469838369.68,
+        "captacoes": 23583171964.32
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 52510080210.09,
+        "patrimonio_liquido": 2196367117.77,
+        "lucro_liquido": 139025455.52,
+        "carteira_credito": 0,
+        "captacoes": 12729571218.55
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 51142974059.51,
+        "patrimonio_liquido": 5042918480.66,
+        "lucro_liquido": 183770484.87,
+        "carteira_credito": 32336432410.86,
+        "captacoes": 39649875838.9
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 51049086531.48,
+        "patrimonio_liquido": 6461355264.24,
+        "lucro_liquido": 539145967.62,
+        "carteira_credito": 27981110588.49,
+        "captacoes": 14540059158.65
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 46286723624.72,
+        "patrimonio_liquido": 4120526615.27,
+        "lucro_liquido": 201180826.18,
+        "carteira_credito": 24276443617.73,
+        "captacoes": 34129301841.29
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 46150561281.72,
+        "patrimonio_liquido": 4681647132.63,
+        "lucro_liquido": 134294413.89,
+        "carteira_credito": 39850597336.06,
+        "captacoes": 36675680350.47
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 44447444990.59,
+        "patrimonio_liquido": 1958439823.51,
+        "lucro_liquido": 317463928.27,
+        "carteira_credito": 25742415230.3,
+        "captacoes": 38008414848.73
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 43730984148.29,
+        "patrimonio_liquido": 2681461529.59,
+        "lucro_liquido": 664676651.7,
+        "carteira_credito": 5968774111.47,
+        "captacoes": 16798431125.73
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 42658769508.77,
+        "patrimonio_liquido": 1521827777.67,
+        "lucro_liquido": 31401803.53,
+        "carteira_credito": 1563368557.36,
+        "captacoes": 7437160560.44
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 41690079757.78,
+        "patrimonio_liquido": 5631955421.92,
+        "lucro_liquido": 374246282.3,
+        "carteira_credito": 2214463491.39,
+        "captacoes": 21828501506.84
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 38571735599.64,
+        "patrimonio_liquido": 819675790.97,
+        "lucro_liquido": 29148440.41,
+        "carteira_credito": 20806610021.63,
+        "captacoes": 37349398079.94
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 38436729466.89,
+        "patrimonio_liquido": 2250873621.42,
+        "lucro_liquido": 168462080.98,
+        "carteira_credito": 10561075122.42,
+        "captacoes": 34641156448.63
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 37242825923.48,
+        "patrimonio_liquido": 3553876314.16,
+        "lucro_liquido": 396325424.18,
+        "carteira_credito": 301432077,
+        "captacoes": 14973041975.92
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 35428763738.99,
+        "patrimonio_liquido": 5821257201.86,
+        "lucro_liquido": 186973826.06,
+        "carteira_credito": 0,
+        "captacoes": 10396836924.5
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 32319436528.33,
+        "patrimonio_liquido": 1131078929.3,
+        "lucro_liquido": 51706163.79,
+        "carteira_credito": 2665556584.16,
+        "captacoes": 13040681064.98
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 30837597482.95,
+        "patrimonio_liquido": 1317271291.97,
+        "lucro_liquido": 141567511.19,
+        "carteira_credito": 13784451497.07,
+        "captacoes": 24294700455.34
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 30537157962.09,
+        "patrimonio_liquido": 1702646508.31,
+        "lucro_liquido": -4971757.85,
+        "carteira_credito": 645462481.11,
+        "captacoes": 4330688383.92
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 27908823945.33,
+        "patrimonio_liquido": 15901282816.52,
+        "lucro_liquido": 93154425.51,
+        "carteira_credito": 0,
+        "captacoes": 3138699108.86
+      },
+      {
+        "nome": "TERRA",
+        "segmento": "outro",
+        "ativo_total": 27256697260.81,
+        "patrimonio_liquido": 71743607.42,
+        "lucro_liquido": 1282461.16,
+        "carteira_credito": 0,
+        "captacoes": 3308125486.85
+      },
+      {
+        "nome": "BANCO HSBC S.A.",
+        "segmento": "outro",
+        "ativo_total": 26833646421.04,
+        "patrimonio_liquido": 1224230228.21,
+        "lucro_liquido": 35248495.18,
+        "carteira_credito": 2128891915.94,
+        "captacoes": 7497610807.67
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 26506481280.04,
+        "patrimonio_liquido": 2668339715.03,
+        "lucro_liquido": 66160087.51,
+        "carteira_credito": 7147464372.41,
+        "captacoes": 12089788107.7
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 25722123184.66,
+        "patrimonio_liquido": 2458549383.77,
+        "lucro_liquido": -164890988.99,
+        "carteira_credito": 24951880297.33,
+        "captacoes": 21153936922.79
+      }
+    ],
+    "202409": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2720401272200.44,
+        "patrimonio_liquido": 202350698408.96,
+        "lucro_liquido": 9655402823.72,
+        "carteira_credito": 962421334120.77,
+        "captacoes": 1971990296515.46
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2442453150996.15,
+        "patrimonio_liquido": 178806105426.9,
+        "lucro_liquido": 9087561911.44,
+        "carteira_credito": 1050086054935.09,
+        "captacoes": 1944433047001.66
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 1982210560197.79,
+        "patrimonio_liquido": 102003732203.29,
+        "lucro_liquido": 3005726963.16,
+        "carteira_credito": 1209423272041.54,
+        "captacoes": 1691225604404.3
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1712859761502.8,
+        "patrimonio_liquido": 168688037762.84,
+        "lucro_liquido": 5252157283.19,
+        "carteira_credito": 688656454489.34,
+        "captacoes": 1297665095311.49
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1303611909678.29,
+        "patrimonio_liquido": 89931864436,
+        "lucro_liquido": 3597614181.43,
+        "carteira_credito": 531100049443.87,
+        "captacoes": 952600270424.1
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 801560818213.25,
+        "patrimonio_liquido": 169137191151.36,
+        "lucro_liquido": 5648833848.57,
+        "carteira_credito": 286311577952.41,
+        "captacoes": 158587417421.42
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 615878898398.12,
+        "patrimonio_liquido": 59120938441.84,
+        "lucro_liquido": 3068284349.02,
+        "carteira_credito": 131404599068.22,
+        "captacoes": 420848069879.66
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 314368327545.37,
+        "patrimonio_liquido": 22150880848.6,
+        "lucro_liquido": 760550814.58,
+        "carteira_credito": 116400001481.74,
+        "captacoes": 233781359328.27
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 250375256986.12,
+        "patrimonio_liquido": 8933147488.44,
+        "lucro_liquido": 229724122.45,
+        "carteira_credito": 27060505797.97,
+        "captacoes": 180207239058.15
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 208734065023.68,
+        "patrimonio_liquido": 13409705891.39,
+        "lucro_liquido": 630866921.97,
+        "carteira_credito": 33915225383.31,
+        "captacoes": 129873790795.78
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 184196227321.71,
+        "patrimonio_liquido": 4970425797.25,
+        "lucro_liquido": -31829561.33,
+        "carteira_credito": 34660175635.39,
+        "captacoes": 159788432595.55
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 167318140602.3,
+        "patrimonio_liquido": 10804411904.44,
+        "lucro_liquido": 281334025.19,
+        "carteira_credito": 2413011740.56,
+        "captacoes": 82685611854.51
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 156471892978.34,
+        "patrimonio_liquido": 10072409242.79,
+        "lucro_liquido": 2290856755.35,
+        "carteira_credito": 58886022776.11,
+        "captacoes": 134166333665.42
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 152227475288.09,
+        "patrimonio_liquido": 4657038717.74,
+        "lucro_liquido": 144342967.52,
+        "carteira_credito": 29343922117.88,
+        "captacoes": 125940099669.9
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 143149834254.62,
+        "patrimonio_liquido": 13955636552.46,
+        "lucro_liquido": 492341810.42,
+        "carteira_credito": 75874580997.64,
+        "captacoes": 104165314093.61
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 140166800960.5,
+        "patrimonio_liquido": 10255435148.47,
+        "lucro_liquido": 197102463.57,
+        "carteira_credito": 57653222951.61,
+        "captacoes": 117663287369.73
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 124740315930.88,
+        "patrimonio_liquido": 44092976176.4,
+        "lucro_liquido": 901260586.49,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 104688194372.79,
+        "patrimonio_liquido": 8843958223.34,
+        "lucro_liquido": 169637802.21,
+        "carteira_credito": 0,
+        "captacoes": 3395297211.68
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 101869354911.3,
+        "patrimonio_liquido": 3870885632.37,
+        "lucro_liquido": -25899501.15,
+        "carteira_credito": 8894624057.72,
+        "captacoes": 28070772886.07
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 98622980740.54,
+        "patrimonio_liquido": 4591519892.03,
+        "lucro_liquido": 827913867.6,
+        "carteira_credito": 52162442455.55,
+        "captacoes": 70302543619.59
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 83426498579.26,
+        "patrimonio_liquido": 16161600611.13,
+        "lucro_liquido": 2507953151.1,
+        "carteira_credito": 50962142487.33,
+        "captacoes": 6704368583.11
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 79114286997.15,
+        "patrimonio_liquido": 7089839087.67,
+        "lucro_liquido": 450637667.56,
+        "carteira_credito": 45807387834.18,
+        "captacoes": 64318523599.03
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 77618743125.24,
+        "patrimonio_liquido": 4526191022.79,
+        "lucro_liquido": 236650472.7,
+        "carteira_credito": 33728690508.28,
+        "captacoes": 62967283907.68
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 70559240254.73,
+        "patrimonio_liquido": 13559387703.72,
+        "lucro_liquido": 541358826.03,
+        "carteira_credito": 14889613400.03,
+        "captacoes": 24089990008.31
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 67776551205.28,
+        "patrimonio_liquido": 7219366459.95,
+        "lucro_liquido": 129432969.85,
+        "carteira_credito": 32657511724.75,
+        "captacoes": 50678121436.15
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 67446906119.33,
+        "patrimonio_liquido": 6406355152.3,
+        "lucro_liquido": 271840916.72,
+        "carteira_credito": 21705434894.72,
+        "captacoes": 48219603247.69
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 64030270560.31,
+        "patrimonio_liquido": 3478065485.03,
+        "lucro_liquido": 98728071.08,
+        "carteira_credito": 0,
+        "captacoes": 666462427.28
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 55617791206.07,
+        "patrimonio_liquido": 2869377565.14,
+        "lucro_liquido": 86718808.62,
+        "carteira_credito": 35652253883.72,
+        "captacoes": 48022641363.71
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 55083351308.93,
+        "patrimonio_liquido": 9802168820.83,
+        "lucro_liquido": 165956156.13,
+        "carteira_credito": 514410898.27,
+        "captacoes": 24793810611.63
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 53478004251.41,
+        "patrimonio_liquido": 2442280178.34,
+        "lucro_liquido": 213945722.02,
+        "carteira_credito": 0,
+        "captacoes": 14442598811.12
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 52567308356.23,
+        "patrimonio_liquido": 6804739579.95,
+        "lucro_liquido": 319360034.01,
+        "carteira_credito": 30102606153.27,
+        "captacoes": 14105851619.99
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 52013646436.6,
+        "patrimonio_liquido": 5186947562.08,
+        "lucro_liquido": 137889877.39,
+        "carteira_credito": 31948194965.29,
+        "captacoes": 38884135170.7
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 49001417654.19,
+        "patrimonio_liquido": 4740494169.42,
+        "lucro_liquido": 22826320.15,
+        "carteira_credito": 42826184158.68,
+        "captacoes": 39312671546.36
+      },
+      {
+        "nome": "ORIGINAL",
+        "segmento": "digital",
+        "ativo_total": 48783459874.73,
+        "patrimonio_liquido": 2108045105.62,
+        "lucro_liquido": 29299530.74,
+        "carteira_credito": 28786168139.15,
+        "captacoes": 42071646027.36
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 47871850161.83,
+        "patrimonio_liquido": 2985064260.27,
+        "lucro_liquido": 187610360.67,
+        "carteira_credito": 7582565243.2,
+        "captacoes": 17671417836.42
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 45922394229.62,
+        "patrimonio_liquido": 4257833867.22,
+        "lucro_liquido": 119354916.05,
+        "carteira_credito": 25210232513.38,
+        "captacoes": 32517634145.59
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 45271378448.6,
+        "patrimonio_liquido": 3792410142.75,
+        "lucro_liquido": 243701368.61,
+        "carteira_credito": 312161778,
+        "captacoes": 9032084953.06
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 39488245803.28,
+        "patrimonio_liquido": 849766195.6,
+        "lucro_liquido": 29962972.41,
+        "carteira_credito": 22883402041.61,
+        "captacoes": 38180158523.14
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 39287153378.88,
+        "patrimonio_liquido": 1546824993.69,
+        "lucro_liquido": 21413431.75,
+        "carteira_credito": 1768595987.16,
+        "captacoes": 8501638470.81
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 38176789454.91,
+        "patrimonio_liquido": 6044466851.74,
+        "lucro_liquido": 411867804.75,
+        "carteira_credito": 2153168864.29,
+        "captacoes": 19602617494.54
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 37515832724.36,
+        "patrimonio_liquido": 2322877789.13,
+        "lucro_liquido": 90987286.32,
+        "carteira_credito": 11090351882.87,
+        "captacoes": 33532896704.3
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 34670438734.48,
+        "patrimonio_liquido": 1163108368.75,
+        "lucro_liquido": 31705468.59,
+        "carteira_credito": 2519999291.83,
+        "captacoes": 13333662582.85
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 33161033508.65,
+        "patrimonio_liquido": 1354104264.17,
+        "lucro_liquido": 42029154.29,
+        "carteira_credito": 13142664908.19,
+        "captacoes": 23745375619.74
+      },
+      {
+        "nome": "TERRA",
+        "segmento": "outro",
+        "ativo_total": 32645265514.78,
+        "patrimonio_liquido": 72874169.41,
+        "lucro_liquido": 1108963.79,
+        "carteira_credito": 0,
+        "captacoes": 3798386399.78
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 29837643811.82,
+        "patrimonio_liquido": 16799417832.81,
+        "lucro_liquido": -1955728.78,
+        "carteira_credito": 0,
+        "captacoes": 3433020094.76
+      },
+      {
+        "nome": "SOCIETE GENERALE",
+        "segmento": "outro",
+        "ativo_total": 28202791018.98,
+        "patrimonio_liquido": 1694264620.66,
+        "lucro_liquido": -7064166.47,
+        "carteira_credito": 680142496.78,
+        "captacoes": 4868027998.7
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 27666329713.31,
+        "patrimonio_liquido": 2705430506.48,
+        "lucro_liquido": 33695451.82,
+        "carteira_credito": 7007402970.47,
+        "captacoes": 12845375459.9
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 26302710462.27,
+        "patrimonio_liquido": 2502394186.42,
+        "lucro_liquido": 13067740.16,
+        "carteira_credito": 25508834344.16,
+        "captacoes": 21602472809.88
+      },
+      {
+        "nome": "AGIBANK",
+        "segmento": "outro",
+        "ativo_total": 26187248048.48,
+        "patrimonio_liquido": 2093634888,
+        "lucro_liquido": 205320423.74,
+        "carteira_credito": 21875969516.71,
+        "captacoes": 19165514030.43
+      },
+      {
+        "nome": "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS",
+        "segmento": "cooperativa",
+        "ativo_total": 25746117091.6,
+        "patrimonio_liquido": 1307522570.06,
+        "lucro_liquido": 34008940.21,
+        "carteira_credito": 185885771.2,
+        "captacoes": 514264862.54
+      }
+    ],
+    "202412": [
+      {
+        "nome": "ITAU",
+        "segmento": "S1",
+        "ativo_total": 2766166427516.94,
+        "patrimonio_liquido": 211259988306.98,
+        "lucro_liquido": 19423311929.68,
+        "carteira_credito": 1023068081484.77,
+        "captacoes": 2011329447525.39
+      },
+      {
+        "nome": "BB",
+        "segmento": "S1_publico",
+        "ativo_total": 2410321787073.84,
+        "patrimonio_liquido": 182240467422.02,
+        "lucro_liquido": 17909998071.62,
+        "carteira_credito": 1100666418670.43,
+        "captacoes": 1893554366603.25
+      },
+      {
+        "nome": "CAIXA ECONÔMICA FEDERAL",
+        "segmento": "S1_publico",
+        "ativo_total": 2026456970996.41,
+        "patrimonio_liquido": 103968122450.39,
+        "lucro_liquido": 7311709419.76,
+        "carteira_credito": 1236308293496.98,
+        "captacoes": 1733095214698.65
+      },
+      {
+        "nome": "BRADESCO",
+        "segmento": "S1",
+        "ativo_total": 1744567704888.5,
+        "patrimonio_liquido": 167192646049.21,
+        "lucro_liquido": 10100193112.59,
+        "carteira_credito": 718318598021.86,
+        "captacoes": 1340667313507.07
+      },
+      {
+        "nome": "SANTANDER",
+        "segmento": "S1",
+        "ativo_total": 1369373832039.69,
+        "patrimonio_liquido": 91458285511.71,
+        "lucro_liquido": 7130817681.09,
+        "carteira_credito": 541119088825.81,
+        "captacoes": 963970149926.04
+      },
+      {
+        "nome": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "segmento": "outro",
+        "ativo_total": 835928013371.46,
+        "patrimonio_liquido": 158441042856.26,
+        "lucro_liquido": 13052659973.67,
+        "carteira_credito": 297015852901.29,
+        "captacoes": 180799688038.73
+      },
+      {
+        "nome": "BTG PACTUAL",
+        "segmento": "S2",
+        "ativo_total": 649637478036.18,
+        "patrimonio_liquido": 60235176319.83,
+        "lucro_liquido": 6192329719.16,
+        "carteira_credito": 136708500585.66,
+        "captacoes": 409354842901.24
+      },
+      {
+        "nome": "SAFRA",
+        "segmento": "S2",
+        "ativo_total": 302042203703.49,
+        "patrimonio_liquido": 21466903197.7,
+        "lucro_liquido": 1943381573.88,
+        "carteira_credito": 112846786926.75,
+        "captacoes": 226281678251.7
+      },
+      {
+        "nome": "XP",
+        "segmento": "outro",
+        "ativo_total": 301760063611.43,
+        "patrimonio_liquido": 10784711980.33,
+        "lucro_liquido": 574451671.87,
+        "carteira_credito": 28281607295.13,
+        "captacoes": 202276945670.21
+      },
+      {
+        "nome": "CITIBANK",
+        "segmento": "outro",
+        "ativo_total": 229633957124.51,
+        "patrimonio_liquido": 11818229836.19,
+        "lucro_liquido": 1392455442.88,
+        "carteira_credito": 36562887846.22,
+        "captacoes": 144482140372.6
+      },
+      {
+        "nome": "BANCO COOPERATIVO SICREDI S.A.",
+        "segmento": "cooperativa",
+        "ativo_total": 191215588038.93,
+        "patrimonio_liquido": 4951005883.26,
+        "lucro_liquido": 73474489.47,
+        "carteira_credito": 38658113437.6,
+        "captacoes": 165305068927.86
+      },
+      {
+        "nome": "NUBANK",
+        "segmento": "digital",
+        "ativo_total": 176097862319.76,
+        "patrimonio_liquido": 12586215901.87,
+        "lucro_liquido": 4832680935.76,
+        "carteira_credito": 65540431523.94,
+        "captacoes": 149211859974.21
+      },
+      {
+        "nome": "BANCO SICOOB",
+        "segmento": "cooperativa",
+        "ativo_total": 153546411156.88,
+        "patrimonio_liquido": 4996212529.47,
+        "lucro_liquido": 283344862.68,
+        "carteira_credito": 33028536211.83,
+        "captacoes": 130096784132.1
+      },
+      {
+        "nome": "BANRISUL",
+        "segmento": "outro",
+        "ativo_total": 145133795283.68,
+        "patrimonio_liquido": 10411413104.33,
+        "lucro_liquido": 480965535.87,
+        "carteira_credito": 62045229482.97,
+        "captacoes": 123897995960.67
+      },
+      {
+        "nome": "VOTORANTIM",
+        "segmento": "S2",
+        "ativo_total": 140976182780.89,
+        "patrimonio_liquido": 13857826304.63,
+        "lucro_liquido": 1029579629.54,
+        "carteira_credito": 75786336324.53,
+        "captacoes": 103383323769.03
+      },
+      {
+        "nome": "REDECARD INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 128999092769.67,
+        "patrimonio_liquido": 45032961201.49,
+        "lucro_liquido": 1848660636.22,
+        "carteira_credito": 0,
+        "captacoes": 0
+      },
+      {
+        "nome": "CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 120211374935.14,
+        "patrimonio_liquido": 9226873300.49,
+        "lucro_liquido": 550180616.22,
+        "carteira_credito": 0,
+        "captacoes": 7694345473.72
+      },
+      {
+        "nome": "C6 BANK",
+        "segmento": "digital",
+        "ativo_total": 116214087578.9,
+        "patrimonio_liquido": 4774463793.36,
+        "lucro_liquido": 1327340768,
+        "carteira_credito": 57125769773.86,
+        "captacoes": 79241160229.37
+      },
+      {
+        "nome": "JP MORGAN CHASE",
+        "segmento": "outro",
+        "ativo_total": 109247609454.74,
+        "patrimonio_liquido": 11383984098.73,
+        "lucro_liquido": 953606219.48,
+        "carteira_credito": 2793995383.7,
+        "captacoes": 56470662925.25
+      },
+      {
+        "nome": "NU PAGAMENTOS S.A. - INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "digital",
+        "ativo_total": 94467214159.25,
+        "patrimonio_liquido": 19055962788.05,
+        "lucro_liquido": 5470597994.22,
+        "carteira_credito": 57079908542.86,
+        "captacoes": 7559910405.37
+      },
+      {
+        "nome": "BANCO BNP PARIBAS BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 93391900011.76,
+        "patrimonio_liquido": 3704713628.99,
+        "lucro_liquido": -23868761.95,
+        "carteira_credito": 8316095495.94,
+        "captacoes": 26046513987.25
+      },
+      {
+        "nome": "DAYCOVAL",
+        "segmento": "outro",
+        "ativo_total": 92674016658.31,
+        "patrimonio_liquido": 7073421660.29,
+        "lucro_liquido": 883223255,
+        "carteira_credito": 52850761468.18,
+        "captacoes": 73299294748.44
+      },
+      {
+        "nome": "MASTER",
+        "segmento": "outro",
+        "ativo_total": 82047099381.62,
+        "patrimonio_liquido": 4772353185.06,
+        "lucro_liquido": 566759996.64,
+        "carteira_credito": 34412159322.6,
+        "captacoes": 64396957329.52
+      },
+      {
+        "nome": "INTER",
+        "segmento": "digital",
+        "ativo_total": 74679540030.7,
+        "patrimonio_liquido": 7256024159.13,
+        "lucro_liquido": 388155087.29,
+        "carteira_credito": 34080274241.73,
+        "captacoes": 56784066347.52
+      },
+      {
+        "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS PARA MEIOS DE PAGAMENTO S.A. INSTITUIÇÃO DE PAGAMENTO",
+        "segmento": "outro",
+        "ativo_total": 73322387911.57,
+        "patrimonio_liquido": 3147907178.98,
+        "lucro_liquido": 279918123.21,
+        "carteira_credito": 0,
+        "captacoes": 221950062.18
+      },
+      {
+        "nome": "PAGSEGURO INTERNET INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "digital",
+        "ativo_total": 70181682195.64,
+        "patrimonio_liquido": 9785487209.42,
+        "lucro_liquido": 479741891.52,
+        "carteira_credito": 596397633.31,
+        "captacoes": 39427499091.93
+      },
+      {
+        "nome": "BANCO DO NORDESTE DO BRASIL S.A.",
+        "segmento": "publico",
+        "ativo_total": 69962975381.19,
+        "patrimonio_liquido": 13951272603.38,
+        "lucro_liquido": 1322447587.22,
+        "carteira_credito": 17153023314.11,
+        "captacoes": 25065904442.55
+      },
+      {
+        "nome": "ABC-BRASIL",
+        "segmento": "outro",
+        "ativo_total": 69875612006.74,
+        "patrimonio_liquido": 6426627490.49,
+        "lucro_liquido": 526172908.46,
+        "carteira_credito": 22755083161.01,
+        "captacoes": 50093366234.58
+      },
+      {
+        "nome": "BANCO RABOBANK INTERNATIONAL BRASIL S.A.",
+        "segmento": "digital",
+        "ativo_total": 61588317403.53,
+        "patrimonio_liquido": 5135629620.95,
+        "lucro_liquido": 176455268.4,
+        "carteira_credito": 36325457634.64,
+        "captacoes": 44483768138.26
+      },
+      {
+        "nome": "BRB",
+        "segmento": "outro",
+        "ativo_total": 61326353904.84,
+        "patrimonio_liquido": 3715917606.91,
+        "lucro_liquido": 226933062.19,
+        "carteira_credito": 41023918406.71,
+        "captacoes": 51902342003.89
+      },
+      {
+        "nome": "STONE INSTITUIÇÃO DE PAGAMENTO S.A.",
+        "segmento": "outro",
+        "ativo_total": 60386052103.39,
+        "patrimonio_liquido": 2608820324.64,
+        "lucro_liquido": 202427291.78,
+        "carteira_credito": 0,
+        "captacoes": 18144396942.5
+      },
+      {
+        "nome": "MERCADO PAGO INSTITUIÇÃO DE PAGAMENTO LTDA.",
+        "segmento": "outro",
+        "ativo_total": 60153400038.72,
+        "patrimonio_liquido": 3239558907.92,
+        "lucro_liquido": 522595427.92,
+        "carteira_credito": 9877937043.26,
+        "captacoes": 24239234876.91
+      },
+      {
+        "nome": "BANCO DA AMAZONIA S.A.",
+        "segmento": "outro",
+        "ativo_total": 54315898228.42,
+        "patrimonio_liquido": 6531091156.28,
+        "lucro_liquido": 592880974.6,
+        "carteira_credito": 32341385381.36,
+        "captacoes": 14327016987.85
+      },
+      {
+        "nome": "BANCO VOLKSWAGEN S.A.",
+        "segmento": "outro",
+        "ativo_total": 53284781163.73,
+        "patrimonio_liquido": 5103175891.38,
+        "lucro_liquido": 310482768.81,
+        "carteira_credito": 46667200629.29,
+        "captacoes": 43411705840.13
+      },
+      {
+        "nome": "BMG",
+        "segmento": "S2",
+        "ativo_total": 49367117599.18,
+        "patrimonio_liquido": 4305742007.41,
+        "lucro_liquido": 218783917.88,
+        "carteira_credito": 26336249558,
+        "captacoes": 36002876653.33
+      },
+      {
+        "nome": "BOFA MERRILL LYNCH",
+        "segmento": "outro",
+        "ativo_total": 49328525890.3,
+        "patrimonio_liquido": 5956720957.29,
+        "lucro_liquido": 649745269.31,
+        "carteira_credito": 2257456892.49,
+        "captacoes": 25311172628.8
+      },
+      {
+        "nome": "GOLDMAN SACHS",
+        "segmento": "outro",
+        "ativo_total": 48919167015.56,
+        "patrimonio_liquido": 4045817138.82,
+        "lucro_liquido": 487237158.65,
+        "carteira_credito": 301779879,
+        "captacoes": 19506536211.53
+      },
+      {
+        "nome": "PAGBANK-PAGSEGURO",
+        "segmento": "outro",
+        "ativo_total": 43095077382.88,
+        "patrimonio_liquido": 836963255.29,
+        "lucro_liquido": 17196215.5,
+        "carteira_credito": 36220497037.19,
+        "captacoes": 41677072100.68
+      },
+      {
+        "nome": "BANCO MIZUHO DO BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 42364593492.47,
+        "patrimonio_liquido": 1208516544.4,
+        "lucro_liquido": 86620558.64,
+        "carteira_credito": 2332143799.18,
+        "captacoes": 13965287729.2
+      },
+      {
+        "nome": "BANESTES",
+        "segmento": "outro",
+        "ativo_total": 36971025402.34,
+        "patrimonio_liquido": 2357213667.21,
+        "lucro_liquido": 224025031.28,
+        "carteira_credito": 11755654044.16,
+        "captacoes": 33103115499.64
+      },
+      {
+        "nome": "BANCO MUFG BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 34964454100.57,
+        "patrimonio_liquido": 1549770972.75,
+        "lucro_liquido": 35441870.6,
+        "carteira_credito": 2174820454.42,
+        "captacoes": 7155526085.81
+      },
+      {
+        "nome": "BOCOM",
+        "segmento": "outro",
+        "ativo_total": 34845733730.4,
+        "patrimonio_liquido": 1394036793.85,
+        "lucro_liquido": 127170401.61,
+        "carteira_credito": 13650450252.41,
+        "captacoes": 26223566321.87
+      },
+      {
+        "nome": "BANCO CLASSICO S.A.",
+        "segmento": "outro",
+        "ativo_total": 30997096376.17,
+        "patrimonio_liquido": 17008234890.07,
+        "lucro_liquido": 111297760.71,
+        "carteira_credito": 0,
+        "captacoes": 4102330015.38
+      },
+      {
+        "nome": "DEUTSCHE BANK S.A. - BANCO ALEMAO",
+        "segmento": "outro",
+        "ativo_total": 30505150631.85,
+        "patrimonio_liquido": 2701653249.8,
+        "lucro_liquido": 72994673.24,
+        "carteira_credito": 2113486914.85,
+        "captacoes": 11575964818.61
+      },
+      {
+        "nome": "AGIBANK",
+        "segmento": "outro",
+        "ativo_total": 30024685137.44,
+        "patrimonio_liquido": 2719760901.13,
+        "lucro_liquido": 428769516.38,
+        "carteira_credito": 23993869357.5,
+        "captacoes": 21274667263.03
+      },
+      {
+        "nome": "BANCO CNH INDUSTRIAL CAPITAL S.A.",
+        "segmento": "outro",
+        "ativo_total": 29259677592.84,
+        "patrimonio_liquido": 2653806538.09,
+        "lucro_liquido": 4269793.79,
+        "carteira_credito": 28039483213.26,
+        "captacoes": 24504559796.28
+      },
+      {
+        "nome": "BANCO ORIGINAL S.A.",
+        "segmento": "digital",
+        "ativo_total": 28399599551,
+        "patrimonio_liquido": 1730762360.68,
+        "lucro_liquido": -165892707.87,
+        "carteira_credito": 15167101713.13,
+        "captacoes": 24597277189.64
+      },
+      {
+        "nome": "PINE",
+        "segmento": "outro",
+        "ativo_total": 27840903744.42,
+        "patrimonio_liquido": 1227207313.87,
+        "lucro_liquido": 131436130.09,
+        "carteira_credito": 9456875554.78,
+        "captacoes": 22489126567.31
+      },
+      {
+        "nome": "MORGAN STANLEY",
+        "segmento": "outro",
+        "ativo_total": 27457784303.67,
+        "patrimonio_liquido": 5775931158.49,
+        "lucro_liquido": 333389539.74,
+        "carteira_credito": 0,
+        "captacoes": 8482838139.34
+      },
+      {
+        "nome": "BANCO CRÉDIT AGRICOLE BRASIL S.A.",
+        "segmento": "outro",
+        "ativo_total": 26867825716.04,
+        "patrimonio_liquido": 2661638062.21,
+        "lucro_liquido": 106868933.32,
+        "carteira_credito": 8472075673.15,
+        "captacoes": 13859136767.83
+      }
+    ],
+    "202503": []
+  }
+}

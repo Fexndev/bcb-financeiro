@@ -1,0 +1,98 @@
+{
+  "last_updated": "2026-04-05T17:24:28Z",
+  "source": "BCB - Ranking de Reclamações (dados de referência 4T/2024)",
+  "total_instituicoes": 12,
+  "media_por_segmento": {
+    "S2": 50.53,
+    "S1": 26.2,
+    "digital": 18.11,
+    "S1_publico": 21.52,
+    "cooperativa": 7.23
+  },
+  "ranking": [
+    {
+      "instituicao": "Banco Pan",
+      "indice": 52.84,
+      "reclamacoes": 1847,
+      "clientes_milhoes": 34.9,
+      "segmento": "S2"
+    },
+    {
+      "instituicao": "BMG",
+      "indice": 48.21,
+      "reclamacoes": 563,
+      "clientes_milhoes": 11.7,
+      "segmento": "S2"
+    },
+    {
+      "instituicao": "Bradesco",
+      "indice": 32.15,
+      "reclamacoes": 2367,
+      "clientes_milhoes": 73.6,
+      "segmento": "S1"
+    },
+    {
+      "instituicao": "Santander",
+      "indice": 28.93,
+      "reclamacoes": 1789,
+      "clientes_milhoes": 61.8,
+      "segmento": "S1"
+    },
+    {
+      "instituicao": "C6 Bank",
+      "indice": 27.44,
+      "reclamacoes": 762,
+      "clientes_milhoes": 27.8,
+      "segmento": "digital"
+    },
+    {
+      "instituicao": "Caixa Econômica",
+      "indice": 23.18,
+      "reclamacoes": 3412,
+      "clientes_milhoes": 147.2,
+      "segmento": "S1_publico"
+    },
+    {
+      "instituicao": "Banco do Brasil",
+      "indice": 19.87,
+      "reclamacoes": 1543,
+      "clientes_milhoes": 77.6,
+      "segmento": "S1_publico"
+    },
+    {
+      "instituicao": "Itaú Unibanco",
+      "indice": 17.52,
+      "reclamacoes": 1876,
+      "clientes_milhoes": 107.1,
+      "segmento": "S1"
+    },
+    {
+      "instituicao": "Nubank",
+      "indice": 14.23,
+      "reclamacoes": 1345,
+      "clientes_milhoes": 94.5,
+      "segmento": "digital"
+    },
+    {
+      "instituicao": "Banco Inter",
+      "indice": 12.67,
+      "reclamacoes": 412,
+      "clientes_milhoes": 32.5,
+      "segmento": "digital"
+    },
+    {
+      "instituicao": "Sicoob",
+      "indice": 8.34,
+      "reclamacoes": 67,
+      "clientes_milhoes": 8.0,
+      "segmento": "cooperativa"
+    },
+    {
+      "instituicao": "Sicredi",
+      "indice": 6.12,
+      "reclamacoes": 45,
+      "clientes_milhoes": 7.4,
+      "segmento": "cooperativa"
+    }
+  ]
+}
