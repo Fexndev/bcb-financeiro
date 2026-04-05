@@ -116,7 +116,7 @@ body {
 .filter-toolbar {
     background: var(--bg-card); border-bottom: 1px solid var(--border);
     padding: 14px 24px; display: flex; gap: 20px; align-items: flex-end;
-    flex-wrap: wrap; position: sticky; top: 0; z-index: 100;
+    flex-wrap: wrap; position: sticky; top: 0; z-index: 10;
 }
 
 .filter-field { display: flex; flex-direction: column; gap: 4px; }
