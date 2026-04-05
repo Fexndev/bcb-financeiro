@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:23:51Z",
+  "last_updated": "2026-04-05T19:33:17Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
@@ -9,8 +9,8 @@
       "top10_share_ativo": 79.21,
       "share_por_segmento": {
         "grande": 64.16,
-        "outro_banco": 29.32,
-        "cooperativa": 6.51
+        "outro": 30.72,
+        "cooperativa": 5.12
       },
       "ranking_ativo": [
         {
@@ -45,13 +45,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 784591338941.43,
           "share": 6.2373
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 381410079107.09,
           "share": 3.0321
         },
@@ -69,25 +69,25 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 221289309732.2,
           "share": 1.7592
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 143974549422.99,
           "share": 1.1446
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 122404806249.88,
           "share": 0.9731
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 113282172319.42,
           "share": 0.9006
         },
@@ -99,37 +99,37 @@
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 103780374149.21,
           "share": 0.825
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 99813690020.78,
           "share": 0.7935
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 99485490626.81,
           "share": 0.7909
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 87744175281.11,
           "share": 0.6975
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 79328676365.08,
           "share": 0.6306
         },
         {
           "nome": "Banco do Nordeste",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 63006496021.95,
           "share": 0.5009
         }
@@ -167,7 +167,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 267441048611.83,
           "share": 5.1518
         },
@@ -185,19 +185,19 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 112432322648.12,
           "share": 2.1658
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 105748593607.64,
           "share": 2.0371
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 66253136213.71,
           "share": 1.2762
         },
@@ -209,49 +209,49 @@
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 42420973703.54,
           "share": 0.8172
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 37315227798.49,
           "share": 0.7188
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28861083038.28,
           "share": 0.556
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 26222141791.99,
           "share": 0.5051
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 24035657479.94,
           "share": 0.463
         },
         {
           "nome": "ABC Brasil",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 22916055187.76,
           "share": 0.4414
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 22202500114.25,
           "share": 0.4277
         },
         {
           "nome": "INTER",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 17801569009.02,
           "share": 0.3429
         }
@@ -264,8 +264,8 @@
       "top10_share_ativo": 78.81,
       "share_por_segmento": {
         "grande": 63.6,
-        "outro_banco": 29.71,
-        "cooperativa": 6.69
+        "outro": 31.11,
+        "cooperativa": 5.28
       },
       "ranking_ativo": [
         {
@@ -300,13 +300,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 759514282588.24,
           "share": 5.8185
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 447821741784.18,
           "share": 3.4307
         },
@@ -324,13 +324,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 243394511527.65,
           "share": 1.8646
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 152724980135.93,
           "share": 1.17
         },
@@ -342,49 +342,49 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 122979904626.7,
           "share": 0.9421
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 122433951173.61,
           "share": 0.938
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 109161041705.58,
           "share": 0.8363
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 105839598067.36,
           "share": 0.8108
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 97517354987,
           "share": 0.7471
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 92505045239.46,
           "share": 0.7087
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 81046654964.47,
           "share": 0.6209
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 65943678001.56,
           "share": 0.5052
         }
@@ -422,7 +422,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 273938162723.63,
           "share": 5.068
         },
@@ -440,19 +440,19 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 117407230568.71,
           "share": 2.1721
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 110289133215.33,
           "share": 2.0404
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 66508392467.97,
           "share": 1.2304
         },
@@ -464,49 +464,49 @@
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 44627768467.92,
           "share": 0.8256
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 42372421375.95,
           "share": 0.7839
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28670148001.07,
           "share": 0.5304
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 27270154020.3,
           "share": 0.5045
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 26142505684.57,
           "share": 0.4837
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 24481061651.28,
           "share": 0.4529
         },
         {
           "nome": "ABC Brasil",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 24133569512.21,
           "share": 0.4465
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 21263457806.76,
           "share": 0.3934
         }
@@ -519,8 +519,8 @@
       "top10_share_ativo": 78.85,
       "share_por_segmento": {
         "grande": 63.88,
-        "outro_banco": 29.08,
-        "cooperativa": 7.04
+        "outro": 30.36,
+        "cooperativa": 5.76
       },
       "ranking_ativo": [
         {
@@ -555,13 +555,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 753872468278.38,
           "share": 5.4971
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 431902952105.38,
           "share": 3.1494
         },
@@ -579,13 +579,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 248546044859.92,
           "share": 1.8124
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 155653342288.87,
           "share": 1.135
         },
@@ -597,49 +597,49 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 133495333413.03,
           "share": 0.9734
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 129447772990.01,
           "share": 0.9439
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 112890310328.04,
           "share": 0.8232
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 106083627800.52,
           "share": 0.7735
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 105463879564.5,
           "share": 0.769
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 103088547568.47,
           "share": 0.7517
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 77031553107.54,
           "share": 0.5617
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 67993986861.26,
           "share": 0.4958
         }
@@ -677,7 +677,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 274612507645.94,
           "share": 4.8661
         },
@@ -695,19 +695,19 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 125142623590.35,
           "share": 2.2175
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 111635102483.41,
           "share": 1.9782
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 67399318810.13,
           "share": 1.1943
         },
@@ -719,49 +719,49 @@
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 47482201067.38,
           "share": 0.8414
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 44598678532.51,
           "share": 0.7903
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28903064456.43,
           "share": 0.5122
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28620697979.18,
           "share": 0.5072
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28608148558.37,
           "share": 0.5069
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28016992651.02,
           "share": 0.4965
         },
         {
           "nome": "ABC Brasil",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 25321748624.34,
           "share": 0.4487
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 23715039622.68,
           "share": 0.4202
         }
@@ -774,8 +774,8 @@
       "top10_share_ativo": 77.75,
       "share_por_segmento": {
         "grande": 63.35,
-        "outro_banco": 29.77,
-        "cooperativa": 6.87
+        "outro": 30.83,
+        "cooperativa": 5.82
       },
       "ranking_ativo": [
         {
@@ -810,13 +810,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 681161316325.65,
           "share": 4.9894
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 441386142085.77,
           "share": 3.2331
         },
@@ -834,7 +834,7 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 252426071858.42,
           "share": 1.849
         },
@@ -846,55 +846,55 @@
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 169772268594.12,
           "share": 1.2435
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 135667942744.32,
           "share": 0.9937
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 125221094895.47,
           "share": 0.9172
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 115018116441.58,
           "share": 0.8425
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 113894953780.92,
           "share": 0.8343
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 112122238333.04,
           "share": 0.8213
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 109762389655.69,
           "share": 0.804
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 78213107079.31,
           "share": 0.5729
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 70605117117.7,
           "share": 0.5172
         }
@@ -932,7 +932,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 278285079062.4,
           "share": 4.7706
         },
@@ -950,19 +950,19 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 122125767833.47,
           "share": 2.0936
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 118874335607.36,
           "share": 2.0378
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 70426927793.98,
           "share": 1.2073
         },
@@ -974,49 +974,49 @@
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 49165378039.04,
           "share": 0.8428
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 48548551128.83,
           "share": 0.8323
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 31862858538.82,
           "share": 0.5462
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29787485711.96,
           "share": 0.5106
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29340041991.27,
           "share": 0.503
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29006327014.47,
           "share": 0.4972
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28722596442.72,
           "share": 0.4924
         },
         {
           "nome": "ABC Brasil",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 25414088829.31,
           "share": 0.4357
         }
@@ -1029,8 +1029,8 @@
       "top10_share_ativo": 78.04,
       "share_por_segmento": {
         "grande": 63.33,
-        "outro_banco": 29.6,
-        "cooperativa": 7.07
+        "outro": 30.58,
+        "cooperativa": 6.09
       },
       "ranking_ativo": [
         {
@@ -1065,13 +1065,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 688003796963.04,
           "share": 4.9133
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 460075470996.49,
           "share": 3.2856
         },
@@ -1089,13 +1089,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 250042045780.08,
           "share": 1.7857
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 160367419764.39,
           "share": 1.1453
         },
@@ -1107,49 +1107,49 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 137657036391.97,
           "share": 0.9831
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 134323787273.17,
           "share": 0.9593
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 120511643054.85,
           "share": 0.8606
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 112645626009.32,
           "share": 0.8045
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 108414777108.38,
           "share": 0.7742
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 105783883919.88,
           "share": 0.7554
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 72452868590.45,
           "share": 0.5174
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 67706071413.05,
           "share": 0.4835
         }
@@ -1187,7 +1187,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 271961150101.75,
           "share": 4.614
         },
@@ -1205,19 +1205,19 @@
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 113898378851.84,
           "share": 1.9324
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 106472563059.05,
           "share": 1.8064
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 71459209858.64,
           "share": 1.2124
         },
@@ -1229,49 +1229,49 @@
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 50133039318.98,
           "share": 0.8505
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 46081533746.29,
           "share": 0.7818
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 33751316390.6,
           "share": 0.5726
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 32465439596.81,
           "share": 0.5508
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 30859291590.9,
           "share": 0.5236
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 30519111292.54,
           "share": 0.5178
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28293320855.69,
           "share": 0.48
         },
         {
           "nome": "BMG",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 24302689684.41,
           "share": 0.4123
         }
@@ -1284,8 +1284,8 @@
       "top10_share_ativo": 77.33,
       "share_por_segmento": {
         "grande": 62.7,
-        "outro_banco": 30.12,
-        "cooperativa": 7.18
+        "outro": 31.11,
+        "cooperativa": 6.19
       },
       "ranking_ativo": [
         {
@@ -1320,13 +1320,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 710263339242.61,
           "share": 4.9292
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 465868249195.03,
           "share": 3.2331
         },
@@ -1344,13 +1344,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 248193146465.06,
           "share": 1.7224
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 185925676496.32,
           "share": 1.2903
         },
@@ -1362,49 +1362,49 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 169388824960.47,
           "share": 1.1755
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 139369015769.5,
           "share": 0.9672
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 116018385291.92,
           "share": 0.8052
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 113949157975.29,
           "share": 0.7908
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 107240387282.88,
           "share": 0.7442
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 107146007413.18,
           "share": 0.7436
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 102183363939.09,
           "share": 0.7091
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 73782779414.55,
           "share": 0.512
         }
@@ -1442,7 +1442,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 272550994302.81,
           "share": 4.6133
         },
@@ -1460,13 +1460,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 103243232977.54,
           "share": 1.7475
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 102398349923.54,
           "share": 1.7332
         },
@@ -1478,55 +1478,55 @@
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 71341158480.03,
           "share": 1.2075
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 51550834400.32,
           "share": 0.8726
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 45231464029.48,
           "share": 0.7656
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 37384810103.19,
           "share": 0.6328
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 34386358241.72,
           "share": 0.582
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 31911190181.56,
           "share": 0.5401
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28999170495.74,
           "share": 0.4908
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 28874533562.77,
           "share": 0.4887
         },
         {
           "nome": "INTER",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 24665092096.67,
           "share": 0.4175
         }
@@ -1539,8 +1539,8 @@
       "top10_share_ativo": 77.62,
       "share_por_segmento": {
         "grande": 62.99,
-        "outro_banco": 29.66,
-        "cooperativa": 7.36
+        "outro": 30.65,
+        "cooperativa": 6.36
       },
       "ranking_ativo": [
         {
@@ -1575,13 +1575,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 707765548786.44,
           "share": 4.7333
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 510811205836,
           "share": 3.4161
         },
@@ -1599,7 +1599,7 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 257142566261.59,
           "share": 1.7197
         },
@@ -1611,55 +1611,55 @@
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 185560797893.91,
           "share": 1.241
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 168492739498.42,
           "share": 1.1268
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 135651675317.63,
           "share": 0.9072
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 127341763398.42,
           "share": 0.8516
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 119299667496.28,
           "share": 0.7978
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 112845406411.25,
           "share": 0.7547
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 103085655058.2,
           "share": 0.6894
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 102554248097.12,
           "share": 0.6859
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 72914039677.23,
           "share": 0.4876
         }
@@ -1697,7 +1697,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 274734481440.64,
           "share": 4.5381
         },
@@ -1715,13 +1715,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 109502853987.58,
           "share": 1.8088
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 106149255226.95,
           "share": 1.7534
         },
@@ -1733,55 +1733,55 @@
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 71338060848.21,
           "share": 1.1784
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 52508918372.26,
           "share": 0.8673
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 44737048274.38,
           "share": 0.739
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 41405999259.9,
           "share": 0.6839
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 35643889397.3,
           "share": 0.5888
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 32924219104.05,
           "share": 0.5438
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 30408600053.68,
           "share": 0.5023
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29313987671.28,
           "share": 0.4842
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 27703847439.25,
           "share": 0.4576
         }
@@ -1794,8 +1794,8 @@
       "top10_share_ativo": 76.86,
       "share_por_segmento": {
         "grande": 62.32,
-        "outro_banco": 30.38,
-        "cooperativa": 7.3
+        "outro": 31.36,
+        "cooperativa": 6.31
       },
       "ranking_ativo": [
         {
@@ -1830,13 +1830,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 721541796151.57,
           "share": 4.7499
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 516940906236.53,
           "share": 3.403
         },
@@ -1854,7 +1854,7 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 293785245283.98,
           "share": 1.934
         },
@@ -1866,55 +1866,55 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 189321335271.86,
           "share": 1.2463
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 182356567987.57,
           "share": 1.2005
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 142083636663.79,
           "share": 0.9353
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 128555623718.75,
           "share": 0.8463
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 127263373371.67,
           "share": 0.8378
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 115198675279.93,
           "share": 0.7584
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 115098434874.44,
           "share": 0.7577
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 94632173896.11,
           "share": 0.623
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 78530848590.45,
           "share": 0.517
         }
@@ -1952,7 +1952,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 277663237885.98,
           "share": 4.4549
         },
@@ -1970,13 +1970,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 124480657694.35,
           "share": 1.9972
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 108403367250.95,
           "share": 1.7392
         },
@@ -1988,55 +1988,55 @@
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 73306325326.57,
           "share": 1.1761
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 53725275238.43,
           "share": 0.862
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 48229465152.71,
           "share": 0.7738
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 45653212893.83,
           "share": 0.7325
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 37425537684.3,
           "share": 0.6005
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 33963454939.73,
           "share": 0.5449
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 33349374052.74,
           "share": 0.5351
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29666754060.48,
           "share": 0.476
         },
         {
           "nome": "INTER",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29061217304.66,
           "share": 0.4663
         }
@@ -2049,8 +2049,8 @@
       "top10_share_ativo": 76.69,
       "share_por_segmento": {
         "grande": 61.9,
-        "outro_banco": 30.84,
-        "cooperativa": 7.26
+        "outro": 31.79,
+        "cooperativa": 6.3
       },
       "ranking_ativo": [
         {
@@ -2085,13 +2085,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 732036183380.2,
           "share": 4.6426
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 578228452357.69,
           "share": 3.6671
         },
@@ -2109,7 +2109,7 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 287630193635.68,
           "share": 1.8241
         },
@@ -2121,55 +2121,55 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 213824772730.17,
           "share": 1.3561
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 196791363696.68,
           "share": 1.248
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 135666109431.5,
           "share": 0.8604
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 135187844307.23,
           "share": 0.8574
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 132837575967.63,
           "share": 0.8425
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 119826126741.72,
           "share": 0.7599
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 107775259605.71,
           "share": 0.6835
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 92428724344.85,
           "share": 0.5862
         },
         {
           "nome": "PagSeguro",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 82817357386.0,
           "share": 0.5252
         }
@@ -2207,7 +2207,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 281124087080.99,
           "share": 4.435
         },
@@ -2225,13 +2225,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 119736395772.27,
           "share": 1.889
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 115864357820.36,
           "share": 1.8279
         },
@@ -2243,55 +2243,55 @@
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 74030865677.62,
           "share": 1.1679
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 53917962857.99,
           "share": 0.8506
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 46230097427.5,
           "share": 0.7293
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 45517041008.19,
           "share": 0.7181
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 38291712137.6,
           "share": 0.6041
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 34273541613.62,
           "share": 0.5407
         },
         {
           "nome": "INTER",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 30059972856.11,
           "share": 0.4742
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 30026275804.23,
           "share": 0.4737
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 29210085113.15,
           "share": 0.4608
         }
@@ -2304,8 +2304,8 @@
       "top10_share_ativo": 76.39,
       "share_por_segmento": {
         "grande": 61.54,
-        "outro_banco": 31.11,
-        "cooperativa": 7.35
+        "outro": 32.06,
+        "cooperativa": 6.39
       },
       "ranking_ativo": [
         {
@@ -2340,13 +2340,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 772679809507.28,
           "share": 4.694
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 604571789805.26,
           "share": 3.6728
         },
@@ -2364,7 +2364,7 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 295999532866.09,
           "share": 1.7982
         },
@@ -2376,55 +2376,55 @@
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 227186158928.66,
           "share": 1.3802
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 212616841051.28,
           "share": 1.2916
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 140920807204.34,
           "share": 0.8561
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 140711395825.48,
           "share": 0.8548
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 135099291141.17,
           "share": 0.8207
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 133708266319.66,
           "share": 0.8123
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 105333256881.13,
           "share": 0.6399
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 97773516746.34,
           "share": 0.594
         },
         {
           "nome": "PagSeguro",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 91115720645.11,
           "share": 0.5535
         }
@@ -2462,7 +2462,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 285779265688.73,
           "share": 4.3636
         },
@@ -2480,13 +2480,13 @@
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 123483545341.05,
           "share": 1.8855
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 122503181505.72,
           "share": 1.8705
         },
@@ -2498,55 +2498,55 @@
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 73931424923.62,
           "share": 1.1289
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 54773665549.86,
           "share": 0.8364
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 47958821884.74,
           "share": 0.7323
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 47880615489.23,
           "share": 0.7311
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 39850597336.06,
           "share": 0.6085
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 34159363238.78,
           "share": 0.5216
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 32336432410.86,
           "share": 0.4938
         },
         {
           "nome": "INTER",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 31874303330.83,
           "share": 0.4867
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 30006330559.4,
           "share": 0.4582
         }
@@ -2559,8 +2559,8 @@
       "top10_share_ativo": 76.28,
       "share_por_segmento": {
         "grande": 61.25,
-        "outro_banco": 31.39,
-        "cooperativa": 7.36
+        "outro": 32.24,
+        "cooperativa": 6.51
       },
       "ranking_ativo": [
         {
@@ -2595,13 +2595,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 801560818213.25,
           "share": 4.7189
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 615878898398.12,
           "share": 3.6257
         },
@@ -2619,13 +2619,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 314368327545.37,
           "share": 1.8507
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 250378873890.91,
           "share": 1.474
         },
@@ -2637,49 +2637,49 @@
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 208734065023.68,
           "share": 1.2288
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 167318140602.3,
           "share": 0.985
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 145302698921.1,
           "share": 0.8554
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 143149834254.62,
           "share": 0.8427
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 124740315930.88,
           "share": 0.7344
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 104688194372.79,
           "share": 0.6163
         },
         {
           "nome": "BNP Paribas",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 101869354911.3,
           "share": 0.5997
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 98622980740.54,
           "share": 0.5806
         }
@@ -2717,7 +2717,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 286311577952.41,
           "share": 4.2447
         },
@@ -2735,13 +2735,13 @@
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 131404599068.22,
           "share": 1.9481
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 116400001481.74,
           "share": 1.7257
         },
@@ -2753,55 +2753,55 @@
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 75874580997.64,
           "share": 1.1249
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 57728386476.57,
           "share": 0.8558
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 52162442455.55,
           "share": 0.7733
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 45807387834.18,
           "share": 0.6791
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 42826184158.68,
           "share": 0.6349
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 35652253883.72,
           "share": 0.5286
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 33915225383.31,
           "share": 0.5028
         },
         {
           "nome": "Master",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 33728690508.28,
           "share": 0.5
         },
         {
           "nome": "INTER",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 32657511724.75,
           "share": 0.4842
         }
@@ -2814,8 +2814,8 @@
       "top10_share_ativo": 75.5,
       "share_por_segmento": {
         "grande": 60.58,
-        "outro_banco": 32.07,
-        "cooperativa": 7.35
+        "outro": 32.93,
+        "cooperativa": 6.5
       },
       "ranking_ativo": [
         {
@@ -2850,13 +2850,13 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 835928013371.46,
           "share": 4.7818
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 649637478036.18,
           "share": 3.7162
         },
@@ -2874,13 +2874,13 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 302042203703.49,
           "share": 1.7278
         },
         {
           "nome": "XP",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 301763770905.79,
           "share": 1.7262
         },
@@ -2892,49 +2892,49 @@
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 229633957124.51,
           "share": 1.3136
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 150568241951.62,
           "share": 0.8613
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 140976182780.89,
           "share": 0.8064
         },
         {
           "nome": "Rede",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 128999092769.67,
           "share": 0.7379
         },
         {
           "nome": "Cielo",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 120211374935.14,
           "share": 0.6877
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 116214087578.9,
           "share": 0.6648
         },
         {
           "nome": "PagSeguro",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 113276759578.52,
           "share": 0.648
         },
         {
           "nome": "JP Morgan",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 109247609454.74,
           "share": 0.6249
         }
@@ -2972,7 +2972,7 @@
         },
         {
           "nome": "BNDES",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 297015852901.29,
           "share": 4.2015
         },
@@ -2990,7 +2990,7 @@
         },
         {
           "nome": "BTG Pactual",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 136708500585.66,
           "share": 1.9339
         },
@@ -3002,61 +3002,61 @@
         },
         {
           "nome": "SAFRA",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 112846786926.75,
           "share": 1.5963
         },
         {
           "nome": "VOTORANTIM",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 75786336324.53,
           "share": 1.0721
         },
         {
           "nome": "Banrisul",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 62119183268.2,
           "share": 0.8787
         },
         {
           "nome": "C6 Bank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 57125769773.86,
           "share": 0.8081
         },
         {
           "nome": "Daycoval",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 52850761468.18,
           "share": 0.7476
         },
         {
           "nome": "VW Financeira",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 46667200629.29,
           "share": 0.6601
         },
         {
           "nome": "BRB",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 41023918406.71,
           "share": 0.5803
         },
         {
           "nome": "PagSeguro",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 36816894670.5,
           "share": 0.5208
         },
         {
           "nome": "Citibank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 36562887846.22,
           "share": 0.5172
         },
         {
           "nome": "Rabobank",
-          "segmento": "outro_banco",
+          "segmento": "outro",
           "valor": 36325457634.64,
           "share": 0.5139
         }

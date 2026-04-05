@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:23:51Z",
+  "last_updated": "2026-04-05T19:33:17Z",
   "source": "BCB/IF.data",
   "periodo": "202412",
   "total": 709,
@@ -31,12 +31,12 @@
     },
     {
       "nome": "BNDES",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BTG Pactual",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
@@ -51,12 +51,12 @@
     },
     {
       "nome": "SAFRA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "XP",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
@@ -66,132 +66,132 @@
     },
     {
       "nome": "Citibank",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Banrisul",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 3
     },
     {
       "nome": "VOTORANTIM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Rede",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Cielo",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "C6 Bank",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PagSeguro",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "JP Morgan",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BNP Paribas",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Daycoval",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Master",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTER",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Getnet",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Cresol",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 63
     },
     {
       "nome": "Banco do Nordeste",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ABC Brasil",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Stone",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 4
     },
     {
       "nome": "Rabobank",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRB",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Mercado Pago",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Banco da Amazônia",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VW Financeira",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BMG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Bank of America",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Goldman Sachs",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Mizuho",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
@@ -201,552 +201,552 @@
     },
     {
       "nome": "Banestes",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MUFG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Bocom BBM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DE LIVR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 28
     },
     {
       "nome": "Clássico",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Deutsche Bank",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Agibank",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CNH Industrial",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Original",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Pine",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Morgan Stanley",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Crédit Agricole",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Mercantil do Brasil",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PicPay",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRDE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Société Générale",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HSBC",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CCB Brasil",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UBS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "Carrefour",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Mercedes-Benz",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PORTO SEGURO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FIBRA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STELLANTIS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DO ESTADO DO PARÁ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VOLVO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "JOHN DEERE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOFISA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SCANIA BANCO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DE LAGE LANDEN BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO CREDICI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BR PARTNERS BANCO DE INVESTIME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SCOTIABANK",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO VALE DO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CLOUDWALK INSTITUIÇÃO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MERCADO CRÉDITO SOCIEDADE DE C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DE DESENVOLVIMENTO DE MINAS GE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUMITOMO MITSUI BRASILEIRO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TOYOTA DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DO ESTADO DE SERGIPE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ASSOCIACAO DE POUPANCA E EMPRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PARANÁ BANCO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BS2",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INBURSA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DIGIMAIS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HONDA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SISPRIME DO BRASIL - COOPERATI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TERRA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ALELO INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PACCAR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREFISA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FACTA FINANCEIRA S.A. - CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INDUSTRIAL DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HAITONG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OMNI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "REALIZE CRÉDITO, FINANCIAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FISERV DO BRASIL  INSTITUIÇÃO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO SUL-SER",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CATERPILLAR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MIDWAY S.A. - CRÉDITO, FINANCI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NEON PAGAMENTOS S.A. -",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PEFISA S.A. - CRÉDITO, FINANCI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NEON",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OURIBANK S.A. BANCO MÚLTIPLO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTESA SANPAOLO BRASIL S.A. - ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WARREN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDICOAMO CREDITO RURAL COOPE",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRIANGULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAYPAL DO BRASIL INSTITUIÇÃO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DESENVOLVE SP - AGÊNCIA DE FOM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "YAMAHA MOTOR DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RENDIMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NOVO BANCO CONTINENTAL S.A. - ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BMW",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GENIAL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CARGILL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ABN AMRO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RODOBENS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGÊNCIA DE FOMENTO DO PARANÁ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONEY PLUS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LUSO BRASILEIRO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SHPP BRASIL INSTITUIÇÃO DE PAG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERFORTE - COOPERATIVA DE E",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDSYSTEM INSTITUIÇÃO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BADESUL DESENVOLVIMENTO S.A - ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HUB INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KDB DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STATE STREET BRASIL S.A. - BAN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE ECONOMIA E CRÉD",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 109
     },
     {
       "nome": "DMCARD",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ANDBANK",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RANDON",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS EMP",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 9
     },
     {
       "nome": "ADYEN DO BRASIL INSTITUICAO DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "IBM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GUANABARA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TOPÁZIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "99PAY INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGÊNCIA DE FOMENTO DO ESTADO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 5
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO PRO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRASILEIRO DE CRÉDITO SOCIEDAD",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS - CENTRAL DE COOPERAT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ZOOP TECNOLOGIA & INSTITUICAO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CORA SOCIEDADE DE CRÉDITO, FIN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO LITORÂN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS MÉD",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RECARGAPAY INSTITUICAO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
@@ -756,1072 +756,1072 @@
     },
     {
       "nome": "RIBEIRAO PRETO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ICBC DO BRASIL BANCO MÚLTIPLO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DOCK INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS PRIMACREDI COOPERATIV",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO COCRE",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DE DESENVOLVIMENTO DO ESPIRITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BARIGUI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KEB HANA DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUMUP INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AFINZ S.A. - BANCO MÚLTIPLO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FLASH TECNOLOGIA E  INSTITUICA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BNY MELLON",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAULISTA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTER PAG INSTITUIÇÃO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO SUL-LIT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ADIQ INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AFINZ INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "S3 CACEIS BRASIL DISTRIBUIDORA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LEASEPLAN ARRENDAMENTO MERCANT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HP FINANCIAL SERVICES ARRENDAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ASAAS GESTÃO FINANCEIRA INSTIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STRIPE BRASIL SOLUCOES DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "IUGU INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SWAP INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "B3",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONEO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS PRO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "BRASIL CARD INSTITUIÇÃO DE PAG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STARK BANK S.A. -",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CHG-MERIDIAN DO BRASIL ARRENDA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO DE LIVR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "BRAZA BANK S.A. BANCO DE CÂMBI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SEMEAR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO MÚTUO D",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 22
     },
     {
       "nome": "DESENBAHIA - AGENCIA DE FOMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KOMATSU DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CARUANA S.A. - SOCIEDADE DE CR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO CREDICO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QISTA S.A. - CRÉDITO, FINANCIA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CELCOIN INSTITUICAO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO COOPLIV",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ENTREPAY INSTITUICAO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS CREDIARI - COOPERATIV",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MULVI INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DA FOZ ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NATURA &CO PAY SOCIEDADE DE CR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO EVOLUA",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ARBI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS JICRED - COOPERATIVA ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FORTBRASIL INSTITUIÇÃO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CONFIDENCE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DO NORT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WOORI BANK DO BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WISE BRASIL INSTITUICAO DE PAG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO UNIQUE ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CSILATINA ARRENDAMENTO MERCANT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FATOR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DEUTSCHE SPARKASSEN LEASING DO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BITZ INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STARA FINANCEIRA S.A. - CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UNIPRIME PIONEIRA COOPERATIVA ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VÓRTX",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGENCIA DE FOMENTO DO ESTADO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO COOCREL",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DA REGI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ZEMA CRÉDITO, FINANCIAMENTO E ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EBANX INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DLOCAL BRASIL INSTITUIÇÃO DE P",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EBURY BANCO DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGROLEND SOCIEDADE DE CREDITO,",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRICURY",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WIRECARD BRAZIL INSTITUIÇÃO DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LEBES FINANCEIRA S.A. - CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WISE BRASIL CORRETORA DE CÂMBI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDI-SHOP S/A -",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SENFFNET INSTITUIÇÃO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDIARE S.A. - CRÉDITO, FINAN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SENFF",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "XCMG BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EDENRED SOLUCOES E INSTITUICAO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO RURAL C",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MIRAE ASSET (BRASIL) CORRETORA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STARK SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DA SERR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AME DIGITAL BRASIL INSTITUICAO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UNIPRIME CENTRAL NACIONAL - CE",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BOLT CARD INSTITUIÇÃO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WORLDPAY DO BRASIL INSTITUICAO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ACESSO SOLUÇÕES DE PAGAMENTO S",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BLU INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO SULCRED",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EFÍ S.A. -",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QUERO-QUERO VERDECARD INSTITUI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO RURAL D",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 4
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DO DIST",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "REPOM INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ACG INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUMUP SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DM INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA E ECONOMIA E CRÉDI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BULLLA INSTITUICAO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AL5 S.A. CRÉDITO, FINANCIAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TODESCREDI S/A - CRÉDITO, FINA",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUPERLÓGICA SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO UNIPRIM",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BANQI INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VIA CERTA FINANCIADORA S.A. - ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDIBRF - COOPERATIVA DE CRÉD",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KREDILIG S.A. - CRÉDITO, FINAN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "U4C INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OLIVEIRA TRUST DISTRIBUIDORA D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SEM PARAR SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISAN COOPERATIVA DE CRÉDIT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CONTA SIMPLES SOCIEDADE DE CRÉ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UNIPRIME DO IGUAÇU - COOPERATI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DELCRED SOCIEDADE DE CRÉDITO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CLARA INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SIMPALA S.A. CRÉDITO, FINANCIA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WILL S.A.",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOCINAL S.A. - CRÉDITO, FINANC",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE ECONOMIA E CRED",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 30
     },
     {
       "nome": "BK INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PLUXEE INSTITUIÇÃO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGORACRED S/A SOCIEDADE DE CRÉ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DA GRAN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDIALIANÇA COOPERATIVA DE CR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SANTINVEST S.A. - CREDITO, FIN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LAUNCH PAD SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NEGRESCO S.A. - CREDITO, FINAN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINAMAX S.A. - CREDITO, FINANC",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HS FINANCEIRA S/A CREDITO, FIN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VIC-DISTRIBUIDORA DE TITULOS E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BGC LIQUIDEZ DISTRIBUIDORA DE ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GAZINCRED S.A. SOCIEDADE DE CR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WESTERN UNION",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BARRACRED - COOPERATIVA DE ECO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS MAG",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "OXY COMPANHIA HIPOTECÁRIA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GREENPASS TECNOLOGIA E INSTITU",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGENCIA DE FOMENTO DE GOIAS S/",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAGUEVELOZ INSTITUIÇÃO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LAR COOPERATIVA DE CRÉDITO - L",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LIONS TRUST DISTRIBUIDORA DE T",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MERCADO BITCOIN INSTITUICAO DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO COOPCRE",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUL AMERICA INVESTIMENTOS DIST",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AVENUE SECURITIES DISTRIBUIDOR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS CAPITALCREDI - COOPER",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PINBANK BRASIL INSTITUIÇÃO DE ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EDENRED SOLUCOES DE MOBILIDADE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CALCRED S.A. - CRÉDITO, FINANC",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRL TRUST",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INOVANTI INSTITUIÇÃO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TENTOS S.A. CRÉDITO, FINANCIAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONTE BRAVO CORRETORA DE TÍTUL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ATIVA INVESTIMENTOS S.A. CORRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ONEKEY PAYMENTS INSTITUICAO DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "C&A PAY SOCIEDADE DE CRÉDITO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ABASTECE AI CLUBE AUTOMOBILIST",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GREEN NET INSTITUIÇÃO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PROVER PROMOCAO DE VENDAS INST",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ALESTA SOCIEDADE DE CREDITO DI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TULLETT PREBON BRASIL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO RURAL S",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SINOSSERRA FINANCEIRA S/A - SO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAY4FUN INSTITUICAO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OPEA SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BEES INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RPW S/A SOCIEDADE DE CRÉDITO, ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DE LA PROVINCIA DE BUENOS AIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "REAG TRUST DISTRIBUIDORA DE TÍ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPER CARD INSTITUIÇÃO DE PAG",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS SUDOESTE/RO - COOPERA",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CAPPTA INSTITUIÇÃO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EQI INVESTIMENTOS CORRETORA DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PLANTAE S.A. - CRÉDITO, FINANC",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BECKER FINANCEIRA S.A. - CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NUPAY FOR BUSINESS INSTITUICAO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRINKS PAY INSTITUICAO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COBUCCIO S/A - SOCIEDADE DE CR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GPATIVA - COOPERATIVA DE ECONO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OSLO CAPITAL DISTRIBUIDORA DE ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ACQIO ADQUIRENCIA INSTITUICAO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAGCERTO INSTITUICAO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ROADCARD INSTITUICAO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CARTOS SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GREENCRED - COOPERATIVA DE CRE",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS CREDIBRÁS COOPERATIVA",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LECCA CRÉDITO, FINANCIAMENTO E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RNX",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RENDIMENTOPAY INSTITUIÇÃO DE P",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SEFER INVESTIMENTOS DISTRIBUID",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GOOGLE PAY BRASIL INSTITUICAO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGÊNCIA DE FOMENTO E DESENVOLV",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO RURAL -",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CENTROCRED S.A. CRÉDITO, FINAN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDITÁ S/A CRÉDITO, FINANCIAM",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRANSFEERA INSTITUIÇÃO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GALAX PAY INSTITUIÇÃO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FLAGSHIP INSTITUICAO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DE LA NACION ARGENTINA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SRM BANK INSTITUIÇÃO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BELLUNO INSTITUICAO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NOVA FUTURA CORRETORA DE TÍTUL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SERVNET INSTITUIÇÃO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ATRIA S.A.- CRÉDITO, FINANCIAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "REVOLUT SOCIEDADE DE CRÉDITO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO COGEM",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FIDÚCIA SOCIEDADE DE CRÉDITO A",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FAIR CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO, POUPAN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "WESTERN ASSET MANAGEMENT COMPA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "JBCRED S.A. SOCIEDADE DE CREDI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
@@ -1831,1722 +1831,1722 @@
     },
     {
       "nome": "GALAPAGOS CAPITAL DISTRIBUIDOR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGENCIA DE FOMENTO DO RIO GRAN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PLANNER",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EAGLE INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ADVANCED CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SITA SOCIEDADE CORRETORA DE CA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ZERO INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PARATI - CREDITO, FINANCIAMENT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUPERDIGITAL INSTITUIÇÃO DE PA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CM CAPITAL MARKETS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NVIO BRASIL BITSO INSTITUIÇÃO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SF3 CRÉDITO, FINANCIAMENTO E I",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAGME INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BT CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FORIS GFS BR INSTITUICAO DE PA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FRENTE CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS OESTE - COOPERATIVA D",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BIZ INSTITUIÇÃO PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUPERBID PAY INSTITUICAO DE PA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ACCREDITO - SOCIEDADE DE CRÉDI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERÁGUIA - COOPERATIVA DE E",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PROTEGE PAY CASH INSTITUICAO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RP FINANCEIRA S.A. - SOCIEDADE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "POMELO INSTITUICAO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "M PAGAMENTOS S.A. - CRÉDITO FI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAGOL SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAYMEE BRASIL INSTITUIÇÃO DE P",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRINUS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS/CREDISUL COOPERATIVA ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DIRECAO S.A. CREDITO, FINANCIA",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HEDGEPOINT GLOBAL MARKETS DIST",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CONTA PRONTA INSTITUICAO DE PA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRUSTEE DISTRIBUIDORA DE TÍTUL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINNET S/A - TECNOLOGIA E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDITAS SOCIEDADE DE CRÉDITO ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGÊNCIA DE FOMENTO DE ALAGOAS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "IP4Y INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ASA SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "H H PICCHIONI S/A CORRETORA DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ECONOMISA COMPANHIA HIPOTECÁRI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HINOVA PAY INSTITUICAO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "F.D'GOLD - DISTRIBUIDORA DE TÍ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS SER",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 3
     },
     {
       "nome": "MOVA SOCIEDADE DE EMPRÉSTIMO E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UY3 SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CAPITAL E EMPRÉ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Z1 INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RB INVESTIMENTOS DISTRIBUIDORA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OM DISTRIBUIDORA DE TÍTULOS E ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CODEPE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TREVISO CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRASIL CASH INSTITUICAO DE PAG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREFAZ SOCIEDADE DE CRÉDITO AO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINAXIS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONEYCORP BANCO DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CAPITAL CONSIG SOCIEDADE DE CR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INDUSCRED DE INVESTIMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "REPASSES FINANCEIROS E SOLUCOE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO RURAL D",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "AZUMI DISTRIBUIDORA DE TÍTULOS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VALOR S/A SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ASTRO INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS COOPERUFPA - COOPERAT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SMART SOLUTIONS GROUP INSTITUI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WE PAY OUT INSTITUICAO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "Z-ON SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GRAZZIOTIN FINANCEIRA S/A - CR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ISSUER INSTITUICAO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ID CORRETORA DE TÍTULOS E VALO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CORRETORA GERAL DE VALORES E C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MEDCRED COOPERATIVA DE CRÉDITO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GUITTA CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CREDITO DOS FOR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TTSCD SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SERVICOOP - COOPERATIVA DE CRÉ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CEDULA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOMAPAY SOCIEDADE DE CRÉDITO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DANK SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EAGLE SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA    DE    ECONOMIA ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PINTOS S.A. CREDITO, FINANCIAM",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FFCRED SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UNIDA DISTRIBUIDORA DE TÍTULOS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COMPREV - CRÉDITO, FINANCIAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PORTO REAL DE INVESTIMENTOS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS FOR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HEMERA DISTRIBUIDORA DE TÍTULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TAMBASA SOCIEDADE DE CRÉDITO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREBEL - COOPERATIVA DE ECONOM",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COINVALORES CORRETORA DE CÂMBI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "J17 - SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SIMPAUL CORRETORA DE CAMBIO E ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BIGCASH SOCIEDADE DE CREDITO D",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOCIAL BANK BANCO MÚLTIPLO S/A",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INDEPENDÊNCIA COOPERATIVA DE C",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BONUSPAGO SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GOLCRED S/A - CRÉDITO, FINANCI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AMARIL FRANKLIN CORRETORA DE T",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ASPECIR - SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PARTNERBANK INSTITUICAO DE PAG",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDSYSTEM SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COLUNA S/A DISTRIBUIDORA DE TI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COPERCRED - COOPERATIVA DE ECO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MICROCASH SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SENSO CORRETORA DE CAMBIO E VA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGK CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LISTO SOCIEDADE DE CREDITO DIR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INVEST CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BROKER BRASIL CORRETORA DE CÂM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GLOBAL EXCHANGE DO BRASIL SOCI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OPPORTUNITY DISTRIBUIDORA DE T",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONETARIE SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EWALLY INSTITUIÇÃO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HEDGE INVESTMENTS DISTRIBUIDOR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COBANSA COMPANHIA HIPOTECARIA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FÊNIX DISTRIBUIDORA DE TÍTULOS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO E SERVI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AGENCIA DE FOMENTO DO AMAPA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SISPAY INSTITUIÇÃO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOCIEDADE DE CRÉDITO, FINANCIA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "H.COMMCOR DISTRIBUIDORA DE TÍT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KANASTRA FINANCEIRA S.A, CREDI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "IB CORRETORA DE CÂMBIO, TÍTULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UNAVANTI SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RIO BRAVO INVESTIMENTOS - DIST",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO COOPHAR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDISIS COOPESA - COOPERATIVA",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FACEBOOK INSTITUIÇÃO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DIBRAN DISTRIBUIDORA DE TÍTULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FAMÍLIA PAULISTA COMPANHIA HIP",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BNK DIGITAL SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BEETELLER INSTITUIÇÃO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LINA INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO E INVES",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WEALTH HIGH GOVERNANCE DISTRIB",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RJI CORRETORA DE TITULOS E VAL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UZZIPAY INSTITUIÇÃO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NIKOS DISTRIBUIDORA DE TÍTULOS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CDC SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTERCAM CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INSTITUIÇÃO DE PAGAMENTOS MAPS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BNQI SOCIEDADE DE CREDITO DIRE",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FACILITA INSTITUICAO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAGARE INSTITUICAO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "A27 INSTITUICAO DE PAGAMENTOS ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ACTIVTRADES CORRETORA DE CÂMBI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QUADRA SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GET MONEY CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HR DIGITAL - SOCIEDADE DE CRÉD",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EXIM CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SUDACRED SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOLFÁCIL SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "N26 SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AZIMUT BRASIL DISTRIBUIDORA DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDJUST - COOPERATIVA DE CRÉD",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NOSSA TERRA COOPERATIVA DE CRÉ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SER FINANCE SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAY2ALL INSTITUICAO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DILLON S/A DISTRIBUIDORA DE TI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ONCRED - SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PENTAGONO S/A DISTRIBUIDORA DE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDI-SHOP - SOCIEDADE DE CRÉD",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TYCOON TECHNOLOGY INSTITUICAO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RAPIDIUM SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOCIALCRED S/A - SOCIEDADE DE ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LABOR SOCIEDADE CORRETORA DE C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DUFRIO FINANCEIRA, CRÉDITO, FI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GALLERIA - SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ALL IN CRED SOCIEDADE DE CREDI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HSCM - SOCIEDADE DE CRÉDITO AO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "UP.P SOCIEDADE DE EMPRÉSTIMO E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "G5 SOCIEDADE DE CRÉDITO DIRETO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GERU SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDIHOME SOCIEDADE DE CRÉDITO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PAGPRIME INSTITUICAO DE PAGAME",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CRETOVALE - COOPERATIVA DE ECO",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MULTICRED SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONOPÓLIO CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "WNT CAPITAL DISTRIBUIDORA DE T",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OZ CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ZM SOCIEDADE DE CRÉDITO DIRETO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BOA VIAGEM SOCIEDADE CORRETORA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SCB CRÉDITO SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LEV DISTRIBUIDORA DE TÍTULOS E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FOURTRADE CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DAPPER - SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SBCASH SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPSEBRAE - COOPERATIVA DE CR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VIA CAPITAL - SOCIEDADE DE CRÉ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDIFIT SOCIEDADE DE CRÉDITO ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINVEST DISTRIBUIDORA DE TÍTUL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BMS SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TURCÂMBIO - CORRETORA DE CÂMBI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MÉRITO DISTRIBUIDORA DE TÍTULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRX CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DGBK CREDIT S.A. - SOCIEDADE D",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BARU",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RED SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FONTECRED - SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LOAN BRASIL SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CAMBIONET CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MH SOCIEDADE DE CRÉDITO DIRETO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LEVYCAM - CORRETORA DE CAMBIO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CONECTA CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS BAN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ATF SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MAG INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "IUPI INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "IDEA MAKER INSTITUICAO DE PAGA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTRA INVESTIMENTOS DISTRIBUID",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FIDD DISTRIBUIDORA DE TÍTULOS ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LEND SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRYBE SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PEAK SOCIEDADE DE EMPRÉSTIMO E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MONERY INSTITUICAO DE PAGAMENT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EXECUTIVE CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDPAR - SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ARC CORRETORA DE CAMBIO, ASSOC",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HBI SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EFX CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BANSUR JM SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MAGNUM SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "321 SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BR-CAPITAL DISTRIBUIDORA DE TÍ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CV INVESTIMENTOS DISTRIBUIDORA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ATICCA - SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS MET",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NVIO BRASIL SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CAROL DISTRIBUIDORA DE TITULOS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DOURADA CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NUMBRS SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BAMAQ CAPITAL - SOCIEDADE DE C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CASA DO CRÉDITO S.A. SOCIEDADE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TROCKA CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INICIADOR INSTITUICAO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRANSFERO INSTITUICAO DE PAGAM",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DASCAM CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DAUX SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PALMA SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GLOBAL FINANÇAS SOCIEDADE DE C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GDC PARTNERS SERVIÇOS FIDUCIÁR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPESTADO - COOPERATIVA DE EC",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOCRED S.A. - SOCIEDADE DE CRÉ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DATANOMIK BRASIL INSTITUICAO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "B3 INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INCO SOCIEDADE DE EMPRÉSTIMO E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LIMINE TRUST DISTRIBUIDORA DE ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VBS SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MOVILEPAY SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GLOBAL INVESTMENT SERVICES DIS",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "E.SIGA SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "RV2 SOCIEDADE DE EMPRÉSTIMO EN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LIQUIDO INSTITUICAO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AVS CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRCONDOS SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ZIPDIN SOLUÇÕES DIGITAIS SOCIE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MOMENTO DISTRIBUIDORA DE TITUL",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "A55 SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SQUID SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DOS FUN",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "COOPSERJ - COOPERATIVA DE CRÉD",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NEXOOS SOCIEDADE DE EMPRÉSTIMO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SADOC SOCIEDADE CORRETORA DE C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GOOD CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "TRIO INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BELVO INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KONECT SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PACIFIC INVEST DISTRIBUIDORA D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NUMATUR CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "HR SOCIEDADE DE CRÉDITO AO MIC",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDBRASIL - SOCIEDADE DE CRÉD",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CATÁLISE DISTRIBUIDORA DE TÍTU",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SAYGO CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BRCARD SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DE CAPI",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 2
     },
     {
       "nome": "SETHI SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BIZCAPITAL SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VERT DISTRIBUIDORA DE TÍTULOS ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CUMBUCA INSTITUIÇÃO DE PAGAMEN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GIRO - SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINANCRED - SOCIEDADE DE CRÉDI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FREEX CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EUROINVEST S.A. CORRETORA DE C",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NUMBER ONE SOCIEDADE CORRETORA",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ACTUAL DISTRIBUIDORA DE TÍTULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FIDEM SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CORPORE SOCIEDADE DE CRÉDITO D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINLEV SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "STARCRED SOCIEDADE DE CRÉDITO ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ATLANTA SOCIEDADE DE CRÉDITO A",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VNK SOCIEDADE DE CRÉDITO AO MI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EMCASH SERVIÇOS FINANCEIROS SO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "GREEN ALTERNATIVE INVESTMENTS ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BLU SOCIEDADE DE CRÉDITO DIRET",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LAMARA SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BEZZ SOCIEDADE DE CRÉDITO DIRE",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "VIP'S CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTEGRAÇÃO DE CRÉDITO E COBRAN",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SINGRATUR CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LÚMINA CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FISERV SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EASY MONEY SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QORE DISTRIBUIDORA DE TITULOS ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OMIE INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "INTEGRAL ACCESS DISTRIBUIDORA ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NIXFIN SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PROVU SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "COOPERATIVA DE CRÉDITO DE SERV",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FIDO SOCIEDADE DE EMPRÉSTIMO E",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "OPPENS SOCIEDADE DE EMPRESTIMO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CRYSTAL BMC - INSTITUICAO DE P",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOLIDEZ - CORRETORA DE CÂMBIO,",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DEBONI DISTRIBUIDORA DE TITULO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDILON SOCIEDADE DE CRÉDITO ",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QUEROCRED SOCIEDADE DE CRÉDITO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NGO ASSOCIADOS CORRETORA DE CÂ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FATORI SOCIEDADE DE CRÉDITO AO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LASTRO RDV DISTRIBUIDORA DE TÍ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PRONANCE SOCIEDADE CORRETORA D",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PÓLOCRED   SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EFEX INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CREDIMÓVEL SOCIEDADE DE CRÉDIT",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ASAAS SOCIEDADE DE CREDITO DIR",
-      "segmento": "cooperativa",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "PERCAPITAL SOCIEDADE DE CRÉDIT",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "BULLLA SOCIEDADE DE EMPRÉSTIMO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "NITRO SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KLAVI INSTITUIÇÃO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "LEND INSTITUICAO DE PAGAMENTO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "REMITLY CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "KIKAI SOCIEDADE DE CRÉDITO DIR",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ONNIX CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "QUANTO NETWORK INSTITUICAO DE ",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FINAZO SOCIEDADE DE CRÉDITO DI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "MARMARIS CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CORREPARTI CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CONSEGTUR CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "FIDUCIAL DISTRIBUIDORA DE TÍTU",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ATUAL CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "EBADIVAL - E. BAGGIO DISTRIBUI",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "ÍCARO CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "CORRETORA DE CÂMBIO AÇORIANA L",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "AVIPAM CORRETORA DE CAMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "SOL CORRETORA DE CÂMBIO",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     },
     {
       "nome": "DELTA GLOBAL SOCIEDADE DE CRÉD",
-      "segmento": "outro_banco",
+      "segmento": "outro",
       "qtd_singulares": 1
     }
   ]

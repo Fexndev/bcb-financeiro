@@ -19,17 +19,17 @@ INSTITUICOES = {
     "CAIXA":       {"cnpj": "00360305", "nome": "Caixa Econômica",     "segmento": "grande"},
     "SANTANDER":   {"cnpj": "90400888", "nome": "Santander",           "segmento": "grande"},
     "NUBANK":      {"cnpj": "18236120", "nome": "Nubank",             "segmento": "grande"},
-    "BTG":         {"cnpj": "30306294", "nome": "BTG Pactual",         "segmento": "outro_banco"},
-    "SAFRA":       {"cnpj": "58160789", "nome": "Safra",               "segmento": "outro_banco"},
-    "VOTORANTIM":  {"cnpj": "59588111", "nome": "Banco Votorantim",    "segmento": "outro_banco"},
-    "BMG":         {"cnpj": "61186680", "nome": "BMG",                 "segmento": "outro_banco"},
-    "PAN":         {"cnpj": "59285411", "nome": "Banco Pan",           "segmento": "outro_banco"},
-    "INTER":       {"cnpj": "00416968", "nome": "Banco Inter",         "segmento": "outro_banco"},
-    "C6":          {"cnpj": "31872495", "nome": "C6 Bank",             "segmento": "outro_banco"},
-    "ORIGINAL":    {"cnpj": "92894922", "nome": "Banco Original",      "segmento": "outro_banco"},
-    "BNDES":       {"cnpj": "33657248", "nome": "BNDES",               "segmento": "outro_banco"},
-    "BNB":         {"cnpj": "07237373", "nome": "Banco do Nordeste",   "segmento": "outro_banco"},
-    "BASA":        {"cnpj": "04902979", "nome": "Banco da Amazônia",   "segmento": "outro_banco"},
+    "BTG":         {"cnpj": "30306294", "nome": "BTG Pactual",         "segmento": "outro"},
+    "SAFRA":       {"cnpj": "58160789", "nome": "Safra",               "segmento": "outro"},
+    "VOTORANTIM":  {"cnpj": "59588111", "nome": "Banco Votorantim",    "segmento": "outro"},
+    "BMG":         {"cnpj": "61186680", "nome": "BMG",                 "segmento": "outro"},
+    "PAN":         {"cnpj": "59285411", "nome": "Banco Pan",           "segmento": "outro"},
+    "INTER":       {"cnpj": "00416968", "nome": "Banco Inter",         "segmento": "outro"},
+    "C6":          {"cnpj": "31872495", "nome": "C6 Bank",             "segmento": "outro"},
+    "ORIGINAL":    {"cnpj": "92894922", "nome": "Banco Original",      "segmento": "outro"},
+    "BNDES":       {"cnpj": "33657248", "nome": "BNDES",               "segmento": "outro"},
+    "BNB":         {"cnpj": "07237373", "nome": "Banco do Nordeste",   "segmento": "outro"},
+    "BASA":        {"cnpj": "04902979", "nome": "Banco da Amazônia",   "segmento": "outro"},
     "SICOOB":      {"cnpj": "02038232", "nome": "Sicoob",              "segmento": "cooperativa"},
     "SICREDI":     {"cnpj": "01181521", "nome": "Sicredi",             "segmento": "cooperativa"},
     "UNICRED":     {"cnpj": "00315557", "nome": "Unicred",             "segmento": "cooperativa"},
@@ -38,8 +38,8 @@ INSTITUICOES = {
 
 SEGMENTO_LABELS = {
     "grande":       "Grandes Bancos",
-    "outro_banco":  "Outros Bancos",
     "cooperativa":  "Cooperativas",
+    "outro":        "Outros",
 }
 
 # ── Séries SGS ──────────────────────────────────────────────────────────────
@@ -109,16 +109,20 @@ def calc_variacao_yoy(series):
 
 
 def classificar_instituicao(nome):
-    """Classifica uma instituição pelo nome (busca parcial)."""
+    """Classifica uma instituição pelo nome.
+    Retorna: 'grande', 'cooperativa' (só sistemas principais) ou 'outro'.
+    """
     nome_upper = nome.upper().strip()
     for key, info in INSTITUICOES.items():
         if key in nome_upper or info["nome"].upper() in nome_upper:
             return info["segmento"]
-    # Cooperativas genéricas
-    if any(x in nome_upper for x in ["COOP", "CREDI", "SICRED", "SICREDI", "SICOO", "SICOOB",
-                                       "UNICR", "UNICRED", "CRESO", "CRESOL", "CENTRAL DE"]):
+    # Cooperativas dos 4 sistemas principais
+    if any(x in nome_upper for x in ["SICOOB", "SICOO", "BANCOOB",
+                                       "SICREDI", "SICRED",
+                                       "UNICRED", "UNICR",
+                                       "CRESOL", "CRESO", "INTERAÇÃO SOLIDÁRIA", "INTERACAO SOLIDARIA"]):
         return "cooperativa"
-    return "outro_banco"
+    return "outro"
 
 
 def limpar_nome_instituicao(nome):
