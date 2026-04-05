@@ -3,7 +3,7 @@
 import requests
 import json
 from collections import defaultdict
-from utils import save_json, now_iso, classificar_instituicao, limpar_nome_instituicao, INSTITUICOES
+from utils import save_json, now_iso, classificar_instituicao, limpar_nome_instituicao, limpar_nome_singular, INSTITUICOES
 
 BASE = "https://www3.bcb.gov.br/ifdata/rest/arquivos"
 
@@ -142,7 +142,7 @@ def agregar_por_sistema(resultados):
             if nome in SISTEMAS_COOP:
                 singulares[nome] = sorted(
                     [{
-                        "nome": i["nome_raw"][:60],
+                        "nome": limpar_nome_singular(i["nome_raw"]),
                         "uf": i["uf"],
                         "ativo_total": i["ativo_total"],
                         "lucro_liquido": i["lucro_liquido"],

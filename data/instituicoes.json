@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-04-05T18:53:57Z",
+  "last_updated": "2026-04-05T19:07:32Z",
   "source": "BCB/IF.data",
   "periodo": "202412",
-  "total": 789,
+  "total": 709,
   "instituicoes": [
     {
       "nome": "Itaú",
       "segmento": "grande",
-      "qtd_singulares": 1
+      "qtd_singulares": 2
     },
     {
       "nome": "BB",
@@ -30,7 +30,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "NACIONAL DE DESENVOLVIMEN",
+      "nome": "BNDES",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -57,7 +57,7 @@
     {
       "nome": "XP",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
+      "qtd_singulares": 2
     },
     {
       "nome": "Nubank",
@@ -65,14 +65,14 @@
       "qtd_singulares": 2
     },
     {
-      "nome": "CITIBANK",
+      "nome": "Citibank",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "BANRISUL",
+      "nome": "Banrisul",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
+      "qtd_singulares": 3
     },
     {
       "nome": "VOTORANTIM",
@@ -80,12 +80,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
+      "nome": "Rede",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
+      "nome": "Cielo",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -95,22 +95,27 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "JP MORGAN CHASE",
+      "nome": "PagSeguro",
+      "segmento": "outro_banco",
+      "qtd_singulares": 2
+    },
+    {
+      "nome": "JP Morgan",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "BNP PARIBAS BRASIL S.A.",
+      "nome": "BNP Paribas",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DAYCOVAL",
+      "nome": "Daycoval",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MASTER",
+      "nome": "Master",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -120,7 +125,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS ",
+      "nome": "Getnet",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -130,22 +135,22 @@
       "qtd_singulares": 63
     },
     {
-      "nome": "PAGSEGURO INTERNET INSTITUIÇÃO",
+      "nome": "Banco do Nordeste",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DO NORDESTE DO BRASIL S.A",
+      "nome": "ABC Brasil",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "ABC-BRASIL",
+      "nome": "Stone",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
+      "qtd_singulares": 4
     },
     {
-      "nome": "RABOBANK INTERNATIONAL BR",
+      "nome": "Rabobank",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -155,22 +160,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "STONE INSTITUIÇÃO DE PAGAMENTO",
+      "nome": "Mercado Pago",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MERCADO PAGO INSTITUIÇÃO DE PA",
+      "nome": "Banco da Amazônia",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DA AMAZONIA S.A.",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "VOLKSWAGEN S.A.",
+      "nome": "VW Financeira",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -180,22 +180,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BOFA MERRILL LYNCH",
+      "nome": "Bank of America",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "GOLDMAN SACHS",
+      "nome": "Goldman Sachs",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "PAGBANK-PAGSEGURO",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MIZUHO DO BRASIL S.A.",
+      "nome": "Mizuho",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -205,102 +200,107 @@
       "qtd_singulares": 23
     },
     {
-      "nome": "BANESTES",
+      "nome": "Banestes",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MUFG BRASIL S.A.",
+      "nome": "MUFG",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "BOCOM",
+      "nome": "Bocom BBM",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CLASSICO S.A.",
+      "nome": "COOPERATIVA DE CRÉDITO DE LIVR",
+      "segmento": "cooperativa",
+      "qtd_singulares": 28
+    },
+    {
+      "nome": "Clássico",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DEUTSCHE BANK S.A. - BANCO ALE",
+      "nome": "Deutsche Bank",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "AGIBANK",
+      "nome": "Agibank",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CNH INDUSTRIAL CAPITAL S.",
+      "nome": "CNH Industrial",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "ORIGINAL S.A.",
+      "nome": "Original",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "PINE",
+      "nome": "Pine",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MORGAN STANLEY",
+      "nome": "Morgan Stanley",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CRÉDIT AGRICOLE BRASIL S.",
+      "nome": "Crédit Agricole",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MERCANTIL DO BRASIL",
+      "nome": "Mercantil do Brasil",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "PICPAY - FINANCEIRO",
+      "nome": "PicPay",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "REGIONAL DE DESENVOLVIMEN",
+      "nome": "BRDE",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "SOCIETE GENERALE",
+      "nome": "Société Générale",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "HSBC S.A.",
+      "nome": "HSBC",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CCB",
+      "nome": "CCB Brasil",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "UBS (BRASIL)",
+      "nome": "UBS",
+      "segmento": "outro_banco",
+      "qtd_singulares": 2
+    },
+    {
+      "nome": "Carrefour",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CSF S.A.",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MERCEDES-BENZ",
+      "nome": "Mercedes-Benz",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -310,7 +310,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FIBRA S.A.",
+      "nome": "FIBRA",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -320,22 +320,22 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DO ESTADO DO PARÁ S.A.",
+      "nome": "DO ESTADO DO PARÁ",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "GM S.A.",
+      "nome": "GM",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "VOLVO BRASIL S.A.",
+      "nome": "VOLVO BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "JOHN DEERE S.A.",
+      "nome": "JOHN DEERE",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -345,17 +345,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SCANIA BANCO S.A.",
+      "nome": "SCANIA BANCO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LAGE LANDEN BRASIL S.A",
+      "nome": "DE LAGE LANDEN BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "CREDICITRUS",
+      "nome": "COOPERATIVA DE CREDITO CREDICI",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -370,7 +370,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "VALE DO ITAJAI - VIACREDI",
+      "nome": "COOPERATIVA DE CREDITO VALE DO",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -385,22 +385,22 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE DESENVOLVIMENTO DE MIN",
+      "nome": "DE DESENVOLVIMENTO DE MINAS GE",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "SUMITOMO MITSUI BRASILEIR",
+      "nome": "SUMITOMO MITSUI BRASILEIRO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "TOYOTA DO BRASIL S.A.",
+      "nome": "TOYOTA DO BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DO ESTADO DE SERGIPE S.A.",
+      "nome": "DO ESTADO DE SERGIPE",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -420,22 +420,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BS2 S.A.",
+      "nome": "BS2",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO CENTRO ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
-      "nome": "INBURSA S.A.",
+      "nome": "INBURSA",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DIGIMAIS S.A.",
+      "nome": "DIGIMAIS",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -460,7 +455,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "PACCAR S.A.",
+      "nome": "PACCAR",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -490,11 +485,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "STONE SOCIEDADE DE CREDITO, FI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "REALIZE CRÉDITO, FINANCIAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -505,12 +495,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SUL-SERRANA DO ESPÍRITO S",
+      "nome": "COOPERATIVA DE CRÉDITO SUL-SER",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "CATERPILLAR S.A.",
+      "nome": "CATERPILLAR",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -520,13 +510,8 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "NEON PAGAMENTOS S.A. - INSTITU",
+      "nome": "NEON PAGAMENTOS S.A. -",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DO SUDO",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -550,11 +535,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BANRISUL SOLUÇÕES EM PAGAMENTO",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "WARREN",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -565,7 +545,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "TRIANGULO S.A.",
+      "nome": "TRIANGULO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -580,7 +560,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "YAMAHA MOTOR DO BRASIL S.",
+      "nome": "YAMAHA MOTOR DO BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -595,11 +575,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DO CENT",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
       "nome": "BMW",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -610,7 +585,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "CARGILL S.A.",
+      "nome": "CARGILL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -620,12 +595,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RODOBENS S.A.",
+      "nome": "RODOBENS",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "AGÊNCIA DE FOMENTO DO PARANÁ S",
+      "nome": "AGÊNCIA DE FOMENTO DO PARANÁ",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -635,7 +610,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "LUSO BRASILEIRO S.A.",
+      "nome": "LUSO BRASILEIRO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -660,24 +635,24 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "HUB INSTITUIÇÃO DE PAGAMENTO S",
+      "nome": "HUB INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "KDB DO BRASIL S.A.",
+      "nome": "KDB DO BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DO VALE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 4
     },
     {
       "nome": "STATE STREET BRASIL S.A. - BAN",
       "segmento": "outro_banco",
       "qtd_singulares": 1
+    },
+    {
+      "nome": "COOPERATIVA DE ECONOMIA E CRÉD",
+      "segmento": "cooperativa",
+      "qtd_singulares": 109
     },
     {
       "nome": "DMCARD",
@@ -690,9 +665,14 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RANDON S.A.",
+      "nome": "RANDON",
       "segmento": "outro_banco",
       "qtd_singulares": 1
+    },
+    {
+      "nome": "COOPERATIVA DE CRÉDITO DOS EMP",
+      "segmento": "cooperativa",
+      "qtd_singulares": 9
     },
     {
       "nome": "ADYEN DO BRASIL INSTITUICAO DE",
@@ -700,27 +680,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "IBM S.A.",
+      "nome": "IBM",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPRESÁRIOS E EMPREGA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DE ASSO",
-      "segmento": "cooperativa",
-      "qtd_singulares": 3
-    },
-    {
-      "nome": "GUANABARA S.A.",
+      "nome": "GUANABARA",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "TOPÁZIO S.A.",
+      "nome": "TOPÁZIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -730,22 +700,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DO ALTO",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
       "nome": "AGÊNCIA DE FOMENTO DO ESTADO D",
       "segmento": "outro_banco",
       "qtd_singulares": 5
     },
     {
-      "nome": "PRO",
+      "nome": "COOPERATIVA DE CRÉDITO PRO",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "BRASILEIRO DE CRÉDITO SOC",
+      "nome": "BRASILEIRO DE CRÉDITO SOCIEDAD",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -770,12 +735,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "LITORÂNEA",
+      "nome": "COOPERATIVA DE CRÉDITO LITORÂN",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS MÉDICOS, PROFISSIONAI",
+      "nome": "COOPERATIVA DE CRÉDITO DOS MÉD",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -790,17 +755,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RIBEIRAO PRETO S.A.",
+      "nome": "RIBEIRAO PRETO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "ICBC DO BRASIL BANCO MÚLTIPLO ",
+      "nome": "ICBC DO BRASIL BANCO MÚLTIPLO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DOCK INSTITUIÇÃO DE PAGAMENTO ",
+      "nome": "DOCK INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -810,12 +775,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "COCRE",
+      "nome": "COOPERATIVA DE CRÉDITO COCRE",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "DE DESENVOLVIMENTO DO ESP",
+      "nome": "DE DESENVOLVIMENTO DO ESPIRITO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -825,7 +790,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "KEB HANA DO BRASIL S.A.",
+      "nome": "KEB HANA DO BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -835,12 +800,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DA REGI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "AFINZ S.A. - BANCO MÚLTIP",
+      "nome": "AFINZ S.A. - BANCO MÚLTIPLO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -855,7 +815,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "PAULISTA S.A.",
+      "nome": "PAULISTA",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -865,12 +825,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SUL-LITORÂNEA DO ESPÍRITO",
+      "nome": "COOPERATIVA DE CRÉDITO SUL-LIT",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "ADIQ INSTITUIÇÃO DE PAGAMENTO ",
+      "nome": "ADIQ INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -905,24 +865,29 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "IUGU INSTITUIÇÃO DE PAGAMENTO ",
+      "nome": "IUGU INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "SWAP INSTITUIÇÃO DE PAGAMENTO ",
+      "nome": "SWAP INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "B3 S.A.",
+      "nome": "B3",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MONEO S.A.",
+      "nome": "MONEO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
+    },
+    {
+      "nome": "COOPERATIVA DE CRÉDITO DOS PRO",
+      "segmento": "cooperativa",
+      "qtd_singulares": 2
     },
     {
       "nome": "BRASIL CARD INSTITUIÇÃO DE PAG",
@@ -930,7 +895,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "STARK BANK S.A. - INSTITUICAO ",
+      "nome": "STARK BANK S.A. -",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -940,9 +905,9 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DE SÃO ",
+      "nome": "COOPERATIVA DE CREDITO DE LIVR",
       "segmento": "cooperativa",
-      "qtd_singulares": 1
+      "qtd_singulares": 2
     },
     {
       "nome": "BRAZA BANK S.A. BANCO DE CÂMBI",
@@ -950,9 +915,14 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SEMEAR S.A.",
+      "nome": "SEMEAR",
       "segmento": "outro_banco",
       "qtd_singulares": 1
+    },
+    {
+      "nome": "COOPERATIVA DE CRÉDITO MÚTUO D",
+      "segmento": "cooperativa",
+      "qtd_singulares": 22
     },
     {
       "nome": "DESENBAHIA - AGENCIA DE FOMENT",
@@ -960,7 +930,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "KOMATSU DO BRASIL S.A.",
+      "nome": "KOMATSU DO BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -970,7 +940,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "CREDICOCAPEC",
+      "nome": "COOPERATIVA DE CRÉDITO CREDICO",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -985,7 +955,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "COOPLIVRE",
+      "nome": "COOPERATIVA DE CREDITO COOPLIV",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1005,7 +975,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DA FOZ DO RIO ITAJAÍ AÇU ",
+      "nome": "COOPERATIVA DE CRÉDITO DA FOZ ",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1015,12 +985,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "EVOLUA",
+      "nome": "COOPERATIVA DE CRÉDITO EVOLUA",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "ARBI S.A.",
+      "nome": "ARBI",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1040,18 +1010,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DO NORTE CATARINENSE - AC",
+      "nome": "COOPERATIVA DE CRÉDITO DO NORT",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "WOORI BANK DO BRASIL S.A.",
+      "nome": "WOORI BANK DO BRASIL",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS PROFISSIONAIS DOS CRE",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -1060,7 +1025,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "UNIQUE BR",
+      "nome": "COOPERATIVA DE CRÉDITO UNIQUE ",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1070,7 +1035,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FATOR S.A.",
+      "nome": "FATOR",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1080,7 +1045,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BITZ INSTITUICAO DE PAGAMENTO ",
+      "nome": "BITZ INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1095,11 +1060,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS EMPRE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 43
-    },
-    {
       "nome": "VÓRTX",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -1110,22 +1070,12 @@
       "qtd_singulares": 2
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS SERVI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 15
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DO ESTA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
-      "nome": "COOCRELIVRE",
+      "nome": "COOPERATIVA DE CRÉDITO COOCREL",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "DA REGIÃO DO CONTESTADO -",
+      "nome": "COOPERATIVA DE CRÉDITO DA REGI",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1145,7 +1095,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "EBURY BANCO DE CÂMBIO S.A.",
+      "nome": "EBURY BANCO DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1155,28 +1105,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "TRICURY S.A.",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "STONE SOCIEDADE DE CRÉDITO DIR",
+      "nome": "TRICURY",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
       "nome": "WIRECARD BRAZIL INSTITUIÇÃO DE",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS ADVOGADOS DE SA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DA GRAN",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -1190,7 +1125,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "CREDI-SHOP S/A - INSTITUIÇÃO D",
+      "nome": "CREDI-SHOP S/A -",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1205,7 +1140,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SENFF S.A.",
+      "nome": "SENFF",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1215,7 +1150,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "XCMG BRASIL S.A.",
+      "nome": "XCMG BRASIL",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1225,12 +1160,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS FUNCI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 32
-    },
-    {
-      "nome": "RURAL COOPAVEL",
+      "nome": "COOPERATIVA DE CRÉDITO RURAL C",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1245,17 +1175,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DA SERRA CATARINENSE - CR",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSAO DE RUBI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DO TOCA",
+      "nome": "COOPERATIVA DE CRÉDITO DA SERR",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1285,17 +1205,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BLU INSTITUIÇÃO DE PAGAMENTO L",
+      "nome": "BLU INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "SULCREDI AMPLEA",
+      "nome": "COOPERATIVA DE CREDITO SULCRED",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "EFÍ S.A. - INSTITUIÇÃO DE PAGA",
+      "nome": "EFÍ S.A. -",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1305,12 +1225,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DE RIO ",
+      "nome": "COOPERATIVA DE CRÉDITO RURAL D",
       "segmento": "cooperativa",
-      "qtd_singulares": 1
+      "qtd_singulares": 4
     },
     {
-      "nome": "DO DISTRITO FEDERAL E ENT",
+      "nome": "COOPERATIVA DE CRÉDITO DO DIST",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1320,7 +1240,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "ACG INSTITUIÇÃO DE PAGAMENTO S",
+      "nome": "ACG INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1330,7 +1250,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DM INSTITUICAO DE PAGAMENTO S.",
+      "nome": "DM INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1360,18 +1280,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "UNIPRIME SUL",
+      "nome": "COOPERATIVA DE CRÉDITO UNIPRIM",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
       "nome": "BANQI INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DE ANÁP",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -1390,18 +1305,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "U4C INSTITUIÇÃO DE PAGAMENTO S",
+      "nome": "U4C INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
       "nome": "OLIVEIRA TRUST DISTRIBUIDORA D",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DO SUL ",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -1440,13 +1350,8 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "WILL S.A. INSTITUICAO DE PAGAM",
+      "nome": "WILL S.A.",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS PROFISSIONAIS DA SAÚD",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -1455,7 +1360,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BK INSTITUIÇÃO DE PAGAMENTO S.",
+      "nome": "COOPERATIVA DE ECONOMIA E CRED",
+      "segmento": "cooperativa",
+      "qtd_singulares": 30
+    },
+    {
+      "nome": "BK INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1470,7 +1380,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DA GRANDE FLORIANÓPOLIS -",
+      "nome": "COOPERATIVA DE CRÉDITO DA GRAN",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1490,22 +1400,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RURAL DE ABELARDO LUZ - S",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "NEGRESCO S.A. - CREDITO, FINAN",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
       "nome": "FINAMAX S.A. - CREDITO, FINANC",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DE PALM",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1538,6 +1438,11 @@
       "nome": "BARRACRED - COOPERATIVA DE ECO",
       "segmento": "cooperativa",
       "qtd_singulares": 1
+    },
+    {
+      "nome": "COOPERATIVA DE CRÉDITO DOS MAG",
+      "segmento": "cooperativa",
+      "qtd_singulares": 2
     },
     {
       "nome": "OXY COMPANHIA HIPOTECÁRIA",
@@ -1575,38 +1480,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "INTL FCSTONE",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "COOPCRED",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS MAGISTRADOS, SERVIDOR",
+      "nome": "COOPERATIVA DE CRÉDITO COOPCRE",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
       "nome": "SUL AMERICA INVESTIMENTOS DIST",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DE JATA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DE LIVRE ADMISSÃO DE SANT",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "E CRÉDITO MÚTUO DOS PROFI",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -1680,11 +1560,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DE CERE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "PROVER PROMOCAO DE VENDAS INST",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -1700,7 +1575,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RURAL SEARA - CREDISEARA",
+      "nome": "COOPERATIVA DE CREDITO RURAL S",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1720,7 +1595,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BEES INSTITUICAO DE PAGAMENTO ",
+      "nome": "BEES INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1730,7 +1605,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LA PROVINCIA DE BUENOS",
+      "nome": "DE LA PROVINCIA DE BUENOS AIRE",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1795,24 +1670,9 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RURAL DOS FORNECEDORES DE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "ACQIO ADQUIRENCIA INSTITUICAO ",
       "segmento": "outro_banco",
       "qtd_singulares": 1
-    },
-    {
-      "nome": "E CRÉDITO MÚTUO DOS MILIT",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "E CREDITO MUTUO DOS EMPRE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 10
     },
     {
       "nome": "PAGCERTO INSTITUICAO DE PAGAME",
@@ -1835,11 +1695,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPREGADOS DO GRUPO V",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "CREDISIS CREDIBRÁS COOPERATIVA",
       "segmento": "cooperativa",
       "qtd_singulares": 1
@@ -1850,12 +1705,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS EMPREGADOS DA M",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "RNX S.A.",
+      "nome": "RNX",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -1880,12 +1730,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DE RORA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "RURAL - CREDICANA",
+      "nome": "COOPERATIVA DE CRÉDITO RURAL -",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1950,12 +1795,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE LIVRE ADMISSÃO DE VITÓ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "COGEM",
+      "nome": "COOPERATIVA DE CRÉDITO COGEM",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -1965,12 +1805,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FAIR CORRETORA DE CAMBIO S.A.",
+      "nome": "FAIR CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": ", POUPANÇA E SERVIÇOS FIN",
+      "nome": "COOPERATIVA DE CRÉDITO, POUPAN",
       "segmento": "outro_banco",
       "qtd_singulares": 2
     },
@@ -1995,11 +1835,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS MAGIS",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "AGENCIA DE FOMENTO DO RIO GRAN",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -2015,7 +1850,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "ADVANCED CORRETORA DE CÂMBIO L",
+      "nome": "ADVANCED CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2025,7 +1860,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "ZERO INSTITUIÇÃO DE PAGAMENTO ",
+      "nome": "ZERO INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2050,16 +1885,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS SERVIDORES MUNI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
-      "nome": "E CRÉDITO MÚTUO - COOPERS",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "SF3 CRÉDITO, FINANCIAMENTO E I",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -2070,7 +1895,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BT CORRETORA DE CÂMBIO LTDA.",
+      "nome": "BT CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2080,7 +1905,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FRENTE CORRETORA DE CÂMBIO S.A",
+      "nome": "FRENTE CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2090,14 +1915,9 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BIZ INSTITUIÇÃO PAGAMENTO LTDA",
+      "nome": "BIZ INSTITUIÇÃO PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
-    },
-    {
-      "nome": "E CREDITO MUTUO DOS SERVI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 9
     },
     {
       "nome": "SUPERBID PAY INSTITUICAO DE PA",
@@ -2130,16 +1950,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DO GRUPO ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS FORNECEDORES DE CANA ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
       "nome": "M PAGAMENTOS S.A. - CRÉDITO FI",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -2147,11 +1957,6 @@
     {
       "nome": "PAGOL SOCIEDADE DE CRÉDITO DIR",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS EMPREGADOS DO M",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2190,7 +1995,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FINNET S/A - TECNOLOGIA E INST",
+      "nome": "FINNET S/A - TECNOLOGIA E",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2200,12 +2005,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "AGÊNCIA DE FOMENTO DE ALAGOAS ",
+      "nome": "AGÊNCIA DE FOMENTO DE ALAGOAS",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "IP4Y INSTITUICAO DE PAGAMENTO ",
+      "nome": "IP4Y INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2235,6 +2040,11 @@
       "qtd_singulares": 1
     },
     {
+      "nome": "COOPERATIVA DE CRÉDITO DOS SER",
+      "segmento": "cooperativa",
+      "qtd_singulares": 3
+    },
+    {
       "nome": "MOVA SOCIEDADE DE EMPRÉSTIMO E",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -2250,12 +2060,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "RURAL DOS PLANTADORES DE ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
-      "nome": "Z1 INSTITUIÇÃO DE PAGAMENTO LT",
+      "nome": "Z1 INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2275,23 +2080,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS SERVIDORES PÚBL",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "TREVISO CORRETORA DE CÂMBIO S.",
+      "nome": "TREVISO CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
       "nome": "BRASIL CASH INSTITUICAO DE PAG",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "E CREDITO MUTUO DOS MEDIC",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2305,14 +2100,9 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MONEYCORP BANCO DE CÂMBIO S.A.",
+      "nome": "MONEYCORP BANCO DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
-    },
-    {
-      "nome": "E CREDITO MUTUO DOS FUNCI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 6
     },
     {
       "nome": "CAPITAL CONSIG SOCIEDADE DE CR",
@@ -2330,9 +2120,9 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS COLAB",
+      "nome": "COOPERATIVA DE CREDITO RURAL D",
       "segmento": "cooperativa",
-      "qtd_singulares": 3
+      "qtd_singulares": 2
     },
     {
       "nome": "AZUMI DISTRIBUIDORA DE TÍTULOS",
@@ -2395,8 +2185,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "GUITTA CORRETORA DE CAMBIO LTD",
+      "nome": "GUITTA CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
+      "qtd_singulares": 1
+    },
+    {
+      "nome": "COOPERATIVA DE CREDITO DOS FOR",
+      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2410,12 +2205,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS TRABA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 3
-    },
-    {
-      "nome": "CEDULA S.A.",
+      "nome": "CEDULA",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2450,11 +2240,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS SERVIDORES PÚBLICOS M",
-      "segmento": "cooperativa",
-      "qtd_singulares": 2
-    },
-    {
       "nome": "UNIDA DISTRIBUIDORA DE TÍTULOS",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -2465,17 +2250,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "PORTO REAL DE INVESTIMENT",
+      "nome": "PORTO REAL DE INVESTIMENTOS",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS SERVIDORES DO M",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DO ABC - COOPER 7",
+      "nome": "COOPERATIVA DE CRÉDITO DOS FOR",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -2487,11 +2267,6 @@
     {
       "nome": "TAMBASA SOCIEDADE DE CRÉDITO D",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "RURAL DE IBIAM - SULCREDI",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2530,23 +2305,8 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS SERVIDORES DA A",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS SERVIDORES DA UNIVERS",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "BONUSPAGO SOCIEDADE DE CRÉDITO",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS MAGISTRADOS DO ESTADO",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2595,7 +2355,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "AGK CORRETORA DE CAMBIO S.A.",
+      "nome": "AGK CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2605,23 +2365,13 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPREGADOS DA MINERAÇ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "INVEST CORRETORA DE CÂMBIO LTD",
+      "nome": "INVEST CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
       "nome": "BROKER BRASIL CORRETORA DE CÂM",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS EMPREGADOS DE ELEVADO",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2660,32 +2410,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CREDITO MUTUO DOS TRABA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 3
-    },
-    {
-      "nome": "E CRÉDÍTO MÚTUO DOS FUNCI",
+      "nome": "COOPERATIVA DE CRÉDITO E SERVI",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
-      "nome": "E SERVIÇOS FINANCEIROS DE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS POLICIAIS FEDER",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "RURAL DE GUACUI - CREDIGU",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "AGENCIA DE FOMENTO DO AMAPA S.",
+      "nome": "AGENCIA DE FOMENTO DO AMAPA",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2705,11 +2435,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS FUNCIONÁRIOS DA",
-      "segmento": "cooperativa",
-      "qtd_singulares": 3
-    },
-    {
       "nome": "KANASTRA FINANCEIRA S.A, CREDI",
       "segmento": "cooperativa",
       "qtd_singulares": 1
@@ -2725,17 +2450,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS  EMPR",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "RIO BRAVO INVESTIMENTOS - DIST",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "COOPHARMA",
+      "nome": "COOPERATIVA DE CRÉDITO COOPHAR",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -2770,12 +2490,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "LINA INSTITUICAO DE PAGAMENTO ",
+      "nome": "LINA INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "E INVESTIMENTO UNINDÚSTRI",
+      "nome": "COOPERATIVA DE CRÉDITO E INVES",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -2805,7 +2525,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "INTERCAM CORRETORA DE CÂMBIO L",
+      "nome": "INTERCAM CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2845,17 +2565,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS MEMBR",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "E CREDITO MUTUO JOHN F. K",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "GET MONEY CORRETORA DE CÂMBIO ",
+      "nome": "GET MONEY CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2865,7 +2575,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "EXIM CORRETORA DE CAMBIO LTDA",
+      "nome": "EXIM CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -2877,11 +2587,6 @@
     {
       "nome": "SOLFÁCIL SOCIEDADE DE CRÉDITO ",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS EMPREGADOS DA S",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -2950,11 +2655,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS EMPREGADOS DA P",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "LABOR SOCIEDADE CORRETORA DE C",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -2967,16 +2667,6 @@
     {
       "nome": "GALLERIA - SOCIEDADE DE CRÉDIT",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS SERVIDORES DA S",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "E CRÉDITO MÚTUO DOS ELETR",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -3020,22 +2710,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS FABRI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "MULTICRED SOCIEDADE DE CRÉDITO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO ALIANÇA -",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MONOPÓLIO CORRETORA DE CÂMBIO ",
+      "nome": "MONOPÓLIO CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3045,7 +2725,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "OZ CORRETORA DE CÂMBIO S.A.",
+      "nome": "OZ CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3070,7 +2750,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FOURTRADE CORRETORA DE CÂMBIO ",
+      "nome": "FOURTRADE CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3120,7 +2800,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "BRX CORRETORA DE CÂMBIO LTDA.",
+      "nome": "BRX CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3150,13 +2830,8 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "CAMBIONET CORRETORA DE CÂMBIO ",
+      "nome": "CAMBIONET CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "E CREDITO MÚTUO DOS PROFE",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -3170,17 +2845,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "CONECTA CORRETORA DE CÂMBIO LT",
+      "nome": "CONECTA CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPREGADOS DA COMPANH",
-      "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS BANCÁRIOS DE SÃO PAUL",
+      "nome": "COOPERATIVA DE CRÉDITO DOS BAN",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -3190,17 +2860,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MAG INSTITUICAO DE PAGAMENTO L",
+      "nome": "MAG INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS EMPREGADOS DA F",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "IUPI INSTITUICAO DE PAGAMENTO ",
+      "nome": "IUPI INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3240,7 +2905,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "EXECUTIVE CORRETORA DE CÂMBIO ",
+      "nome": "EXECUTIVE CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3260,7 +2925,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "EFX CORRETORA DE CÂMBIO LTDA.",
+      "nome": "EFX CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3290,22 +2955,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPREGADOS DO GRUPO A",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS SERVIDORES DE Ó",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "ATICCA - SOCIEDADE DE CRÉDITO ",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS METALÚRGICOS DO ABC -",
+      "nome": "COOPERATIVA DE CRÉDITO DOS MET",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -3320,7 +2975,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOURADA CORRETORA DE CÂMBIO LT",
+      "nome": "DOURADA CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3340,7 +2995,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "TROCKA CORRETORA DE CAMBIO LTD",
+      "nome": "TROCKA CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3355,7 +3010,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DASCAM CORRETORA DE CÂMBIO LTD",
+      "nome": "DASCAM CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3395,7 +3050,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "B3 INSTITUICAO DE PAGAMENTO LT",
+      "nome": "B3 INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3430,11 +3085,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MUTUO DOS FUNCI",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "RV2 SOCIEDADE DE EMPRÉSTIMO EN",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -3445,7 +3095,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "AVS CORRETORA DE CÂMBIO LTDA.",
+      "nome": "AVS CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3475,12 +3125,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "COOPSERJ - COOPERATIVA DE CRÉD",
+      "nome": "COOPERATIVA DE CRÉDITO DOS FUN",
       "segmento": "cooperativa",
-      "qtd_singulares": 1
+      "qtd_singulares": 2
     },
     {
-      "nome": "MÚTUO DOS EMPREGADOS EM I",
+      "nome": "COOPSERJ - COOPERATIVA DE CRÉD",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -3490,22 +3140,17 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPREGADOS DAS EMPRES",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "SADOC SOCIEDADE CORRETORA DE C",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "GOOD CORRETORA DE CÂMBIO LTDA",
+      "nome": "GOOD CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "TRIO INSTITUICAO DE PAGAMENTO ",
+      "nome": "TRIO INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3525,7 +3170,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "NUMATUR CORRETORA DE CÂMBIO LT",
+      "nome": "NUMATUR CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3545,7 +3190,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SAYGO CORRETORA DE CÂMBIO S.A.",
+      "nome": "SAYGO CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3555,7 +3200,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DE CAPITAL E EMPRÉSTIMO D",
+      "nome": "COOPERATIVA DE CRÉDITO DE CAPI",
       "segmento": "cooperativa",
       "qtd_singulares": 2
     },
@@ -3590,7 +3235,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "FREEX CORRETORA DE CAMBIO S.A.",
+      "nome": "FREEX CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3607,11 +3252,6 @@
     {
       "nome": "ACTUAL DISTRIBUIDORA DE TÍTULO",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS EMPREGADOS DA CBA ITA",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -3640,11 +3280,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS TRABALHADORES D",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "VNK SOCIEDADE DE CRÉDITO AO MI",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -3655,18 +3290,8 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO SERVIDORE",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "GREEN ALTERNATIVE INVESTMENTS ",
       "segmento": "outro_banco",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "DOS FUNCIONÁRIOS DA PERPA",
-      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {
@@ -3685,12 +3310,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "E CRÉDITO MÚTUO DOS BANCÁ",
-      "segmento": "cooperativa",
-      "qtd_singulares": 3
-    },
-    {
-      "nome": "VIP'S CORRETORA DE CÂMBIO LTDA",
+      "nome": "VIP'S CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3700,12 +3320,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "SINGRATUR CORRETORA DE CÂMBIO ",
+      "nome": "SINGRATUR CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "LÚMINA CORRETORA DE CÂMBIO LTD",
+      "nome": "LÚMINA CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3725,7 +3345,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "OMIE INSTITUICAO DE PAGAMENTO ",
+      "nome": "OMIE INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3740,22 +3360,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS EMPREGADOS DO GRUPO N",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "PROVU SOCIEDADE DE CRÉDITO DIR",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "DE SERVIDORES DA UESC - U",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "MÚTUO DOS EMPREGADOS DAS ",
+      "nome": "COOPERATIVA DE CRÉDITO DE SERV",
       "segmento": "cooperativa",
       "qtd_singulares": 1
     },
@@ -3790,11 +3400,6 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "DOS FUNCIONÁRIOS DO GRUPO",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
       "nome": "QUEROCRED SOCIEDADE DE CRÉDITO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
@@ -3825,7 +3430,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "EFEX INSTITUIÇÃO DE PAGAMENTO ",
+      "nome": "EFEX INSTITUIÇÃO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3860,12 +3465,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "LEND INSTITUICAO DE PAGAMENTO ",
+      "nome": "LEND INSTITUICAO DE PAGAMENTO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "REMITLY CORRETORA DE CÂMBIO LT",
+      "nome": "REMITLY CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3875,7 +3480,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "ONNIX CORRETORA DE CÂMBIO LTDA",
+      "nome": "ONNIX CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3890,7 +3495,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MARMARIS CORRETORA DE CÂMBIO L",
+      "nome": "MARMARIS CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3900,7 +3505,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "CONSEGTUR CORRETORA DE CÂMBIO ",
+      "nome": "CONSEGTUR CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3910,7 +3515,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "ATUAL CORRETORA DE CÂMBIO LTDA",
+      "nome": "ATUAL CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3920,12 +3525,7 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "MÚTUO DOS EMPREGADOS DO C",
-      "segmento": "cooperativa",
-      "qtd_singulares": 1
-    },
-    {
-      "nome": "ÍCARO CORRETORA DE CÂMBIO LTDA",
+      "nome": "ÍCARO CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
@@ -3935,12 +3535,12 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "AVIPAM CORRETORA DE CAMBIO LTD",
+      "nome": "AVIPAM CORRETORA DE CAMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
     {
-      "nome": "SOL CORRETORA DE CÂMBIO LTDA.",
+      "nome": "SOL CORRETORA DE CÂMBIO",
       "segmento": "outro_banco",
       "qtd_singulares": 1
     },
