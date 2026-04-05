@@ -155,7 +155,8 @@ def main():
         print(f"  → {dt}...")
         try:
             resultados = extrair_dados_trimestre(dt, layout="antigo")
-            all_trimestres[str(dt)] = resultados
+            if resultados:
+                all_trimestres[str(dt)] = resultados
             print(f"    {len(resultados)} instituições")
         except Exception as e:
             print(f"    ERRO: {e}")
@@ -165,15 +166,20 @@ def main():
         print(f"  → {dt} (layout novo)...")
         try:
             resultados = extrair_dados_trimestre(dt, layout="novo")
-            all_trimestres[str(dt)] = resultados
+            if resultados:
+                all_trimestres[str(dt)] = resultados
             print(f"    {len(resultados)} instituições")
         except Exception as e:
             print(f"    ERRO: {e}")
 
     # ── Gerar JSONs de saída ──
 
-    # 1. Instituições (tabela-mestre do último trimestre)
-    ultimo_dt = max(all_trimestres.keys())
+    if not all_trimestres:
+        print("  ERRO: Nenhum trimestre coletado com sucesso")
+        return
+
+    # 1. Instituições (tabela-mestre do último trimestre com dados)
+    ultimo_dt = max(k for k, v in all_trimestres.items() if v)
     ultimo = all_trimestres[ultimo_dt]
 
     instituicoes_master = []

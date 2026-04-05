@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T17:22:04Z",
+  "last_updated": "2026-04-05T17:39:57Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": [
@@ -5425,7 +5425,6 @@
         "carteira_credito": 8472075673.15,
         "captacoes": 13859136767.83
       }
-    ],
-    "202503": []
+    ]
   }
 }

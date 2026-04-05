@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T17:22:04Z",
+  "last_updated": "2026-04-05T17:39:57Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": [
@@ -6457,7 +6457,6 @@
         "indice_basileia": 0.1934,
         "ativo_total": 7314409582.51
       }
-    ],
-    "202503": []
+    ]
   }
 }

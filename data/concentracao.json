@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T17:22:04Z",
+  "last_updated": "2026-04-05T17:39:57Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
@@ -3109,15 +3109,6 @@
           "share": 0.5124
         }
       ]
-    },
-    "202503": {
-      "hhi_ativo": 0,
-      "hhi_credito": 0,
-      "top5_share_ativo": 0,
-      "top10_share_ativo": 0,
-      "share_por_segmento": {},
-      "ranking_ativo": [],
-      "ranking_credito": []
     }
   }
 }
