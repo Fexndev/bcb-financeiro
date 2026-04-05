@@ -2,60 +2,36 @@
 
 import requests
 import json
+from collections import defaultdict
 from utils import save_json, now_iso, classificar_instituicao, limpar_nome_instituicao, INSTITUICOES
 
 BASE = "https://www3.bcb.gov.br/ifdata/rest/arquivos"
 
-# IDs dos campos financeiros (formato 2024, cadastro 1005)
-CAMPOS = {
-    78182: "ativo_total",
-    78183: "carteira_credito",
-    78186: "patrimonio_liquido",
-    78187: "lucro_liquido",
-    78184: "passivo",
-    78185: "captacoes",
-}
-
-# Campos adicionais para Basileia e capital
-CAMPOS_CAPITAL = {
-    79664: "indice_basileia",
-    79649: "patrimonio_referencia",
-}
-
-# Trimestres a coletar (2022 a 2024)
 TRIMESTRES = [
     202203, 202206, 202209, 202212,
     202303, 202306, 202309, 202312,
     202403, 202406, 202409, 202412,
 ]
 
-# 2025+ usa layout diferente no IF.data — será incluído quando disponível no formato padrão
-TRIMESTRES_NOVO = []
+# Cooperativas que devem ser agregadas por sistema
+SISTEMAS_COOP = {"Sicoob", "Sicredi", "Unicred", "Cresol"}
 
 
 def fetch_arquivo(nome_arquivo):
-    """Busca arquivo JSON da API REST do IF.data."""
     resp = requests.get(BASE, params={"nomeArquivo": nome_arquivo}, timeout=120)
     resp.raise_for_status()
     return resp.json()
 
 
-def extrair_dados_trimestre(dt, layout="antigo"):
+def extrair_dados_trimestre(dt):
     """Extrai dados financeiros de um trimestre."""
-    if layout == "antigo":
-        prefix = f"ifdata/{dt}"
-        cadastro_file = f"{prefix}/cadastro{dt}_1005.json"
-    else:
-        prefix = f"ifdata_2025_2030//{dt}"
-        cadastro_file = f"{prefix}/cadastro{dt}_1009.json"
-
+    prefix = f"ifdata/{dt}"
+    cadastro_file = f"{prefix}/cadastro{dt}_1005.json"
     dados_file = f"{prefix}/dados{dt}_1.json"
 
-    print(f"    Cadastro: {cadastro_file}")
+    print(f"    Cadastro + Dados...")
     cadastro = fetch_arquivo(cadastro_file)
     c0_map = {int(c["c0"]): c for c in cadastro}
-
-    print(f"    Dados: {dados_file}")
     dados = fetch_arquivo(dados_file)
 
     resultados = []
@@ -64,51 +40,31 @@ def extrair_dados_trimestre(dt, layout="antigo"):
         if not c:
             continue
 
-        nome = c.get("c2", "").strip()
-        segmento_bcb = c.get("c12", "")
-        tipo = c.get("c4", "")  # C=Conglomerado, I=Independente
-        controle = c.get("c7", "")
+        nome_raw = c.get("c2", "").strip()
+        nome_limpo = limpar_nome_instituicao(nome_raw)
+        segmento = classificar_instituicao(nome_raw)
         uf = c.get("c10", "")
-        tcb = c.get("c3", "")  # Tipo consolidado bancário
+        tipo = c.get("c4", "")
 
         vals = {item["i"]: item["v"] for item in v["v"]}
-
-        # Extrair campos financeiros
         ativo = vals.get(78182, 0)
-        if ativo == 0 and layout == "novo":
-            ativo = vals.get(79853, vals.get(79756, 0))
-
         pl = vals.get(78186, 0)
-        if pl == 0 and layout == "novo":
-            pl = vals.get(79858, vals.get(79780, 0))
-
         lucro = vals.get(78187, 0)
-        if lucro == 0 and layout == "novo":
-            lucro = vals.get(79859, vals.get(79852, 0))
-
         credito = vals.get(78183, 0)
-        if credito == 0 and layout == "novo":
-            credito = vals.get(79854, 0)
-
         captacao = vals.get(78185, 0)
         basileia = vals.get(79664, vals.get(79790, vals.get(79700, None)))
 
-        # Filtrar: só incluir se tem ativo > 0
         if ativo <= 0:
             continue
 
-        # Calcular indicadores
         roe = round((lucro / pl) * 100, 2) if pl and pl != 0 else None
         roa = round((lucro / ativo) * 100, 4) if ativo and ativo != 0 else None
 
         resultados.append({
-            "nome": limpar_nome_instituicao(nome),
-            "c0": v["e"],
-            "segmento_bcb": segmento_bcb,
-            "segmento": classificar_instituicao(nome),
+            "nome": nome_limpo,
+            "nome_raw": nome_raw,
+            "segmento": segmento,
             "tipo": tipo,
-            "controle": controle,
-            "tcb": tcb,
             "uf": uf,
             "ativo_total": round(ativo, 2),
             "patrimonio_liquido": round(pl, 2),
@@ -123,13 +79,88 @@ def extrair_dados_trimestre(dt, layout="antigo"):
     return resultados
 
 
-def calcular_concentracao(instituicoes, campo="ativo_total"):
-    """Calcula market share e HHI."""
-    total = sum(i[campo] for i in instituicoes if i[campo] > 0)
+def agregar_por_sistema(resultados):
+    """Agrupa instituições por nome limpo. Cooperativas singulares são somadas por sistema."""
+    grupos = defaultdict(list)
+    for inst in resultados:
+        grupos[inst["nome"]].append(inst)
+
+    agregado = []
+    singulares = {}
+
+    for nome, insts in grupos.items():
+        if len(insts) == 1:
+            # Instituição única — manter como está
+            i = insts[0]
+            agregado.append({
+                "nome": nome,
+                "segmento": i["segmento"],
+                "ativo_total": i["ativo_total"],
+                "patrimonio_liquido": i["patrimonio_liquido"],
+                "lucro_liquido": i["lucro_liquido"],
+                "carteira_credito": i["carteira_credito"],
+                "captacoes": i["captacoes"],
+                "indice_basileia": i["indice_basileia"],
+                "roe": i["roe"],
+                "roa": i["roa"],
+                "qtd_singulares": 1,
+            })
+        else:
+            # Múltiplas entradas — agregar (soma financeira, recalcular indicadores)
+            ativo = sum(i["ativo_total"] for i in insts)
+            pl = sum(i["patrimonio_liquido"] for i in insts)
+            lucro = sum(i["lucro_liquido"] for i in insts)
+            credito = sum(i["carteira_credito"] for i in insts)
+            captacao = sum(i["captacoes"] for i in insts)
+
+            # Basileia: média ponderada por ativo
+            bas_vals = [(i["indice_basileia"], i["ativo_total"]) for i in insts if i["indice_basileia"] is not None]
+            basileia = None
+            if bas_vals:
+                total_peso = sum(a for _, a in bas_vals)
+                if total_peso > 0:
+                    basileia = round(sum(b * a for b, a in bas_vals) / total_peso, 4)
+
+            roe = round((lucro / pl) * 100, 2) if pl != 0 else None
+            roa = round((lucro / ativo) * 100, 4) if ativo != 0 else None
+
+            agregado.append({
+                "nome": nome,
+                "segmento": insts[0]["segmento"],
+                "ativo_total": round(ativo, 2),
+                "patrimonio_liquido": round(pl, 2),
+                "lucro_liquido": round(lucro, 2),
+                "carteira_credito": round(credito, 2),
+                "captacoes": round(captacao, 2),
+                "indice_basileia": basileia,
+                "roe": roe,
+                "roa": roa,
+                "qtd_singulares": len(insts),
+            })
+
+            # Guardar singulares para drill-down (só cooperativas principais)
+            if nome in SISTEMAS_COOP:
+                singulares[nome] = sorted(
+                    [{
+                        "nome": i["nome_raw"][:60],
+                        "uf": i["uf"],
+                        "ativo_total": i["ativo_total"],
+                        "lucro_liquido": i["lucro_liquido"],
+                        "roe": i["roe"],
+                        "carteira_credito": i["carteira_credito"],
+                    } for i in insts],
+                    key=lambda x: x["ativo_total"],
+                    reverse=True,
+                )[:50]  # Top 50 singulares por sistema
+
+    return agregado, singulares
+
+
+def calcular_concentracao(agregado, campo="ativo_total"):
+    total = sum(i[campo] for i in agregado if i[campo] > 0)
     if total == 0:
         return [], 0
-
-    ranking = sorted(instituicoes, key=lambda x: x[campo], reverse=True)
+    ranking = sorted(agregado, key=lambda x: x[campo], reverse=True)
     shares = []
     hhi = 0
     for inst in ranking[:50]:
@@ -141,57 +172,50 @@ def calcular_concentracao(instituicoes, campo="ativo_total"):
             "valor": inst[campo],
             "share": round(share, 4),
         })
-
     return shares, round(hhi, 2)
 
 
 def main():
     print("── Coletando dados do IF.data ──")
 
-    all_trimestres = {}
-
-    # Trimestres 2022-2024 (layout antigo)
+    all_raw = {}
     for dt in TRIMESTRES:
         print(f"  → {dt}...")
         try:
-            resultados = extrair_dados_trimestre(dt, layout="antigo")
+            resultados = extrair_dados_trimestre(dt)
             if resultados:
-                all_trimestres[str(dt)] = resultados
-            print(f"    {len(resultados)} instituições")
+                all_raw[str(dt)] = resultados
+            print(f"    {len(resultados)} instituições brutas")
         except Exception as e:
             print(f"    ERRO: {e}")
 
-    # Trimestres 2025+ (layout novo)
-    for dt in TRIMESTRES_NOVO:
-        print(f"  → {dt} (layout novo)...")
-        try:
-            resultados = extrair_dados_trimestre(dt, layout="novo")
-            if resultados:
-                all_trimestres[str(dt)] = resultados
-            print(f"    {len(resultados)} instituições")
-        except Exception as e:
-            print(f"    ERRO: {e}")
-
-    # ── Gerar JSONs de saída ──
-
-    if not all_trimestres:
-        print("  ERRO: Nenhum trimestre coletado com sucesso")
+    if not all_raw:
+        print("  ERRO: Nenhum trimestre coletado")
         return
 
-    # 1. Instituições (tabela-mestre do último trimestre com dados)
-    ultimo_dt = max(k for k, v in all_trimestres.items() if v)
-    ultimo = all_trimestres[ultimo_dt]
+    # ── Agregar por sistema ──
+    all_agregado = {}
+    all_singulares = {}
+    for dt, raw in all_raw.items():
+        agregado, singulares = agregar_por_sistema(raw)
+        all_agregado[dt] = agregado
+        all_singulares[dt] = singulares
+        print(f"  → {dt}: {len(raw)} → {len(agregado)} após agregação")
 
+    ultimo_dt = max(all_agregado.keys())
+    ultimo = all_agregado[ultimo_dt]
+
+    # 1. Instituições (tabela-mestre)
     instituicoes_master = []
+    seen = set()
     for inst in sorted(ultimo, key=lambda x: x["ativo_total"], reverse=True):
-        instituicoes_master.append({
-            "nome": inst["nome"],
-            "segmento": inst["segmento"],
-            "segmento_bcb": inst["segmento_bcb"],
-            "tipo": inst["tipo"],
-            "controle": inst["controle"],
-            "uf": inst["uf"],
-        })
+        if inst["nome"] not in seen:
+            seen.add(inst["nome"])
+            instituicoes_master.append({
+                "nome": inst["nome"],
+                "segmento": inst["segmento"],
+                "qtd_singulares": inst.get("qtd_singulares", 1),
+            })
 
     save_json({
         "last_updated": now_iso(),
@@ -201,75 +225,58 @@ def main():
         "instituicoes": instituicoes_master,
     }, "instituicoes.json")
 
-    # 2. Resultados financeiros (todos os trimestres, top 50)
+    # 2. Resultados financeiros
     resultados_por_tri = {}
-    for dt, insts in all_trimestres.items():
+    for dt, insts in all_agregado.items():
         top50 = sorted(insts, key=lambda x: x["ativo_total"], reverse=True)[:50]
         resultados_por_tri[dt] = [{
-            "nome": i["nome"],
-            "segmento": i["segmento"],
-            "ativo_total": i["ativo_total"],
-            "patrimonio_liquido": i["patrimonio_liquido"],
-            "lucro_liquido": i["lucro_liquido"],
-            "carteira_credito": i["carteira_credito"],
+            "nome": i["nome"], "segmento": i["segmento"],
+            "ativo_total": i["ativo_total"], "patrimonio_liquido": i["patrimonio_liquido"],
+            "lucro_liquido": i["lucro_liquido"], "carteira_credito": i["carteira_credito"],
             "captacoes": i["captacoes"],
         } for i in top50]
 
     save_json({
-        "last_updated": now_iso(),
-        "source": "BCB/IF.data",
+        "last_updated": now_iso(), "source": "BCB/IF.data",
         "trimestres": resultados_por_tri,
     }, "resultados.json")
 
-    # 3. Indicadores (ROE, ROA, Basileia — top 50 + cooperativas)
+    # 3. Indicadores (com singulares para drill-down)
     indicadores_por_tri = {}
-    for dt, insts in all_trimestres.items():
-        # Top 50 por ativo + todas cooperativas
-        top50_nomes = set(i["nome"] for i in sorted(insts, key=lambda x: x["ativo_total"], reverse=True)[:50])
-        cooperativas = [i for i in insts if i["segmento"] == "cooperativa"]
-        selecionados = [i for i in insts if i["nome"] in top50_nomes]
-        # Adicionar cooperativas que não estão no top 50
-        nomes_ja = set(i["nome"] for i in selecionados)
-        for coop in sorted(cooperativas, key=lambda x: x["ativo_total"], reverse=True)[:20]:
-            if coop["nome"] not in nomes_ja:
-                selecionados.append(coop)
-
-        indicadores_por_tri[dt] = [{
-            "nome": i["nome"],
-            "segmento": i["segmento"],
-            "roe": i["roe"],
-            "roa": i["roa"],
-            "indice_basileia": i["indice_basileia"],
-            "ativo_total": i["ativo_total"],
-        } for i in selecionados]
+    for dt, insts in all_agregado.items():
+        indicadores_por_tri[dt] = {
+            "agregado": [{
+                "nome": i["nome"], "segmento": i["segmento"],
+                "roe": i["roe"], "roa": i["roa"],
+                "indice_basileia": i["indice_basileia"],
+                "ativo_total": i["ativo_total"],
+                "qtd_singulares": i.get("qtd_singulares", 1),
+            } for i in sorted(insts, key=lambda x: x["ativo_total"], reverse=True)],
+            "singulares": all_singulares.get(dt, {}),
+        }
 
     save_json({
-        "last_updated": now_iso(),
-        "source": "BCB/IF.data",
+        "last_updated": now_iso(), "source": "BCB/IF.data",
         "trimestres": indicadores_por_tri,
     }, "indicadores.json")
 
-    # 4. Concentração (market share + HHI)
+    # 4. Concentração
     concentracao_por_tri = {}
-    for dt, insts in all_trimestres.items():
+    for dt, insts in all_agregado.items():
         shares_ativo, hhi_ativo = calcular_concentracao(insts, "ativo_total")
         shares_credito, hhi_credito = calcular_concentracao(insts, "carteira_credito")
 
-        # Market share por segmento
-        por_segmento = {}
+        por_segmento = defaultdict(float)
         total_ativo = sum(i["ativo_total"] for i in insts if i["ativo_total"] > 0)
         for inst in insts:
-            seg = inst["segmento"]
-            por_segmento.setdefault(seg, 0)
-            por_segmento[seg] += inst["ativo_total"]
+            por_segmento[inst["segmento"]] += inst["ativo_total"]
         share_segmento = {
             seg: round((val / total_ativo) * 100, 2) if total_ativo > 0 else 0
             for seg, val in por_segmento.items()
         }
 
         concentracao_por_tri[dt] = {
-            "hhi_ativo": hhi_ativo,
-            "hhi_credito": hhi_credito,
+            "hhi_ativo": hhi_ativo, "hhi_credito": hhi_credito,
             "top5_share_ativo": round(sum(s["share"] for s in shares_ativo[:5]), 2),
             "top10_share_ativo": round(sum(s["share"] for s in shares_ativo[:10]), 2),
             "share_por_segmento": share_segmento,
@@ -278,8 +285,7 @@ def main():
         }
 
     save_json({
-        "last_updated": now_iso(),
-        "source": "BCB/IF.data",
+        "last_updated": now_iso(), "source": "BCB/IF.data",
         "trimestres": concentracao_por_tri,
     }, "concentracao.json")
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T18:35:00Z",
+  "last_updated": "2026-04-05T18:53:57Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": [
@@ -67,6 +67,24 @@
         "captacoes": 261023409885.81
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 324896964718.97,
+        "patrimonio_liquido": 29964247967.41,
+        "lucro_liquido": 1338806424.45,
+        "carteira_credito": 138936370874.7,
+        "captacoes": 204749546099.37
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 292315532607.37,
+        "patrimonio_liquido": 28254717363.03,
+        "lucro_liquido": 1189602338.65,
+        "carteira_credito": 114902875651.79,
+        "captacoes": 176843153944.48
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 221289309732.2,
@@ -103,13 +121,13 @@
         "captacoes": 77635564466.27
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 109943220422.25,
-        "patrimonio_liquido": 2463642577.46,
-        "lucro_liquido": 13865204.53,
-        "carteira_credito": 17928834337.63,
-        "captacoes": 97431946646.85
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 109892526781.51,
+        "patrimonio_liquido": 7568406629.93,
+        "lucro_liquido": 180953300.82,
+        "carteira_credito": 44702650404.77,
+        "captacoes": 62415632596.86
       },
       {
         "nome": "BANRISUL",
@@ -148,15 +166,6 @@
         "captacoes": 53873452324.6
       },
       {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 84016387478.09,
-        "patrimonio_liquido": 2614407391.79,
-        "lucro_liquido": 120884417.5,
-        "carteira_credito": 17566845769.12,
-        "captacoes": 69084603603.65
-      },
-      {
         "nome": "BNP PARIBAS",
         "segmento": "outro_banco",
         "ativo_total": 79328676365.08,
@@ -184,15 +193,6 @@
         "captacoes": 47375690348.07
       },
       {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 56491244907.98,
-        "patrimonio_liquido": 4384788686.47,
-        "lucro_liquido": 251679551.31,
-        "carteira_credito": 18301545967.76,
-        "captacoes": 49447578952.71
-      },
-      {
         "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS ",
         "segmento": "outro_banco",
         "ativo_total": 56013679599.32,
@@ -200,15 +200,6 @@
         "lucro_liquido": 99618858.92,
         "carteira_credito": 0,
         "captacoes": 2302439614.96
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 53401281873.53,
-        "patrimonio_liquido": 3183617943.46,
-        "lucro_liquido": -70726250.49,
-        "carteira_credito": 26401104437.01,
-        "captacoes": 12968053644.15
       },
       {
         "nome": "RABOBANK INTERNATIONAL BR",
@@ -328,6 +319,15 @@
         "captacoes": 9200904113.12
       },
       {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 29708305605.25,
+        "patrimonio_liquido": 2557038668.21,
+        "lucro_liquido": 99647558.5,
+        "carteira_credito": 13846639284.66,
+        "captacoes": 15226334075.01
+      },
+      {
         "nome": "VOLKSWAGEN S.A.",
         "segmento": "outro_banco",
         "ativo_total": 28153445567.81,
@@ -335,6 +335,15 @@
         "lucro_liquido": 20652917.4,
         "carteira_credito": 24035657479.94,
         "captacoes": 20173066474.19
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 27020882208.4,
+        "patrimonio_liquido": 2886310803.33,
+        "lucro_liquido": 115217178.92,
+        "carteira_credito": 11823068717.81,
+        "captacoes": 15766399471.49
       },
       {
         "nome": "PAGSEGURO INTERNET INSTITUIÇÃO",
@@ -443,15 +452,6 @@
         "lucro_liquido": 129987445.27,
         "carteira_credito": 15364601806,
         "captacoes": 13769889896.08
-      },
-      {
-        "nome": "MERCADO PAGO INSTITUIÇÃO DE PA",
-        "segmento": "outro_banco",
-        "ativo_total": 15373156212.66,
-        "patrimonio_liquido": 785937034.03,
-        "lucro_liquido": 108450254.64,
-        "carteira_credito": 1599987329.73,
-        "captacoes": 4596202291.44
       }
     ],
     "202206": [
@@ -519,6 +519,24 @@
         "captacoes": 288802458797.78
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 350876525254.15,
+        "patrimonio_liquido": 32452769713.36,
+        "lucro_liquido": 2887504049.41,
+        "carteira_credito": 140384151307.26,
+        "captacoes": 222691045661.67
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 309800958455.93,
+        "patrimonio_liquido": 29573833259.85,
+        "lucro_liquido": 2700573640.66,
+        "carteira_credito": 118218214865.77,
+        "captacoes": 185607932557.74
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 243394511527.65,
@@ -537,6 +555,15 @@
         "captacoes": 88122788575.42
       },
       {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 125153566985.71,
+        "patrimonio_liquido": 8059518453.85,
+        "lucro_liquido": 510656098.85,
+        "carteira_credito": 49945191439.73,
+        "captacoes": 72741737709.59
+      },
+      {
         "nome": "XP",
         "segmento": "outro_banco",
         "ativo_total": 122976525057.62,
@@ -544,15 +571,6 @@
         "lucro_liquido": -165308737.87,
         "carteira_credito": 16443447821.89,
         "captacoes": 84174324739.56
-      },
-      {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 122445373560.1,
-        "patrimonio_liquido": 3200378650.44,
-        "lucro_liquido": 99325364.79,
-        "carteira_credito": 18228968165.07,
-        "captacoes": 108634444759.18
       },
       {
         "nome": "VOTORANTIM",
@@ -600,15 +618,6 @@
         "captacoes": 57697116338.77
       },
       {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 86569507149.19,
-        "patrimonio_liquido": 2778072066.56,
-        "lucro_liquido": 291001649.55,
-        "carteira_credito": 18348164106.86,
-        "captacoes": 70264761721.29
-      },
-      {
         "nome": "BNP PARIBAS",
         "segmento": "outro_banco",
         "ativo_total": 81046654964.47,
@@ -616,15 +625,6 @@
         "lucro_liquido": 22381855.73,
         "carteira_credito": 17528355359.9,
         "captacoes": 32708891243.74
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 66861446336.25,
-        "patrimonio_liquido": 4600890525.45,
-        "lucro_liquido": 452496447.75,
-        "carteira_credito": 20551929078.61,
-        "captacoes": 57900142751.14
       },
       {
         "nome": "DAYCOVAL",
@@ -643,15 +643,6 @@
         "lucro_liquido": 701342677.12,
         "carteira_credito": 14031225548.39,
         "captacoes": 20891034759.69
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 58292120649.46,
-        "patrimonio_liquido": 3458627928.4,
-        "lucro_liquido": 58159651.1,
-        "carteira_credito": 29393262361.12,
-        "captacoes": 14841594958.45
       },
       {
         "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS ",
@@ -798,6 +789,15 @@
         "captacoes": 8400050096.53
       },
       {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 29091369317.73,
+        "patrimonio_liquido": 2945491800.54,
+        "lucro_liquido": 227643099.28,
+        "carteira_credito": 12395073846.19,
+        "captacoes": 16841332830.25
+      },
+      {
         "nome": "GOLDMAN SACHS",
         "segmento": "outro_banco",
         "ativo_total": 28989957246.12,
@@ -814,6 +814,15 @@
         "lucro_liquido": 12827282.53,
         "carteira_credito": 2167368997.64,
         "captacoes": 6845090532.79
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 28387338348.92,
+        "patrimonio_liquido": 2759777258.76,
+        "lucro_liquido": 221119815.65,
+        "carteira_credito": 13503107391.71,
+        "captacoes": 14725261379.66
       },
       {
         "nome": "PAGSEGURO INTERNET INSTITUIÇÃO",
@@ -895,15 +904,6 @@
         "lucro_liquido": 140678241.02,
         "carteira_credito": 1765026489.65,
         "captacoes": 4613324452.11
-      },
-      {
-        "nome": "BANCOSEGURO S.A.",
-        "segmento": "outro_banco",
-        "ativo_total": 16613251406.09,
-        "patrimonio_liquido": 532051073.92,
-        "lucro_liquido": 19507763.2,
-        "carteira_credito": 403079069.75,
-        "captacoes": 15917943422.27
       }
     ],
     "202209": [
@@ -971,6 +971,24 @@
         "captacoes": 302463864114.2
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 404237278793.64,
+        "patrimonio_liquido": 34070650733.44,
+        "lucro_liquido": 1408639985.33,
+        "carteira_credito": 152989339663.77,
+        "captacoes": 260858781184.07
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 353958220124.57,
+        "patrimonio_liquido": 31228080343.64,
+        "lucro_liquido": 1516916475.45,
+        "carteira_credito": 125987915866.9,
+        "captacoes": 215463821421.68
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 248546044859.92,
@@ -989,13 +1007,13 @@
         "captacoes": 87793234424.92
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 147679397554.84,
-        "patrimonio_liquido": 3251785085.86,
-        "lucro_liquido": 52852219.7,
-        "carteira_credito": 20658462367.59,
-        "captacoes": 133098944485.38
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 138206682673.66,
+        "patrimonio_liquido": 10117960887.51,
+        "lucro_liquido": 352193619.29,
+        "carteira_credito": 55653445820.47,
+        "captacoes": 79285659676.94
       },
       {
         "nome": "XP",
@@ -1034,15 +1052,6 @@
         "captacoes": 68298080425.36
       },
       {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 105753338158.54,
-        "patrimonio_liquido": 2878754862,
-        "lucro_liquido": 94101304.13,
-        "carteira_credito": 19264559383.77,
-        "captacoes": 88677592759.62
-      },
-      {
         "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
         "segmento": "outro_banco",
         "ativo_total": 105463879564.5,
@@ -1070,15 +1079,6 @@
         "captacoes": 33527798951.74
       },
       {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 72907100681.87,
-        "patrimonio_liquido": 4831441285.78,
-        "lucro_liquido": 231821727.95,
-        "carteira_credito": 24052487541.15,
-        "captacoes": 63343864407.37
-      },
-      {
         "nome": "DAYCOVAL",
         "segmento": "outro_banco",
         "ativo_total": 67993986861.26,
@@ -1086,15 +1086,6 @@
         "lucro_liquido": 256832715.96,
         "carteira_credito": 44598678532.51,
         "captacoes": 54203006768.28
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 65299581991.79,
-        "patrimonio_liquido": 5286519601.73,
-        "lucro_liquido": 120371891.34,
-        "carteira_credito": 31600958279.32,
-        "captacoes": 15941795269.57
       },
       {
         "nome": "DO NORDESTE DO BRASIL S.A",
@@ -1178,6 +1169,15 @@
         "captacoes": 26151898301
       },
       {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 39487286187.14,
+        "patrimonio_liquido": 3117604501.12,
+        "lucro_liquido": 88694404.75,
+        "carteira_credito": 16575117670.3,
+        "captacoes": 19884975543.36
+      },
+      {
         "nome": "BRB",
         "segmento": "outro_banco",
         "ativo_total": 38932151671.4,
@@ -1239,6 +1239,15 @@
         "lucro_liquido": 63658091.62,
         "carteira_credito": 0,
         "captacoes": 3592296062.11
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 31157073775.48,
+        "patrimonio_liquido": 3094132117.23,
+        "lucro_liquido": 105757321.04,
+        "carteira_credito": 12940064200.53,
+        "captacoes": 17966507511.52
       },
       {
         "nome": "SOCIETE GENERALE",
@@ -1347,15 +1356,6 @@
         "lucro_liquido": 90986792.76,
         "carteira_credito": 2280399619.19,
         "captacoes": 11390407458.65
-      },
-      {
-        "nome": "CCB",
-        "segmento": "outro_banco",
-        "ativo_total": 19002235822.07,
-        "patrimonio_liquido": 1108651982.92,
-        "lucro_liquido": 15722886.42,
-        "carteira_credito": 10476440406.54,
-        "captacoes": 15011217346.32
       }
     ],
     "202212": [
@@ -1423,6 +1423,24 @@
         "captacoes": 290523568044.73
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 400114934488.59,
+        "patrimonio_liquido": 36236654193.11,
+        "lucro_liquido": 3128135740.84,
+        "carteira_credito": 161140811595.58,
+        "captacoes": 265374677485.21
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 361956773851.73,
+        "patrimonio_liquido": 33783903338.21,
+        "lucro_liquido": 3288718536.26,
+        "carteira_credito": 132591771836.58,
+        "captacoes": 216178725837.36
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 252426071858.42,
@@ -1432,6 +1450,15 @@
         "captacoes": 197421128529.77
       },
       {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 170570947217.63,
+        "patrimonio_liquido": 11497583687.41,
+        "lucro_liquido": 1906700681.09,
+        "carteira_credito": 62017957082.53,
+        "captacoes": 96005895662.47
+      },
+      {
         "nome": "CITIBANK",
         "segmento": "outro_banco",
         "ativo_total": 169772268594.12,
@@ -1439,15 +1466,6 @@
         "lucro_liquido": 1617262973.21,
         "carteira_credito": 28722596442.72,
         "captacoes": 94072431447.06
-      },
-      {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 150419287056.51,
-        "patrimonio_liquido": 3558629048.57,
-        "lucro_liquido": 80184141.7,
-        "carteira_credito": 22101025235.73,
-        "captacoes": 134807584500.49
       },
       {
         "nome": "XP",
@@ -1504,24 +1522,6 @@
         "captacoes": 70106513336.77
       },
       {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 102040529617.71,
-        "patrimonio_liquido": 3214466659.67,
-        "lucro_liquido": 179359145.7,
-        "carteira_credito": 21100412446.01,
-        "captacoes": 86572911285.6
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 97618048017.9,
-        "patrimonio_liquido": 5503277921.84,
-        "lucro_liquido": 924795884.55,
-        "carteira_credito": 26085719015.01,
-        "captacoes": 80504067400.21
-      },
-      {
         "nome": "BNP PARIBAS",
         "segmento": "outro_banco",
         "ativo_total": 78213107079.31,
@@ -1529,15 +1529,6 @@
         "lucro_liquido": -338404081.15,
         "carteira_credito": 14280096904.68,
         "captacoes": 29252699206.02
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 72952899199.73,
-        "patrimonio_liquido": 5994305765.57,
-        "lucro_liquido": 981904796.54,
-        "carteira_credito": 35932238067.52,
-        "captacoes": 15501828262.26
       },
       {
         "nome": "DAYCOVAL",
@@ -1610,6 +1601,15 @@
         "lucro_liquido": -1823230383.05,
         "carteira_credito": 29006327014.47,
         "captacoes": 31382037953.39
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 42972450568.56,
+        "patrimonio_liquido": 3478293087.51,
+        "lucro_liquido": 209492622.7,
+        "carteira_credito": 18176604204.53,
+        "captacoes": 21395210770.11
       },
       {
         "nome": "BRB",
@@ -1691,6 +1691,15 @@
         "lucro_liquido": 452392758.61,
         "carteira_credito": 1116651745.43,
         "captacoes": 14447167648.18
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 32340388496.24,
+        "patrimonio_liquido": 3168766987.85,
+        "lucro_liquido": 210782520.32,
+        "carteira_credito": 13639338591.01,
+        "captacoes": 18688060037.68
       },
       {
         "nome": "MUFG BRASIL S.A.",
@@ -1799,15 +1808,6 @@
         "lucro_liquido": 125608896.89,
         "carteira_credito": 19685164429.24,
         "captacoes": 17801640241.41
-      },
-      {
-        "nome": "MASTER",
-        "segmento": "outro_banco",
-        "ativo_total": 20545604831.28,
-        "patrimonio_liquido": 1566286055.72,
-        "lucro_liquido": 150821273.08,
-        "carteira_credito": 9788673535.76,
-        "captacoes": 18346995349.69
       }
     ],
     "202303": [
@@ -1875,6 +1875,24 @@
         "captacoes": 302553708834.89
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 433064719968.43,
+        "patrimonio_liquido": 37852941656.28,
+        "lucro_liquido": 1568192424.8,
+        "carteira_credito": 165434583408.77,
+        "captacoes": 289572234438.07
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 386904554859.06,
+        "patrimonio_liquido": 35314909083.64,
+        "lucro_liquido": 1548426509.53,
+        "carteira_credito": 136616795579.05,
+        "captacoes": 231130721320.55
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 250042045780.08,
@@ -1884,15 +1902,6 @@
         "captacoes": 185440588459.86
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 167127309963.45,
-        "patrimonio_liquido": 3636916196.59,
-        "lucro_liquido": 73282007.75,
-        "carteira_credito": 22751766228.74,
-        "captacoes": 150628287529.01
-      },
-      {
         "nome": "CITIBANK",
         "segmento": "outro_banco",
         "ativo_total": 160367419764.39,
@@ -1900,6 +1909,15 @@
         "lucro_liquido": 432763777.29,
         "carteira_credito": 28293320855.69,
         "captacoes": 91748738903.32
+      },
+      {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 156388480683.42,
+        "patrimonio_liquido": 13482535417.8,
+        "lucro_liquido": 1480772990.85,
+        "carteira_credito": 66704334774.52,
+        "captacoes": 88000783029.18
       },
       {
         "nome": "XP",
@@ -1938,15 +1956,6 @@
         "captacoes": 87964816648.21
       },
       {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 110881809921.21,
-        "patrimonio_liquido": 3324120313.7,
-        "lucro_liquido": 117436568.01,
-        "carteira_credito": 21987467754.01,
-        "captacoes": 92925218233.93
-      },
-      {
         "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
         "segmento": "outro_banco",
         "ativo_total": 108414777108.38,
@@ -1963,15 +1972,6 @@
         "lucro_liquido": 440842668.53,
         "carteira_credito": 0,
         "captacoes": 6436625458.08
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 90868140252.8,
-        "patrimonio_liquido": 6214849742.17,
-        "lucro_liquido": 702840727.18,
-        "carteira_credito": 29998551608.86,
-        "captacoes": 79033200413.93
       },
       {
         "nome": "BNP PARIBAS",
@@ -1999,15 +1999,6 @@
         "lucro_liquido": 502553002.16,
         "carteira_credito": 13868485322.24,
         "captacoes": 21114718124.9
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 65520340430.62,
-        "patrimonio_liquido": 7267685675.63,
-        "lucro_liquido": 777932263.67,
-        "carteira_credito": 36705783165.66,
-        "captacoes": 8967582615.25
       },
       {
         "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS ",
@@ -2062,6 +2053,15 @@
         "lucro_liquido": -9736423.15,
         "carteira_credito": 23405333563.73,
         "captacoes": 33415765697.99
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 44881352911.18,
+        "patrimonio_liquido": 3753102164.56,
+        "lucro_liquido": 131517261.3,
+        "carteira_credito": 19128370731.43,
+        "captacoes": 22461336997.74
       },
       {
         "nome": "BMG",
@@ -2134,6 +2134,15 @@
         "lucro_liquido": 101801281.94,
         "carteira_credito": 0,
         "captacoes": 4379775937.22
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 32983804180.6,
+        "patrimonio_liquido": 3301872403.6,
+        "lucro_liquido": 45567184.46,
+        "carteira_credito": 13942857067.36,
+        "captacoes": 19117202051.33
       },
       {
         "nome": "ORIGINAL",
@@ -2251,15 +2260,6 @@
         "lucro_liquido": 4261404.57,
         "carteira_credito": 12949375026.58,
         "captacoes": 17521002105.7
-      },
-      {
-        "nome": "PAGBANK-PAGSEGURO",
-        "segmento": "outro_banco",
-        "ativo_total": 21061448181.4,
-        "patrimonio_liquido": 726041576.91,
-        "lucro_liquido": -2998854.65,
-        "carteira_credito": 958178848.17,
-        "captacoes": 19807936179.18
       }
     ],
     "202306": [
@@ -2327,6 +2327,24 @@
         "captacoes": 313951076190.61
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 444305813707.13,
+        "patrimonio_liquido": 40339143404.91,
+        "lucro_liquido": 3419746006.32,
+        "carteira_credito": 164149085635.66,
+        "captacoes": 296502894098.97
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 412675278582.83,
+        "patrimonio_liquido": 36893464059.33,
+        "lucro_liquido": 3261509665.19,
+        "carteira_credito": 139603112826.13,
+        "captacoes": 246899698258.18
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 248193146465.06,
@@ -2345,13 +2363,13 @@
         "captacoes": 101666767083.91
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 169664660546.34,
-        "patrimonio_liquido": 4238692707.95,
-        "lucro_liquido": 155644927.15,
-        "carteira_credito": 23280341958.55,
-        "captacoes": 151962991316.41
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 170439945260.07,
+        "patrimonio_liquido": 15371079444.43,
+        "lucro_liquido": 3373178359.09,
+        "carteira_credito": 71986208626.98,
+        "captacoes": 96343772917.0
       },
       {
         "nome": "XP",
@@ -2370,15 +2388,6 @@
         "lucro_liquido": 564748810.2,
         "carteira_credito": 71341158480.03,
         "captacoes": 94737625036.02
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 118430552961.93,
-        "patrimonio_liquido": 3436069069.53,
-        "lucro_liquido": 223052486.08,
-        "carteira_credito": 22526399939.11,
-        "captacoes": 99455215839.12
       },
       {
         "nome": "BANRISUL",
@@ -2426,15 +2435,6 @@
         "captacoes": 7406720564.9
       },
       {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 102030701172.66,
-        "patrimonio_liquido": 7214138818.74,
-        "lucro_liquido": 1693491664.74,
-        "carteira_credito": 33071217231.83,
-        "captacoes": 87224623455.74
-      },
-      {
         "nome": "DAYCOVAL",
         "segmento": "outro_banco",
         "ativo_total": 73782779414.55,
@@ -2442,15 +2442,6 @@
         "lucro_liquido": 458862511.01,
         "carteira_credito": 45231464029.48,
         "captacoes": 58193400013.97
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 68409244087.41,
-        "patrimonio_liquido": 8156940625.69,
-        "lucro_liquido": 1679686694.35,
-        "carteira_credito": 38914991395.15,
-        "captacoes": 9119149461.26
       },
       {
         "nome": "DO NORDESTE DO BRASIL S.A",
@@ -2525,6 +2516,15 @@
         "captacoes": 34062422240.91
       },
       {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 41952433605.67,
+        "patrimonio_liquido": 3996126107.48,
+        "lucro_liquido": 248526544.91,
+        "carteira_credito": 18838230203.53,
+        "captacoes": 21248279446.81
+      },
+      {
         "nome": "DA AMAZONIA S.A.",
         "segmento": "outro_banco",
         "ativo_total": 40760172953.15,
@@ -2586,6 +2586,15 @@
         "lucro_liquido": 15383024.84,
         "carteira_credito": 1431744766.45,
         "captacoes": 6363548811.74
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 35084328172.66,
+        "patrimonio_liquido": 3386682631.77,
+        "lucro_liquido": 118860708.21,
+        "carteira_credito": 14439052013.7,
+        "captacoes": 20155113061.73
       },
       {
         "nome": "GOLDMAN SACHS",
@@ -2703,15 +2712,6 @@
         "lucro_liquido": 12238868.49,
         "carteira_credito": 787724313.03,
         "captacoes": 3501538463.07
-      },
-      {
-        "nome": "ALFA",
-        "segmento": "outro_banco",
-        "ativo_total": 21438713126.17,
-        "patrimonio_liquido": 2781513513.1,
-        "lucro_liquido": 38878628.85,
-        "carteira_credito": 12194800760.69,
-        "captacoes": 17496671132.82
       }
     ],
     "202309": [
@@ -2779,6 +2779,24 @@
         "captacoes": 336007197544.77
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 467192972262.76,
+        "patrimonio_liquido": 42359553671.21,
+        "lucro_liquido": 1741932484.01,
+        "carteira_credito": 176429633096.58,
+        "captacoes": 308230258229.1
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 446633176088.51,
+        "patrimonio_liquido": 38898205400.11,
+        "lucro_liquido": 1783900770.06,
+        "carteira_credito": 144414039049.92,
+        "captacoes": 269090226958.89
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 257142566261.59,
@@ -2788,6 +2806,15 @@
         "captacoes": 190590404243.03
       },
       {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 199047721669.48,
+        "patrimonio_liquido": 18190879653.91,
+        "lucro_liquido": 2739356753.73,
+        "carteira_credito": 78260582622.73,
+        "captacoes": 109110226949.06
+      },
+      {
         "nome": "CITIBANK",
         "segmento": "outro_banco",
         "ativo_total": 185560797893.91,
@@ -2795,15 +2822,6 @@
         "lucro_liquido": 852638200.94,
         "carteira_credito": 30408600053.68,
         "captacoes": 115229862972.67
-      },
-      {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 173548839568.47,
-        "patrimonio_liquido": 4288074953.66,
-        "lucro_liquido": 70847236.72,
-        "carteira_credito": 25461490066.77,
-        "captacoes": 155079576525.4
       },
       {
         "nome": "XP",
@@ -2824,15 +2842,6 @@
         "captacoes": 94359169171.69
       },
       {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 132870362869.51,
-        "patrimonio_liquido": 3583190892.41,
-        "lucro_liquido": 147724823.27,
-        "carteira_credito": 23724994935.44,
-        "captacoes": 112967695913.98
-      },
-      {
         "nome": "BANRISUL",
         "segmento": "outro_banco",
         "ativo_total": 122397182044.98,
@@ -2849,15 +2858,6 @@
         "lucro_liquido": 956888183.83,
         "carteira_credito": 0,
         "captacoes": 0
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 115683781699.35,
-        "patrimonio_liquido": 8602272238.94,
-        "lucro_liquido": 1365752335.72,
-        "carteira_credito": 36775209603.79,
-        "captacoes": 92313019352.93
       },
       {
         "nome": "JP MORGAN CHASE",
@@ -2885,15 +2885,6 @@
         "lucro_liquido": 19232475.4,
         "carteira_credito": 10563527583.27,
         "captacoes": 28328732933.39
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 83363939970.13,
-        "patrimonio_liquido": 9588607414.97,
-        "lucro_liquido": 1373604418.01,
-        "carteira_credito": 41485373018.94,
-        "captacoes": 16797207596.13
       },
       {
         "nome": "DAYCOVAL",
@@ -2948,6 +2939,15 @@
         "lucro_liquido": 45118086.89,
         "carteira_credito": 26629429358.49,
         "captacoes": 39136677728.23
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 51854666202.46,
+        "patrimonio_liquido": 4279900219.42,
+        "lucro_liquido": 97115756.37,
+        "carteira_credito": 22112053589.22,
+        "captacoes": 26135754205.47
       },
       {
         "nome": "RABOBANK INTERNATIONAL BR",
@@ -3011,6 +3011,15 @@
         "lucro_liquido": 89685289.52,
         "carteira_credito": 0,
         "captacoes": 5996323300.08
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 36875434508.89,
+        "patrimonio_liquido": 3527173054.28,
+        "lucro_liquido": 119517512.82,
+        "carteira_credito": 14590815904.52,
+        "captacoes": 20863796916.05
       },
       {
         "nome": "MUFG BRASIL S.A.",
@@ -3155,15 +3164,6 @@
         "lucro_liquido": -15114492.41,
         "carteira_credito": 7090873315.18,
         "captacoes": 22318105445.67
-      },
-      {
-        "nome": "ALFA",
-        "segmento": "outro_banco",
-        "ativo_total": 20775097167.43,
-        "patrimonio_liquido": 2811318103.42,
-        "lucro_liquido": 29804590.31,
-        "carteira_credito": 11780529306.89,
-        "captacoes": 16844543769.3
       }
     ],
     "202312": [
@@ -3231,6 +3231,24 @@
         "captacoes": 345738128734.48
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 468618325891.62,
+        "patrimonio_liquido": 45987371890.54,
+        "lucro_liquido": 3706181188.54,
+        "carteira_credito": 189527088276.35,
+        "captacoes": 300129894599.07
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 452858777715.35,
+        "patrimonio_liquido": 41950032068.83,
+        "lucro_liquido": 3859716115.6,
+        "carteira_credito": 151537829672.78,
+        "captacoes": 272810138394.95
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 293785245283.98,
@@ -3238,6 +3256,15 @@
         "lucro_liquido": 1922606139.93,
         "carteira_credito": 124480657694.35,
         "captacoes": 227831443780.42
+      },
+      {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 245363412772.79,
+        "patrimonio_liquido": 21174089877.88,
+        "lucro_liquido": 6288606881.36,
+        "carteira_credito": 88743091131.46,
+        "captacoes": 132714611724.52
       },
       {
         "nome": "XP",
@@ -3258,15 +3285,6 @@
         "captacoes": 112597058317.98
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 164040008317.45,
-        "patrimonio_liquido": 4792696455.57,
-        "lucro_liquido": 61554034.06,
-        "carteira_credito": 28337602765.04,
-        "captacoes": 143347228060.29
-      },
-      {
         "nome": "VOTORANTIM",
         "segmento": "outro_banco",
         "ativo_total": 142083636663.79,
@@ -3274,24 +3292,6 @@
         "lucro_liquido": 585812516.09,
         "carteira_credito": 73306325326.57,
         "captacoes": 104806015645.02
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 141452281599.11,
-        "patrimonio_liquido": 10007129291.71,
-        "lucro_liquido": 3269224882.27,
-        "carteira_credito": 41519985808.48,
-        "captacoes": 106816151707.17
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 130527155076.04,
-        "patrimonio_liquido": 4175452294.37,
-        "lucro_liquido": 320773207.01,
-        "carteira_credito": 25907518566.15,
-        "captacoes": 111530880024.97
       },
       {
         "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
@@ -3328,15 +3328,6 @@
         "lucro_liquido": 937507182.43,
         "carteira_credito": 0,
         "captacoes": 7759585241.4
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 103911131173.68,
-        "patrimonio_liquido": 11166960586.17,
-        "lucro_liquido": 3019381999.09,
-        "carteira_credito": 47223105322.98,
-        "captacoes": 25898460017.35
       },
       {
         "nome": "BNP PARIBAS BRASIL S.A.",
@@ -3400,6 +3391,15 @@
         "lucro_liquido": 459680907.62,
         "carteira_credito": 23906514683.02,
         "captacoes": 42604502987.39
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 54871369251.03,
+        "patrimonio_liquido": 4578652046.17,
+        "lucro_liquido": 224355314.5,
+        "carteira_credito": 24056653556.9,
+        "captacoes": 27318035861.84
       },
       {
         "nome": "BRB",
@@ -3472,6 +3472,15 @@
         "lucro_liquido": 185377727.32,
         "carteira_credito": 9523389008.55,
         "captacoes": 37877089366.01
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 37339621350.7,
+        "patrimonio_liquido": 3606277836.35,
+        "lucro_liquido": 244178528.56,
+        "carteira_credito": 15172293408.72,
+        "captacoes": 21224161906.5
       },
       {
         "nome": "MASTER",
@@ -3607,15 +3616,6 @@
         "lucro_liquido": 107441056.94,
         "carteira_credito": 7424402894.78,
         "captacoes": 16761234331
-      },
-      {
-        "nome": "REGIONAL DE DESENVOLVIMEN",
-        "segmento": "outro_banco",
-        "ativo_total": 21098390534.4,
-        "patrimonio_liquido": 4101322431.86,
-        "lucro_liquido": 276630310.1,
-        "carteira_credito": 17824653942.69,
-        "captacoes": 15560683382.1
       }
     ],
     "202403": [
@@ -3683,6 +3683,24 @@
         "captacoes": 382800737331.38
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 483092655877.23,
+        "patrimonio_liquido": 47353639315.01,
+        "lucro_liquido": 1305665039.79,
+        "carteira_credito": 197353405904.82,
+        "captacoes": 309623356999.2
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 471823874802.66,
+        "patrimonio_liquido": 44014302899.04,
+        "lucro_liquido": 1600788693.22,
+        "carteira_credito": 155422215885.21,
+        "captacoes": 285217726789.85
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 287630193635.68,
@@ -3690,6 +3708,15 @@
         "lucro_liquido": 667172384.44,
         "carteira_credito": 119736395772.27,
         "captacoes": 217931660542.24
+      },
+      {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 218592158664.16,
+        "patrimonio_liquido": 23652432879.12,
+        "lucro_liquido": 3596077005.86,
+        "carteira_credito": 96908676553.43,
+        "captacoes": 120477426556.08
       },
       {
         "nome": "XP",
@@ -3710,24 +3737,6 @@
         "captacoes": 125836768118.21
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 164529511981.23,
-        "patrimonio_liquido": 4806801394.18,
-        "lucro_liquido": 49580602.5,
-        "carteira_credito": 30252091787.68,
-        "captacoes": 143203578612.48
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 137864830416.49,
-        "patrimonio_liquido": 4346101635.58,
-        "lucro_liquido": 169270819.51,
-        "carteira_credito": 26417818999.22,
-        "captacoes": 116425861466.63
-      },
-      {
         "nome": "VOTORANTIM",
         "segmento": "outro_banco",
         "ativo_total": 135666109431.5,
@@ -3744,15 +3753,6 @@
         "lucro_liquido": 772687147.86,
         "carteira_credito": 0,
         "captacoes": 0
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 127867014301.58,
-        "patrimonio_liquido": 10766340716.03,
-        "lucro_liquido": 1836676993.36,
-        "carteira_credito": 49145606026.33,
-        "captacoes": 110877807607.58
       },
       {
         "nome": "BANRISUL",
@@ -3789,15 +3789,6 @@
         "lucro_liquido": 33947860.19,
         "carteira_credito": 9577947870.69,
         "captacoes": 27772372225.95
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 90725144362.58,
-        "patrimonio_liquido": 12886092163.09,
-        "lucro_liquido": 1759400012.5,
-        "carteira_credito": 47763070527.1,
-        "captacoes": 9599618948.5
       },
       {
         "nome": "C6 Bank",
@@ -3852,6 +3843,15 @@
         "lucro_liquido": 237541753.18,
         "carteira_credito": 22114932102.38,
         "captacoes": 42629942824.44
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 57072912707.65,
+        "patrimonio_liquido": 4819269445.79,
+        "lucro_liquido": 84048624.74,
+        "carteira_credito": 25269795284.52,
+        "captacoes": 28161328725.61
       },
       {
         "nome": "RABOBANK INTERNATIONAL BR",
@@ -3951,6 +3951,15 @@
         "lucro_liquido": 59485455.51,
         "carteira_credito": 17432214140.18,
         "captacoes": 37100907583.64
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 38996287724.82,
+        "patrimonio_liquido": 3794594530.25,
+        "lucro_liquido": 71112575.24,
+        "carteira_credito": 15318324591.94,
+        "captacoes": 21768238376.28
       },
       {
         "nome": "BOFA MERRILL LYNCH",
@@ -4059,15 +4068,6 @@
         "lucro_liquido": 1312953.09,
         "carteira_credito": 627920059.59,
         "captacoes": 3297129491.94
-      },
-      {
-        "nome": "PINE",
-        "segmento": "outro_banco",
-        "ativo_total": 24436715469.24,
-        "patrimonio_liquido": 1079865497.62,
-        "lucro_liquido": 62978339.14,
-        "carteira_credito": 9405100772.42,
-        "captacoes": 19229362453.29
       }
     ],
     "202406": [
@@ -4135,6 +4135,24 @@
         "captacoes": 408866198968.25
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 510854236772.54,
+        "patrimonio_liquido": 48909923157.83,
+        "lucro_liquido": 3055609896.87,
+        "carteira_credito": 201775898285.49,
+        "captacoes": 332421072824.45
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 501141295298.47,
+        "patrimonio_liquido": 45572822321.26,
+        "lucro_liquido": 3360108671.06,
+        "carteira_credito": 160551382103.4,
+        "captacoes": 302557488425.1
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 295999532866.09,
@@ -4142,6 +4160,15 @@
         "lucro_liquido": 1380009065.11,
         "carteira_credito": 122503181505.72,
         "captacoes": 228784806354.02
+      },
+      {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 238477730378.76,
+        "patrimonio_liquido": 26631437338.67,
+        "lucro_liquido": 8353694063.2,
+        "carteira_credito": 103538315923.27,
+        "captacoes": 134944866952.16
       },
       {
         "nome": "XP",
@@ -4160,33 +4187,6 @@
         "lucro_liquido": 895606302.55,
         "carteira_credito": 30006330559.4,
         "captacoes": 131915959576.57
-      },
-      {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 172425955180.86,
-        "patrimonio_liquido": 4795884224.86,
-        "lucro_liquido": 67456725.81,
-        "carteira_credito": 31873444972.29,
-        "captacoes": 150439779755.22
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 146212798793.28,
-        "patrimonio_liquido": 12382243609.44,
-        "lucro_liquido": 4295627331.34,
-        "carteira_credito": 54428975683.48,
-        "captacoes": 124861602114.77
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 145910726954.52,
-        "patrimonio_liquido": 4506750094.97,
-        "lucro_liquido": 308497540.06,
-        "carteira_credito": 27846165845.08,
-        "captacoes": 122541004363.44
       },
       {
         "nome": "JP MORGAN CHASE",
@@ -4243,15 +4243,6 @@
         "captacoes": 26860248046.05
       },
       {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 92264931585.48,
-        "patrimonio_liquido": 14249193729.23,
-        "lucro_liquido": 4058066731.86,
-        "carteira_credito": 49109340239.79,
-        "captacoes": 10083264837.39
-      },
-      {
         "nome": "C6 Bank",
         "segmento": "outro_banco",
         "ativo_total": 86089831611.62,
@@ -4304,6 +4295,15 @@
         "lucro_liquido": 308548864.26,
         "carteira_credito": 0,
         "captacoes": 1289818001.68
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 59069733496.83,
+        "patrimonio_liquido": 5194021302.34,
+        "lucro_liquido": 308447122.33,
+        "carteira_credito": 25694357992.82,
+        "captacoes": 29587838562.73
       },
       {
         "nome": "MASTER",
@@ -4414,6 +4414,15 @@
         "captacoes": 21828501506.84
       },
       {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 40648282074.63,
+        "patrimonio_liquido": 3848034012.83,
+        "lucro_liquido": 141456300.36,
+        "carteira_credito": 15348960876.6,
+        "captacoes": 22361275738.14
+      },
+      {
         "nome": "PAGBANK-PAGSEGURO",
         "segmento": "outro_banco",
         "ativo_total": 38571735599.64,
@@ -4511,15 +4520,6 @@
         "lucro_liquido": 66160087.51,
         "carteira_credito": 7147464372.41,
         "captacoes": 12089788107.7
-      },
-      {
-        "nome": "CNH INDUSTRIAL CAPITAL S.",
-        "segmento": "outro_banco",
-        "ativo_total": 25722123184.66,
-        "patrimonio_liquido": 2458549383.77,
-        "lucro_liquido": -164890988.99,
-        "carteira_credito": 24951880297.33,
-        "captacoes": 21153936922.79
       }
     ],
     "202409": [
@@ -4587,6 +4587,24 @@
         "captacoes": 420848069879.66
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 538109230937.1,
+        "patrimonio_liquido": 52053562857.68,
+        "lucro_liquido": 1627294370.7,
+        "carteira_credito": 215440073006.23,
+        "captacoes": 350476408557.28
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 525653138288.32,
+        "patrimonio_liquido": 47655481658.85,
+        "lucro_liquido": 1753168565.44,
+        "carteira_credito": 166477663156.55,
+        "captacoes": 315403228966.5
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 314368327545.37,
@@ -4605,6 +4623,15 @@
         "captacoes": 180207239058.15
       },
       {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 239898391557.6,
+        "patrimonio_liquido": 26234009853.92,
+        "lucro_liquido": 4798809906.45,
+        "carteira_credito": 109848165263.44,
+        "captacoes": 140870702248.53
+      },
+      {
         "nome": "CITIBANK",
         "segmento": "outro_banco",
         "ativo_total": 208734065023.68,
@@ -4614,15 +4641,6 @@
         "captacoes": 129873790795.78
       },
       {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 184196227321.71,
-        "patrimonio_liquido": 4970425797.25,
-        "lucro_liquido": -31829561.33,
-        "carteira_credito": 34660175635.39,
-        "captacoes": 159788432595.55
-      },
-      {
         "nome": "JP MORGAN CHASE",
         "segmento": "outro_banco",
         "ativo_total": 167318140602.3,
@@ -4630,24 +4648,6 @@
         "lucro_liquido": 281334025.19,
         "carteira_credito": 2413011740.56,
         "captacoes": 82685611854.51
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 156471892978.34,
-        "patrimonio_liquido": 10072409242.79,
-        "lucro_liquido": 2290856755.35,
-        "carteira_credito": 58886022776.11,
-        "captacoes": 134166333665.42
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 152227475288.09,
-        "patrimonio_liquido": 4657038717.74,
-        "lucro_liquido": 144342967.52,
-        "carteira_credito": 29343922117.88,
-        "captacoes": 125940099669.9
       },
       {
         "nome": "VOTORANTIM",
@@ -4704,15 +4704,6 @@
         "captacoes": 70302543619.59
       },
       {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 83426498579.26,
-        "patrimonio_liquido": 16161600611.13,
-        "lucro_liquido": 2507953151.1,
-        "carteira_credito": 50962142487.33,
-        "captacoes": 6704368583.11
-      },
-      {
         "nome": "DAYCOVAL",
         "segmento": "outro_banco",
         "ativo_total": 79114286997.15,
@@ -4756,6 +4747,15 @@
         "lucro_liquido": 271840916.72,
         "carteira_credito": 21705434894.72,
         "captacoes": 48219603247.69
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 66850286774.16,
+        "patrimonio_liquido": 5647345728.59,
+        "lucro_liquido": 177835257.94,
+        "carteira_credito": 29774394196.91,
+        "captacoes": 33557128269.49
       },
       {
         "nome": "GETNET ADQUIRÊNCIA E SERVIÇOS ",
@@ -4855,6 +4855,15 @@
         "lucro_liquido": 243701368.61,
         "carteira_credito": 312161778,
         "captacoes": 9032084953.06
+      },
+      {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 42251342677.85,
+        "patrimonio_liquido": 4025717289.14,
+        "lucro_liquido": 84664178.01,
+        "carteira_credito": 16124118348.47,
+        "captacoes": 23331335198.6
       },
       {
         "nome": "PAGBANK-PAGSEGURO",
@@ -4963,15 +4972,6 @@
         "lucro_liquido": 205320423.74,
         "carteira_credito": 21875969516.71,
         "captacoes": 19165514030.43
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 25746117091.6,
-        "patrimonio_liquido": 1307522570.06,
-        "lucro_liquido": 34008940.21,
-        "carteira_credito": 185885771.2,
-        "captacoes": 514264862.54
       }
     ],
     "202412": [
@@ -5039,6 +5039,24 @@
         "captacoes": 409354842901.24
       },
       {
+        "nome": "Sicredi",
+        "segmento": "cooperativa",
+        "ativo_total": 553050053034.46,
+        "patrimonio_liquido": 53827408167.97,
+        "lucro_liquido": 3839870996.69,
+        "carteira_credito": 228130718198.52,
+        "captacoes": 359792585160.43
+      },
+      {
+        "nome": "Sicoob",
+        "segmento": "cooperativa",
+        "ativo_total": 540307084675.83,
+        "patrimonio_liquido": 50756017230.39,
+        "lucro_liquido": 4026633019.21,
+        "carteira_credito": 177089459517.11,
+        "captacoes": 327361624260.16
+      },
+      {
         "nome": "SAFRA",
         "segmento": "outro_banco",
         "ativo_total": 302042203703.49,
@@ -5057,6 +5075,15 @@
         "captacoes": 202276945670.21
       },
       {
+        "nome": "Nubank",
+        "segmento": "grande",
+        "ativo_total": 270565076479.01,
+        "patrimonio_liquido": 31642178689.92,
+        "lucro_liquido": 10303278929.98,
+        "carteira_credito": 122620340066.8,
+        "captacoes": 156771770379.58
+      },
+      {
         "nome": "CITIBANK",
         "segmento": "outro_banco",
         "ativo_total": 229633957124.51,
@@ -5064,33 +5091,6 @@
         "lucro_liquido": 1392455442.88,
         "carteira_credito": 36562887846.22,
         "captacoes": 144482140372.6
-      },
-      {
-        "nome": "Sicredi",
-        "segmento": "cooperativa",
-        "ativo_total": 191215588038.93,
-        "patrimonio_liquido": 4951005883.26,
-        "lucro_liquido": 73474489.47,
-        "carteira_credito": 38658113437.6,
-        "captacoes": 165305068927.86
-      },
-      {
-        "nome": "Nubank",
-        "segmento": "grande",
-        "ativo_total": 176097862319.76,
-        "patrimonio_liquido": 12586215901.87,
-        "lucro_liquido": 4832680935.76,
-        "carteira_credito": 65540431523.94,
-        "captacoes": 149211859974.21
-      },
-      {
-        "nome": "Sicoob",
-        "segmento": "cooperativa",
-        "ativo_total": 153546411156.88,
-        "patrimonio_liquido": 4996212529.47,
-        "lucro_liquido": 283344862.68,
-        "carteira_credito": 33028536211.83,
-        "captacoes": 130096784132.1
       },
       {
         "nome": "BANRISUL",
@@ -5147,15 +5147,6 @@
         "captacoes": 56470662925.25
       },
       {
-        "nome": "Nubank",
-        "segmento": "outro_banco",
-        "ativo_total": 94467214159.25,
-        "patrimonio_liquido": 19055962788.05,
-        "lucro_liquido": 5470597994.22,
-        "carteira_credito": 57079908542.86,
-        "captacoes": 7559910405.37
-      },
-      {
         "nome": "BNP PARIBAS BRASIL S.A.",
         "segmento": "outro_banco",
         "ativo_total": 93391900011.76,
@@ -5199,6 +5190,15 @@
         "lucro_liquido": 279918123.21,
         "carteira_credito": 0,
         "captacoes": 221950062.18
+      },
+      {
+        "nome": "Cresol",
+        "segmento": "outro_banco",
+        "ativo_total": 71973524677.35,
+        "patrimonio_liquido": 6132778304.14,
+        "lucro_liquido": 437857493.79,
+        "carteira_credito": 32302849989.0,
+        "captacoes": 35595487218.47
       },
       {
         "nome": "PAGSEGURO INTERNET INSTITUIÇÃO",
@@ -5327,6 +5327,15 @@
         "captacoes": 13965287729.2
       },
       {
+        "nome": "Unicred",
+        "segmento": "cooperativa",
+        "ativo_total": 42349238445.44,
+        "patrimonio_liquido": 3824574511.55,
+        "lucro_liquido": 170969708.28,
+        "carteira_credito": 17007128086.47,
+        "captacoes": 23995848580.25
+      },
+      {
         "nome": "BANESTES",
         "segmento": "outro_banco",
         "ativo_total": 36971025402.34,
@@ -5415,15 +5424,6 @@
         "lucro_liquido": 333389539.74,
         "carteira_credito": 0,
         "captacoes": 8482838139.34
-      },
-      {
-        "nome": "CRÉDIT AGRICOLE BRASIL S.",
-        "segmento": "outro_banco",
-        "ativo_total": 26867825716.04,
-        "patrimonio_liquido": 2661638062.21,
-        "lucro_liquido": 106868933.32,
-        "carteira_credito": 8472075673.15,
-        "captacoes": 13859136767.83
       }
     ]
   }

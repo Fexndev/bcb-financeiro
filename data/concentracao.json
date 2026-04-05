@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-05T18:35:00Z",
+  "last_updated": "2026-04-05T18:53:57Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
-      "hhi_ativo": 909.47,
-      "hhi_credito": 1029.79,
+      "hhi_ativo": 920.8,
+      "hhi_credito": 1042.09,
       "top5_share_ativo": 63.28,
-      "top10_share_ativo": 76.42,
+      "top10_share_ativo": 79.21,
       "share_por_segmento": {
-        "grande": 63.74,
-        "outro_banco": 31.31,
-        "cooperativa": 4.95
+        "grande": 64.16,
+        "outro_banco": 29.32,
+        "cooperativa": 6.52
       },
       "ranking_ativo": [
         {
@@ -56,6 +56,18 @@
           "share": 3.0321
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 324896964718.97,
+          "share": 2.5829
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 292315532607.37,
+          "share": 2.3238
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 221289309732.2,
@@ -80,10 +92,10 @@
           "share": 0.9005
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 109943220422.25,
-          "share": 0.874
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 109892526781.51,
+          "share": 0.8736
         },
         {
           "nome": "BANRISUL",
@@ -110,12 +122,6 @@
           "share": 0.6975
         },
         {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 84016387478.09,
-          "share": 0.6679
-        },
-        {
           "nome": "BNP PARIBAS",
           "segmento": "outro_banco",
           "valor": 79328676365.08,
@@ -126,12 +132,6 @@
           "segmento": "outro_banco",
           "valor": 63006496021.95,
           "share": 0.5009
-        },
-        {
-          "nome": "DAYCOVAL",
-          "segmento": "outro_banco",
-          "valor": 61167013164.18,
-          "share": 0.4863
         }
       ],
       "ranking_credito": [
@@ -172,6 +172,18 @@
           "share": 5.1518
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 138936370874.7,
+          "share": 2.6764
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 114902875651.79,
+          "share": 2.2134
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 112432322648.12,
@@ -190,6 +202,12 @@
           "share": 1.2762
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 44702650404.77,
+          "share": 0.8611
+        },
+        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 42378482533.45,
@@ -206,12 +224,6 @@
           "segmento": "outro_banco",
           "valor": 28861083038.28,
           "share": 0.556
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 26401104437.01,
-          "share": 0.5086
         },
         {
           "nome": "RABOBANK INTERNATIONAL BR",
@@ -238,18 +250,6 @@
           "share": 0.4277
         },
         {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 18301545967.76,
-          "share": 0.3525
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 17928834337.63,
-          "share": 0.3454
-        },
-        {
           "nome": "INTER",
           "segmento": "outro_banco",
           "valor": 17801569009.02,
@@ -258,14 +258,14 @@
       ]
     },
     "202206": {
-      "hhi_ativo": 893.42,
-      "hhi_credito": 1026.96,
+      "hhi_ativo": 905.5,
+      "hhi_credito": 1038.77,
       "top5_share_ativo": 62.63,
-      "top10_share_ativo": 75.86,
+      "top10_share_ativo": 78.81,
       "share_por_segmento": {
-        "grande": 63.15,
-        "outro_banco": 31.76,
-        "cooperativa": 5.09
+        "grande": 63.6,
+        "outro_banco": 29.71,
+        "cooperativa": 6.69
       },
       "ranking_ativo": [
         {
@@ -311,6 +311,18 @@
           "share": 3.4307
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 350876525254.15,
+          "share": 2.688
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 309800958455.93,
+          "share": 2.3733
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 243394511527.65,
@@ -323,16 +335,16 @@
           "share": 1.17
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 125153566985.71,
+          "share": 0.9588
+        },
+        {
           "nome": "XP",
           "segmento": "outro_banco",
           "valor": 122976525057.62,
           "share": 0.9421
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 122445373560.1,
-          "share": 0.938
         },
         {
           "nome": "VOTORANTIM",
@@ -365,22 +377,10 @@
           "share": 0.7087
         },
         {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 86569507149.19,
-          "share": 0.6632
-        },
-        {
           "nome": "BNP PARIBAS",
           "segmento": "outro_banco",
           "valor": 81046654964.47,
           "share": 0.6209
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 66861446336.25,
-          "share": 0.5122
         },
         {
           "nome": "DAYCOVAL",
@@ -427,6 +427,18 @@
           "share": 5.068
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 140384151307.26,
+          "share": 2.5972
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 118218214865.77,
+          "share": 2.1871
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 117407230568.71,
@@ -445,6 +457,12 @@
           "share": 1.2304
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 49945191439.73,
+          "share": 0.924
+        },
+        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 44585484517.93,
@@ -455,12 +473,6 @@
           "segmento": "outro_banco",
           "valor": 42372421375.95,
           "share": 0.7839
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 29393262361.12,
-          "share": 0.5438
         },
         {
           "nome": "RABOBANK INTERNATIONAL BR",
@@ -497,30 +509,18 @@
           "segmento": "outro_banco",
           "valor": 21263457806.76,
           "share": 0.3934
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 20551929078.61,
-          "share": 0.3802
-        },
-        {
-          "nome": "BMG",
-          "segmento": "outro_banco",
-          "valor": 19842327525.82,
-          "share": 0.3671
         }
       ]
     },
     "202209": {
-      "hhi_ativo": 892.63,
-      "hhi_credito": 1019.21,
+      "hhi_ativo": 906.85,
+      "hhi_credito": 1031.89,
       "top5_share_ativo": 62.86,
-      "top10_share_ativo": 75.53,
+      "top10_share_ativo": 78.85,
       "share_por_segmento": {
-        "grande": 63.41,
-        "outro_banco": 31.26,
-        "cooperativa": 5.33
+        "grande": 63.88,
+        "outro_banco": 29.08,
+        "cooperativa": 7.04
       },
       "ranking_ativo": [
         {
@@ -566,6 +566,18 @@
           "share": 3.1494
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 404237278793.64,
+          "share": 2.9476
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 353958220124.57,
+          "share": 2.581
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 248546044859.92,
@@ -578,10 +590,10 @@
           "share": 1.135
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 147679397554.84,
-          "share": 1.0769
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 138206682673.66,
+          "share": 1.0078
         },
         {
           "nome": "XP",
@@ -608,12 +620,6 @@
           "share": 0.7735
         },
         {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 105753338158.54,
-          "share": 0.7711
-        },
-        {
           "nome": "CIELO S.A. - INSTITUIÇÃO DE PA",
           "segmento": "outro_banco",
           "valor": 105463879564.5,
@@ -630,12 +636,6 @@
           "segmento": "outro_banco",
           "valor": 77031553107.54,
           "share": 0.5617
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 72907100681.87,
-          "share": 0.5316
         },
         {
           "nome": "DAYCOVAL",
@@ -682,6 +682,18 @@
           "share": 4.8661
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 152989339663.77,
+          "share": 2.711
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 125987915866.9,
+          "share": 2.2325
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 125142623590.35,
@@ -700,6 +712,12 @@
           "share": 1.1943
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 55653445820.47,
+          "share": 0.9862
+        },
+        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 47440552510.75,
@@ -710,12 +728,6 @@
           "segmento": "outro_banco",
           "valor": 44598678532.51,
           "share": 0.7903
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 31600958279.32,
-          "share": 0.56
         },
         {
           "nome": "VOLKSWAGEN S.A.",
@@ -748,34 +760,22 @@
           "share": 0.4487
         },
         {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 24052487541.15,
-          "share": 0.4262
-        },
-        {
           "nome": "C6 Bank",
           "segmento": "outro_banco",
           "valor": 23715039622.68,
           "share": 0.4202
-        },
-        {
-          "nome": "BMG",
-          "segmento": "outro_banco",
-          "valor": 21825242087.18,
-          "share": 0.3867
         }
       ]
     },
     "202212": {
-      "hhi_ativo": 866.39,
-      "hhi_credito": 1011.03,
+      "hhi_ativo": 881.13,
+      "hhi_credito": 1024.24,
       "top5_share_ativo": 62.09,
-      "top10_share_ativo": 74.51,
+      "top10_share_ativo": 77.75,
       "share_por_segmento": {
-        "grande": 62.82,
-        "outro_banco": 31.97,
-        "cooperativa": 5.22
+        "grande": 63.35,
+        "outro_banco": 29.77,
+        "cooperativa": 6.88
       },
       "ranking_ativo": [
         {
@@ -821,22 +821,34 @@
           "share": 3.2331
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 400114934488.59,
+          "share": 2.9308
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 361956773851.73,
+          "share": 2.6513
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 252426071858.42,
           "share": 1.849
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 170570947217.63,
+          "share": 1.2494
+        },
+        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 169772268594.12,
           "share": 1.2435
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 150419287056.51,
-          "share": 1.1018
         },
         {
           "nome": "XP",
@@ -875,28 +887,16 @@
           "share": 0.804
         },
         {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 102040529617.71,
-          "share": 0.7474
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 97618048017.9,
-          "share": 0.715
-        },
-        {
           "nome": "BNP PARIBAS",
           "segmento": "outro_banco",
           "valor": 78213107079.31,
           "share": 0.5729
         },
         {
-          "nome": "Nubank",
+          "nome": "DAYCOVAL",
           "segmento": "outro_banco",
-          "valor": 72952899199.73,
-          "share": 0.5344
+          "valor": 70605117117.7,
+          "share": 0.5172
         }
       ],
       "ranking_credito": [
@@ -937,6 +937,18 @@
           "share": 4.7706
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 161140811595.58,
+          "share": 2.7624
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 132591771836.58,
+          "share": 2.273
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 122125767833.47,
@@ -955,6 +967,12 @@
           "share": 1.2073
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 62017957082.53,
+          "share": 1.0632
+        },
+        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 49121869486.07,
@@ -965,12 +983,6 @@
           "segmento": "outro_banco",
           "valor": 48548551128.83,
           "share": 0.8323
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 35932238067.52,
-          "share": 0.616
         },
         {
           "nome": "VOLKSWAGEN S.A.",
@@ -1003,34 +1015,22 @@
           "share": 0.4924
         },
         {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 26085719015.01,
-          "share": 0.4472
-        },
-        {
           "nome": "ABC-BRASIL",
           "segmento": "outro_banco",
           "valor": 25414088829.31,
           "share": 0.4357
-        },
-        {
-          "nome": "BMG",
-          "segmento": "outro_banco",
-          "valor": 23203535075.23,
-          "share": 0.3978
         }
       ]
     },
     "202303": {
-      "hhi_ativo": 871.56,
-      "hhi_credito": 1016.23,
+      "hhi_ativo": 887.45,
+      "hhi_credito": 1029.97,
       "top5_share_ativo": 62.2,
-      "top10_share_ativo": 74.53,
+      "top10_share_ativo": 78.04,
       "share_por_segmento": {
-        "grande": 62.87,
-        "outro_banco": 31.79,
-        "cooperativa": 5.34
+        "grande": 63.33,
+        "outro_banco": 29.6,
+        "cooperativa": 7.07
       },
       "ranking_ativo": [
         {
@@ -1076,22 +1076,34 @@
           "share": 3.2856
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 433064719968.43,
+          "share": 3.0927
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 386904554859.06,
+          "share": 2.763
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 250042045780.08,
           "share": 1.7857
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 167127309963.45,
-          "share": 1.1935
-        },
-        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 160367419764.39,
           "share": 1.1453
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 156388480683.42,
+          "share": 1.1168
         },
         {
           "nome": "XP",
@@ -1118,12 +1130,6 @@
           "share": 0.8039
         },
         {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 110881809921.21,
-          "share": 0.7919
-        },
-        {
           "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
           "segmento": "outro_banco",
           "valor": 108414777108.38,
@@ -1134,12 +1140,6 @@
           "segmento": "outro_banco",
           "valor": 105783883919.88,
           "share": 0.7554
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 90868140252.8,
-          "share": 0.6489
         },
         {
           "nome": "BNP PARIBAS",
@@ -1192,6 +1192,18 @@
           "share": 4.614
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 165434583408.77,
+          "share": 2.8067
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 136616795579.05,
+          "share": 2.3178
+        },
+        {
           "nome": "BTG Pactual",
           "segmento": "outro_banco",
           "valor": 113898378851.84,
@@ -1210,6 +1222,12 @@
           "share": 1.2124
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 66704334774.52,
+          "share": 1.1317
+        },
+        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 50087668373.52,
@@ -1220,12 +1238,6 @@
           "segmento": "outro_banco",
           "valor": 46081533746.29,
           "share": 0.7818
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 36705783165.66,
-          "share": 0.6227
         },
         {
           "nome": "C6 Bank",
@@ -1252,12 +1264,6 @@
           "share": 0.5178
         },
         {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 29998551608.86,
-          "share": 0.5089
-        },
-        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 28293320855.69,
@@ -1268,24 +1274,18 @@
           "segmento": "outro_banco",
           "valor": 24302689684.41,
           "share": 0.4123
-        },
-        {
-          "nome": "ABC-BRASIL",
-          "segmento": "outro_banco",
-          "valor": 23627650685.7,
-          "share": 0.4009
         }
       ]
     },
     "202306": {
-      "hhi_ativo": 849.28,
-      "hhi_credito": 1014.71,
+      "hhi_ativo": 865.72,
+      "hhi_credito": 1028.59,
       "top5_share_ativo": 61.5,
-      "top10_share_ativo": 73.85,
+      "top10_share_ativo": 77.33,
       "share_por_segmento": {
-        "grande": 62.22,
-        "outro_banco": 32.32,
-        "cooperativa": 5.46
+        "grande": 62.7,
+        "outro_banco": 30.12,
+        "cooperativa": 7.19
       },
       "ranking_ativo": [
         {
@@ -1331,6 +1331,18 @@
           "share": 3.2331
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 444305813707.13,
+          "share": 3.0834
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 412675278582.83,
+          "share": 2.8639
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 248193146465.06,
@@ -1343,10 +1355,10 @@
           "share": 1.2903
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 169664660546.34,
-          "share": 1.1775
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 170439945260.07,
+          "share": 1.1828
         },
         {
           "nome": "XP",
@@ -1359,12 +1371,6 @@
           "segmento": "outro_banco",
           "valor": 139369015769.5,
           "share": 0.9672
-        },
-        {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 118430552961.93,
-          "share": 0.8219
         },
         {
           "nome": "BANRISUL",
@@ -1395,12 +1401,6 @@
           "segmento": "outro_banco",
           "valor": 102183363939.09,
           "share": 0.7091
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 102030701172.66,
-          "share": 0.7081
         },
         {
           "nome": "DAYCOVAL",
@@ -1447,6 +1447,18 @@
           "share": 4.6133
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 164149085635.66,
+          "share": 2.7784
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 139603112826.13,
+          "share": 2.363
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 103243232977.54,
@@ -1457,6 +1469,12 @@
           "segmento": "outro_banco",
           "valor": 102398349923.54,
           "share": 1.7332
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 71986208626.98,
+          "share": 1.2185
         },
         {
           "nome": "VOTORANTIM",
@@ -1477,12 +1495,6 @@
           "share": 0.7656
         },
         {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 38914991395.15,
-          "share": 0.6587
-        },
-        {
           "nome": "C6 Bank",
           "segmento": "outro_banco",
           "valor": 37384810103.19,
@@ -1493,12 +1505,6 @@
           "segmento": "outro_banco",
           "valor": 34386358241.72,
           "share": 0.582
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 33071217231.83,
-          "share": 0.5598
         },
         {
           "nome": "BRB",
@@ -1523,24 +1529,18 @@
           "segmento": "outro_banco",
           "valor": 24665092096.67,
           "share": 0.4175
-        },
-        {
-          "nome": "XP",
-          "segmento": "outro_banco",
-          "valor": 24199457991.1,
-          "share": 0.4096
         }
       ]
     },
     "202309": {
-      "hhi_ativo": 853.57,
-      "hhi_credito": 1001.24,
+      "hhi_ativo": 871.14,
+      "hhi_credito": 1016.1,
       "top5_share_ativo": 61.64,
-      "top10_share_ativo": 73.91,
+      "top10_share_ativo": 77.62,
       "share_por_segmento": {
-        "grande": 62.43,
-        "outro_banco": 31.99,
-        "cooperativa": 5.58
+        "grande": 62.99,
+        "outro_banco": 29.66,
+        "cooperativa": 7.36
       },
       "ranking_ativo": [
         {
@@ -1586,22 +1586,34 @@
           "share": 3.4161
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 467192972262.76,
+          "share": 3.1244
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 446633176088.51,
+          "share": 2.9869
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 257142566261.59,
           "share": 1.7197
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 199047721669.48,
+          "share": 1.3312
+        },
+        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 185560797893.91,
           "share": 1.241
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 173548839568.47,
-          "share": 1.1606
         },
         {
           "nome": "XP",
@@ -1616,12 +1628,6 @@
           "share": 0.9072
         },
         {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 132870362869.51,
-          "share": 0.8886
-        },
-        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 122397182044.98,
@@ -1632,12 +1638,6 @@
           "segmento": "outro_banco",
           "valor": 119299667496.28,
           "share": 0.7978
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 115683781699.35,
-          "share": 0.7737
         },
         {
           "nome": "JP MORGAN CHASE",
@@ -1658,10 +1658,10 @@
           "share": 0.6859
         },
         {
-          "nome": "Nubank",
+          "nome": "DAYCOVAL",
           "segmento": "outro_banco",
-          "valor": 83363939970.13,
-          "share": 0.5575
+          "valor": 72914039677.23,
+          "share": 0.4876
         }
       ],
       "ranking_credito": [
@@ -1702,6 +1702,18 @@
           "share": 4.5381
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 176429633096.58,
+          "share": 2.9143
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 144414039049.92,
+          "share": 2.3854
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 109502853987.58,
@@ -1712,6 +1724,12 @@
           "segmento": "outro_banco",
           "valor": 106149255226.95,
           "share": 1.7534
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 78260582622.73,
+          "share": 1.2927
         },
         {
           "nome": "VOTORANTIM",
@@ -1732,22 +1750,10 @@
           "share": 0.739
         },
         {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 41485373018.94,
-          "share": 0.6853
-        },
-        {
           "nome": "C6 Bank",
           "segmento": "outro_banco",
           "valor": 41405999259.9,
           "share": 0.6839
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 36775209603.79,
-          "share": 0.6075
         },
         {
           "nome": "VOLKSWAGEN S.A.",
@@ -1778,24 +1784,18 @@
           "segmento": "outro_banco",
           "valor": 27700536021.57,
           "share": 0.4576
-        },
-        {
-          "nome": "INTER",
-          "segmento": "outro_banco",
-          "valor": 26629429358.49,
-          "share": 0.4399
         }
       ]
     },
     "202312": {
-      "hhi_ativo": 828.5,
-      "hhi_credito": 983.67,
+      "hhi_ativo": 846.45,
+      "hhi_credito": 999.65,
       "top5_share_ativo": 60.71,
-      "top10_share_ativo": 73.24,
+      "top10_share_ativo": 76.86,
       "share_por_segmento": {
-        "grande": 61.64,
-        "outro_banco": 32.87,
-        "cooperativa": 5.49
+        "grande": 62.32,
+        "outro_banco": 30.38,
+        "cooperativa": 7.3
       },
       "ranking_ativo": [
         {
@@ -1841,10 +1841,28 @@
           "share": 3.403
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 468618325891.62,
+          "share": 3.0849
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 452858777715.35,
+          "share": 2.9812
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 293785245283.98,
           "share": 1.934
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 245363412772.79,
+          "share": 1.6152
         },
         {
           "nome": "XP",
@@ -1859,28 +1877,10 @@
           "share": 1.2005
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 164040008317.45,
-          "share": 1.0799
-        },
-        {
           "nome": "VOTORANTIM",
           "segmento": "outro_banco",
           "valor": 142083636663.79,
           "share": 0.9353
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 141452281599.11,
-          "share": 0.9312
-        },
-        {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 130527155076.04,
-          "share": 0.8593
         },
         {
           "nome": "REDECARD INSTITUIÇÃO DE PAGAME",
@@ -1907,16 +1907,16 @@
           "share": 0.7577
         },
         {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 103911131173.68,
-          "share": 0.684
-        },
-        {
           "nome": "BNP PARIBAS BRASIL S.A.",
           "segmento": "outro_banco",
           "valor": 94632173896.11,
           "share": 0.623
+        },
+        {
+          "nome": "DAYCOVAL",
+          "segmento": "outro_banco",
+          "valor": 78530848590.45,
+          "share": 0.517
         }
       ],
       "ranking_credito": [
@@ -1957,6 +1957,18 @@
           "share": 4.4549
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 189527088276.35,
+          "share": 3.0408
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 151537829672.78,
+          "share": 2.4313
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 124480657694.35,
@@ -1967,6 +1979,12 @@
           "segmento": "outro_banco",
           "valor": 108403367250.95,
           "share": 1.7392
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 88743091131.46,
+          "share": 1.4238
         },
         {
           "nome": "VOTORANTIM",
@@ -1987,22 +2005,10 @@
           "share": 0.7738
         },
         {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 47223105322.98,
-          "share": 0.7577
-        },
-        {
           "nome": "C6 Bank",
           "segmento": "outro_banco",
           "valor": 45653212893.83,
           "share": 0.7325
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 41519985808.48,
-          "share": 0.6662
         },
         {
           "nome": "VOLKSWAGEN S.A.",
@@ -2033,24 +2039,18 @@
           "segmento": "outro_banco",
           "valor": 29061217304.66,
           "share": 0.4663
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 28337602765.04,
-          "share": 0.4547
         }
       ]
     },
     "202403": {
-      "hhi_ativo": 827.1,
-      "hhi_credito": 981.38,
+      "hhi_ativo": 844.68,
+      "hhi_credito": 998.06,
       "top5_share_ativo": 60.5,
-      "top10_share_ativo": 73.24,
+      "top10_share_ativo": 76.69,
       "share_por_segmento": {
-        "grande": 61.33,
-        "outro_banco": 33.23,
-        "cooperativa": 5.44
+        "grande": 61.9,
+        "outro_banco": 30.83,
+        "cooperativa": 7.26
       },
       "ranking_ativo": [
         {
@@ -2096,10 +2096,28 @@
           "share": 3.6671
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 483092655877.23,
+          "share": 3.0638
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 471823874802.66,
+          "share": 2.9923
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 287630193635.68,
           "share": 1.8241
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 218592158664.16,
+          "share": 1.3863
         },
         {
           "nome": "XP",
@@ -2114,18 +2132,6 @@
           "share": 1.248
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 164529511981.23,
-          "share": 1.0434
-        },
-        {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 137864830416.49,
-          "share": 0.8743
-        },
-        {
           "nome": "VOTORANTIM",
           "segmento": "outro_banco",
           "valor": 135666109431.5,
@@ -2136,12 +2142,6 @@
           "segmento": "outro_banco",
           "valor": 135187844307.23,
           "share": 0.8574
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 127867014301.58,
-          "share": 0.8109
         },
         {
           "nome": "BANRISUL",
@@ -2168,10 +2168,10 @@
           "share": 0.5862
         },
         {
-          "nome": "Nubank",
+          "nome": "C6 Bank",
           "segmento": "outro_banco",
-          "valor": 90725144362.58,
-          "share": 0.5754
+          "valor": 76676327097.81,
+          "share": 0.4863
         }
       ],
       "ranking_credito": [
@@ -2212,6 +2212,18 @@
           "share": 4.435
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 197353405904.82,
+          "share": 3.1134
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 155422215885.21,
+          "share": 2.4519
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 119736395772.27,
@@ -2224,6 +2236,12 @@
           "share": 1.8279
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 96908676553.43,
+          "share": 1.5288
+        },
+        {
           "nome": "VOTORANTIM",
           "segmento": "outro_banco",
           "valor": 74030865677.62,
@@ -2234,18 +2252,6 @@
           "segmento": "outro_banco",
           "valor": 53861666279.48,
           "share": 0.8497
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 49145606026.33,
-          "share": 0.7753
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 47763070527.1,
-          "share": 0.7535
         },
         {
           "nome": "DAYCOVAL",
@@ -2272,12 +2278,6 @@
           "share": 0.5407
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 30252091787.68,
-          "share": 0.4773
-        },
-        {
           "nome": "INTER",
           "segmento": "outro_banco",
           "valor": 30059972856.11,
@@ -2298,14 +2298,14 @@
       ]
     },
     "202406": {
-      "hhi_ativo": 816.92,
-      "hhi_credito": 976.67,
+      "hhi_ativo": 835.1,
+      "hhi_credito": 993.19,
       "top5_share_ativo": 60.08,
-      "top10_share_ativo": 72.91,
+      "top10_share_ativo": 76.39,
       "share_por_segmento": {
-        "grande": 60.98,
-        "outro_banco": 33.51,
-        "cooperativa": 5.51
+        "grande": 61.54,
+        "outro_banco": 31.1,
+        "cooperativa": 7.36
       },
       "ranking_ativo": [
         {
@@ -2351,10 +2351,28 @@
           "share": 3.6728
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 510854236772.54,
+          "share": 3.1034
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 501141295298.47,
+          "share": 3.0444
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 295999532866.09,
           "share": 1.7982
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 238477730378.76,
+          "share": 1.4488
         },
         {
           "nome": "XP",
@@ -2367,24 +2385,6 @@
           "segmento": "outro_banco",
           "valor": 212616841051.28,
           "share": 1.2916
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 172425955180.86,
-          "share": 1.0475
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 146212798793.28,
-          "share": 0.8882
-        },
-        {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 145910726954.52,
-          "share": 0.8864
         },
         {
           "nome": "JP MORGAN CHASE",
@@ -2423,10 +2423,10 @@
           "share": 0.594
         },
         {
-          "nome": "Nubank",
+          "nome": "C6 Bank",
           "segmento": "outro_banco",
-          "valor": 92264931585.48,
-          "share": 0.5605
+          "valor": 86089831611.62,
+          "share": 0.523
         }
       ],
       "ranking_credito": [
@@ -2467,6 +2467,18 @@
           "share": 4.3636
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 201775898285.49,
+          "share": 3.081
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 160551382103.4,
+          "share": 2.4515
+        },
+        {
           "nome": "BTG Pactual",
           "segmento": "outro_banco",
           "valor": 123483545341.05,
@@ -2479,6 +2491,12 @@
           "share": 1.8705
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 103538315923.27,
+          "share": 1.5809
+        },
+        {
           "nome": "VOTORANTIM",
           "segmento": "outro_banco",
           "valor": 73931424923.62,
@@ -2489,18 +2507,6 @@
           "segmento": "outro_banco",
           "valor": 54716962076.53,
           "share": 0.8355
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 54428975683.48,
-          "share": 0.8311
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 49109340239.79,
-          "share": 0.7499
         },
         {
           "nome": "C6 Bank",
@@ -2539,12 +2545,6 @@
           "share": 0.4867
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 31873444972.29,
-          "share": 0.4867
-        },
-        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 30006330559.4,
@@ -2553,14 +2553,14 @@
       ]
     },
     "202409": {
-      "hhi_ativo": 811.99,
-      "hhi_credito": 967.04,
+      "hhi_ativo": 830.72,
+      "hhi_credito": 984.43,
       "top5_share_ativo": 59.82,
-      "top10_share_ativo": 72.72,
+      "top10_share_ativo": 76.28,
       "share_por_segmento": {
-        "grande": 60.76,
-        "outro_banco": 33.74,
-        "cooperativa": 5.51
+        "grande": 61.25,
+        "outro_banco": 31.36,
+        "cooperativa": 7.39
       },
       "ranking_ativo": [
         {
@@ -2606,6 +2606,18 @@
           "share": 3.6257
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 538109230937.1,
+          "share": 3.1679
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 525653138288.32,
+          "share": 3.0946
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 314368327545.37,
@@ -2618,34 +2630,22 @@
           "share": 1.474
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 239898391557.6,
+          "share": 1.4123
+        },
+        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 208734065023.68,
           "share": 1.2288
         },
         {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 184196227321.71,
-          "share": 1.0844
-        },
-        {
           "nome": "JP MORGAN CHASE",
           "segmento": "outro_banco",
           "valor": 167318140602.3,
           "share": 0.985
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 156471892978.34,
-          "share": 0.9212
-        },
-        {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 152227475288.09,
-          "share": 0.8962
         },
         {
           "nome": "VOTORANTIM",
@@ -2722,6 +2722,18 @@
           "share": 4.2447
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 215440073006.23,
+          "share": 3.194
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 166477663156.55,
+          "share": 2.4681
+        },
+        {
           "nome": "BTG Pactual",
           "segmento": "outro_banco",
           "valor": 131404599068.22,
@@ -2734,16 +2746,16 @@
           "share": 1.7257
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 109848165263.44,
+          "share": 1.6285
+        },
+        {
           "nome": "VOTORANTIM",
           "segmento": "outro_banco",
           "valor": 75874580997.64,
           "share": 1.1249
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 58886022776.11,
-          "share": 0.873
         },
         {
           "nome": "BANRISUL",
@@ -2756,12 +2768,6 @@
           "segmento": "outro_banco",
           "valor": 52162442455.55,
           "share": 0.7733
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 50962142487.33,
-          "share": 0.7555
         },
         {
           "nome": "DAYCOVAL",
@@ -2780,12 +2786,6 @@
           "segmento": "outro_banco",
           "valor": 35652253883.72,
           "share": 0.5286
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 34660175635.39,
-          "share": 0.5139
         },
         {
           "nome": "CITIBANK",
@@ -2808,14 +2808,14 @@
       ]
     },
     "202412": {
-      "hhi_ativo": 789.66,
-      "hhi_credito": 952.61,
+      "hhi_ativo": 808.54,
+      "hhi_credito": 970.53,
       "top5_share_ativo": 59.02,
-      "top10_share_ativo": 72.28,
+      "top10_share_ativo": 75.5,
       "share_por_segmento": {
-        "grande": 60.04,
-        "outro_banco": 34.44,
-        "cooperativa": 5.52
+        "grande": 60.58,
+        "outro_banco": 32.03,
+        "cooperativa": 7.39
       },
       "ranking_ativo": [
         {
@@ -2861,6 +2861,18 @@
           "share": 3.7162
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 553050053034.46,
+          "share": 3.1637
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 540307084675.83,
+          "share": 3.0908
+        },
+        {
           "nome": "SAFRA",
           "segmento": "outro_banco",
           "valor": 302042203703.49,
@@ -2873,28 +2885,16 @@
           "share": 1.7262
         },
         {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 270565076479.01,
+          "share": 1.5477
+        },
+        {
           "nome": "CITIBANK",
           "segmento": "outro_banco",
           "valor": 229633957124.51,
           "share": 1.3136
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 191215588038.93,
-          "share": 1.0938
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 176097862319.76,
-          "share": 1.0073
-        },
-        {
-          "nome": "Sicoob",
-          "segmento": "cooperativa",
-          "valor": 153546411156.88,
-          "share": 0.8783
         },
         {
           "nome": "BANRISUL",
@@ -2933,10 +2933,10 @@
           "share": 0.6249
         },
         {
-          "nome": "Nubank",
+          "nome": "BNP PARIBAS BRASIL S.A.",
           "segmento": "outro_banco",
-          "valor": 94467214159.25,
-          "share": 0.5404
+          "valor": 93391900011.76,
+          "share": 0.5342
         }
       ],
       "ranking_credito": [
@@ -2977,10 +2977,28 @@
           "share": 4.2015
         },
         {
+          "nome": "Sicredi",
+          "segmento": "cooperativa",
+          "valor": 228130718198.52,
+          "share": 3.2271
+        },
+        {
+          "nome": "Sicoob",
+          "segmento": "cooperativa",
+          "valor": 177089459517.11,
+          "share": 2.5051
+        },
+        {
           "nome": "BTG Pactual",
           "segmento": "outro_banco",
           "valor": 136708500585.66,
           "share": 1.9339
+        },
+        {
+          "nome": "Nubank",
+          "segmento": "grande",
+          "valor": 122620340066.8,
+          "share": 1.7346
         },
         {
           "nome": "SAFRA",
@@ -2995,12 +3013,6 @@
           "share": 1.0721
         },
         {
-          "nome": "Nubank",
-          "segmento": "grande",
-          "valor": 65540431523.94,
-          "share": 0.9271
-        },
-        {
           "nome": "BANRISUL",
           "segmento": "outro_banco",
           "valor": 62045229482.97,
@@ -3011,12 +3023,6 @@
           "segmento": "outro_banco",
           "valor": 57125769773.86,
           "share": 0.8081
-        },
-        {
-          "nome": "Nubank",
-          "segmento": "outro_banco",
-          "valor": 57079908542.86,
-          "share": 0.8074
         },
         {
           "nome": "DAYCOVAL",
@@ -3035,12 +3041,6 @@
           "segmento": "outro_banco",
           "valor": 41023918406.71,
           "share": 0.5803
-        },
-        {
-          "nome": "Sicredi",
-          "segmento": "cooperativa",
-          "valor": 38658113437.6,
-          "share": 0.5469
         },
         {
           "nome": "CITIBANK",
