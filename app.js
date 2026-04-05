@@ -131,6 +131,13 @@ function renderKPIs() {
     </div>`;
 }
 
+function renderFooter() {
+    return `<footer class="footer">
+        Fonte: <a href="https://www.bcb.gov.br" target="_blank">Banco Central do Brasil</a> — Dados públicos (IF.data, SGS, Olinda)<br>
+        <a href="https://github.com/Fexndev/bcb-financeiro" target="_blank">GitHub</a>
+    </footer>`;
+}
+
 function renderSections() {
     return SECTIONS.map(s => `<div class="section" id="sec-${s.id}">${renderSection(s.id)}</div>`).join('');
 }
