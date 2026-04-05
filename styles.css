@@ -246,7 +246,9 @@ body {
     width: 320px; max-width: 90vw; z-index: 300; box-shadow: 0 8px 24px rgba(0,0,0,.4);
     line-height: 1.6; text-transform: none; letter-spacing: 0;
     white-space: normal; word-wrap: break-word;
+    pointer-events: none;
 }
+.info-box.below { bottom: auto; top: calc(100% + 8px); }
 
 .info-box strong { color: var(--text-primary); }
 
@@ -299,6 +301,11 @@ tbody tr:hover { background: var(--bg-card-hover); }
 /* ═══════════════════════════════════════
    MAP LEGEND
    ═══════════════════════════════════════ */
+
+.grid-mapa { display: grid; grid-template-columns: 3fr 2fr; gap: 16px; }
+.card-mapa { min-height: 420px; }
+#mapa-container { min-height: 380px; position: relative; }
+#mapa-container svg { display: block; }
 
 .map-legend { display: flex; flex-direction: column; gap: 3px; }
 
@@ -355,6 +362,9 @@ tbody tr:hover { background: var(--bg-card-hover); }
     .chart-container { height: 300px; }
     .chart-container-sm { height: 240px; }
     .grid-2 { grid-template-columns: 1fr; }
+    .grid-mapa { grid-template-columns: 1fr; }
+    .card-mapa { min-height: 300px; }
+    #mapa-container { min-height: 280px; }
     .nav { padding: 6px 16px; }
     .filter-toolbar { padding: 10px 16px; gap: 12px; }
     .filter-select { min-width: 130px; }

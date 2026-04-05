@@ -262,7 +262,7 @@ function rResumo() {
     return `<div class="section-title">Visão Geral — ${FMT.tri(tri)}</div>
     <div class="grid-2">
         <div class="card"><div class="card-title">Top 10 ROE ${tip('roe')}</div><div class="chart-container-sm"><canvas id="c-roe-top"></canvas></div></div>
-        <div class="card"><div class="card-title">Evolução do Crédito Total ${tip('credito')}</div><div class="chart-container-sm"><canvas id="c-cred-evo"></canvas></div></div>
+        <div class="card"><div class="card-title">${(APP.filters.instituicao||APP.filters.segmento!=='todos')?'Evolução do Ativo Total':'Evolução do Crédito Total'} ${tip('credito')}</div><div class="chart-container-sm"><canvas id="c-cred-evo"></canvas></div></div>
     </div>
     <div class="card"><div class="card-title">Principais Instituições</div><div class="table-wrap">
         <table id="tbl-resumo"><thead><tr><th>#</th>${sortHeader('nome','Instituição')}${sortHeader('segmento','Segmento')}${sortHeader('ativo_total','Ativo Total','td-right')}${sortHeader('roe','ROE '+tip('roe'),'td-right')}${sortHeader('roa','ROA '+tip('roa'),'td-right')}${sortHeader('indice_basileia','Basileia '+tip('basileia'),'td-right')}</tr></thead>
@@ -294,6 +294,17 @@ function rRent() {
 
 /* ─── CRÉDITO ──────────────────────────── */
 function rCred() {
+    const f=APP.filters, hasFilter = f.instituicao || f.segmento!=='todos';
+    if (hasFilter) {
+        const label = f.instituicao || SEG_LABELS[f.segmento] || f.segmento;
+        return `<div class="section-title">Crédito — ${label}</div>
+        <div class="grid-2">
+            <div class="card"><div class="card-title">Evolução da Carteira de Crédito ${tip('credito')}</div><div class="chart-container"><canvas id="c-cred-filt"></canvas></div></div>
+            <div class="card"><div class="card-title">Ativo Total vs Carteira de Crédito</div><div class="chart-container"><canvas id="c-ativo-cred"></canvas></div></div>
+        </div>
+        <div class="note-box">Dados de inadimplência e spread bancário estão disponíveis apenas como média do SFN (séries SGS/BCB).</div>
+        <div class="card"><div class="card-title">Spread Bancário — SFN ${tip('spread')}</div><div class="chart-container-sm"><canvas id="c-spread"></canvas></div></div>`;
+    }
     return `<div class="section-title">Crédito e Inadimplência</div>
     <div class="grid-2">
         <div class="card"><div class="card-title">Crédito PF vs PJ ${tip('credito')}</div><div class="chart-container"><canvas id="c-pfpj"></canvas></div></div>
@@ -306,8 +317,10 @@ function rCred() {
 function rTaxas() {
     const tx=APP.data.taxas?.modalidades; if(!tx) return '<p>Dados indisponíveis</p>';
     const mods=Object.entries(tx).filter(([,v])=>!v.erro);
+    const f=APP.filters, hasFilter = f.instituicao || f.segmento!=='todos';
     return `<div class="section-title">Taxas de Juros</div>
-    <div class="card"><div class="card-title">Taxa Média Anual</div><div class="chart-container"><canvas id="c-taxas"></canvas></div></div>
+    ${hasFilter?'<div class="note-box">Taxas de juros por modalidade estão disponíveis como média nacional do SFN. Dados por instituição individual não são publicados pelo BCB neste formato.</div>':''}
+    <div class="card"><div class="card-title">Taxa Média Anual por Modalidade</div><div class="chart-container"><canvas id="c-taxas"></canvas></div></div>
     <div class="card"><div class="card-title">Comparativo por Segmento (% a.a.)</div><div class="table-wrap"><table>
         <thead><tr><th>Modalidade</th>${Object.values(SEG_LABELS).map(v=>`<th class="td-right">${v}</th>`).join('')}</tr></thead>
         <tbody>${mods.map(([,m])=>`<tr><td class="td-name">${m.descricao}</td>${Object.keys(SEG_LABELS).map(s=>{const v=m.media_por_segmento?.[s];return`<td class="td-mono td-right">${v?FMT.pct(v,1):'—'}</td>`;}).join('')}</tr>`).join('')}</tbody>
@@ -327,7 +340,9 @@ function rConc() {
 
 /* ─── COMPARATIVO ──────────────────────── */
 function rComp() {
-    return `<div class="section-title">Grandes Bancos vs Cooperativas</div>
+    const f=APP.filters;
+    const title = f.instituicao ? `${f.instituicao} vs Segmento` : 'Grandes Bancos vs Cooperativas';
+    return `<div class="section-title">${title}</div>
     <div class="grid-2">
         <div class="card"><div class="card-title">ROE Médio ${tip('roe')}</div><div class="chart-container"><canvas id="c-comp-roe"></canvas></div></div>
         <div class="card"><div class="card-title">Taxas Comparadas (% a.a.)</div><div class="chart-container"><canvas id="c-comp-tx"></canvas></div></div>
@@ -341,20 +356,30 @@ function rGeo() {
     const mx=ufs[0]?.credito_per_capita||1;
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
     <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs com sedes de grandes bancos (DF, SP) apresentam valores superestimados — BB, Caixa e BNDES têm sede no DF mas operam nacionalmente.</div>
-    <div class="grid-2">
-        <div class="card"><div class="card-title">Mapa de Calor — Crédito Per Capita</div><div id="mapa-container" style="min-height:400px"></div></div>
-        <div class="card"><div class="card-title">Crédito Per Capita (R$ mil / hab)</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>
+    <div class="grid-mapa">
+        <div class="card card-mapa"><div class="card-title">Mapa de Calor — Crédito Per Capita</div><div id="mapa-container"></div></div>
+        <div class="card"><div class="card-title">Ranking por UF</div><div class="map-legend">${ufs.slice(0,15).map(u=>`<div class="legend-item"><span class="legend-uf">${u.uf}</span><span class="legend-value">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span><div style="flex:1;margin-left:12px"><div class="legend-bar" style="width:${(u.credito_per_capita/mx*100).toFixed(0)}%"></div></div></div>`).join('')}</div></div>
     </div>
-    <div class="card"><div class="card-title">Ranking por UF</div><div class="map-legend">${ufs.map(u=>`<div class="legend-item"><span class="legend-uf">${u.uf}</span><span class="legend-value">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span><div style="flex:1;margin-left:12px"><div class="legend-bar" style="width:${(u.credito_per_capita/mx*100).toFixed(0)}%"></div></div></div>`).join('')}</div></div>`;
+    <div class="card"><div class="card-title">Crédito Per Capita — Todas as UFs (R$ mil / hab)</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>`;
 }
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
 function rRec() {
-    if(!APP.data.reclamacoes) return '<p>Dados indisponíveis</p>';
+    const r=APP.data.reclamacoes; if(!r) return '<p>Dados indisponíveis</p>';
+    const rk=[...r.ranking].sort((a,b)=>b.indice-a.indice);
+    const SEG_NAMES = {S1:'Grandes Privados',S2:'Médios',S1_publico:'Públicos',digital:'Digitais',cooperativa:'Cooperativas',grande:'Grandes',outro:'Outros'};
     return `<div class="section-title">Reclamações</div>
+    <div class="note-box">Índice = reclamações reguladas procedentes por milhão de clientes. Fonte: ${r.source||'BCB'}.</div>
     <div class="grid-2">
         <div class="card"><div class="card-title">Índice por Instituição</div><div class="chart-container"><canvas id="c-rec"></canvas></div></div>
-        <div class="card"><div class="card-title">Média por Segmento</div><div class="chart-container"><canvas id="c-rec-seg"></canvas></div></div>
+        <div class="card"><div class="card-title">Distribuição por Tipo de Reclamação</div><div class="chart-container"><canvas id="c-rec-tipo"></canvas></div></div>
+    </div>
+    <div class="grid-2">
+        <div class="card"><div class="card-title">Média por Segmento</div><div class="chart-container-sm"><canvas id="c-rec-seg"></canvas></div></div>
+        <div class="card"><div class="card-title">Ranking Detalhado</div><div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Instituição</th><th>Segmento</th><th class="td-right">Índice</th><th class="td-right">Reclamações</th><th class="td-right">Clientes (mi)</th></tr></thead>
+            <tbody>${rk.map((r,i)=>`<tr><td class="td-mono">${i+1}</td><td class="td-name">${r.instituicao}</td><td><span class="td-seg seg-${r.segmento==='cooperativa'?'cooperativa':r.segmento==='S1'||r.segmento==='S1_publico'?'grande':'outro'}">${SEG_NAMES[r.segmento]||r.segmento}</span></td><td class="td-mono td-right">${r.indice.toFixed(2)}</td><td class="td-mono td-right">${r.reclamacoes?.toLocaleString('pt-BR')||'—'}</td><td class="td-mono td-right">${r.clientes_milhoes||'—'}</td></tr>`).join('')}</tbody>
+        </table></div></div>
     </div>`;
 }
 
@@ -415,53 +440,105 @@ function mResumo() {
     const ctx1=document.getElementById('c-roe-top');
     if(ctx1&&data.length) APP.charts.a=new Chart(ctx1, hbar(data.map(i=>i.nome), data.map(i=>i.roe), data.map((_,i)=>PAL[i%PAL.length]), v=>v.toFixed(1)+'%'));
 
-    const cr=APP.data.credito?.series?.credito_total?.monthly;
-    if(cr) {
-        const d=cr.slice(-24), id='c-cred-evo', ctx2=document.getElementById(id);
-        if(ctx2) {
-            setHAxis(id, {color:css('--text-secondary'), lineColor:css('--border')+'60', levels:[AXIS_MONTH,AXIS_YEAR]});
-            APP.charts.b=new Chart(ctx2, { type:'line',
-                data:{labels:d.map(m=>m.data+'-01'), datasets:[{data:d.map(m=>m.valor),borderColor:'#5eead4',backgroundColor:'rgba(94,234,212,.1)',fill:true,tension:.3,pointRadius:0}]},
-                options:{...defs(false), plugins:{legend:{display:false}, datalabels:dlabelLine(v=>(v/1e6).toFixed(1)+' tri',6)}, scales:{x:{display:false},y:{display:false}}, layout:{padding:{bottom:50}}},
-            });
+    const f=APP.filters, hasFilter = f.instituicao || f.segmento!=='todos';
+    if (hasFilter) {
+        // Evolução trimestral do ativo filtrado
+        const tris2=getTris(), ind2=APP.data.indicadores?.trimestres;
+        const vals=tris2.map(t=>{
+            let items=(ind2[t]?.agregado||[]).filter(i=>i.ativo_total>0);
+            if(f.segmento!=='todos') items=items.filter(i=>i.segmento===f.segmento);
+            if(f.instituicao) items=items.filter(i=>i.nome===f.instituicao);
+            return items.reduce((s,i)=>s+i.ativo_total,0);
+        });
+        triLineChart('c-cred-evo', tris2, [{label:'Ativo Total',data:vals,borderColor:'#5eead4',backgroundColor:'rgba(94,234,212,.1)',fill:true,tension:.3,pointRadius:4,_fmt:v=>FMT.brl(v)}]);
+    } else {
+        const cr=APP.data.credito?.series?.credito_total?.monthly;
+        if(cr) {
+            const d=cr.slice(-24), id='c-cred-evo', ctx2=document.getElementById(id);
+            if(ctx2) {
+                setHAxis(id, {color:css('--text-secondary'), lineColor:css('--border')+'60', levels:[AXIS_MONTH,AXIS_YEAR]});
+                APP.charts.b=new Chart(ctx2, { type:'line',
+                    data:{labels:d.map(m=>m.data+'-01'), datasets:[{data:d.map(m=>m.valor),borderColor:'#5eead4',backgroundColor:'rgba(94,234,212,.1)',fill:true,tension:.3,pointRadius:0}]},
+                    options:{...defs(false), plugins:{legend:{display:false}, datalabels:dlabelLine(v=>(v/1e6).toFixed(1)+' tri',6)}, scales:{x:{display:false},y:{display:false}}, layout:{padding:{bottom:50}}},
+                });
+            }
         }
     }
 }
 
 /* ─── Rentabilidade ────────────────────── */
 function mRent() {
-    const tri=activeTri();
+    const tri=activeTri(), f=APP.filters;
     const data=filtered(tri).filter(i=>i.roe!=null&&i.ativo_total>1e9).sort((a,b)=>b.roe-a.roe).slice(0,15);
     const ctx1=document.getElementById('c-roe');
     if(ctx1&&data.length) APP.charts.c=new Chart(ctx1, hbar(data.map(i=>i.nome), data.map(i=>i.roe), data.map(i=>segC(i.segmento)), v=>v.toFixed(1)+'%'));
 
-    const tris=getTris(), ind=APP.data.indicadores?.trimestres, segs=Object.keys(SEG_LABELS);
-    const ds=segs.map(seg=>({label:SEG_LABELS[seg], data:tris.map(t=>{const a=(ind[t]?.agregado||[]).filter(i=>i.segmento===seg&&i.roe!=null);return a.length?+(a.reduce((s,i)=>s+i.roe,0)/a.length).toFixed(2):null;}), borderColor:segC(seg), backgroundColor:'transparent', tension:.3, pointRadius:3}));
+    const tris=getTris(), ind=APP.data.indicadores?.trimestres;
+    let ds;
+    if (f.instituicao) {
+        // Evolução do ROE desta instituição
+        const vals = tris.map(t => { const inst = (ind[t]?.agregado||[]).find(i=>i.nome===f.instituicao); return inst?.roe ?? null; });
+        ds = [{ label:f.instituicao, data:vals, borderColor:'#5eead4', backgroundColor:'rgba(94,234,212,.1)', fill:true, tension:.3, pointRadius:4 }];
+    } else if (f.segmento !== 'todos') {
+        // Evolução ROE do segmento filtrado
+        const vals = tris.map(t => { const a=(ind[t]?.agregado||[]).filter(i=>i.segmento===f.segmento&&i.roe!=null); return a.length?+(a.reduce((s,i)=>s+i.roe,0)/a.length).toFixed(2):null; });
+        ds = [{ label:SEG_LABELS[f.segmento]||f.segmento, data:vals, borderColor:segC(f.segmento), backgroundColor:'transparent', tension:.3, pointRadius:4 }];
+    } else {
+        // Todas: 3 linhas por segmento
+        ds = Object.keys(SEG_LABELS).map(seg=>({label:SEG_LABELS[seg], data:tris.map(t=>{const a=(ind[t]?.agregado||[]).filter(i=>i.segmento===seg&&i.roe!=null);return a.length?+(a.reduce((s,i)=>s+i.roe,0)/a.length).toFixed(2):null;}), borderColor:segC(seg), backgroundColor:'transparent', tension:.3, pointRadius:3}));
+    }
     const id='c-roe-evo', ctx2=document.getElementById(id);
     if(ctx2) {
-        // Trimestres como datas para eixo hierárquico
         const tLabels = tris.map(t => t.slice(0,4)+'-'+t.slice(4)+'-01');
         setHAxis(id, {color:css('--text-secondary'), lineColor:css('--border')+'60', levels:[{key:d=>`${d.getFullYear()}-${d.getMonth()}`, label:d=>FMT.tri(`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}`)}, AXIS_YEAR]});
-        APP.charts.d=new Chart(ctx2, {type:'line', data:{labels:tLabels, datasets:ds}, options:{...defs(false), plugins:{...defs(false).plugins,datalabels:{display:false}}, scales:{x:{display:false},y:{display:false}}, layout:{padding:{bottom:50}}}});
+        APP.charts.d=new Chart(ctx2, {type:'line', data:{labels:tLabels, datasets:ds}, options:{...defs(false), plugins:{...defs(false).plugins,datalabels:dlabelLine(v=>v?.toFixed(1)+'%',3)}, scales:{x:{display:false},y:{display:false}}, layout:{padding:{bottom:50}}}});
     }
 }
 
 /* ─── Crédito ──────────────────────────── */
+function lineTS(canvasId, datasets) {
+    const id=canvasId, ctx=document.getElementById(id); if(!ctx) return;
+    const labels = datasets[0].raw.map(m=>m.data+'-01');
+    setHAxis(id, {color:css('--text-secondary'), lineColor:css('--border')+'60', levels:[AXIS_MONTH,AXIS_YEAR]});
+    APP.charts[id]=new Chart(ctx, {type:'line', data:{labels, datasets:datasets.map(d=>({label:d.label, data:d.raw.map(m=>m.valor), borderColor:d.color, tension:.3, pointRadius:0, borderWidth:d.width||1.5, borderDash:d.dash||[]}))},
+        options:{...defs(false), plugins:{legend:{labels:{color:css('--text-secondary')}}, datalabels:dlabelLine(datasets[0].fmt||null,8)}, scales:{x:{display:false},y:{display:false}}, layout:{padding:{bottom:50}}}});
+}
+function triLineChart(canvasId, tris, datasets) {
+    const id=canvasId, ctx=document.getElementById(id); if(!ctx) return;
+    const tLabels=tris.map(t=>t.slice(0,4)+'-'+t.slice(4)+'-01');
+    setHAxis(id,{color:css('--text-secondary'),lineColor:css('--border')+'60',levels:[{key:d=>`${d.getFullYear()}-${d.getMonth()}`,label:d=>FMT.tri(`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}`)},AXIS_YEAR]});
+    APP.charts[id]=new Chart(ctx,{type:'line',data:{labels:tLabels,datasets},options:{...defs(false),plugins:{...defs(false).plugins,datalabels:dlabelLine(datasets[0]._fmt||null,3)},scales:{x:{display:false},y:{display:false}},layout:{padding:{bottom:50}}}});
+}
 function mCred() {
-    const s=APP.data.credito?.series; if(!s) return;
-    function lineTS(canvasId, datasets) {
-        const id=canvasId, ctx=document.getElementById(id); if(!ctx) return;
-        const labels = datasets[0].raw.map(m=>m.data+'-01');
-        setHAxis(id, {color:css('--text-secondary'), lineColor:css('--border')+'60', levels:[AXIS_MONTH,AXIS_YEAR]});
-        APP.charts[id]=new Chart(ctx, {type:'line', data:{labels, datasets:datasets.map(d=>({label:d.label, data:d.raw.map(m=>m.valor), borderColor:d.color, tension:.3, pointRadius:0, borderWidth:d.width||1.5, borderDash:d.dash||[]}))},
-            options:{...defs(false), plugins:{legend:{labels:{color:css('--text-secondary')}}, datalabels:dlabelLine(datasets[0].fmt||null,8)}, scales:{x:{display:false},y:{display:false}}, layout:{padding:{bottom:50}}}});
+    const f=APP.filters, hasFilter = f.instituicao || f.segmento!=='todos';
+
+    if (hasFilter) {
+        // Evolução trimestral do crédito e ativo filtrados
+        const tris=getTris(), ind=APP.data.indicadores?.trimestres;
+        const credData=tris.map(t=>{
+            let items = (ind[t]?.agregado||[]).filter(i=>i.ativo_total>0);
+            if(f.segmento!=='todos') items=items.filter(i=>i.segmento===f.segmento);
+            if(f.instituicao) items=items.filter(i=>i.nome===f.instituicao);
+            return {credito:items.reduce((s,i)=>s+(i.carteira_credito||0),0), ativo:items.reduce((s,i)=>s+i.ativo_total,0)};
+        });
+        // Carteira de crédito
+        triLineChart('c-cred-filt', tris, [{label:'Carteira de Crédito',data:credData.map(d=>d.credito),borderColor:'#5eead4',backgroundColor:'rgba(94,234,212,.1)',fill:true,tension:.3,pointRadius:4,_fmt:v=>FMT.brl(v)}]);
+        // Ativo vs Crédito
+        triLineChart('c-ativo-cred', tris, [{label:'Ativo Total',data:credData.map(d=>d.ativo),borderColor:'#58a6ff',tension:.3,pointRadius:4,_fmt:v=>FMT.brl(v)},{label:'Carteira Crédito',data:credData.map(d=>d.credito),borderColor:'#5eead4',tension:.3,pointRadius:4}]);
+    } else {
+        // Gráficos SGS nacionais (sem filtro)
+        const s=APP.data.credito?.series; if(!s) return;
+        const pf=s.credito_pf?.monthly?.slice(-24)||[], pj=s.credito_pj?.monthly?.slice(-24)||[];
+        if(pf.length) lineTS('c-pfpj', [{label:'PF',raw:pf,color:'#58a6ff',fmt:v=>(v/1e6).toFixed(1)+' tri'},{label:'PJ',raw:pj,color:'#d29922'}]);
+        const i=s.inadimplencia?.monthly?.slice(-24)||[], ipf=s.inadimplencia_pf?.monthly?.slice(-24)||[], ipj=s.inadimplencia_pj?.monthly?.slice(-24)||[];
+        if(i.length) lineTS('c-inad', [{label:'Total',raw:i,color:'#f85149',width:2,fmt:v=>v.toFixed(2)+'%'},{label:'PF',raw:ipf,color:'#58a6ff',dash:[5,3]},{label:'PJ',raw:ipj,color:'#d29922',dash:[5,3]}]);
     }
-    const pf=s.credito_pf?.monthly?.slice(-24)||[], pj=s.credito_pj?.monthly?.slice(-24)||[];
-    if(pf.length) lineTS('c-pfpj', [{label:'PF',raw:pf,color:'#58a6ff',fmt:v=>(v/1e6).toFixed(1)+' tri'},{label:'PJ',raw:pj,color:'#d29922'}]);
-    const i=s.inadimplencia?.monthly?.slice(-24)||[], ipf=s.inadimplencia_pf?.monthly?.slice(-24)||[], ipj=s.inadimplencia_pj?.monthly?.slice(-24)||[];
-    if(i.length) lineTS('c-inad', [{label:'Total',raw:i,color:'#f85149',width:2,fmt:v=>v.toFixed(2)+'%'},{label:'PF',raw:ipf,color:'#58a6ff',dash:[5,3]},{label:'PJ',raw:ipj,color:'#d29922',dash:[5,3]}]);
-    const sp=s.spread_total?.monthly?.slice(-24)||[], spf=s.spread_pf?.monthly?.slice(-24)||[];
-    if(sp.length) lineTS('c-spread', [{label:'Total',raw:sp,color:'#5eead4',fmt:v=>v.toFixed(1)+' p.p.'},{label:'PF',raw:spf,color:'#bc8cff'}]);
+    // Spread sempre visível (nacional)
+    const s2=APP.data.credito?.series;
+    if(s2) {
+        const sp=s2.spread_total?.monthly?.slice(-24)||[], spf=s2.spread_pf?.monthly?.slice(-24)||[];
+        if(sp.length) lineTS('c-spread', [{label:'Total',raw:sp,color:'#5eead4',fmt:v=>v.toFixed(1)+' p.p.'},{label:'PF',raw:spf,color:'#bc8cff'}]);
+    }
 }
 
 /* ─── Taxas ────────────────────────────── */
@@ -493,20 +570,32 @@ function mConc() {
 /* ─── Comparativo ──────────────────────── */
 function mComp() {
     const ind=APP.data.indicadores?.trimestres; if(!ind) return;
-    const tris=getTris(), segs=Object.keys(SEG_LABELS);
-    const ds=segs.map(seg=>({label:SEG_LABELS[seg], data:tris.map(t=>{const a=(ind[t]?.agregado||[]).filter(i=>i.segmento===seg&&i.roe!=null);return a.length?+(a.reduce((s,i)=>s+i.roe,0)/a.length).toFixed(2):null;}), borderColor:segC(seg), backgroundColor:'transparent', tension:.3, pointRadius:3}));
+    const tris=getTris(), f=APP.filters;
+    let ds;
+    if (f.instituicao) {
+        // Instituição vs média do segmento
+        const inst0 = getAg(activeTri()).find(i=>i.nome===f.instituicao);
+        const seg = inst0?.segmento || 'outro';
+        ds = [
+            {label:f.instituicao, data:tris.map(t=>{const inst=(ind[t]?.agregado||[]).find(i=>i.nome===f.instituicao);return inst?.roe??null;}), borderColor:'#5eead4', backgroundColor:'transparent', tension:.3, pointRadius:4},
+            {label:'Média '+SEG_LABELS[seg], data:tris.map(t=>{const a=(ind[t]?.agregado||[]).filter(i=>i.segmento===seg&&i.roe!=null);return a.length?+(a.reduce((s,i)=>s+i.roe,0)/a.length).toFixed(2):null;}), borderColor:segC(seg), backgroundColor:'transparent', tension:.3, pointRadius:3, borderDash:[5,3]},
+        ];
+    } else {
+        ds = Object.keys(SEG_LABELS).map(seg=>({label:SEG_LABELS[seg], data:tris.map(t=>{const a=(ind[t]?.agregado||[]).filter(i=>i.segmento===seg&&i.roe!=null);return a.length?+(a.reduce((s,i)=>s+i.roe,0)/a.length).toFixed(2):null;}), borderColor:segC(seg), backgroundColor:'transparent', tension:.3, pointRadius:3}));
+    }
     const id='c-comp-roe', c1=document.getElementById(id);
     if(c1) {
         const tLabels=tris.map(t=>t.slice(0,4)+'-'+t.slice(4)+'-01');
         setHAxis(id,{color:css('--text-secondary'),lineColor:css('--border')+'60',levels:[{key:d=>`${d.getFullYear()}-${d.getMonth()}`,label:d=>FMT.tri(`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}`)},AXIS_YEAR]});
-        APP.charts.l=new Chart(c1,{type:'line',data:{labels:tLabels,datasets:ds},options:{...defs(false),plugins:{...defs(false).plugins,datalabels:{display:false}},scales:{x:{display:false},y:{display:false}},layout:{padding:{bottom:50}}}});
+        APP.charts.l=new Chart(c1,{type:'line',data:{labels:tLabels,datasets:ds},options:{...defs(false),plugins:{...defs(false).plugins,datalabels:dlabelLine(v=>v?.toFixed(1)+'%',3)},scales:{x:{display:false},y:{display:false}},layout:{padding:{bottom:50}}}});
     }
     const tx=APP.data.taxas?.modalidades; if(!tx) return;
-    const mc=['consignado_inss','credito_pessoal','veiculos','cheque_especial','capital_giro_curto'];
-    const ml=mc.map(m=>tx[m]?.descricao?.slice(0,18)||m);
-    const tds=segs.map(seg=>({label:SEG_LABELS[seg],data:mc.map(m=>tx[m]?.media_por_segmento?.[seg]||null),backgroundColor:segC(seg),borderRadius:6}));
+    const mc=Object.entries(tx).filter(([,v])=>!v.erro&&v.media_geral).slice(0,5);
+    const ml=mc.map(([,v])=>v.descricao?.slice(0,18)||'');
+    const segs=Object.keys(SEG_LABELS);
+    const tds=segs.map(seg=>({label:SEG_LABELS[seg],data:mc.map(([k])=>tx[k]?.media_por_segmento?.[seg]||null),backgroundColor:segC(seg),borderRadius:6}));
     const c2=document.getElementById('c-comp-tx');
-    if(c2) APP.charts.m=new Chart(c2,{type:'bar',data:{labels:ml,datasets:tds},options:{...defs(false),plugins:{...defs(false).plugins,datalabels:{display:false}},scales:{x:{ticks:{color:css('--text-muted'),font:{size:9}},grid:{display:false},border:{display:false}},y:{display:false}}}});
+    if(c2) APP.charts.m=new Chart(c2,{type:'bar',data:{labels:ml,datasets:tds},options:{...defs(false),plugins:{...defs(false).plugins,datalabels:dlabel(v=>v?v.toFixed(1)+'%':'')},scales:{x:{ticks:{color:css('--text-muted'),font:{size:9}},grid:{display:false},border:{display:false}},y:{display:false}}}});
 }
 
 /* ─── Geográfico ───────────────────────── */
@@ -514,69 +603,72 @@ function mGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return;
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
 
-    // Mapa de calor com D3 + TopoJSON do IBGE
-    renderMapaD3(e.por_uf);
+    // Mapa D3
+    setTimeout(()=>renderMapaD3(e.por_uf), 50); // defer to allow DOM render
 
     const ctx=document.getElementById('c-geo');
     if(ctx) APP.charts.n=new Chart(ctx,{type:'bar',data:{labels:ufs.map(u=>u.uf),datasets:[{data:ufs.map(u=>u.credito_per_capita),backgroundColor:ufs.map((_,i)=>`rgba(94,234,212,${.3+((ufs.length-i)/ufs.length)*.7})`),borderRadius:6}]},options:{...defs(),plugins:{...defs().plugins,legend:{display:false},datalabels:dlabel(v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0}))},scales:{x:{display:true,ticks:{color:css('--text-primary'),font:{size:9,weight:600}},grid:{display:false},border:{display:false}},y:{display:false}}}});
 }
 
 /* ─── Mapa D3 ─────────────────────────── */
-const UF_CODES = {11:'RO',12:'AC',13:'AM',14:'RR',15:'PA',16:'AP',17:'TO',21:'MA',22:'PI',23:'CE',24:'RN',25:'PB',26:'PE',27:'AL',28:'SE',29:'BA',31:'MG',32:'ES',33:'RJ',35:'SP',41:'PR',42:'SC',43:'RS',50:'MS',51:'MT',52:'GO',53:'DF'};
 function renderMapaD3(porUf) {
     const container = document.getElementById('mapa-container');
-    if (!container || typeof d3 === 'undefined') { if(container) container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:60px">D3 indisponível</div>'; return; }
+    if (!container) return;
+    if (typeof d3 === 'undefined') { container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:60px">Biblioteca D3 indisponível</div>'; return; }
+    container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:40px">Carregando mapa...</div>';
     const vals = {}; porUf.forEach(u => vals[u.uf] = u.credito_per_capita);
     const maxV = Math.max(...porUf.map(u=>u.credito_per_capita));
     const logMax = Math.log(maxV + 1);
     function ufColor(uf) {
         const v = vals[uf]; if (v == null) return '#1a2233';
-        const ratio = Math.log(v + 1) / logMax;
-        return d3.interpolateRgb('#0d1117', '#5eead4')(ratio);
+        return d3.interpolateRgb('#0d1117', '#5eead4')(Math.log(v + 1) / logMax);
     }
     fetch('https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson')
         .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
         .then(geo => {
             container.innerHTML = '';
-            const w = container.clientWidth || 400, h = Math.max(w * 1.05, 380);
-            const svg = d3.select(container).append('svg').attr('width', w).attr('height', h).attr('viewBox', `0 0 ${w} ${h}`);
-            const proj = d3.geoMercator().fitSize([w - 20, h - 40], geo).translate([w/2, h/2 + 10]);
+            container.style.position = 'relative';
+            const w = container.clientWidth || 400, h = Math.min(w * 1.1, 500);
+            const svg = d3.select(container).append('svg')
+                .attr('width', '100%').attr('height', h)
+                .attr('viewBox', `0 0 ${w} ${h}`)
+                .attr('preserveAspectRatio', 'xMidYMid meet');
+            const proj = d3.geoMercator().fitSize([w * 0.9, h * 0.9], geo);
             const path = d3.geoPath().projection(proj);
-            // Tooltip
             const ttip = d3.select(container).append('div').attr('class', 'map-tooltip').style('display', 'none');
             svg.selectAll('path').data(geo.features).join('path')
                 .attr('d', path)
                 .attr('fill', d => ufColor(d.properties.sigla))
                 .attr('stroke', '#30363d').attr('stroke-width', .5)
-                .style('cursor', 'pointer')
+                .style('cursor', 'pointer').style('transition', 'opacity .15s')
                 .on('mouseenter', function(ev, d) {
                     d3.select(this).attr('stroke', '#5eead4').attr('stroke-width', 1.5).style('opacity', .85);
                     const uf = d.properties.sigla, v = vals[uf];
-                    ttip.style('display', 'block').html(`<strong>${uf}</strong> — R$ ${v ? v.toLocaleString('pt-BR',{maximumFractionDigits:0}) : '?'} mil/hab`);
+                    ttip.style('display', 'block').html(`<strong>${uf}</strong><br>R$ ${v ? v.toLocaleString('pt-BR',{maximumFractionDigits:0}) : '?'} mil per capita`);
                 })
                 .on('mousemove', function(ev) {
                     const rect = container.getBoundingClientRect();
-                    ttip.style('left', (ev.clientX - rect.left + 14) + 'px').style('top', (ev.clientY - rect.top - 12) + 'px');
+                    ttip.style('left', Math.min(ev.clientX - rect.left + 14, w - 160) + 'px')
+                        .style('top', (ev.clientY - rect.top - 30) + 'px');
                 })
                 .on('mouseleave', function() {
                     d3.select(this).attr('stroke', '#30363d').attr('stroke-width', .5).style('opacity', 1);
                     ttip.style('display', 'none');
                 });
-            // Labels UF
-            svg.selectAll('text').data(geo.features).join('text')
-                .attr('x', d => path.centroid(d)[0])
-                .attr('y', d => path.centroid(d)[1])
+            // Labels
+            svg.selectAll('.uf-label').data(geo.features).join('text').attr('class','uf-label')
+                .attr('x', d => path.centroid(d)[0]).attr('y', d => path.centroid(d)[1])
                 .attr('text-anchor', 'middle').attr('dominant-baseline', 'central')
-                .attr('font-size', 9).attr('font-family', "'Inter',sans-serif").attr('font-weight', 700)
-                .attr('fill', d => { const v=vals[d.properties.sigla]||0; return Math.log(v+1)/logMax > 0.45 ? '#0d1117' : '#e6edf3'; })
-                .attr('pointer-events', 'none')
-                .text(d => d.properties.sigla);
+                .attr('font-size', Math.max(8, w/55)).attr('font-family', "'Inter',sans-serif").attr('font-weight', 700)
+                .attr('fill', d => Math.log((vals[d.properties.sigla]||0)+1)/logMax > 0.45 ? '#0d1117' : '#e6edf3')
+                .attr('pointer-events', 'none').text(d => d.properties.sigla);
             // Legenda
-            container.insertAdjacentHTML('beforeend', `<div class="map-scale"><span>Menor</span><div class="map-scale-bar"></div><span>Maior</span></div>`);
+            d3.select(container).append('div').attr('class','map-scale')
+                .html('<span>Menor</span><div class="map-scale-bar"></div><span>Maior</span>');
         })
         .catch(err => {
-            console.warn('Mapa GeoJSON:', err);
-            container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:60px">Mapa indisponível</div>';
+            console.warn('GeoJSON:', err);
+            container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:40px">Mapa indisponível — veja o gráfico abaixo</div>';
         });
 }
 
@@ -584,11 +676,17 @@ function renderMapaD3(porUf) {
 function mRec() {
     const r=APP.data.reclamacoes; if(!r) return;
     const rk=[...r.ranking].sort((a,b)=>b.indice-a.indice);
+    const SEG_NAMES = {S1:'Grandes Privados',S2:'Médios',S1_publico:'Públicos',digital:'Digitais',cooperativa:'Cooperativas'};
     const c1=document.getElementById('c-rec');
-    if(c1) APP.charts.o=new Chart(c1, hbar(rk.map(r=>r.instituicao), rk.map(r=>r.indice), rk.map(r=>segC(r.segmento)), v=>v.toFixed(1)));
+    if(c1) APP.charts.o=new Chart(c1, hbar(rk.map(r=>r.instituicao), rk.map(r=>r.indice), rk.map((_,i)=>PAL[i%PAL.length]), v=>v.toFixed(1)));
+    // Gráfico por tipo
+    const tipos = r.por_tipo;
+    const c3=document.getElementById('c-rec-tipo');
+    if(c3&&tipos?.length) APP.charts.q=new Chart(c3,{type:'doughnut',data:{labels:tipos.map(t=>t.tipo),datasets:[{data:tipos.map(t=>t.percentual),backgroundColor:PAL.slice(0,tipos.length),borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:css('--text-secondary'),font:{size:10},boxWidth:10,padding:6}},datalabels:{color:'#fff',font:{size:9,weight:700},formatter:v=>v>5?v.toFixed(1)+'%':''}}}});
+    // Média por segmento
     const sd=Object.entries(r.media_por_segmento).sort((a,b)=>b[1]-a[1]);
     const c2=document.getElementById('c-rec-seg');
-    if(c2) APP.charts.p=new Chart(c2,{type:'bar',data:{labels:sd.map(([s])=>SEG_LABELS[s]||s),datasets:[{data:sd.map(([,v])=>v),backgroundColor:sd.map(([s])=>segC(s)),borderRadius:6}]},options:{...defs(),plugins:{...defs().plugins,legend:{display:false},datalabels:dlabel(v=>v.toFixed(1))},scales:{x:{display:true,ticks:{color:css('--text-primary'),font:{size:10}},grid:{display:false},border:{display:false}},y:{display:false}}}});
+    if(c2) APP.charts.p=new Chart(c2,{type:'bar',data:{labels:sd.map(([s])=>SEG_NAMES[s]||SEG_LABELS[s]||s),datasets:[{data:sd.map(([,v])=>v),backgroundColor:sd.map((_,i)=>PAL[i%PAL.length]),borderRadius:6}]},options:{...defs(),plugins:{...defs().plugins,legend:{display:false},datalabels:dlabel(v=>v.toFixed(1))},scales:{x:{display:true,ticks:{color:css('--text-primary'),font:{size:9}},grid:{display:false},border:{display:false}},y:{display:false}}}});
 }
 
 /* ═══════════════════════════════════════
@@ -608,6 +706,24 @@ function bindEvents() {
     document.getElementById('fTri')?.addEventListener('change',e=>{APP.filters.trimestre=e.target.value;APP.sort={col:null,dir:'desc'};render();});
     document.getElementById('fSeg')?.addEventListener('change',e=>{APP.filters.segmento=e.target.value;APP.filters.instituicao='';APP.sort={col:null,dir:'desc'};render();});
     document.getElementById('fInst')?.addEventListener('change',e=>{APP.filters.instituicao=e.target.value;APP.sort={col:null,dir:'desc'};render();});
+    // Tooltip overflow fix
+    document.querySelectorAll('.info-tip').forEach(tip=>{
+        tip.addEventListener('mouseenter',()=>{
+            const box=tip.querySelector('.info-box'); if(!box) return;
+            box.classList.remove('below');
+            requestAnimationFrame(()=>{
+                const rect=box.getBoundingClientRect();
+                if(rect.top<0) box.classList.add('below');
+                // Also fix horizontal overflow
+                if(rect.left<8) { box.style.left='0'; box.style.transform='none'; }
+                if(rect.right>window.innerWidth-8) { box.style.left='auto'; box.style.right='0'; box.style.transform='none'; }
+            });
+        });
+        tip.addEventListener('mouseleave',()=>{
+            const box=tip.querySelector('.info-box'); if(!box) return;
+            box.classList.remove('below'); box.style.left=''; box.style.right=''; box.style.transform='';
+        });
+    });
     // Sortable table headers
     document.querySelectorAll('th.sortable').forEach(th=>{
         th.addEventListener('click',()=>{
@@ -624,8 +740,7 @@ function showSection(id) {
     document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
     const sec = document.getElementById(`sec-${id}`);
     if (sec) {
-        // Lazy render: populate if empty
-        if (!sec.innerHTML.trim()) sec.innerHTML = SECTION_FN[id]?.() ?? '';
+        sec.innerHTML = SECTION_FN[id]?.() ?? ''; // Always re-render with current filters
         sec.classList.add('active');
     }
     document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.section===id));

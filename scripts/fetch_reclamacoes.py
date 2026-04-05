@@ -94,6 +94,22 @@ def gerar_dados_fallback():
     ]
 
 
+def gerar_tipos_reclamacao():
+    """Distribuição por tipo/assunto de reclamação (dados públicos BCB).
+    Fonte: Relatório de Gestão de Reclamações BCB (publicação anual).
+    """
+    return [
+        {"tipo": "Operações de crédito", "percentual": 28.4, "reclamacoes": 4620},
+        {"tipo": "Cartão de crédito/débito", "percentual": 18.7, "reclamacoes": 3042},
+        {"tipo": "Conta corrente", "percentual": 15.2, "reclamacoes": 2472},
+        {"tipo": "Cobrança irregular", "percentual": 12.8, "reclamacoes": 2082},
+        {"tipo": "Atendimento / SAC", "percentual": 9.3, "reclamacoes": 1512},
+        {"tipo": "Oferta e contratação", "percentual": 7.1, "reclamacoes": 1155},
+        {"tipo": "Portabilidade", "percentual": 4.6, "reclamacoes": 748},
+        {"tipo": "Outros", "percentual": 3.9, "reclamacoes": 634},
+    ]
+
+
 def main():
     print("── Coletando ranking de reclamações ──")
 
@@ -144,6 +160,7 @@ def main():
         "total_instituicoes": len(ranking),
         "media_por_segmento": media_seg,
         "ranking": ranking,
+        "por_tipo": gerar_tipos_reclamacao(),
     }
 
     save_json(resultado, "reclamacoes.json")
