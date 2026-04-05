@@ -58,22 +58,60 @@ const FMT = {
 
 async function init() {
     const files = ['credito','taxas','resultados','indicadores','concentracao','estban','reclamacoes','instituicoes'];
-    const results = await Promise.allSettled(
-        files.map(f => fetch(`data/${f}.json`).then(r => r.json()))
-    );
-    files.forEach((f, i) => {
-        APP.data[f] = results[i].status === 'fulfilled' ? results[i].value : null;
-    });
+    try {
+        const results = await Promise.allSettled(
+            files.map(f => fetch(`data/${f}.json`).then(r => {
+                if (!r.ok) throw new Error(`HTTP ${r.status} for ${f}`);
+                return r.json();
+            }))
+        );
+        let loaded = 0;
+        files.forEach((f, i) => {
+            if (results[i].status === 'fulfilled') {
+                APP.data[f] = results[i].value;
+                loaded++;
+            } else {
+                APP.data[f] = null;
+                console.error(`Erro ao carregar ${f}:`, results[i].reason);
+            }
+        });
+        console.log(`BCB Financeiro: ${loaded}/${files.length} arquivos carregados`);
+        if (loaded === 0) {
+            document.getElementById('app').innerHTML = `
+                <div class="loading" style="color:var(--accent-red)">
+                    <p>Erro ao carregar dados. Verifique o console.</p>
+                    <p style="font-size:.8rem;color:var(--text-muted)">
+                        Certifique-se de acessar via servidor HTTP, não file://
+                    </p>
+                </div>`;
+            return;
+        }
+    } catch (e) {
+        console.error('Erro fatal no init:', e);
+        document.getElementById('app').innerHTML = `
+            <div class="loading" style="color:var(--accent-red)">
+                <p>Erro fatal: ${e.message}</p>
+            </div>`;
+        return;
+    }
     render();
 }
 
 /* ─── Render ───────────────────────────── */
 
 function render() {
-    const el = document.getElementById('app');
-    el.innerHTML = renderHeader() + renderNav() + renderKPIs() + renderSections() + renderFooter();
-    bindEvents();
-    showSection(APP.activeSection);
+    try {
+        const el = document.getElementById('app');
+        el.innerHTML = renderHeader() + renderNav() + renderKPIs() + renderSections() + renderFooter();
+        bindEvents();
+        showSection(APP.activeSection);
+    } catch (e) {
+        console.error('Erro no render:', e);
+        document.getElementById('app').innerHTML = `
+            <div class="loading" style="color:var(--accent-red)">
+                <p>Erro ao renderizar: ${e.message}</p>
+            </div>`;
+    }
 }
 
 function renderHeader() {
@@ -464,16 +502,19 @@ function destroyCharts() {
 function mountCharts() {
     destroyCharts();
     const section = APP.activeSection;
-
-    switch(section) {
-        case 'resumo':        mountResumoCharts(); break;
-        case 'rentabilidade': mountRentabilidadeCharts(); break;
-        case 'credito':       mountCreditoCharts(); break;
-        case 'taxas':         mountTaxasCharts(); break;
-        case 'concentracao':  mountConcentracaoCharts(); break;
-        case 'comparativo':   mountComparativoCharts(); break;
-        case 'geografico':    mountGeograficoCharts(); break;
-        case 'reclamacoes':   mountReclamacoesCharts(); break;
+    try {
+        switch(section) {
+            case 'resumo':        mountResumoCharts(); break;
+            case 'rentabilidade': mountRentabilidadeCharts(); break;
+            case 'credito':       mountCreditoCharts(); break;
+            case 'taxas':         mountTaxasCharts(); break;
+            case 'concentracao':  mountConcentracaoCharts(); break;
+            case 'comparativo':   mountComparativoCharts(); break;
+            case 'geografico':    mountGeograficoCharts(); break;
+            case 'reclamacoes':   mountReclamacoesCharts(); break;
+        }
+    } catch (e) {
+        console.error(`Erro ao montar gráficos (${section}):`, e);
     }
 }
 
@@ -991,7 +1032,10 @@ function showSection(id) {
     mountCharts();
 }
 
-/* ─── Theme init ───────────────────────── */
+/* ─── Plugin & Theme init ──────────────── */
+
+Chart.register(ChartDataLabels);
+Chart.defaults.plugins.datalabels.display = false;
 
 (function() {
     const saved = localStorage.getItem('theme');
