@@ -146,7 +146,7 @@ body {
    KPI CARDS
    ═══════════════════════════════════════ */
 
-.kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 20px 24px; }
+.kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 20px 24px; position: relative; z-index: 20; }
 
 .kpi-card {
     background: var(--bg-card); border: 1px solid var(--border);
@@ -203,6 +203,7 @@ body {
 .section-title {
     font-size: 1.05rem; font-weight: 700; margin-bottom: 18px;
     display: flex; align-items: center; gap: 10px;
+    position: relative; z-index: 20;
 }
 
 .section-title::before {
@@ -218,6 +219,7 @@ body {
 .card-title {
     font-size: .88rem; font-weight: 600; margin-bottom: 14px;
     display: flex; align-items: center; gap: 6px;
+    position: relative; z-index: 20;
 }
 
 .chart-container { position: relative; height: 380px; }
