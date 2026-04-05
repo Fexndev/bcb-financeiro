@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:33:17Z",
+  "last_updated": "2026-04-05T19:48:44Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
@@ -9,8 +9,8 @@
       "top10_share_ativo": 79.21,
       "share_por_segmento": {
         "grande": 64.16,
-        "outro": 30.72,
-        "cooperativa": 5.12
+        "outro": 30.43,
+        "cooperativa": 5.4
       },
       "ranking_ativo": [
         {
@@ -264,8 +264,8 @@
       "top10_share_ativo": 78.81,
       "share_por_segmento": {
         "grande": 63.6,
-        "outro": 31.11,
-        "cooperativa": 5.28
+        "outro": 30.85,
+        "cooperativa": 5.55
       },
       "ranking_ativo": [
         {
@@ -519,8 +519,8 @@
       "top10_share_ativo": 78.85,
       "share_por_segmento": {
         "grande": 63.88,
-        "outro": 30.36,
-        "cooperativa": 5.76
+        "outro": 30.02,
+        "cooperativa": 6.09
       },
       "ranking_ativo": [
         {
@@ -774,8 +774,8 @@
       "top10_share_ativo": 77.75,
       "share_por_segmento": {
         "grande": 63.35,
-        "outro": 30.83,
-        "cooperativa": 5.82
+        "outro": 30.46,
+        "cooperativa": 6.19
       },
       "ranking_ativo": [
         {
@@ -1029,8 +1029,8 @@
       "top10_share_ativo": 78.04,
       "share_por_segmento": {
         "grande": 63.33,
-        "outro": 30.58,
-        "cooperativa": 6.09
+        "outro": 30.2,
+        "cooperativa": 6.46
       },
       "ranking_ativo": [
         {
@@ -1284,8 +1284,8 @@
       "top10_share_ativo": 77.33,
       "share_por_segmento": {
         "grande": 62.7,
-        "outro": 31.11,
-        "cooperativa": 6.19
+        "outro": 30.77,
+        "cooperativa": 6.54
       },
       "ranking_ativo": [
         {
@@ -1539,8 +1539,8 @@
       "top10_share_ativo": 77.62,
       "share_por_segmento": {
         "grande": 62.99,
-        "outro": 30.65,
-        "cooperativa": 6.36
+        "outro": 30.25,
+        "cooperativa": 6.76
       },
       "ranking_ativo": [
         {
@@ -1794,8 +1794,8 @@
       "top10_share_ativo": 76.86,
       "share_por_segmento": {
         "grande": 62.32,
-        "outro": 31.36,
-        "cooperativa": 6.31
+        "outro": 30.94,
+        "cooperativa": 6.73
       },
       "ranking_ativo": [
         {
@@ -2049,8 +2049,8 @@
       "top10_share_ativo": 76.69,
       "share_por_segmento": {
         "grande": 61.9,
-        "outro": 31.79,
-        "cooperativa": 6.3
+        "outro": 31.37,
+        "cooperativa": 6.73
       },
       "ranking_ativo": [
         {
@@ -2304,8 +2304,8 @@
       "top10_share_ativo": 76.39,
       "share_por_segmento": {
         "grande": 61.54,
-        "outro": 32.06,
-        "cooperativa": 6.39
+        "outro": 31.64,
+        "cooperativa": 6.82
       },
       "ranking_ativo": [
         {
@@ -2559,8 +2559,8 @@
       "top10_share_ativo": 76.28,
       "share_por_segmento": {
         "grande": 61.25,
-        "outro": 32.24,
-        "cooperativa": 6.51
+        "outro": 31.78,
+        "cooperativa": 6.97
       },
       "ranking_ativo": [
         {
@@ -2814,8 +2814,8 @@
       "top10_share_ativo": 75.5,
       "share_por_segmento": {
         "grande": 60.58,
-        "outro": 32.93,
-        "cooperativa": 6.5
+        "outro": 32.45,
+        "cooperativa": 6.98
       },
       "ranking_ativo": [
         {

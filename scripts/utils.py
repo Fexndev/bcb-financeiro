@@ -24,7 +24,7 @@ INSTITUICOES = {
     "VOTORANTIM":  {"cnpj": "59588111", "nome": "Banco Votorantim",    "segmento": "outro"},
     "BMG":         {"cnpj": "61186680", "nome": "BMG",                 "segmento": "outro"},
     "PAN":         {"cnpj": "59285411", "nome": "Banco Pan",           "segmento": "outro"},
-    "INTER":       {"cnpj": "00416968", "nome": "Banco Inter",         "segmento": "outro"},
+    "BANCO INTER":  {"cnpj": "00416968", "nome": "Banco Inter",         "segmento": "outro"},
     "C6":          {"cnpj": "31872495", "nome": "C6 Bank",             "segmento": "outro"},
     "ORIGINAL":    {"cnpj": "92894922", "nome": "Banco Original",      "segmento": "outro"},
     "BNDES":       {"cnpj": "33657248", "nome": "BNDES",               "segmento": "outro"},
@@ -34,6 +34,7 @@ INSTITUICOES = {
     "SICREDI":     {"cnpj": "01181521", "nome": "Sicredi",             "segmento": "cooperativa"},
     "UNICRED":     {"cnpj": "00315557", "nome": "Unicred",             "segmento": "cooperativa"},
     "CRESOL":      {"cnpj": "01330387", "nome": "Cresol",              "segmento": "cooperativa"},
+    "AILOS":       {"cnpj": "05765478", "nome": "Ailos",               "segmento": "cooperativa"},
 }
 
 SEGMENTO_LABELS = {
@@ -120,7 +121,8 @@ def classificar_instituicao(nome):
     if any(x in nome_upper for x in ["SICOOB", "SICOO", "BANCOOB",
                                        "SICREDI", "SICRED",
                                        "UNICRED", "UNICR",
-                                       "CRESOL", "CRESO", "INTERAÇÃO SOLIDÁRIA", "INTERACAO SOLIDARIA"]):
+                                       "CRESOL", "CRESO", "INTERAÇÃO SOLIDÁRIA", "INTERACAO SOLIDARIA",
+                                       "AILOS"]):
         return "cooperativa"
     return "outro"
 
@@ -139,6 +141,8 @@ def limpar_nome_instituicao(nome):
         return "Unicred"
     if "CRESOL" in upper or "INTERAÇÃO SOLIDÁRIA" in upper or "INTERACAO SOLIDARIA" in upper:
         return "Cresol"
+    if "AILOS" in upper:
+        return "Ailos"
 
     # Mapeamento de nomes conhecidos
     MAPA = {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:33:17Z",
+  "last_updated": "2026-04-05T19:48:44Z",
   "source": "BCB/IF.data",
   "periodo": "202412",
   "total": 709,
@@ -131,7 +131,7 @@
     },
     {
       "nome": "Cresol",
-      "segmento": "outro",
+      "segmento": "cooperativa",
       "qtd_singulares": 63
     },
     {
@@ -405,8 +405,8 @@
       "qtd_singulares": 1
     },
     {
-      "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-      "segmento": "outro",
+      "nome": "Ailos",
+      "segmento": "cooperativa",
       "qtd_singulares": 1
     },
     {

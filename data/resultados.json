@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:33:17Z",
+  "last_updated": "2026-04-05T19:48:44Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": [
@@ -320,7 +320,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 29708305605.25,
         "patrimonio_liquido": 2557038668.21,
         "lucro_liquido": 99647558.5,
@@ -817,7 +817,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 28387338348.92,
         "patrimonio_liquido": 2759777258.76,
         "lucro_liquido": 221119815.65,
@@ -1170,7 +1170,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 39487286187.14,
         "patrimonio_liquido": 3117604501.12,
         "lucro_liquido": 88694404.75,
@@ -1604,7 +1604,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 42972450568.56,
         "patrimonio_liquido": 3478293087.51,
         "lucro_liquido": 209492622.7,
@@ -2065,7 +2065,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 44881352911.18,
         "patrimonio_liquido": 3753102164.56,
         "lucro_liquido": 131517261.3,
@@ -2526,7 +2526,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 41952433605.67,
         "patrimonio_liquido": 3996126107.48,
         "lucro_liquido": 248526544.91,
@@ -2951,7 +2951,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 51854666202.46,
         "patrimonio_liquido": 4279900219.42,
         "lucro_liquido": 97115756.37,
@@ -3403,7 +3403,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 54871369251.03,
         "patrimonio_liquido": 4578652046.17,
         "lucro_liquido": 224355314.5,
@@ -3855,7 +3855,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 57072912707.65,
         "patrimonio_liquido": 4819269445.79,
         "lucro_liquido": 84048624.74,
@@ -4307,7 +4307,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 59069733496.83,
         "patrimonio_liquido": 5194021302.34,
         "lucro_liquido": 308447122.33,
@@ -4759,7 +4759,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 66850286774.16,
         "patrimonio_liquido": 5647345728.59,
         "lucro_liquido": 177835257.94,
@@ -5202,7 +5202,7 @@
       },
       {
         "nome": "Cresol",
-        "segmento": "outro",
+        "segmento": "cooperativa",
         "ativo_total": 71973524677.35,
         "patrimonio_liquido": 6132778304.14,
         "lucro_liquido": 437857493.79,

@@ -14,7 +14,7 @@ TRIMESTRES = [
 ]
 
 # Cooperativas que devem ser agregadas por sistema
-SISTEMAS_COOP = {"Sicoob", "Sicredi", "Unicred", "Cresol"}
+SISTEMAS_COOP = {"Sicoob", "Sicredi", "Unicred", "Cresol", "Ailos"}
 
 
 def fetch_arquivo(nome_arquivo):

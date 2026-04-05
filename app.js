@@ -60,15 +60,15 @@ const hierarchicalAxisPlugin = {
 
 /* ─── DISCLAIMER TOOLTIPS ──────────────── */
 const FORMULAS = {
-    roe: '<strong>ROE</strong> = Lucro Líquido / Patrimônio Líquido &times; 100',
-    roa: '<strong>ROA</strong> = Lucro Líquido / Ativo Total &times; 100',
-    basileia: '<strong>Índice de Basileia</strong> = Patrimônio de Referência / Ativos Ponderados pelo Risco',
-    inadimplencia: '<strong>Inadimplência</strong> = % da carteira de crédito com atraso &gt; 90 dias (fonte: SGS/BCB)',
-    spread: '<strong>Spread Bancário</strong> = Taxa média de empréstimo &minus; Taxa média de captação (p.p.)',
-    hhi: '<strong>HHI</strong> = &Sigma;(share&sup2;) &mdash; Índice Herfindahl-Hirschman. Acima de 1.500 = mercado concentrado',
-    share: '<strong>Market Share</strong> = Ativo da instituição / Ativo total do SFN &times; 100',
-    credpc: '<strong>Crédito Per Capita</strong> = Carteira de crédito / População. Dados agregados por sede da instituição.',
-    credito: '<strong>Crédito Total</strong> = Saldo de todas as operações de crédito do SFN (fonte: SGS série 20539)',
+    roe: '<strong>ROE (Retorno sobre PL)</strong><br>Fórmula: Lucro Líquido &divide; Patrimônio Líquido &times; 100<br><br>Mede a rentabilidade do capital próprio. Quanto maior, mais eficiente o uso do capital dos acionistas.',
+    roa: '<strong>ROA (Retorno sobre Ativos)</strong><br>Fórmula: Lucro Líquido &divide; Ativo Total &times; 100<br><br>Mede a eficiência da instituição em gerar lucro com seus ativos totais.',
+    basileia: '<strong>Índice de Basileia</strong><br>Fórmula: Patrimônio de Referência &divide; Ativos Ponderados pelo Risco<br><br>Mede a solidez da instituição. O mínimo regulatório no Brasil é 10,5%. Quanto maior, mais capitalizado.',
+    inadimplencia: '<strong>Inadimplência</strong><br>Percentual da carteira de crédito com atraso superior a 90 dias.<br><br>Fonte: SGS/BCB séries 21082 (total), 21083 (PF), 21084 (PJ).',
+    spread: '<strong>Spread Bancário</strong><br>Diferença entre a taxa média cobrada nos empréstimos e a taxa média paga na captação (em pontos percentuais).<br><br>Fonte: SGS/BCB séries 20783 (total) e 20784 (PF).',
+    hhi: '<strong>HHI — Índice Herfindahl-Hirschman</strong><br>Fórmula: soma dos quadrados do market share de cada instituição.<br><br>Interpretação:<br>&bull; Abaixo de 1.000 = mercado competitivo<br>&bull; 1.000 a 1.800 = moderadamente concentrado<br>&bull; Acima de 1.800 = altamente concentrado',
+    share: '<strong>Market Share</strong><br>Fórmula: Ativo da instituição &divide; Ativo total do SFN &times; 100<br><br>Participação de mercado medida pelo ativo total.',
+    credpc: '<strong>Crédito Per Capita</strong><br>Fórmula: Carteira de crédito da UF &divide; População (IBGE 2024)<br><br>Os dados são agregados pela <strong>sede</strong> da instituição, não pela localização do tomador. UFs como DF e SP ficam infladas por abrigarem sedes de grandes bancos.',
+    credito: '<strong>Crédito Total do SFN</strong><br>Saldo de todas as operações de crédito do Sistema Financeiro Nacional.<br><br>Fonte: SGS/BCB série 20539. Inclui PF e PJ, todas modalidades.',
 };
 function tip(key) { return `<span class="info-tip">?<span class="info-box">${FORMULAS[key]||''}</span></span>`; }
 
@@ -274,7 +274,10 @@ function rGeo() {
     const mx=ufs[0]?.credito_per_capita||1;
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
     <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs com sedes de grandes bancos (DF, SP) apresentam valores superestimados — BB, Caixa e BNDES têm sede no DF mas operam nacionalmente.</div>
-    <div class="card"><div class="card-title">Crédito Per Capita (R$ mil / hab)</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>
+    <div class="grid-2">
+        <div class="card"><div class="card-title">Mapa de Calor — Crédito Per Capita</div><div id="mapa-container" style="min-height:400px"></div></div>
+        <div class="card"><div class="card-title">Crédito Per Capita (R$ mil / hab)</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>
+    </div>
     <div class="card"><div class="card-title">Ranking por UF</div><div class="map-legend">${ufs.map(u=>`<div class="legend-item"><span class="legend-uf">${u.uf}</span><span class="legend-value">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span><div style="flex:1;margin-left:12px"><div class="legend-bar" style="width:${(u.credito_per_capita/mx*100).toFixed(0)}%"></div></div></div>`).join('')}</div></div>`;
 }
 
@@ -443,6 +446,38 @@ function mComp() {
 function mGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return;
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
+
+    // Mapa de calor SVG
+    fetch('brasil.svg').then(r=>r.text()).then(svg=>{
+        const container = document.getElementById('mapa-container');
+        if (!container) return;
+        container.innerHTML = svg;
+        const svgEl = container.querySelector('svg');
+        if (!svgEl) return;
+        svgEl.style.width = '100%'; svgEl.style.height = '100%';
+        // Colorir por intensidade
+        const vals = {}; const maxV = Math.max(...ufs.map(u=>u.credito_per_capita));
+        ufs.forEach(u => vals[u.uf] = u.credito_per_capita);
+        // Escala log para suavizar disparidade do DF
+        const logMax = Math.log(maxV + 1);
+        e.por_uf.forEach(u => {
+            const path = svgEl.querySelector(`#${u.uf}`);
+            if (!path) return;
+            const ratio = Math.log((vals[u.uf]||1) + 1) / logMax;
+            const r = Math.round(13 + ratio * 81); // 0d..5e
+            const g = Math.round(17 + ratio * 217); // 11..ea
+            const b = Math.round(35 + ratio * 177); // 23..d4
+            path.setAttribute('fill', `rgb(${r},${g},${b})`);
+            path.style.cursor = 'pointer';
+            path.setAttribute('title', `${u.uf}: R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil per capita`);
+            // Hover tooltip
+            path.addEventListener('mouseenter', function() { this.style.opacity = '0.8'; this.style.stroke = '#5eead4'; this.style.strokeWidth = '0.5'; });
+            path.addEventListener('mouseleave', function() { this.style.opacity = '1'; this.style.stroke = '#30363d'; this.style.strokeWidth = '0.3'; });
+        });
+        // Legenda de cores
+        container.insertAdjacentHTML('beforeend', `<div style="display:flex;align-items:center;gap:8px;margin-top:12px;font-size:.75rem;color:var(--text-muted)"><span>Menor</span><div style="flex:1;height:8px;border-radius:4px;background:linear-gradient(to right,rgb(13,17,35),rgb(94,234,212))"></div><span>Maior</span></div>`);
+    }).catch(()=>{});
+
     const ctx=document.getElementById('c-geo');
     if(ctx) APP.charts.n=new Chart(ctx,{type:'bar',data:{labels:ufs.map(u=>u.uf),datasets:[{data:ufs.map(u=>u.credito_per_capita),backgroundColor:ufs.map((_,i)=>`rgba(94,234,212,${.3+((ufs.length-i)/ufs.length)*.7})`),borderRadius:6}]},options:{...defs(),plugins:{...defs().plugins,legend:{display:false},datalabels:dlabel(v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0}))},scales:{x:{display:true,ticks:{color:css('--text-primary'),font:{size:9,weight:600}},grid:{display:false},border:{display:false}},y:{display:false}}}});
 }

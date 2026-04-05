@@ -212,11 +212,12 @@ body {
 
 .info-box {
     display: none; position: absolute; bottom: calc(100% + 8px); left: 50%;
-    transform: translateX(-50%); background: var(--bg-card);
-    border: 1px solid var(--border); padding: 10px 14px; border-radius: 8px;
-    font-size: .75rem; font-weight: 400; color: var(--text-secondary);
-    width: 280px; z-index: 200; box-shadow: var(--shadow);
-    line-height: 1.5; text-transform: none; letter-spacing: 0;
+    transform: translateX(-50%); background: var(--bg-page);
+    border: 1px solid var(--border); padding: 14px 18px; border-radius: 10px;
+    font-size: .78rem; font-weight: 400; color: var(--text-secondary);
+    width: 320px; max-width: 90vw; z-index: 300; box-shadow: 0 8px 24px rgba(0,0,0,.4);
+    line-height: 1.6; text-transform: none; letter-spacing: 0;
+    white-space: normal; word-wrap: break-word;
 }
 
 .info-box strong { color: var(--text-primary); }

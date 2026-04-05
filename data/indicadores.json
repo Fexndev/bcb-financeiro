@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T19:33:17Z",
+  "last_updated": "2026-04-05T19:48:44Z",
   "source": "BCB/IF.data",
   "trimestres": {
     "202203": {
@@ -321,7 +321,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 3.9,
           "roa": 0.3354,
           "indice_basileia": 0.1927,
@@ -725,15 +725,6 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
-          "roe": 0.55,
-          "roa": 0.0512,
-          "indice_basileia": 0.2732,
-          "ativo_total": 7993227200.11,
-          "qtd_singulares": 4
-        },
-        {
           "nome": "DO ESTADO DE SERGIPE",
           "segmento": "outro",
           "roe": 2.09,
@@ -812,6 +803,15 @@
           "roa": -0.1656,
           "indice_basileia": null,
           "ativo_total": 5714504487.5,
+          "qtd_singulares": 1
+        },
+        {
+          "nome": "Ailos",
+          "segmento": "cooperativa",
+          "roe": -0.0,
+          "roa": -0.0,
+          "indice_basileia": 0.3245,
+          "ativo_total": 5631411107.27,
           "qtd_singulares": 1
         },
         {
@@ -1119,6 +1119,15 @@
           "indice_basileia": null,
           "ativo_total": 2455167872.29,
           "qtd_singulares": 1
+        },
+        {
+          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
+          "segmento": "outro",
+          "roe": 2.04,
+          "roa": 0.1734,
+          "indice_basileia": 0.1509,
+          "ativo_total": 2361816092.84,
+          "qtd_singulares": 3
         },
         {
           "nome": "LUSO BRASILEIRO",
@@ -6917,7 +6926,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 8.01,
           "roa": 0.7789,
           "indice_basileia": 0.2059,
@@ -7258,15 +7267,6 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
-          "roe": 2.03,
-          "roa": 0.1724,
-          "indice_basileia": 0.2545,
-          "ativo_total": 8914487005.75,
-          "qtd_singulares": 4
-        },
-        {
           "nome": "Modal",
           "segmento": "outro",
           "roe": 2.83,
@@ -7336,6 +7336,15 @@
           "roa": -0.0148,
           "indice_basileia": 0.1406,
           "ativo_total": 6569850500.94,
+          "qtd_singulares": 1
+        },
+        {
+          "nome": "Ailos",
+          "segmento": "cooperativa",
+          "roe": -0.0,
+          "roa": -0.0,
+          "indice_basileia": 0.2944,
+          "ativo_total": 6399623203.75,
           "qtd_singulares": 1
         },
         {
@@ -7643,6 +7652,15 @@
           "indice_basileia": 0.6652,
           "ativo_total": 2559874298.26,
           "qtd_singulares": 1
+        },
+        {
+          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
+          "segmento": "outro",
+          "roe": 7.22,
+          "roa": 0.611,
+          "indice_basileia": 0.1528,
+          "ativo_total": 2514863802.0,
+          "qtd_singulares": 3
         },
         {
           "nome": "ABN AMRO",
@@ -13450,7 +13468,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 2.84,
           "roa": 0.2246,
           "indice_basileia": 0.193,
@@ -13872,15 +13890,6 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
-          "roe": 0.69,
-          "roa": 0.0595,
-          "indice_basileia": 0.2538,
-          "ativo_total": 9563375683.86,
-          "qtd_singulares": 4
-        },
-        {
           "nome": "PARANÁ BANCO",
           "segmento": "outro",
           "roe": 2.52,
@@ -13950,6 +13959,15 @@
           "roa": 0.8456,
           "indice_basileia": null,
           "ativo_total": 7065117947.67,
+          "qtd_singulares": 1
+        },
+        {
+          "nome": "Ailos",
+          "segmento": "cooperativa",
+          "roe": 0.0,
+          "roa": 0.0,
+          "indice_basileia": 0.2947,
+          "ativo_total": 6893416033.79,
           "qtd_singulares": 1
         },
         {
@@ -14302,6 +14320,15 @@
           "indice_basileia": null,
           "ativo_total": 2754433218.25,
           "qtd_singulares": 1
+        },
+        {
+          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
+          "segmento": "outro",
+          "roe": 2.57,
+          "roa": 0.2131,
+          "indice_basileia": 0.1481,
+          "ativo_total": 2669959650.07,
+          "qtd_singulares": 3
         },
         {
           "nome": "BADESUL DESENVOLVIMENTO S.A - ",
@@ -20208,7 +20235,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 6.02,
           "roa": 0.4875,
           "indice_basileia": 0.2012,
@@ -20738,8 +20765,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": -0.0,
           "roa": -0.0,
           "indice_basileia": 0.2642,
@@ -27191,7 +27218,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 3.5,
           "roa": 0.293,
           "indice_basileia": 0.1992,
@@ -27712,8 +27739,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": -0.0,
           "roa": -0.0,
           "indice_basileia": 0.252,
@@ -34276,7 +34303,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 6.22,
           "roa": 0.5924,
           "indice_basileia": 0.22,
@@ -34770,8 +34797,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": 0.0,
           "roa": 0.0,
           "indice_basileia": 0.2775,
@@ -41415,7 +41442,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 2.27,
           "roa": 0.1873,
           "indice_basileia": 0.1857,
@@ -41900,8 +41927,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": 0.0,
           "roa": 0.0,
           "indice_basileia": 0.2947,
@@ -48735,7 +48762,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 4.9,
           "roa": 0.4089,
           "indice_basileia": 0.1815,
@@ -49193,8 +49220,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": -0.0,
           "roa": -0.0,
           "indice_basileia": 0.3256,
@@ -56130,7 +56157,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 1.74,
           "roa": 0.1473,
           "indice_basileia": 0.1701,
@@ -56597,8 +56624,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": -0.0,
           "roa": -0.0,
           "indice_basileia": 0.3299,
@@ -63669,7 +63696,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 5.94,
           "roa": 0.5222,
           "indice_basileia": 0.1716,
@@ -64136,8 +64163,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": -0.0,
           "roa": -0.0,
           "indice_basileia": 0.3778,
@@ -71281,7 +71308,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 3.15,
           "roa": 0.266,
           "indice_basileia": 0.1637,
@@ -71739,8 +71766,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": 0.0,
           "roa": 0.0,
           "indice_basileia": 0.3988,
@@ -79031,7 +79058,7 @@
         },
         {
           "nome": "Cresol",
-          "segmento": "outro",
+          "segmento": "cooperativa",
           "roe": 7.14,
           "roa": 0.6084,
           "indice_basileia": 0.1645,
@@ -79525,8 +79552,8 @@
           "qtd_singulares": 1
         },
         {
-          "nome": "COOPERATIVA CENTRAL DE CRÉDITO",
-          "segmento": "outro",
+          "nome": "Ailos",
+          "segmento": "cooperativa",
           "roe": 0.0,
           "roa": 0.0,
           "indice_basileia": 0.3651,
