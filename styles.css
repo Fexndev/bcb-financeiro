@@ -74,7 +74,7 @@ body {
 
 .header-badge {
     font-size: .65rem; font-weight: 700; text-transform: uppercase;
-    letter-spacing: .06em; background: var(--accent-teal); color: #0d1117;
+    letter-spacing: .06em; background: var(--accent-teal); color: var(--bg-page);
     padding: 2px 8px; border-radius: 4px;
 }
 
@@ -162,8 +162,36 @@ body {
     display: flex; align-items: center; gap: 6px;
 }
 
-.kpi-value { font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; line-height: 1.2; }
+.kpi-value {
+    font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; line-height: 1.2;
+    display: flex; align-items: baseline; gap: 8px;
+}
 .kpi-detail { font-size: .75rem; color: var(--text-secondary); margin-top: 6px; }
+
+.delta-up { font-size: .7rem; font-weight: 600; color: var(--accent-green); }
+.delta-down { font-size: .7rem; font-weight: 600; color: var(--accent-red); }
+
+/* ═══════════════════════════════════════
+   VIEW TOGGLE
+   ═══════════════════════════════════════ */
+
+.view-toggle {
+    display: flex; gap: 4px; padding: 10px 24px;
+    border-bottom: 1px solid var(--border); background: var(--bg-page);
+}
+
+.view-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-muted); font-family: var(--font-sans);
+    font-size: .78rem; font-weight: 600; padding: 7px 20px;
+    border-radius: 20px; cursor: pointer; transition: all .2s;
+}
+
+.view-btn:hover { color: var(--text-primary); border-color: var(--accent-teal); }
+.view-btn.active {
+    background: var(--accent-teal); color: var(--bg-page);
+    border-color: var(--accent-teal);
+}
 
 /* ═══════════════════════════════════════
    SECTIONS & CARDS
@@ -288,6 +316,21 @@ tbody tr:hover { background: var(--bg-card-hover); }
     margin-top: 1px; transition: width .3s;
 }
 
+.map-tooltip {
+    position: absolute; background: var(--bg-card); border: 1px solid var(--border);
+    padding: 6px 12px; border-radius: 6px; font-size: .78rem; color: var(--text-primary);
+    pointer-events: none; z-index: 200; white-space: nowrap; box-shadow: var(--shadow);
+}
+
+.map-scale {
+    display: flex; align-items: center; gap: 8px; margin-top: 12px;
+    font-size: .72rem; color: var(--text-muted);
+}
+.map-scale-bar {
+    flex: 1; height: 8px; border-radius: 4px;
+    background: linear-gradient(to right, rgb(13,17,35), rgb(94,234,212));
+}
+
 /* ═══════════════════════════════════════
    FOOTER
    ═══════════════════════════════════════ */
@@ -322,4 +365,12 @@ tbody tr:hover { background: var(--bg-card-hover); }
     .nav-btn { font-size: .72rem; padding: 6px 10px; }
     .filter-toolbar { flex-direction: column; align-items: stretch; }
     .filter-select { width: 100%; }
+    .view-toggle { padding: 8px 16px; }
+    .view-btn { padding: 6px 14px; font-size: .72rem; }
+}
+
+/* Tooltip overflow fix */
+.info-tip { position: relative; }
+@media (max-width: 768px) {
+    .info-box { left: auto; right: 0; transform: none; }
 }

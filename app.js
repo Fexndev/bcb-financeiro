@@ -144,7 +144,7 @@ async function init() {
 /* ─── Render ───────────────────────────── */
 function render() {
     try {
-        document.getElementById('app').innerHTML = renderHeader()+renderNav()+renderToolbar()+renderKPIs()+renderSections()+renderFooter();
+        document.getElementById('app').innerHTML = renderHeader()+renderNav()+renderViewToggle()+renderToolbar()+renderKPIs()+renderSections()+renderFooter();
         bindEvents(); showSection(APP.activeSection);
     } catch(e) { console.error('Render:', e); }
 }
@@ -155,7 +155,12 @@ function renderHeader() {
 }
 
 function renderNav() {
-    return `<nav class="nav">${SECTIONS.map(s=>`<button class="nav-btn${s.id===APP.activeSection?' active':''}" data-section="${s.id}">${s.label}</button>`).join('')}</nav>`;
+    return `<nav class="nav" role="navigation" aria-label="Seções">${SECTIONS.map(s=>`<button class="nav-btn${s.id===APP.activeSection?' active':''}" data-section="${s.id}">${s.label}</button>`).join('')}</nav>`;
+}
+
+function renderViewToggle() {
+    const f=APP.filters.segmento;
+    return `<div class="view-toggle"><button class="view-btn${f==='todos'?' active':''}" data-view="todos">Todos</button><button class="view-btn${f==='grande'?' active':''}" data-view="grande">Bancos</button><button class="view-btn${f==='cooperativa'?' active':''}" data-view="cooperativa">Cooperativas</button></div>`;
 }
 
 function renderToolbar() {
@@ -168,14 +173,72 @@ function renderToolbar() {
     </div>`;
 }
 
+/* ─── KPI Helpers ─────────────────────── */
+function prevTri(tri) { const t=getTris(), i=t.indexOf(tri); return i>0?t[i-1]:null; }
+function fmtDelta(cur, prev) {
+    if(cur==null||prev==null) return '';
+    const d=cur-prev;
+    if(Math.abs(d)<0.005) return '';
+    const arrow=d>0?'▲':'▼', cls=d>0?'delta-up':'delta-down';
+    return `<span class="${cls}">${arrow} ${Math.abs(d).toFixed(Math.abs(d)<1?2:1)}</span>`;
+}
+function kpiCard(label, value, detail, tipKey, delta) {
+    return `<div class="kpi-card"><div class="kpi-label">${label} ${tipKey?tip(tipKey):''}</div><div class="kpi-value">${value} ${delta||''}</div><div class="kpi-detail">${detail}</div></div>`;
+}
+function safeMetric(v, fmt) { return (v!=null && !(v===0)) ? fmt(v) : (v===0?'N/D':'—'); }
+
 function renderKPIs() {
-    const s=APP.data.credito?.series, tri=activeTri(), conc=APP.data.concentracao?.trimestres?.[tri];
-    const ct=s?.credito_total?.ultimo?.valor, inad=s?.inadimplencia?.ultimo?.valor, spr=s?.spread_total?.ultimo?.valor, t5=conc?.top5_share_ativo;
+    const f=APP.filters, tri=activeTri();
+    if(f.instituicao) return kpiInstituicao(tri);
+    if(f.segmento!=='todos') return kpiSegmento(tri);
+    return kpiSistema(tri);
+}
+
+function kpiSistema(tri) {
+    const s=APP.data.credito?.series, conc=APP.data.concentracao?.trimestres?.[tri];
+    const ct=s?.credito_total?.ultimo?.valor, inad=s?.inadimplencia?.ultimo?.valor;
+    const spr=s?.spread_total?.ultimo?.valor, t5=conc?.top5_share_ativo;
     return `<div class="kpi-grid">
-        <div class="kpi-card"><div class="kpi-label">Crédito Total ${tip('credito')}</div><div class="kpi-value">${ct?FMT.brl(ct*1e6):'—'}</div><div class="kpi-detail">Saldo total do SFN</div></div>
-        <div class="kpi-card"><div class="kpi-label">Inadimplência ${tip('inadimplencia')}</div><div class="kpi-value">${inad?FMT.pct(inad):'—'}</div><div class="kpi-detail">Atraso &gt;90 dias</div></div>
-        <div class="kpi-card"><div class="kpi-label">Spread ${tip('spread')}</div><div class="kpi-value">${spr?FMT.pct(spr,1):'—'}</div><div class="kpi-detail">Captação vs empréstimo</div></div>
-        <div class="kpi-card"><div class="kpi-label">Top 5 Share ${tip('share')}</div><div class="kpi-value">${t5?FMT.pct(t5,1):'—'}</div><div class="kpi-detail">Concentração (${tri?FMT.tri(tri):''})</div></div>
+        ${kpiCard('Crédito Total',ct?FMT.brl(ct*1e6):'—','Saldo total do SFN','credito')}
+        ${kpiCard('Inadimplência',inad?FMT.pct(inad):'—','Atraso >90 dias','inadimplencia')}
+        ${kpiCard('Spread',spr?FMT.pct(spr,1):'—','Captação vs empréstimo','spread')}
+        ${kpiCard('Top 5 Share',t5?FMT.pct(t5,1):'—','Concentração'+(tri?' ('+FMT.tri(tri)+')':''),'share')}
+    </div>`;
+}
+
+function kpiInstituicao(tri) {
+    const inst=filtered(tri)[0]; if(!inst) return '<div class="kpi-grid"></div>';
+    const prev=prevTri(tri), instP=prev?getAg(prev).find(i=>i.nome===inst.nome):null;
+    const roe=inst.roe, roa=inst.roa, bas=inst.indice_basileia;
+    const roeFmt = (roe===0&&roa===0&&inst.ativo_total>1e9) ? 'N/D*' : (roe!=null?FMT.pct(roe):'—');
+    const roaFmt = (roe===0&&roa===0&&inst.ativo_total>1e9) ? 'N/D*' : (roa!=null?FMT.pct(roa,3):'—');
+    return `<div class="kpi-grid">
+        ${kpiCard('Ativo Total',FMT.brl(inst.ativo_total),inst.nome,'',fmtDelta(inst.ativo_total/1e9,instP?.ativo_total/1e9))}
+        ${kpiCard('ROE',roeFmt,inst.nome,'roe',fmtDelta(roe,instP?.roe))}
+        ${kpiCard('ROA',roaFmt,inst.nome,'roa',fmtDelta(roa,instP?.roa))}
+        ${kpiCard('Basileia',bas!=null?FMT.pct(bas*100,1):'N/D',inst.nome,'basileia',fmtDelta(bas?bas*100:null,instP?.indice_basileia?instP.indice_basileia*100:null))}
+    </div>${(roe===0&&roa===0&&inst.ativo_total>1e9)?'<div class="note-box" style="margin:0 24px">* Dados de rentabilidade insuficientes para esta instituição. As singulares podem não estar agrupadas corretamente na base do BCB.</div>':''}`;
+}
+
+function kpiSegmento(tri) {
+    const data=filtered(tri);
+    if(!data.length) return '<div class="kpi-grid"></div>';
+    const totalAtivo=data.reduce((s,i)=>s+i.ativo_total,0);
+    const wRoe=data.filter(i=>i.roe!=null&&!(i.roe===0&&i.roa===0&&i.ativo_total>1e9));
+    const avgRoe=wRoe.length?wRoe.reduce((s,i)=>s+i.roe*i.ativo_total,0)/wRoe.reduce((s,i)=>s+i.ativo_total,0):null;
+    const wBas=data.filter(i=>i.indice_basileia!=null);
+    const avgBas=wBas.length?wBas.reduce((s,i)=>s+i.indice_basileia*i.ativo_total,0)/wBas.reduce((s,i)=>s+i.ativo_total,0):null;
+    const segLabel=SEG_LABELS[APP.filters.segmento]||APP.filters.segmento;
+    // Trends
+    const prev=prevTri(tri), dataPrev=prev?getAg(prev).filter(i=>i.ativo_total>0&&i.segmento===APP.filters.segmento):[];
+    const totalAtivoPrev=dataPrev.reduce((s,i)=>s+i.ativo_total,0)||null;
+    const wRoeP=dataPrev.filter(i=>i.roe!=null&&!(i.roe===0&&i.roa===0&&i.ativo_total>1e9));
+    const avgRoeP=wRoeP.length?wRoeP.reduce((s,i)=>s+i.roe*i.ativo_total,0)/wRoeP.reduce((s,i)=>s+i.ativo_total,0):null;
+    return `<div class="kpi-grid">
+        ${kpiCard('Ativo Total',FMT.brl(totalAtivo),segLabel,'',fmtDelta(totalAtivo/1e9,totalAtivoPrev?totalAtivoPrev/1e9:null))}
+        ${kpiCard('ROE Médio',avgRoe!=null?FMT.pct(avgRoe):'—','Ponderado por ativo','roe',fmtDelta(avgRoe,avgRoeP))}
+        ${kpiCard('Basileia Média',avgBas!=null?FMT.pct(avgBas*100,1):'—','Ponderada por ativo','basileia')}
+        ${kpiCard('Instituições',String(data.length),segLabel+' ('+FMT.tri(tri)+')','')}
     </div>`;
 }
 
@@ -183,7 +246,11 @@ function renderFooter() {
     return `<footer class="footer">Fonte: <a href="https://www.bcb.gov.br" target="_blank">Banco Central do Brasil</a> — IF.data, SGS, Olinda<br><a href="https://github.com/Fexndev/bcb-financeiro" target="_blank">GitHub</a></footer>`;
 }
 
-function renderSections() { return SECTIONS.map(s=>`<div class="section" id="sec-${s.id}">${({resumo:rResumo,rentabilidade:rRent,credito:rCred,taxas:rTaxas,concentracao:rConc,comparativo:rComp,geografico:rGeo,reclamacoes:rRec})[s.id]?.()??''}</div>`).join(''); }
+const SECTION_FN = {resumo:rResumo,rentabilidade:rRent,credito:rCred,taxas:rTaxas,concentracao:rConc,comparativo:rComp,geografico:rGeo,reclamacoes:rRec};
+function renderSections() {
+    // Lazy: render only active section
+    return SECTIONS.map(s=>`<div class="section${s.id===APP.activeSection?' active':''}" id="sec-${s.id}">${s.id===APP.activeSection?(SECTION_FN[s.id]?.()??''):''}</div>`).join('');
+}
 
 /* ─── RESUMO ───────────────────────────── */
 function rResumo() {
@@ -447,39 +514,70 @@ function mGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return;
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
 
-    // Mapa de calor SVG
-    fetch('brasil.svg').then(r=>r.text()).then(svg=>{
-        const container = document.getElementById('mapa-container');
-        if (!container) return;
-        container.innerHTML = svg;
-        const svgEl = container.querySelector('svg');
-        if (!svgEl) return;
-        svgEl.style.width = '100%'; svgEl.style.height = '100%';
-        // Colorir por intensidade
-        const vals = {}; const maxV = Math.max(...ufs.map(u=>u.credito_per_capita));
-        ufs.forEach(u => vals[u.uf] = u.credito_per_capita);
-        // Escala log para suavizar disparidade do DF
-        const logMax = Math.log(maxV + 1);
-        e.por_uf.forEach(u => {
-            const path = svgEl.querySelector(`#${u.uf}`);
-            if (!path) return;
-            const ratio = Math.log((vals[u.uf]||1) + 1) / logMax;
-            const r = Math.round(13 + ratio * 81); // 0d..5e
-            const g = Math.round(17 + ratio * 217); // 11..ea
-            const b = Math.round(35 + ratio * 177); // 23..d4
-            path.setAttribute('fill', `rgb(${r},${g},${b})`);
-            path.style.cursor = 'pointer';
-            path.setAttribute('title', `${u.uf}: R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil per capita`);
-            // Hover tooltip
-            path.addEventListener('mouseenter', function() { this.style.opacity = '0.8'; this.style.stroke = '#5eead4'; this.style.strokeWidth = '0.5'; });
-            path.addEventListener('mouseleave', function() { this.style.opacity = '1'; this.style.stroke = '#30363d'; this.style.strokeWidth = '0.3'; });
-        });
-        // Legenda de cores
-        container.insertAdjacentHTML('beforeend', `<div style="display:flex;align-items:center;gap:8px;margin-top:12px;font-size:.75rem;color:var(--text-muted)"><span>Menor</span><div style="flex:1;height:8px;border-radius:4px;background:linear-gradient(to right,rgb(13,17,35),rgb(94,234,212))"></div><span>Maior</span></div>`);
-    }).catch(()=>{});
+    // Mapa de calor com D3 + TopoJSON do IBGE
+    renderMapaD3(e.por_uf);
 
     const ctx=document.getElementById('c-geo');
     if(ctx) APP.charts.n=new Chart(ctx,{type:'bar',data:{labels:ufs.map(u=>u.uf),datasets:[{data:ufs.map(u=>u.credito_per_capita),backgroundColor:ufs.map((_,i)=>`rgba(94,234,212,${.3+((ufs.length-i)/ufs.length)*.7})`),borderRadius:6}]},options:{...defs(),plugins:{...defs().plugins,legend:{display:false},datalabels:dlabel(v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0}))},scales:{x:{display:true,ticks:{color:css('--text-primary'),font:{size:9,weight:600}},grid:{display:false},border:{display:false}},y:{display:false}}}});
+}
+
+/* ─── Mapa D3 ─────────────────────────── */
+const UF_CODES = {11:'RO',12:'AC',13:'AM',14:'RR',15:'PA',16:'AP',17:'TO',21:'MA',22:'PI',23:'CE',24:'RN',25:'PB',26:'PE',27:'AL',28:'SE',29:'BA',31:'MG',32:'ES',33:'RJ',35:'SP',41:'PR',42:'SC',43:'RS',50:'MS',51:'MT',52:'GO',53:'DF'};
+function renderMapaD3(porUf) {
+    const container = document.getElementById('mapa-container');
+    if (!container || typeof d3 === 'undefined') { if(container) container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:60px">D3 indisponível</div>'; return; }
+    const vals = {}; porUf.forEach(u => vals[u.uf] = u.credito_per_capita);
+    const maxV = Math.max(...porUf.map(u=>u.credito_per_capita));
+    const logMax = Math.log(maxV + 1);
+    function ufColor(uf) {
+        const v = vals[uf]; if (v == null) return '#1a2233';
+        const ratio = Math.log(v + 1) / logMax;
+        return d3.interpolateRgb('#0d1117', '#5eead4')(ratio);
+    }
+    fetch('https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson')
+        .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+        .then(geo => {
+            container.innerHTML = '';
+            const w = container.clientWidth || 400, h = Math.max(w * 1.05, 380);
+            const svg = d3.select(container).append('svg').attr('width', w).attr('height', h).attr('viewBox', `0 0 ${w} ${h}`);
+            const proj = d3.geoMercator().fitSize([w - 20, h - 40], geo).translate([w/2, h/2 + 10]);
+            const path = d3.geoPath().projection(proj);
+            // Tooltip
+            const ttip = d3.select(container).append('div').attr('class', 'map-tooltip').style('display', 'none');
+            svg.selectAll('path').data(geo.features).join('path')
+                .attr('d', path)
+                .attr('fill', d => ufColor(d.properties.sigla))
+                .attr('stroke', '#30363d').attr('stroke-width', .5)
+                .style('cursor', 'pointer')
+                .on('mouseenter', function(ev, d) {
+                    d3.select(this).attr('stroke', '#5eead4').attr('stroke-width', 1.5).style('opacity', .85);
+                    const uf = d.properties.sigla, v = vals[uf];
+                    ttip.style('display', 'block').html(`<strong>${uf}</strong> — R$ ${v ? v.toLocaleString('pt-BR',{maximumFractionDigits:0}) : '?'} mil/hab`);
+                })
+                .on('mousemove', function(ev) {
+                    const rect = container.getBoundingClientRect();
+                    ttip.style('left', (ev.clientX - rect.left + 14) + 'px').style('top', (ev.clientY - rect.top - 12) + 'px');
+                })
+                .on('mouseleave', function() {
+                    d3.select(this).attr('stroke', '#30363d').attr('stroke-width', .5).style('opacity', 1);
+                    ttip.style('display', 'none');
+                });
+            // Labels UF
+            svg.selectAll('text').data(geo.features).join('text')
+                .attr('x', d => path.centroid(d)[0])
+                .attr('y', d => path.centroid(d)[1])
+                .attr('text-anchor', 'middle').attr('dominant-baseline', 'central')
+                .attr('font-size', 9).attr('font-family', "'Inter',sans-serif").attr('font-weight', 700)
+                .attr('fill', d => { const v=vals[d.properties.sigla]||0; return Math.log(v+1)/logMax > 0.45 ? '#0d1117' : '#e6edf3'; })
+                .attr('pointer-events', 'none')
+                .text(d => d.properties.sigla);
+            // Legenda
+            container.insertAdjacentHTML('beforeend', `<div class="map-scale"><span>Menor</span><div class="map-scale-bar"></div><span>Maior</span></div>`);
+        })
+        .catch(err => {
+            console.warn('Mapa GeoJSON:', err);
+            container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:60px">Mapa indisponível</div>';
+        });
 }
 
 /* ─── Reclamações ──────────────────────── */
@@ -504,6 +602,9 @@ function bindEvents() {
         document.getElementById('themeToggle').textContent=isDark?'☾':'☀'; mountCharts();
     });
     document.querySelectorAll('.nav-btn').forEach(b=>b.addEventListener('click',()=>showSection(b.dataset.section)));
+    document.querySelectorAll('.view-btn').forEach(b=>b.addEventListener('click',()=>{
+        APP.filters.segmento=b.dataset.view;APP.filters.instituicao='';APP.sort={col:null,dir:'desc'};render();
+    }));
     document.getElementById('fTri')?.addEventListener('change',e=>{APP.filters.trimestre=e.target.value;APP.sort={col:null,dir:'desc'};render();});
     document.getElementById('fSeg')?.addEventListener('change',e=>{APP.filters.segmento=e.target.value;APP.filters.instituicao='';APP.sort={col:null,dir:'desc'};render();});
     document.getElementById('fInst')?.addEventListener('change',e=>{APP.filters.instituicao=e.target.value;APP.sort={col:null,dir:'desc'};render();});
@@ -521,7 +622,12 @@ function bindEvents() {
 function showSection(id) {
     APP.activeSection=id;
     document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
-    document.getElementById(`sec-${id}`)?.classList.add('active');
+    const sec = document.getElementById(`sec-${id}`);
+    if (sec) {
+        // Lazy render: populate if empty
+        if (!sec.innerHTML.trim()) sec.innerHTML = SECTION_FN[id]?.() ?? '';
+        sec.classList.add('active');
+    }
     document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.section===id));
     mountCharts();
 }

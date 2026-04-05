@@ -121,8 +121,8 @@ def agregar_por_sistema(resultados):
                 if total_peso > 0:
                     basileia = round(sum(b * a for b, a in bas_vals) / total_peso, 4)
 
-            roe = round((lucro / pl) * 100, 2) if pl != 0 else None
-            roa = round((lucro / ativo) * 100, 4) if ativo != 0 else None
+            roe = round((lucro / pl) * 100, 2) if pl and pl != 0 else None
+            roa = round((lucro / ativo) * 100, 4) if ativo and ativo != 0 else None
 
             agregado.append({
                 "nome": nome,
