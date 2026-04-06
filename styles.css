@@ -304,41 +304,52 @@ tbody tr:hover { background: var(--bg-card-hover); }
    MAP LEGEND
    ═══════════════════════════════════════ */
 
-.grid-mapa { display: grid; grid-template-columns: 3fr 2fr; gap: 16px; }
-.card-mapa { min-height: 420px; }
-#mapa-container { min-height: 380px; position: relative; }
-#mapa-container svg { display: block; }
+/* ─── MAPA ──────────────────────────────── */
 
-.map-legend { display: flex; flex-direction: column; gap: 3px; }
-
-.legend-item {
-    display: flex; align-items: center; padding: 5px 8px;
-    font-size: .8rem; border-radius: 6px; transition: background .15s;
-}
-
-.legend-item:hover { background: var(--bg-card-hover); }
-.legend-uf { font-weight: 700; min-width: 28px; }
-.legend-value { font-family: var(--font-mono); font-size: .78rem; color: var(--text-secondary); }
-
-.legend-bar {
-    height: 5px; border-radius: 3px; background: var(--accent-teal);
-    margin-top: 1px; transition: width .3s;
-}
+#mapa-container { position: relative; min-height: 460px; }
+#mapa-container svg { display: block; margin: 0 auto; }
 
 .map-tooltip {
-    position: absolute; background: var(--bg-card); border: 1px solid var(--border);
-    padding: 6px 12px; border-radius: 6px; font-size: .78rem; color: var(--text-primary);
-    pointer-events: none; z-index: 200; white-space: nowrap; box-shadow: var(--shadow);
+    position: absolute; background: var(--bg-page); border: 1px solid var(--border);
+    padding: 8px 14px; border-radius: 8px; font-size: .82rem; color: var(--text-primary);
+    pointer-events: none; z-index: 200; white-space: nowrap; box-shadow: 0 4px 16px rgba(0,0,0,.4);
+    line-height: 1.4;
 }
 
 .map-scale {
-    display: flex; align-items: center; gap: 8px; margin-top: 12px;
+    display: flex; align-items: center; gap: 10px; padding: 12px 0 0;
     font-size: .72rem; color: var(--text-muted);
 }
 .map-scale-bar {
     flex: 1; height: 8px; border-radius: 4px;
     background: linear-gradient(to right, rgb(13,17,35), rgb(94,234,212));
 }
+
+/* UF Grid — ranking compacto */
+.uf-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 8px;
+}
+
+.uf-card {
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    padding: 12px 8px; border-radius: var(--radius-sm);
+    background: var(--bg-page); border: 1px solid var(--border);
+    transition: all .15s; position: relative;
+}
+
+.uf-card:hover { border-color: var(--accent-teal); transform: translateY(-1px); box-shadow: var(--shadow); }
+
+.uf-card.uf-top { border-color: rgba(94,234,212,.3); background: rgba(94,234,212,.04); }
+
+.uf-rank {
+    position: absolute; top: 4px; right: 6px;
+    font-size: .6rem; font-weight: 700; color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.uf-sigla { font-size: 1rem; font-weight: 800; letter-spacing: .02em; }
+.uf-valor { font-family: var(--font-mono); font-size: .68rem; color: var(--text-secondary); text-align: center; }
 
 /* ═══════════════════════════════════════
    FOOTER
@@ -364,9 +375,11 @@ tbody tr:hover { background: var(--bg-card-hover); }
     .chart-container { height: 300px; }
     .chart-container-sm { height: 240px; }
     .grid-2 { grid-template-columns: 1fr; }
-    .grid-mapa { grid-template-columns: 1fr; }
-    .card-mapa { min-height: 300px; }
-    #mapa-container { min-height: 280px; }
+    #mapa-container { min-height: 300px; }
+    .uf-grid { grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)); gap: 6px; }
+    .uf-card { padding: 8px 4px; }
+    .uf-sigla { font-size: .88rem; }
+    .uf-valor { font-size: .62rem; }
     .nav { padding: 6px 16px; }
     .filter-toolbar { padding: 10px 16px; gap: 12px; }
     .filter-select { min-width: 130px; }

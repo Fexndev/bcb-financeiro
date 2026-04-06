@@ -353,14 +353,14 @@ function rComp() {
 function rGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return '<p>Dados indisponíveis</p>';
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
-    const mx=ufs[0]?.credito_per_capita||1;
+    const fmtK = v => v>=1000 ? `R$ ${(v/1000).toFixed(0)} mi` : `R$ ${v.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil`;
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
     <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs com sedes de grandes bancos (DF, SP) apresentam valores superestimados — BB, Caixa e BNDES têm sede no DF mas operam nacionalmente.</div>
-    <div class="grid-mapa">
-        <div class="card card-mapa"><div class="card-title">Mapa de Calor — Crédito Per Capita</div><div id="mapa-container"></div></div>
-        <div class="card"><div class="card-title">Ranking por UF</div><div class="map-legend">${ufs.slice(0,15).map(u=>`<div class="legend-item"><span class="legend-uf">${u.uf}</span><span class="legend-value">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span><div style="flex:1;margin-left:12px"><div class="legend-bar" style="width:${(u.credito_per_capita/mx*100).toFixed(0)}%"></div></div></div>`).join('')}</div></div>
+    <div class="card"><div id="mapa-container"></div></div>
+    <div class="card"><div class="card-title">Ranking — Crédito Per Capita por UF</div>
+        <div class="uf-grid">${ufs.map((u,i)=>`<div class="uf-card${i<3?' uf-top':''}"><div class="uf-rank">${i+1}</div><div class="uf-sigla">${u.uf}</div><div class="uf-valor">${fmtK(u.credito_per_capita)}</div></div>`).join('')}</div>
     </div>
-    <div class="card"><div class="card-title">Crédito Per Capita — Todas as UFs (R$ mil / hab)</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>`;
+    <div class="card"><div class="card-title">Distribuição por UF</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>`;
 }
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
@@ -611,65 +611,72 @@ function mGeo() {
 }
 
 /* ─── Mapa D3 ─────────────────────────── */
+const GEOJSON_URL = 'https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson';
+let _geoCache = null;
+
 function renderMapaD3(porUf) {
     const container = document.getElementById('mapa-container');
     if (!container) return;
-    if (typeof d3 === 'undefined') { container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:60px">Biblioteca D3 indisponível</div>'; return; }
-    container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:40px">Carregando mapa...</div>';
+    if (typeof d3 === 'undefined') { container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:60px">D3 indisponível</div>'; return; }
+    container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:40px"><div class="spinner" style="margin:0 auto 12px"></div>Carregando mapa...</div>';
+
     const vals = {}; porUf.forEach(u => vals[u.uf] = u.credito_per_capita);
     const maxV = Math.max(...porUf.map(u=>u.credito_per_capita));
     const logMax = Math.log(maxV + 1);
-    function ufColor(uf) {
-        const v = vals[uf]; if (v == null) return '#1a2233';
-        return d3.interpolateRgb('#0d1117', '#5eead4')(Math.log(v + 1) / logMax);
-    }
-    fetch('https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson')
-        .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
-        .then(geo => {
-            container.innerHTML = '';
-            container.style.position = 'relative';
-            const w = container.clientWidth || 400, h = Math.min(w * 1.1, 500);
-            const svg = d3.select(container).append('svg')
-                .attr('width', '100%').attr('height', h)
-                .attr('viewBox', `0 0 ${w} ${h}`)
-                .attr('preserveAspectRatio', 'xMidYMid meet');
-            const proj = d3.geoMercator().fitSize([w * 0.9, h * 0.9], geo);
-            const path = d3.geoPath().projection(proj);
-            const ttip = d3.select(container).append('div').attr('class', 'map-tooltip').style('display', 'none');
-            svg.selectAll('path').data(geo.features).join('path')
-                .attr('d', path)
-                .attr('fill', d => ufColor(d.properties.sigla))
-                .attr('stroke', '#30363d').attr('stroke-width', .5)
-                .style('cursor', 'pointer').style('transition', 'opacity .15s')
-                .on('mouseenter', function(ev, d) {
-                    d3.select(this).attr('stroke', '#5eead4').attr('stroke-width', 1.5).style('opacity', .85);
-                    const uf = d.properties.sigla, v = vals[uf];
-                    ttip.style('display', 'block').html(`<strong>${uf}</strong><br>R$ ${v ? v.toLocaleString('pt-BR',{maximumFractionDigits:0}) : '?'} mil per capita`);
-                })
-                .on('mousemove', function(ev) {
-                    const rect = container.getBoundingClientRect();
-                    ttip.style('left', Math.min(ev.clientX - rect.left + 14, w - 160) + 'px')
-                        .style('top', (ev.clientY - rect.top - 30) + 'px');
-                })
-                .on('mouseleave', function() {
-                    d3.select(this).attr('stroke', '#30363d').attr('stroke-width', .5).style('opacity', 1);
-                    ttip.style('display', 'none');
-                });
-            // Labels
-            svg.selectAll('.uf-label').data(geo.features).join('text').attr('class','uf-label')
-                .attr('x', d => path.centroid(d)[0]).attr('y', d => path.centroid(d)[1])
-                .attr('text-anchor', 'middle').attr('dominant-baseline', 'central')
-                .attr('font-size', Math.max(8, w/55)).attr('font-family', "'Inter',sans-serif").attr('font-weight', 700)
-                .attr('fill', d => Math.log((vals[d.properties.sigla]||0)+1)/logMax > 0.45 ? '#0d1117' : '#e6edf3')
-                .attr('pointer-events', 'none').text(d => d.properties.sigla);
-            // Legenda
-            d3.select(container).append('div').attr('class','map-scale')
-                .html('<span>Menor</span><div class="map-scale-bar"></div><span>Maior</span>');
-        })
-        .catch(err => {
-            console.warn('GeoJSON:', err);
-            container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:40px">Mapa indisponível — veja o gráfico abaixo</div>';
-        });
+    const ufColor = uf => { const v=vals[uf]; return v==null?'#1a2233':d3.interpolateRgb('#162032','#5eead4')(Math.log(v+1)/logMax); };
+
+    const draw = geo => {
+        container.innerHTML = '';
+        const w = container.clientWidth || 500;
+        const h = Math.round(Math.min(w * 1.05, 480));
+        const svg = d3.select(container).append('svg')
+            .attr('viewBox', `0 0 ${w} ${h}`)
+            .style('width', '100%').style('height', h+'px').style('display', 'block');
+        const proj = d3.geoMercator().fitSize([w - 40, h - 40], geo).translate([w/2, h/2]);
+        const path = d3.geoPath().projection(proj);
+
+        // States
+        svg.selectAll('path').data(geo.features).join('path')
+            .attr('d', path).attr('fill', d=>ufColor(d.properties.sigla))
+            .attr('stroke', css('--border')).attr('stroke-width', .6)
+            .style('cursor','pointer').style('transition','all .12s');
+
+        // Labels
+        const fontSize = Math.max(7, Math.min(11, w/50));
+        svg.selectAll('.uf-lbl').data(geo.features).join('text').attr('class','uf-lbl')
+            .attr('x', d=>path.centroid(d)[0]).attr('y', d=>path.centroid(d)[1])
+            .attr('text-anchor','middle').attr('dominant-baseline','central')
+            .attr('font-size', fontSize).attr('font-family',"'Inter',sans-serif").attr('font-weight',700)
+            .attr('fill', d=>Math.log((vals[d.properties.sigla]||0)+1)/logMax>0.4?'#0d1117':'#e6edf3')
+            .attr('pointer-events','none').text(d=>d.properties.sigla);
+
+        // Tooltip
+        const ttip = d3.select(container).append('div').attr('class','map-tooltip').style('display','none');
+        svg.selectAll('path')
+            .on('mouseenter', function(ev,d) {
+                d3.select(this).attr('stroke','#5eead4').attr('stroke-width',2).style('filter','brightness(1.3)');
+                const uf=d.properties.sigla, v=vals[uf];
+                ttip.style('display','block').html(`<strong>${uf}</strong><br>R$ ${v?v.toLocaleString('pt-BR',{maximumFractionDigits:0}):'?'} mil / hab`);
+            })
+            .on('mousemove', function(ev) {
+                const r=container.getBoundingClientRect();
+                const x=ev.clientX-r.left, y=ev.clientY-r.top;
+                ttip.style('left', Math.min(x+16, w-170)+'px').style('top', (y-36)+'px');
+            })
+            .on('mouseleave', function() {
+                d3.select(this).attr('stroke',css('--border')).attr('stroke-width',.6).style('filter','none');
+                ttip.style('display','none');
+            });
+
+        // Gradient legend
+        d3.select(container).append('div').attr('class','map-scale')
+            .html('<span>Menor</span><div class="map-scale-bar"></div><span>Maior</span>');
+    };
+
+    if (_geoCache) { draw(_geoCache); return; }
+    fetch(GEOJSON_URL).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
+        .then(geo=>{ _geoCache=geo; draw(geo); })
+        .catch(err=>{ console.warn('GeoJSON:',err); container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:40px">Mapa indisponível</div>'; });
 }
 
 /* ─── Reclamações ──────────────────────── */
