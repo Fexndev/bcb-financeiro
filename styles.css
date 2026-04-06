@@ -331,16 +331,21 @@ tbody tr:hover { background: var(--bg-card-hover); }
 
 .geo-map-card { padding: 16px; overflow: hidden; }
 
-#mapa-container { position: relative; width: 100%; max-width: 700px; margin: 0 auto; min-height: 420px; }
+#mapa-container { position: relative; width: 100%; max-width: 800px; margin: 0 auto; min-height: 400px; }
 #mapa-container svg { display: block; width: 100%; }
 
 .map-tooltip {
-    position: absolute; background: var(--bg-card); border: 1px solid var(--border);
-    padding: 10px 16px; border-radius: 8px; font-size: .82rem; color: var(--text-primary);
-    pointer-events: none; z-index: 200; white-space: nowrap;
-    box-shadow: 0 6px 20px rgba(0,0,0,.5); line-height: 1.5;
+    position: absolute; background: var(--bg-page); border: 1px solid var(--border);
+    padding: 14px 18px; border-radius: 10px; color: var(--text-primary);
+    pointer-events: none; z-index: 200;
+    box-shadow: 0 8px 28px rgba(0,0,0,.5); line-height: 1.5;
+    min-width: 200px;
 }
-.map-tooltip strong { color: var(--accent-teal); font-size: .9rem; }
+.mtt-uf { font-size: 1.4rem; font-weight: 800; color: var(--accent-teal); line-height: 1; }
+.mtt-nome { font-size: .78rem; color: var(--text-muted); margin-bottom: 10px; }
+.mtt-row { display: flex; justify-content: space-between; gap: 16px; font-size: .78rem; padding: 3px 0; border-top: 1px solid var(--border); }
+.mtt-row span { color: var(--text-secondary); }
+.mtt-row strong { font-family: var(--font-mono); font-size: .76rem; color: var(--text-primary); }
 
 .map-scale {
     display: flex; align-items: center; gap: 10px; padding: 14px 20px 0;
@@ -350,8 +355,6 @@ tbody tr:hover { background: var(--bg-card-hover); }
     flex: 1; height: 6px; border-radius: 3px;
     background: linear-gradient(to right, #162032, #5eead4);
 }
-
-.chart-container-tall { position: relative; height: 700px; }
 
 /* ═══════════════════════════════════════
    FOOTER

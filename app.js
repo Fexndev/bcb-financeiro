@@ -353,16 +353,16 @@ function rComp() {
 function rGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return '<p>Dados indisponíveis</p>';
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
-    const top1=ufs[0], mediana=ufs[Math.floor(ufs.length/2)];
+    const top1=ufs[0], mediana=ufs[Math.floor(ufs.length/2)], menor=ufs[ufs.length-1];
+    const totalCred = ufs.reduce((s,u)=>s+(u.carteira_credito||0),0);
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
     <div class="geo-callout">
-        <div class="geo-callout-item"><span class="geo-callout-label">Maior</span><span class="geo-callout-uf">${top1.uf}</span><span class="geo-callout-val">R$ ${top1.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span></div>
-        <div class="geo-callout-item"><span class="geo-callout-label">Mediana</span><span class="geo-callout-uf">${mediana.uf}</span><span class="geo-callout-val">R$ ${mediana.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span></div>
-        <div class="geo-callout-item"><span class="geo-callout-label">Menor</span><span class="geo-callout-uf">${ufs[ufs.length-1].uf}</span><span class="geo-callout-val">R$ ${ufs[ufs.length-1].credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span></div>
+        <div class="geo-callout-item"><span class="geo-callout-label">Maior per capita</span><span class="geo-callout-uf">${top1.uf}</span><span class="geo-callout-val">${FMT.brl(top1.carteira_credito)} · ${(top1.carteira_credito/totalCred*100).toFixed(1)}%</span></div>
+        <div class="geo-callout-item"><span class="geo-callout-label">Mediana</span><span class="geo-callout-uf">${mediana.uf}</span><span class="geo-callout-val">${FMT.brl(mediana.carteira_credito)} · ${(mediana.carteira_credito/totalCred*100).toFixed(1)}%</span></div>
+        <div class="geo-callout-item"><span class="geo-callout-label">Menor per capita</span><span class="geo-callout-uf">${menor.uf}</span><span class="geo-callout-val">${FMT.brl(menor.carteira_credito)} · ${(menor.carteira_credito/totalCred*100).toFixed(1)}%</span></div>
     </div>
     <div class="card geo-map-card"><div id="mapa-container"></div></div>
-    <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs como DF e SP concentram sedes de grandes bancos nacionais (BB, Caixa, BNDES), inflando artificialmente o crédito per capita dessas regiões.</div>
-    <div class="card"><div class="card-title">Ranking — Crédito Per Capita por UF (R$ mil / hab)</div><div class="chart-container-tall"><canvas id="c-geo"></canvas></div></div>`;
+    <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs como DF e SP concentram sedes de grandes bancos nacionais (BB, Caixa, BNDES), inflando artificialmente o crédito per capita dessas regiões. Passe o mouse sobre cada estado para ver detalhes.</div>`;
 }
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
@@ -603,31 +603,13 @@ function mComp() {
 /* ─── Geográfico ───────────────────────── */
 function mGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return;
-    const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
-
-    // Mapa D3
-    // Defer para garantir que o container está no DOM e tem dimensões
     requestAnimationFrame(()=>requestAnimationFrame(()=>renderMapaD3(e.por_uf)));
-
-    const ctx=document.getElementById('c-geo');
-    if(ctx) {
-        const sorted=[...ufs].sort((a,b)=>a.credito_per_capita-b.credito_per_capita); // asc for hbar
-        const maxVal=sorted[sorted.length-1].credito_per_capita;
-        const colors=sorted.map(u => {
-            const ratio=Math.log(u.credito_per_capita+1)/Math.log(maxVal+1);
-            return `rgba(94,234,212,${(.2+ratio*.8).toFixed(2)})`;
-        });
-        APP.charts.n=new Chart(ctx,{type:'bar',data:{labels:sorted.map(u=>u.uf),datasets:[{data:sorted.map(u=>u.credito_per_capita),backgroundColor:colors,borderRadius:4}]},
-            options:{...defs(),indexAxis:'y',
-                plugins:{...defs().plugins,legend:{display:false},datalabels:{display:true,color:css('--text-primary'),font:{family:"'JetBrains Mono'",size:9,weight:600},anchor:'end',align:'end',offset:4,formatter:v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0})}},
-                scales:{x:{display:false},y:{display:true,ticks:{color:css('--text-primary'),font:{size:10,weight:600}},grid:{display:false},border:{display:false}}},
-            }});
-    }
 }
 
 /* ─── Mapa D3 ─────────────────────────── */
 const GEOJSON_URL = 'https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson';
 let _geoCache = null;
+const UF_NOMES = {AC:'Acre',AL:'Alagoas',AM:'Amazonas',AP:'Amapá',BA:'Bahia',CE:'Ceará',DF:'Distrito Federal',ES:'Espírito Santo',GO:'Goiás',MA:'Maranhão',MG:'Minas Gerais',MS:'Mato Grosso do Sul',MT:'Mato Grosso',PA:'Pará',PB:'Paraíba',PE:'Pernambuco',PI:'Piauí',PR:'Paraná',RJ:'Rio de Janeiro',RN:'Rio Grande do Norte',RO:'Rondônia',RR:'Roraima',RS:'Rio Grande do Sul',SC:'Santa Catarina',SE:'Sergipe',SP:'São Paulo',TO:'Tocantins'};
 
 function renderMapaD3(porUf) {
     const container = document.getElementById('mapa-container');
@@ -635,64 +617,65 @@ function renderMapaD3(porUf) {
     if (typeof d3 === 'undefined') { container.innerHTML='<div style="text-align:center;color:var(--text-muted);padding:60px">D3 indisponível</div>'; return; }
     container.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:40px"><div class="spinner" style="margin:0 auto 12px"></div>Carregando mapa...</div>';
 
-    const vals = {}; porUf.forEach(u => vals[u.uf] = u.credito_per_capita);
+    // Build data lookup
+    const data = {}; porUf.forEach(u => data[u.uf] = u);
+    const totalCred = porUf.reduce((s,u)=>s+(u.carteira_credito||0),0);
     const maxV = Math.max(...porUf.map(u=>u.credito_per_capita));
     const logMax = Math.log(maxV + 1);
     const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
     const colorLow = isDark ? '#162032' : '#e0f2f1';
     const colorHigh = isDark ? '#5eead4' : '#0d9488';
     const colorNone = isDark ? '#1a2233' : '#e8e8e8';
-    const ufColor = uf => { const v=vals[uf]; return v==null?colorNone:d3.interpolateRgb(colorLow, colorHigh)(Math.log(v+1)/logMax); };
+    const strokeColor = isDark ? '#30363d' : '#d0d7de';
+    const ufColor = uf => { const v=data[uf]?.credito_per_capita; return v==null?colorNone:d3.interpolateRgb(colorLow, colorHigh)(Math.log(v+1)/logMax); };
 
     const draw = geo => {
         container.innerHTML = '';
-        // Fallback: se container não tem largura, usar parent ou default
-        let w = container.clientWidth || container.parentElement?.clientWidth || 500;
-        w = Math.min(w, 700);
-        if (w < 100) w = 500; // safety
-        const h = Math.round(Math.min(w * 1.1, 520));
+        let w = container.clientWidth || container.parentElement?.clientWidth || 600;
+        w = Math.min(w, 800);
+        if (w < 100) w = 600;
+        const h = Math.round(Math.min(w * 1.05, 540));
         const svg = d3.select(container).append('svg')
             .attr('viewBox', `0 0 ${w} ${h}`)
-            .style('width', '100%').style('height', h+'px').style('display', 'block');
-        const proj = d3.geoMercator().fitSize([w, h], geo);
+            .style('width', '100%').style('max-height', '540px').style('display', 'block').style('margin', '0 auto');
+        const proj = d3.geoMercator().fitSize([w * 0.95, h * 0.95], geo);
         const path = d3.geoPath().projection(proj);
 
-        // States
+        // States — no permanent labels
         svg.selectAll('path').data(geo.features).join('path')
             .attr('d', path).attr('fill', d=>ufColor(d.properties.sigla))
-            .attr('stroke', isDark?'#30363d':'#d0d7de').attr('stroke-width', .6)
-            .style('cursor','pointer').style('transition','all .12s');
+            .attr('stroke', strokeColor).attr('stroke-width', .6)
+            .style('cursor','pointer').style('transition','all .15s');
 
-        // Labels
-        const fontSize = Math.max(7, Math.min(11, w/50));
-        svg.selectAll('.uf-lbl').data(geo.features).join('text').attr('class','uf-lbl')
-            .attr('x', d=>path.centroid(d)[0]).attr('y', d=>path.centroid(d)[1])
-            .attr('text-anchor','middle').attr('dominant-baseline','central')
-            .attr('font-size', fontSize).attr('font-family',"'Inter',sans-serif").attr('font-weight',700)
-            .attr('fill', d=>{ const r=Math.log((vals[d.properties.sigla]||0)+1)/logMax; return isDark?(r>0.4?'#0d1117':'#e6edf3'):(r>0.5?'#fff':'#1f2328'); })
-            .attr('pointer-events','none').text(d=>d.properties.sigla);
-
-        // Tooltip
+        // Rich tooltip
         const ttip = d3.select(container).append('div').attr('class','map-tooltip').style('display','none');
         svg.selectAll('path')
             .on('mouseenter', function(ev,d) {
-                d3.select(this).attr('stroke','#5eead4').attr('stroke-width',2).style('filter','brightness(1.3)');
-                const uf=d.properties.sigla, v=vals[uf];
-                ttip.style('display','block').html(`<strong>${uf}</strong><br>R$ ${v?v.toLocaleString('pt-BR',{maximumFractionDigits:0}):'?'} mil / hab`);
+                d3.select(this).attr('stroke','#5eead4').attr('stroke-width',2).style('filter','brightness(1.2)');
+                const uf = d.properties.sigla, u = data[uf];
+                if (!u) return;
+                const pct = totalCred > 0 ? (u.carteira_credito/totalCred*100) : 0;
+                ttip.style('display','block').html(
+                    `<div class="mtt-uf">${uf}</div>`+
+                    `<div class="mtt-nome">${UF_NOMES[uf]||uf}</div>`+
+                    `<div class="mtt-row"><span>Carteira de crédito</span><strong>${FMT.brl(u.carteira_credito)}</strong></div>`+
+                    `<div class="mtt-row"><span>% do total SFN</span><strong>${pct.toFixed(1)}%</strong></div>`+
+                    `<div class="mtt-row"><span>Per capita</span><strong>R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</strong></div>`
+                );
             })
             .on('mousemove', function(ev) {
                 const r=container.getBoundingClientRect();
                 const x=ev.clientX-r.left, y=ev.clientY-r.top;
-                ttip.style('left', Math.min(x+16, w-170)+'px').style('top', (y-36)+'px');
+                ttip.style('left', Math.min(x+16, w-220)+'px').style('top', Math.max(y-80, 8)+'px');
             })
             .on('mouseleave', function() {
-                d3.select(this).attr('stroke',isDark?'#30363d':'#d0d7de').attr('stroke-width',.6).style('filter','none');
+                d3.select(this).attr('stroke',strokeColor).attr('stroke-width',.6).style('filter','none');
                 ttip.style('display','none');
             });
 
         // Gradient legend
         d3.select(container).append('div').attr('class','map-scale')
-            .html('<span>Menor</span><div class="map-scale-bar"></div><span>Maior</span>');
+            .html('<span>Menor crédito</span><div class="map-scale-bar"></div><span>Maior crédito</span>');
     };
 
     if (_geoCache) { draw(_geoCache); return; }
