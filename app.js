@@ -353,14 +353,16 @@ function rComp() {
 function rGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return '<p>Dados indisponíveis</p>';
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
-    const fmtK = v => v>=1000 ? `R$ ${(v/1000).toFixed(0)} mi` : `R$ ${v.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil`;
+    const top1=ufs[0], mediana=ufs[Math.floor(ufs.length/2)];
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
-    <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs com sedes de grandes bancos (DF, SP) apresentam valores superestimados — BB, Caixa e BNDES têm sede no DF mas operam nacionalmente.</div>
-    <div class="card"><div id="mapa-container"></div></div>
-    <div class="card"><div class="card-title">Ranking — Crédito Per Capita por UF</div>
-        <div class="uf-grid">${ufs.map((u,i)=>`<div class="uf-card${i<3?' uf-top':''}"><div class="uf-rank">${i+1}</div><div class="uf-sigla">${u.uf}</div><div class="uf-valor">${fmtK(u.credito_per_capita)}</div></div>`).join('')}</div>
+    <div class="geo-callout">
+        <div class="geo-callout-item"><span class="geo-callout-label">Maior</span><span class="geo-callout-uf">${top1.uf}</span><span class="geo-callout-val">R$ ${top1.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span></div>
+        <div class="geo-callout-item"><span class="geo-callout-label">Mediana</span><span class="geo-callout-uf">${mediana.uf}</span><span class="geo-callout-val">R$ ${mediana.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span></div>
+        <div class="geo-callout-item"><span class="geo-callout-label">Menor</span><span class="geo-callout-uf">${ufs[ufs.length-1].uf}</span><span class="geo-callout-val">R$ ${ufs[ufs.length-1].credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</span></div>
     </div>
-    <div class="card"><div class="card-title">Distribuição por UF</div><div class="chart-container"><canvas id="c-geo"></canvas></div></div>`;
+    <div class="card geo-map-card"><div id="mapa-container"></div></div>
+    <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs como DF e SP concentram sedes de grandes bancos nacionais (BB, Caixa, BNDES), inflando artificialmente o crédito per capita dessas regiões.</div>
+    <div class="card"><div class="card-title">Ranking — Crédito Per Capita por UF (R$ mil / hab)</div><div class="chart-container-tall"><canvas id="c-geo"></canvas></div></div>`;
 }
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
@@ -607,7 +609,19 @@ function mGeo() {
     setTimeout(()=>renderMapaD3(e.por_uf), 50); // defer to allow DOM render
 
     const ctx=document.getElementById('c-geo');
-    if(ctx) APP.charts.n=new Chart(ctx,{type:'bar',data:{labels:ufs.map(u=>u.uf),datasets:[{data:ufs.map(u=>u.credito_per_capita),backgroundColor:ufs.map((_,i)=>`rgba(94,234,212,${.3+((ufs.length-i)/ufs.length)*.7})`),borderRadius:6}]},options:{...defs(),plugins:{...defs().plugins,legend:{display:false},datalabels:dlabel(v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0}))},scales:{x:{display:true,ticks:{color:css('--text-primary'),font:{size:9,weight:600}},grid:{display:false},border:{display:false}},y:{display:false}}}});
+    if(ctx) {
+        const sorted=[...ufs].sort((a,b)=>a.credito_per_capita-b.credito_per_capita); // asc for hbar
+        const maxVal=sorted[sorted.length-1].credito_per_capita;
+        const colors=sorted.map(u => {
+            const ratio=Math.log(u.credito_per_capita+1)/Math.log(maxVal+1);
+            return `rgba(94,234,212,${(.2+ratio*.8).toFixed(2)})`;
+        });
+        APP.charts.n=new Chart(ctx,{type:'bar',data:{labels:sorted.map(u=>u.uf),datasets:[{data:sorted.map(u=>u.credito_per_capita),backgroundColor:colors,borderRadius:4}]},
+            options:{...defs(),indexAxis:'y',
+                plugins:{...defs().plugins,legend:{display:false},datalabels:{display:true,color:css('--text-primary'),font:{family:"'JetBrains Mono'",size:9,weight:600},anchor:'end',align:'end',offset:4,formatter:v=>'R$ '+v.toLocaleString('pt-BR',{maximumFractionDigits:0})}},
+                scales:{x:{display:false},y:{display:true,ticks:{color:css('--text-primary'),font:{size:10,weight:600}},grid:{display:false},border:{display:false}}},
+            }});
+    }
 }
 
 /* ─── Mapa D3 ─────────────────────────── */
@@ -627,8 +641,8 @@ function renderMapaD3(porUf) {
 
     const draw = geo => {
         container.innerHTML = '';
-        const w = container.clientWidth || 500;
-        const h = Math.round(Math.min(w * 1.05, 480));
+        const w = Math.min(container.clientWidth || 500, 700);
+        const h = Math.round(Math.min(w * 1.1, 520));
         const svg = d3.select(container).append('svg')
             .attr('viewBox', `0 0 ${w} ${h}`)
             .style('width', '100%').style('height', h+'px').style('display', 'block');
