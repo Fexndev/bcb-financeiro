@@ -336,16 +336,16 @@ tbody tr:hover { background: var(--bg-card-hover); }
 
 .map-tooltip {
     position: absolute; background: var(--bg-page); border: 1px solid var(--border);
-    padding: 14px 18px; border-radius: 10px; color: var(--text-primary);
+    padding: 12px 16px; border-radius: 10px; color: var(--text-primary);
     pointer-events: none; z-index: 200;
-    box-shadow: 0 8px 28px rgba(0,0,0,.5); line-height: 1.5;
-    min-width: 200px;
+    box-shadow: 0 8px 28px rgba(0,0,0,.5); line-height: 1.4;
+    white-space: nowrap;
 }
-.mtt-uf { font-size: 1.4rem; font-weight: 800; color: var(--accent-teal); line-height: 1; }
-.mtt-nome { font-size: .78rem; color: var(--text-muted); margin-bottom: 10px; }
-.mtt-row { display: flex; justify-content: space-between; gap: 16px; font-size: .78rem; padding: 3px 0; border-top: 1px solid var(--border); }
-.mtt-row span { color: var(--text-secondary); }
-.mtt-row strong { font-family: var(--font-mono); font-size: .76rem; color: var(--text-primary); }
+.mtt-uf { font-size: 1.1rem; font-weight: 800; color: var(--accent-teal); display: inline; }
+.mtt-nome { font-size: .78rem; color: var(--text-muted); display: inline; margin-left: 6px; }
+.mtt-row { display: flex; justify-content: space-between; gap: 20px; font-size: .78rem; padding: 3px 0; border-top: 1px solid var(--border); }
+.mtt-row span { color: var(--text-secondary); white-space: nowrap; }
+.mtt-row strong { font-family: var(--font-mono); font-size: .76rem; color: var(--text-primary); white-space: nowrap; }
 
 .map-scale {
     display: flex; align-items: center; gap: 10px; padding: 14px 20px 0;

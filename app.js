@@ -623,10 +623,10 @@ function renderMapaD3(porUf) {
     const maxV = Math.max(...porUf.map(u=>u.credito_per_capita));
     const logMax = Math.log(maxV + 1);
     const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
-    const colorLow = isDark ? '#162032' : '#e0f2f1';
-    const colorHigh = isDark ? '#5eead4' : '#0d9488';
+    const colorLow = isDark ? '#1a2a3a' : '#f0faf8';
+    const colorHigh = '#5eead4';
     const colorNone = isDark ? '#1a2233' : '#e8e8e8';
-    const strokeColor = isDark ? '#30363d' : '#d0d7de';
+    const strokeColor = isDark ? 'rgba(255,255,255,.08)' : 'rgba(0,0,0,.06)';
     const ufColor = uf => { const v=data[uf]?.credito_per_capita; return v==null?colorNone:d3.interpolateRgb(colorLow, colorHigh)(Math.log(v+1)/logMax); };
 
     const draw = geo => {
@@ -644,7 +644,7 @@ function renderMapaD3(porUf) {
         // States — no permanent labels
         svg.selectAll('path').data(geo.features).join('path')
             .attr('d', path).attr('fill', d=>ufColor(d.properties.sigla))
-            .attr('stroke', strokeColor).attr('stroke-width', .6)
+            .attr('stroke', strokeColor).attr('stroke-width', .3)
             .style('cursor','pointer').style('transition','all .15s');
 
         // Rich tooltip
@@ -656,8 +656,7 @@ function renderMapaD3(porUf) {
                 if (!u) return;
                 const pct = totalCred > 0 ? (u.carteira_credito/totalCred*100) : 0;
                 ttip.style('display','block').html(
-                    `<div class="mtt-uf">${uf}</div>`+
-                    `<div class="mtt-nome">${UF_NOMES[uf]||uf}</div>`+
+                    `<div><span class="mtt-uf">${uf}</span><span class="mtt-nome">${UF_NOMES[uf]||uf}</span></div>`+
                     `<div class="mtt-row"><span>Carteira de crédito</span><strong>${FMT.brl(u.carteira_credito)}</strong></div>`+
                     `<div class="mtt-row"><span>% do total SFN</span><strong>${pct.toFixed(1)}%</strong></div>`+
                     `<div class="mtt-row"><span>Per capita</span><strong>R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})} mil</strong></div>`
