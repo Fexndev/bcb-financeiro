@@ -360,12 +360,12 @@ function rGeo() {
     <div class="geo-layout">
         <div class="geo-left">
             <div class="card geo-map-card"><div id="mapa-container"></div></div>
-            <div class="note-box">Dados por <strong>sede da instituição</strong>. Passe o mouse sobre cada estado para detalhes.</div>
         </div>
         <div class="geo-right">
             <div class="card geo-table-card" id="geo-table-root"></div>
         </div>
-    </div>`;
+    </div>
+    <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs como DF e SP concentram sedes de grandes bancos nacionais, inflando artificialmente o crédito per capita. Passe o mouse sobre cada estado no mapa para ver detalhes.</div>`;
 }
 
 function renderGeoTable() {
