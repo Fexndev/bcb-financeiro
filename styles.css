@@ -331,7 +331,7 @@ tbody tr:hover { background: var(--bg-card-hover); }
 
 .geo-map-card { padding: 16px; overflow: hidden; }
 
-#mapa-container { position: relative; width: 100%; max-width: 700px; margin: 0 auto; }
+#mapa-container { position: relative; width: 100%; max-width: 700px; margin: 0 auto; min-height: 420px; }
 #mapa-container svg { display: block; width: 100%; }
 
 .map-tooltip {

@@ -606,7 +606,8 @@ function mGeo() {
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
 
     // Mapa D3
-    setTimeout(()=>renderMapaD3(e.por_uf), 50); // defer to allow DOM render
+    // Defer para garantir que o container está no DOM e tem dimensões
+    requestAnimationFrame(()=>requestAnimationFrame(()=>renderMapaD3(e.por_uf)));
 
     const ctx=document.getElementById('c-geo');
     if(ctx) {
@@ -641,7 +642,10 @@ function renderMapaD3(porUf) {
 
     const draw = geo => {
         container.innerHTML = '';
-        const w = Math.min(container.clientWidth || 500, 700);
+        // Fallback: se container não tem largura, usar parent ou default
+        let w = container.clientWidth || container.parentElement?.clientWidth || 500;
+        w = Math.min(w, 700);
+        if (w < 100) w = 500; // safety
         const h = Math.round(Math.min(w * 1.1, 520));
         const svg = d3.select(container).append('svg')
             .attr('viewBox', `0 0 ${w} ${h}`)
