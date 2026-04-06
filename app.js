@@ -350,12 +350,12 @@ function rComp() {
 }
 
 /* ─── GEOGRÁFICO ───────────────────────── */
+const UF_REGIAO = {AC:'Norte',AL:'Nordeste',AM:'Norte',AP:'Norte',BA:'Nordeste',CE:'Nordeste',DF:'Centro-Oeste',ES:'Sudeste',GO:'Centro-Oeste',MA:'Nordeste',MG:'Sudeste',MS:'Centro-Oeste',MT:'Centro-Oeste',PA:'Norte',PB:'Nordeste',PE:'Nordeste',PI:'Nordeste',PR:'Sul',RJ:'Sudeste',RN:'Nordeste',RO:'Norte',RR:'Norte',RS:'Sul',SC:'Sul',SE:'Nordeste',SP:'Sudeste',TO:'Norte'};
+const GEO_REGIOES = ['Norte','Nordeste','Centro-Oeste','Sudeste','Sul'];
+const GEO_PAGE_SIZE = 10;
+
 function rGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return '<p>Dados indisponíveis</p>';
-    const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
-    const top1=ufs[0], mediana=ufs[Math.floor(ufs.length/2)], menor=ufs[ufs.length-1];
-    const totalCred = ufs.reduce((s,u)=>s+(u.carteira_credito||0),0);
-    const fmtCred = v => v>=1e12?`${(v/1e12).toFixed(1)} tri`:v>=1e9?`${(v/1e9).toFixed(1)} bi`:v>=1e6?`${(v/1e6).toFixed(0)} mi`:`${(v/1e3).toFixed(0)} mil`;
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
     <div class="geo-layout">
         <div class="geo-left">
@@ -363,14 +363,50 @@ function rGeo() {
             <div class="note-box">Dados por <strong>sede da instituição</strong>. Passe o mouse sobre cada estado para detalhes.</div>
         </div>
         <div class="geo-right">
-            <div class="card geo-table-card"><div class="card-title">Ranking por UF</div>
-                <div class="table-wrap"><table class="geo-table">
-                    <thead><tr><th>#</th><th>UF</th><th class="td-right">Crédito</th><th class="td-right">% SFN</th><th class="td-right">Per capita</th></tr></thead>
-                    <tbody>${ufs.map((u,i)=>`<tr><td class="td-mono">${i+1}</td><td class="td-name"><strong>${u.uf}</strong></td><td class="td-mono td-right">${fmtCred(u.carteira_credito)}</td><td class="td-mono td-right">${(u.carteira_credito/totalCred*100).toFixed(1)}%</td><td class="td-mono td-right">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})}</td></tr>`).join('')}</tbody>
-                </table></div>
-            </div>
+            <div class="card geo-table-card" id="geo-table-root"></div>
         </div>
     </div>`;
+}
+
+function renderGeoTable() {
+    const root = document.getElementById('geo-table-root');
+    if (!root) return;
+    const e = APP.data.estban; if (!e?.por_uf) return;
+    const sel = APP._geoRegioes || new Set();
+    const page = APP._geoPage || 0;
+    let ufs = [...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
+    if (sel.size) ufs = ufs.filter(u => sel.has(UF_REGIAO[u.uf]));
+    const totalCred = e.por_uf.reduce((s,u)=>s+(u.carteira_credito||0),0);
+    const totalPages = Math.ceil(ufs.length / GEO_PAGE_SIZE);
+    const paged = ufs.slice(page * GEO_PAGE_SIZE, (page+1) * GEO_PAGE_SIZE);
+    const fmtCred = v => v>=1e12?`${(v/1e12).toFixed(1)} tri`:v>=1e9?`${(v/1e9).toFixed(1)} bi`:v>=1e6?`${(v/1e6).toFixed(0)} mi`:`${(v/1e3).toFixed(0)} mil`;
+
+    root.innerHTML = `<div class="card-title">Ranking por UF</div>
+        <div class="geo-filters">${GEO_REGIOES.map(r=>`<button class="geo-reg-btn${sel.has(r)?' active':''}" data-reg="${r}">${r}</button>`).join('')}</div>
+        <div class="table-wrap"><table class="geo-table">
+            <thead><tr><th>#</th><th>UF</th><th>Região</th><th class="td-right">Crédito</th><th class="td-right">%</th><th class="td-right">Per capita</th></tr></thead>
+            <tbody>${paged.map((u,i)=>`<tr><td class="td-mono">${page*GEO_PAGE_SIZE+i+1}</td><td><strong>${u.uf}</strong></td><td class="td-muted">${UF_REGIAO[u.uf]||''}</td><td class="td-mono td-right">${fmtCred(u.carteira_credito)}</td><td class="td-mono td-right">${(u.carteira_credito/totalCred*100).toFixed(1)}%</td><td class="td-mono td-right">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})}</td></tr>`).join('')}</tbody>
+        </table></div>
+        ${totalPages>1?`<div class="geo-pager">${Array.from({length:totalPages},(_,i)=>`<button class="geo-page-btn${i===page?' active':''}" data-page="${i}">${i+1}</button>`).join('')}<span class="td-muted" style="font-size:.72rem;margin-left:8px">${ufs.length} UFs</span></div>`:''}`;
+
+    // Bind region filter buttons (multi-select toggle)
+    root.querySelectorAll('.geo-reg-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const r = btn.dataset.reg;
+            if (!APP._geoRegioes) APP._geoRegioes = new Set();
+            if (APP._geoRegioes.has(r)) APP._geoRegioes.delete(r); else APP._geoRegioes.add(r);
+            APP._geoPage = 0;
+            renderGeoTable();
+        });
+    });
+    // Bind page buttons
+    root.querySelectorAll('.geo-page-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            APP._geoPage = +btn.dataset.page;
+            renderGeoTable();
+        });
+    });
+}
 }
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
@@ -612,6 +648,7 @@ function mComp() {
 function mGeo() {
     const e=APP.data.estban; if(!e?.por_uf) return;
     requestAnimationFrame(()=>requestAnimationFrame(()=>renderMapaD3(e.por_uf)));
+    renderGeoTable();
 }
 
 /* ─── Mapa D3 ─────────────────────────── */
