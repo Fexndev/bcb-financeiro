@@ -638,7 +638,11 @@ function renderMapaD3(porUf) {
     const vals = {}; porUf.forEach(u => vals[u.uf] = u.credito_per_capita);
     const maxV = Math.max(...porUf.map(u=>u.credito_per_capita));
     const logMax = Math.log(maxV + 1);
-    const ufColor = uf => { const v=vals[uf]; return v==null?'#1a2233':d3.interpolateRgb('#162032','#5eead4')(Math.log(v+1)/logMax); };
+    const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+    const colorLow = isDark ? '#162032' : '#e0f2f1';
+    const colorHigh = isDark ? '#5eead4' : '#0d9488';
+    const colorNone = isDark ? '#1a2233' : '#e8e8e8';
+    const ufColor = uf => { const v=vals[uf]; return v==null?colorNone:d3.interpolateRgb(colorLow, colorHigh)(Math.log(v+1)/logMax); };
 
     const draw = geo => {
         container.innerHTML = '';
@@ -650,13 +654,13 @@ function renderMapaD3(porUf) {
         const svg = d3.select(container).append('svg')
             .attr('viewBox', `0 0 ${w} ${h}`)
             .style('width', '100%').style('height', h+'px').style('display', 'block');
-        const proj = d3.geoMercator().fitSize([w - 40, h - 40], geo).translate([w/2, h/2]);
+        const proj = d3.geoMercator().fitSize([w, h], geo);
         const path = d3.geoPath().projection(proj);
 
         // States
         svg.selectAll('path').data(geo.features).join('path')
             .attr('d', path).attr('fill', d=>ufColor(d.properties.sigla))
-            .attr('stroke', css('--border')).attr('stroke-width', .6)
+            .attr('stroke', isDark?'#30363d':'#d0d7de').attr('stroke-width', .6)
             .style('cursor','pointer').style('transition','all .12s');
 
         // Labels
@@ -665,7 +669,7 @@ function renderMapaD3(porUf) {
             .attr('x', d=>path.centroid(d)[0]).attr('y', d=>path.centroid(d)[1])
             .attr('text-anchor','middle').attr('dominant-baseline','central')
             .attr('font-size', fontSize).attr('font-family',"'Inter',sans-serif").attr('font-weight',700)
-            .attr('fill', d=>Math.log((vals[d.properties.sigla]||0)+1)/logMax>0.4?'#0d1117':'#e6edf3')
+            .attr('fill', d=>{ const r=Math.log((vals[d.properties.sigla]||0)+1)/logMax; return isDark?(r>0.4?'#0d1117':'#e6edf3'):(r>0.5?'#fff':'#1f2328'); })
             .attr('pointer-events','none').text(d=>d.properties.sigla);
 
         // Tooltip
@@ -682,7 +686,7 @@ function renderMapaD3(porUf) {
                 ttip.style('left', Math.min(x+16, w-170)+'px').style('top', (y-36)+'px');
             })
             .on('mouseleave', function() {
-                d3.select(this).attr('stroke',css('--border')).attr('stroke-width',.6).style('filter','none');
+                d3.select(this).attr('stroke',isDark?'#30363d':'#d0d7de').attr('stroke-width',.6).style('filter','none');
                 ttip.style('display','none');
             });
 
