@@ -407,7 +407,6 @@ function renderGeoTable() {
         });
     });
 }
-}
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
 function rRec() {
