@@ -355,14 +355,22 @@ function rGeo() {
     const ufs=[...e.por_uf].sort((a,b)=>b.credito_per_capita-a.credito_per_capita);
     const top1=ufs[0], mediana=ufs[Math.floor(ufs.length/2)], menor=ufs[ufs.length-1];
     const totalCred = ufs.reduce((s,u)=>s+(u.carteira_credito||0),0);
+    const fmtCred = v => v>=1e12?`${(v/1e12).toFixed(1)} tri`:v>=1e9?`${(v/1e9).toFixed(1)} bi`:v>=1e6?`${(v/1e6).toFixed(0)} mi`:`${(v/1e3).toFixed(0)} mil`;
     return `<div class="section-title">Crédito por UF ${tip('credpc')}</div>
-    <div class="geo-callout">
-        <div class="geo-callout-item"><span class="geo-callout-label">Maior per capita</span><span class="geo-callout-uf">${top1.uf}</span><span class="geo-callout-val">${FMT.brl(top1.carteira_credito)} · ${(top1.carteira_credito/totalCred*100).toFixed(1)}%</span></div>
-        <div class="geo-callout-item"><span class="geo-callout-label">Mediana</span><span class="geo-callout-uf">${mediana.uf}</span><span class="geo-callout-val">${FMT.brl(mediana.carteira_credito)} · ${(mediana.carteira_credito/totalCred*100).toFixed(1)}%</span></div>
-        <div class="geo-callout-item"><span class="geo-callout-label">Menor per capita</span><span class="geo-callout-uf">${menor.uf}</span><span class="geo-callout-val">${FMT.brl(menor.carteira_credito)} · ${(menor.carteira_credito/totalCred*100).toFixed(1)}%</span></div>
-    </div>
-    <div class="card geo-map-card"><div id="mapa-container"></div></div>
-    <div class="note-box">Dados agregados por <strong>sede da instituição</strong>. UFs como DF e SP concentram sedes de grandes bancos nacionais (BB, Caixa, BNDES), inflando artificialmente o crédito per capita dessas regiões. Passe o mouse sobre cada estado para ver detalhes.</div>`;
+    <div class="geo-layout">
+        <div class="geo-left">
+            <div class="card geo-map-card"><div id="mapa-container"></div></div>
+            <div class="note-box">Dados por <strong>sede da instituição</strong>. Passe o mouse sobre cada estado para detalhes.</div>
+        </div>
+        <div class="geo-right">
+            <div class="card geo-table-card"><div class="card-title">Ranking por UF</div>
+                <div class="table-wrap"><table class="geo-table">
+                    <thead><tr><th>#</th><th>UF</th><th class="td-right">Crédito</th><th class="td-right">% SFN</th><th class="td-right">Per capita</th></tr></thead>
+                    <tbody>${ufs.map((u,i)=>`<tr><td class="td-mono">${i+1}</td><td class="td-name"><strong>${u.uf}</strong></td><td class="td-mono td-right">${fmtCred(u.carteira_credito)}</td><td class="td-mono td-right">${(u.carteira_credito/totalCred*100).toFixed(1)}%</td><td class="td-mono td-right">R$ ${u.credito_per_capita.toLocaleString('pt-BR',{maximumFractionDigits:0})}</td></tr>`).join('')}</tbody>
+                </table></div>
+            </div>
+        </div>
+    </div>`;
 }
 
 /* ─── RECLAMAÇÕES ──────────────────────── */
